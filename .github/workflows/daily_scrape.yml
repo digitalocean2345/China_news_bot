@@ -42,26 +42,30 @@ jobs:
 
     - name: Commit and push changes
       run: |
+        # Print each command before executing it (debug)
+        set -x
+
         # Configure Git user for commits made by this workflow
+        echo "Configuring Git user..."
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
         # Pull latest changes from the repository branch before committing
-        # This helps prevent conflicts if the branch was updated externally
+        echo "Pulling latest changes..."
         git pull
 
         # Check if the data file (headlines.json) has uncommitted changes
-        # Use --exit-code to make it exit with 1 if there are changes, 0 otherwise
-        # Ensure options come BEFORE the filename
-        git diff --quiet --exit-code headlines.json # <--- CORRECTED ORDER
-        # $? holds the exit code of the last command
+        echo "Checking for changes in headlines.json..."
+        git diff --quiet --exit-code headlines.json
         EXIT_CODE=$? # Store exit code immediately
+        echo "git diff exit code: $EXIT_CODE"
+
         if [ $EXIT_CODE -eq 0 ]; then
           echo "No changes detected in headlines.json. Nothing to commit."
           exit 0 # Exit this step successfully
         elif [ $EXIT_CODE -eq 1 ]; then
           # If exit code is 1, there are changes. Proceed.
-          echo "Changes detected in headlines.json. Committing..."
+          echo "Changes detected in headlines.json. Proceeding with commit..."
         else
           # Handle other potential git diff errors (exit code > 1)
           echo "git diff encountered an error (Exit Code: $EXIT_CODE)."
@@ -69,12 +73,19 @@ jobs:
         fi
 
         # Stage the specific data file
+        echo "Staging headlines.json..."
         git add headlines.json
 
         # Create commit message using the current date in Taipei Time (UTC+8)
-        # TZ='Asia/Taipei' sets the timezone just for the 'date' command
-        COMMIT_DATE=$(TZ='Asia/Taipei' date +'%Y-%m-%d %H:%M CST') # <--- SET TIMEZONE (CST = UTC+8)
+        echo "Creating commit message..."
+        COMMIT_DATE=$(TZ='Asia/Taipei' date +'%Y-%m-%d %H:%M CST')
+        echo "Commit date string: $COMMIT_DATE"
         git commit -m "Update headlines for $COMMIT_DATE"
 
         # Push the commit to the repository's default branch (e.g., main)
+        echo "Pushing changes..."
         git push
+
+        # Turn off command printing (optional)
+        set +x
+        echo "Commit and push step completed successfully."
