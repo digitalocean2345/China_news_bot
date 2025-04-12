@@ -42,7 +42,7 @@ jobs:
 
     - name: Commit and push changes
       run: |
-        # Configure Git identity for commits made by this workflow
+        # Configure Git user for commits made by this workflow
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
@@ -52,15 +52,22 @@ jobs:
 
         # Check if the data file (headlines.json) has uncommitted changes
         # Use --exit-code to make it exit with 1 if there are changes, 0 otherwise
-        git diff --quiet headlines.json --exit-code
+        # Ensure options come BEFORE the filename
+        git diff --quiet --exit-code headlines.json # <--- CORRECTED ORDER
         # $? holds the exit code of the last command
-        if [ $? -eq 0 ]; then
+        EXIT_CODE=$? # Store exit code immediately
+        if [ $EXIT_CODE -eq 0 ]; then
           echo "No changes detected in headlines.json. Nothing to commit."
           exit 0 # Exit this step successfully
+        elif [ $EXIT_CODE -eq 1 ]; then
+          # If exit code is 1, there are changes. Proceed.
+          echo "Changes detected in headlines.json. Committing..."
+        else
+          # Handle other potential git diff errors (exit code > 1)
+          echo "git diff encountered an error (Exit Code: $EXIT_CODE)."
+          exit $EXIT_CODE # Propagate the error
         fi
 
-        # If changes were detected (exit code was non-zero):
-        echo "Changes detected in headlines.json. Committing..."
         # Stage the specific data file
         git add headlines.json
 
