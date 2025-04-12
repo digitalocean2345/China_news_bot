@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.9'
     
@@ -26,6 +26,8 @@ jobs:
       env:
         TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        MS_TRANSLATOR_KEY: ${{ secrets.MS_TRANSLATOR_KEY }}
+        #MS_TRANSLATOR_REGION: ${{ secrets.MS_TRANSLATOR_REGION }} # Add if you use this
       run: |
         python scraper.py
         git config --global user.name "GitHub Actions"
