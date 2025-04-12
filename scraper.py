@@ -21,7 +21,15 @@ WEBSITES = {
     "PD International Breaking News":"http://world.people.com.cn/GB/157278/index.html",
     "PD International In-depth":"http://world.people.com.cn/GB/14549/index.html",
     "PD Society":"http://society.people.com.cn/GB/136657/index.html",
-    "PD Economy":"http://finance.people.com.cn/GB/70846/index.html"
+    "PD Economy":"http://finance.people.com.cn/GB/70846/index.html",
+    "Paper China Government":"https://www.thepaper.cn/list_25462",
+    "Paper Personnel Trends":"https://www.thepaper.cn/list_25423",
+    "Paper Tiger Hunt":"https://www.thepaper.cn/list_25490",
+    "Paper Project No1":"https://www.thepaper.cn/list_25424",
+    "Paper Zhongnanhai":"https://www.thepaper.cn/list_25488",
+    "Paper Live on the scene":"https://www.thepaper.cn/list_25428",
+    "Paper exclusive reports":"https://www.thepaper.cn/list_25427",
+    "Paper public opinion":"https://www.thepaper.cn/list_25489"
 }
 
 # Environment Variables
@@ -44,7 +52,16 @@ SITE_SELECTORS = {
     "PD International Breaking News": 'div.ej_bor a[href*="/n1/"]',
     "PD International In-depth": 'div.ej_bor a[href*="/n1/"]',
     "PD Society":'div.ej_list_box a[href*="/n1/"]',
-    "PD Economy":'div.ej_list_box a[href*="/n1/"]'
+    "PD Economy":'div.ej_list_box a[href*="/n1/"]',
+    "Paper China Government": 'a.index_inherit__A1ImK[target="_blank"]:not(.index_listcontentbot__92p4_ a)',
+    "Paper Personnel Trends": 'a.index_inherit__A1ImK[target="_blank"]:not(.index_listcontentbot__92p4_ a)',
+    "Paper Tiger Hunt": 'a.index_inherit__A1ImK[target="_blank"]:not(.index_listcontentbot__92p4_ a)',
+    "Paper Project No1":'a.index_inherit__A1ImK[target="_blank"]:not(.index_listcontentbot__92p4_ a)',
+    "Paper Zhongnanhai":'a.index_inherit__A1ImK[target="_blank"]:not(.index_listcontentbot__92p4_ a)',
+    "Paper Live on the scene":'a.index_inherit__A1ImK[target="_blank"]:not(.index_listcontentbot__92p4_ a)',
+    "Paper exclusive reports":'a.index_inherit__A1ImK[target="_blank"]:not(.index_listcontentbot__92p4_ a)',
+    "Paper public opinion":'a.index_inherit__A1ImK[target="_blank"]:not(.index_listcontentbot__92p4_ a)',
+
 }
 
 # --- Helper Functions ---
