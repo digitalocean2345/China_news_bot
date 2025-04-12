@@ -17,7 +17,11 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # Website URLs and Display Names
 WEBSITES = {
     "人民网人事频道": "http://renshi.people.com.cn/",
-    "反腐倡廉": "http://fanfu.people.com.cn/"
+    "PD Anti Corruption": "http://fanfu.people.com.cn/",
+    "PD International Breaking News":"http://world.people.com.cn/GB/157278/index.html",
+    "PD International In-depth":"http://world.people.com.cn/GB/14549/index.html",
+    "PD Society":"http://society.people.com.cn/GB/136657/index.html",
+    "PD Economy":"http://finance.people.com.cn/GB/70846/index.html"
 }
 
 # Environment Variables
@@ -36,7 +40,11 @@ TRANSLATOR_API_VERSION = '3.0'
 # CSS Selectors for finding headline links
 SITE_SELECTORS = {
     "人民网人事频道": 'div.fl a[href*="/n1/"]', # Example: Find links within class 'fl' containing '/n1/'
-    "反腐倡廉": 'div.fl a[href*="/n1/"]'     # Same selector for this site
+    "PD Anti Corruption": 'div.fl a[href*="/n1/"]',     # Same selector for this site
+    "PD International Breaking News": 'div.ej_bor a[href*="/n1/"]',
+    "PD International In-depth": 'div.ej_bor a[href*="/n1/"]',
+    "PD Society":'div.ej_list_box a[href*="/n1/"]',
+    "PD Economy":'div.ej_list_box a[href*="/n1/"]'
 }
 
 # --- Helper Functions ---
