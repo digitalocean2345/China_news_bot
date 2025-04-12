@@ -1,430 +1,488 @@
 {
-  "last_run": "2025-04-11T13:54:13.098236",
+  "last_run": "",
   "processed_urls": [
-    "http://fanfu.people.com.cn/n1/2025/0411/c64371-40457524.html",
-    "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455193.html",
-    "http://renshi.people.com.cn/n1/2025/0408/c139617-40455361.html",
-    "http://renshi.people.com.cn/n1/2025/0319/c139617-40441940.html",
-    "http://renshi.people.com.cn/n1/2025/0401/c139617-40451184.html",
-    "http://fanfu.people.com.cn/n1/2025/0410/c64371-40456730.html",
-    "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455920.html",
-    "http://renshi.people.com.cn/n1/2025/0407/c139617-40454569.html",
-    "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455928.html",
-    "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455192.html",
-    "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454382.html",
-    "http://cpc.people.com.cn/n1/2025/0226/c64387-40426225.html",
-    "http://renshi.people.com.cn/n1/2025/0402/c139617-40452077.html",
-    "http://renshi.people.com.cn/n1/2025/0325/c139617-40445944.html",
-    "http://cpc.people.com.cn/n1/2025/0226/c64387-40426222.html",
-    "http://cpc.people.com.cn/n1/2025/0320/c64387-40442546.html",
-    "http://renshi.people.com.cn/n1/2025/0318/c139617-40441079.html",
-    "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454965.html",
-    "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454374.html",
-    "http://renshi.people.com.cn/n1/2025/0302/c139617-40428867.html",
-    "http://renshi.people.com.cn/n1/2025/0226/c139617-40426395.html",
-    "http://fanfu.people.com.cn/n1/2025/0411/c64371-40457520.html",
-    "http://cpc.people.com.cn/n1/2025/0228/c64387-40427846.html",
-    "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454372.html",
-    "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455927.html",
-    "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455949.html",
-    "http://renshi.people.com.cn/n1/2025/0303/c139617-40429442.html",
-    "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455921.html",
-    "http://fanfu.people.com.cn/n1/2025/0411/c64371-40457508.html",
-    "http://cpc.people.com.cn/n1/2025/0304/c64387-40430252.html",
-    "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455188.html",
-    "http://renshi.people.com.cn/n1/2025/0331/c139617-40450259.html",
     "http://renshi.people.com.cn/n1/2025/0409/c139617-40456176.html",
-    "http://fanfu.people.com.cn/n1/2025/0410/c64371-40456727.html",
-    "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455187.html",
-    "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454958.html",
-    "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455189.html",
-    "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455186.html",
-    "http://fanfu.people.com.cn/n1/2025/0411/c64371-40457518.html",
-    "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454380.html",
-    "http://renshi.people.com.cn/n1/2025/0303/c139617-40429430.html",
-    "http://renshi.people.com.cn/n1/2025/0228/c139617-40428038.html",
-    "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455190.html",
-    "http://cpc.people.com.cn/n1/2025/0327/c64094-40447657.html",
-    "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454961.html",
-    "http://cpc.people.com.cn/n1/2025/0226/c64387-40426219.html",
-    "http://renshi.people.com.cn/n1/2025/0317/c139617-40440095.html",
-    "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455936.html",
-    "http://fanfu.people.com.cn/n1/2025/0411/c64371-40457507.html",
-    "http://renshi.people.com.cn/n1/2025/0326/c139617-40446929.html",
-    "http://cpc.people.com.cn/n1/2025/0226/c64387-40426223.html",
-    "http://renshi.people.com.cn/n1/2025/0324/c139617-40445199.html",
-    "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455183.html",
-    "http://cpc.people.com.cn/n1/2025/0226/c64387-40426224.html",
+    "http://renshi.people.com.cn/n1/2025/0408/c139617-40455361.html",
+    "http://renshi.people.com.cn/n1/2025/0407/c139617-40454569.html",
+    "http://renshi.people.com.cn/n1/2025/0402/c139617-40452077.html",
     "http://renshi.people.com.cn/n1/2025/0401/c139617-40451185.html",
-    "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455940.html",
-    "http://renshi.people.com.cn/n1/2025/0228/c139617-40428020.html",
+    "http://renshi.people.com.cn/n1/2025/0401/c139617-40451184.html",
+    "http://renshi.people.com.cn/n1/2025/0331/c139617-40450259.html",
+    "http://cpc.people.com.cn/n1/2025/0327/c64094-40447657.html",
+    "http://renshi.people.com.cn/n1/2025/0326/c139617-40446929.html",
+    "http://renshi.people.com.cn/n1/2025/0325/c139617-40445944.html",
+    "http://renshi.people.com.cn/n1/2025/0324/c139617-40445199.html",
+    "http://cpc.people.com.cn/n1/2025/0320/c64387-40442546.html",
+    "http://renshi.people.com.cn/n1/2025/0319/c139617-40441940.html",
+    "http://renshi.people.com.cn/n1/2025/0318/c139617-40441079.html",
+    "http://renshi.people.com.cn/n1/2025/0317/c139617-40440095.html",
+    "http://renshi.people.com.cn/n1/2025/0314/c139617-40438862.html",
     "http://renshi.people.com.cn/n1/2025/0304/c139617-40430324.html",
+    "http://cpc.people.com.cn/n1/2025/0304/c64387-40430252.html",
+    "http://renshi.people.com.cn/n1/2025/0303/c139617-40429442.html",
+    "http://renshi.people.com.cn/n1/2025/0303/c139617-40429430.html",
+    "http://renshi.people.com.cn/n1/2025/0302/c139617-40428867.html",
+    "http://renshi.people.com.cn/n1/2025/0228/c139617-40428038.html",
+    "http://renshi.people.com.cn/n1/2025/0228/c139617-40428020.html",
+    "http://cpc.people.com.cn/n1/2025/0228/c64387-40427846.html",
+    "http://renshi.people.com.cn/n1/2025/0226/c139617-40426395.html",
+    "http://cpc.people.com.cn/n1/2025/0226/c64387-40426219.html",
+    "http://cpc.people.com.cn/n1/2025/0226/c64387-40426225.html",
+    "http://cpc.people.com.cn/n1/2025/0226/c64387-40426224.html",
+    "http://cpc.people.com.cn/n1/2025/0226/c64387-40426223.html",
+    "http://cpc.people.com.cn/n1/2025/0226/c64387-40426222.html",
+    "http://fanfu.people.com.cn/n1/2025/0412/c64371-40458285.html",
+    "http://fanfu.people.com.cn/n1/2025/0412/c64371-40458284.html",
+    "http://fanfu.people.com.cn/n1/2025/0411/c64371-40457524.html",
+    "http://fanfu.people.com.cn/n1/2025/0411/c64371-40457520.html",
+    "http://fanfu.people.com.cn/n1/2025/0411/c64371-40457518.html",
+    "http://fanfu.people.com.cn/n1/2025/0411/c64371-40457507.html",
+    "http://fanfu.people.com.cn/n1/2025/0411/c64371-40457508.html",
+    "http://fanfu.people.com.cn/n1/2025/0410/c64371-40456730.html",
     "http://fanfu.people.com.cn/n1/2025/0410/c64371-40456728.html",
-    "http://renshi.people.com.cn/n1/2025/0314/c139617-40438862.html"
+    "http://fanfu.people.com.cn/n1/2025/0410/c64371-40456727.html",
+    "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455949.html",
+    "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455940.html",
+    "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455936.html",
+    "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455927.html",
+    "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455928.html",
+    "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455920.html",
+    "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455921.html",
+    "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455193.html",
+    "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455192.html",
+    "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455186.html",
+    "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455187.html",
+    "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455188.html",
+    "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455189.html",
+    "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455190.html",
+    "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455183.html",
+    "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454965.html",
+    "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454961.html",
+    "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454958.html",
+    "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454382.html",
+    "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454380.html"
   ],
   "headlines": {
-    "人民网人事频道": [
+    "2025-04-12": [
       {
-        "title": "河南发布5名干部拟任职公示",
+        "chinese_title": "河南发布5名干部拟任职公示",
+        "english_title": "Henan issued a public announcement of the proposed appointment of 5 cadres",
         "url": "http://renshi.people.com.cn/n1/2025/0409/c139617-40456176.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "北京发布一批干部任前公示通告",
+        "chinese_title": "北京发布一批干部任前公示通告",
+        "english_title": "Beijing issued a public notice on a number of cadres before taking office",
         "url": "http://renshi.people.com.cn/n1/2025/0408/c139617-40455361.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "云南发布一批干部任前公示",
+        "chinese_title": "云南发布一批干部任前公示",
+        "english_title": "Yunnan issued a number of pre-appointment announcements for cadres",
         "url": "http://renshi.people.com.cn/n1/2025/0407/c139617-40454569.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "海南发布一批干部任前公示",
+        "chinese_title": "海南发布一批干部任前公示",
+        "english_title": "Hainan issued a number of pre-appointment announcements for cadres",
         "url": "http://renshi.people.com.cn/n1/2025/0402/c139617-40452077.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "陕西发布一批干部任职公示",
+        "chinese_title": "陕西发布一批干部任职公示",
+        "english_title": "Shaanxi issued a number of cadre appointment announcements",
         "url": "http://renshi.people.com.cn/n1/2025/0401/c139617-40451185.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "王新伟当选辽宁省省长",
+        "chinese_title": "王新伟当选辽宁省省长",
+        "english_title": "Wang Xinwei was elected governor of Liaoning Province",
         "url": "http://renshi.people.com.cn/n1/2025/0401/c139617-40451184.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "内蒙古发布一批干部任前公示",
+        "chinese_title": "内蒙古发布一批干部任前公示",
+        "english_title": "Inner Mongolia issued a number of pre-appointment announcements for cadres",
         "url": "http://renshi.people.com.cn/n1/2025/0331/c139617-40450259.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "国务院任免国家工作人员",
+        "chinese_title": "国务院任免国家工作人员",
+        "english_title": "The State Council appoints and dismisses state functionaries",
         "url": "http://cpc.people.com.cn/n1/2025/0327/c64094-40447657.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "浙江省省管干部任前公示通告",
+        "chinese_title": "浙江省省管干部任前公示通告",
+        "english_title": "Zhejiang Provincial Management Cadres Publicity Notice Before Appointment",
         "url": "http://renshi.people.com.cn/n1/2025/0326/c139617-40446929.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "甘肃发布一批干部任前公示公告",
+        "chinese_title": "甘肃发布一批干部任前公示公告",
+        "english_title": "Gansu issued a public announcement before the appointment of a number of cadres",
         "url": "http://renshi.people.com.cn/n1/2025/0325/c139617-40445944.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "河南发布一批干部任职公示",
+        "chinese_title": "河南发布一批干部任职公示",
+        "english_title": "Henan issued a number of cadre appointment announcements",
         "url": "http://renshi.people.com.cn/n1/2025/0324/c139617-40445199.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "国务院任免国家工作人员",
+        "chinese_title": "国务院任免国家工作人员",
+        "english_title": "The State Council appoints and dismisses state functionaries",
         "url": "http://cpc.people.com.cn/n1/2025/0320/c64387-40442546.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "福建发布一批干部任前公示公告",
+        "chinese_title": "福建发布一批干部任前公示公告",
+        "english_title": "Fujian issued a public announcement on the appointment of a number of cadres",
         "url": "http://renshi.people.com.cn/n1/2025/0319/c139617-40441940.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "陕西发布干部任职公示",
+        "chinese_title": "陕西发布干部任职公示",
+        "english_title": "Shaanxi issued a public announcement on the appointment of cadres",
         "url": "http://renshi.people.com.cn/n1/2025/0318/c139617-40441079.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "中共福建省委组织部关于孙树群等同志任前公示的公告",
+        "chinese_title": "中共福建省委组织部关于孙树群等同志任前公示的公告",
+        "english_title": "Announcement of the Organization Department of the Fujian Provincial Party Committee of the Communist Party of China on the announcement of Sun Shuqun and other comrades before taking office",
         "url": "http://renshi.people.com.cn/n1/2025/0317/c139617-40440095.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "四川发布干部任前公示",
+        "chinese_title": "四川发布干部任前公示",
+        "english_title": "Sichuan issued a public announcement before the appointment of cadres",
         "url": "http://renshi.people.com.cn/n1/2025/0314/c139617-40438862.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "河南发布一批干部任前公示",
+        "chinese_title": "河南发布一批干部任前公示",
+        "english_title": "Henan issued a number of cadres before their appointment",
         "url": "http://renshi.people.com.cn/n1/2025/0304/c139617-40430324.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "国务院任免国家工作人员",
+        "chinese_title": "国务院任免国家工作人员",
+        "english_title": "The State Council appoints and dismisses state functionaries",
         "url": "http://cpc.people.com.cn/n1/2025/0304/c64387-40430252.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "吉林省省管干部任职前公示公告",
+        "chinese_title": "吉林省省管干部任职前公示公告",
+        "english_title": "Jilin Provincial Management Cadres Public Announcement Before Appointment",
         "url": "http://renshi.people.com.cn/n1/2025/0303/c139617-40429442.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "江苏省省管领导干部任职前公示",
+        "chinese_title": "江苏省省管领导干部任职前公示",
+        "english_title": "Jiangsu Provincial Provincial Management Leading Cadres Announced Before Their Appointments",
         "url": "http://renshi.people.com.cn/n1/2025/0303/c139617-40429430.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "王新伟任辽宁省代省长",
+        "chinese_title": "王新伟任辽宁省代省长",
+        "english_title": "Wang Xinwei was appointed acting governor of Liaoning Province",
         "url": "http://renshi.people.com.cn/n1/2025/0302/c139617-40428867.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "广西发布一批干部任职前公示",
+        "chinese_title": "广西发布一批干部任职前公示",
+        "english_title": "Guangxi issued a batch of pre-appointment announcements for cadres",
         "url": "http://renshi.people.com.cn/n1/2025/0228/c139617-40428038.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "上海市市管干部任职前公示",
+        "chinese_title": "上海市市管干部任职前公示",
+        "english_title": "Shanghai municipal management cadres before taking office publicity",
         "url": "http://renshi.people.com.cn/n1/2025/0228/c139617-40428020.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "国务院任免国家工作人员",
+        "chinese_title": "国务院任免国家工作人员",
+        "english_title": "The State Council appoints and dismisses state functionaries",
         "url": "http://cpc.people.com.cn/n1/2025/0228/c64387-40427846.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "浙江发布一批干部任前公示",
+        "chinese_title": "浙江发布一批干部任前公示",
+        "english_title": "Zhejiang issued a number of pre-appointment announcements for cadres",
         "url": "http://renshi.people.com.cn/n1/2025/0226/c139617-40426395.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "国务院任免国家工作人员",
+        "chinese_title": "国务院任免国家工作人员",
+        "english_title": "The State Council appoints and dismisses state functionaries",
         "url": "http://cpc.people.com.cn/n1/2025/0226/c64387-40426219.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "全国人民代表大会常务委员会免职名单",
+        "chinese_title": "全国人民代表大会常务委员会免职名单",
+        "english_title": "List of dismissals from the Standing Committee of the National People's Congress",
         "url": "http://cpc.people.com.cn/n1/2025/0226/c64387-40426225.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "全国人民代表大会常务委员会批准任命的名单",
+        "chinese_title": "全国人民代表大会常务委员会批准任命的名单",
+        "english_title": "The Standing Committee of the National People's Congress approves the list of appointments",
         "url": "http://cpc.people.com.cn/n1/2025/0226/c64387-40426224.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "全国人民代表大会常务委员会任命名单",
+        "chinese_title": "全国人民代表大会常务委员会任命名单",
+        "english_title": "List of appointments to the Standing Committee of the National People's Congress",
         "url": "http://cpc.people.com.cn/n1/2025/0226/c64387-40426223.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:54"
       },
       {
-        "title": "全国人民代表大会常务委员会任免名单",
+        "chinese_title": "全国人民代表大会常务委员会任免名单",
+        "english_title": "List of appointments and removals of the Standing Committee of the National People's Congress",
         "url": "http://cpc.people.com.cn/n1/2025/0226/c64387-40426222.html",
         "source": "人民网人事频道",
-        "date": "2025-04-11 13:54:13"
-      }
-    ],
-    "反腐倡廉": [
+        "date": "2025-04-12 04:34:54"
+      },
       {
-        "title": "纾困解难确保惠农政策落实",
+        "chinese_title": "多措并举严查违规使用公车",
+        "english_title": "Take multiple measures to strictly investigate the illegal use of buses",
+        "url": "http://fanfu.people.com.cn/n1/2025/0412/c64371-40458285.html",
+        "source": "反腐倡廉",
+        "date": "2025-04-12 04:34:55"
+      },
+      {
+        "chinese_title": "正风反腐在身边·变化看得见 | 食以安为先",
+        "english_title": "Positive wind and anti-corruption around you, changes can be seen | Food safety first",
+        "url": "http://fanfu.people.com.cn/n1/2025/0412/c64371-40458284.html",
+        "source": "反腐倡廉",
+        "date": "2025-04-12 04:34:55"
+      },
+      {
+        "chinese_title": "纾困解难确保惠农政策落实",
+        "english_title": "Alleviate difficulties and ensure the implementation of policies benefiting farmers",
         "url": "http://fanfu.people.com.cn/n1/2025/0411/c64371-40457524.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "织密“三资”监督网",
+        "chinese_title": "织密“三资”监督网",
+        "english_title": "Weave a dense \"three capitals\" supervision network",
         "url": "http://fanfu.people.com.cn/n1/2025/0411/c64371-40457520.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "精准纠治政务服务推诿塞责",
+        "chinese_title": "精准纠治政务服务推诿塞责",
+        "english_title": "Accurately correct the prevarication of government services",
         "url": "http://fanfu.people.com.cn/n1/2025/0411/c64371-40457518.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "海南要求入企调研须预约（干部状态新观察·构建亲清政商关系）",
+        "chinese_title": "海南要求入企调研须预约（干部状态新观察·构建亲清政商关系）",
+        "english_title": "Hainan requires an appointment for enterprise research (new observation of cadre status, building pro-Qing political and business relations)",
         "url": "http://fanfu.people.com.cn/n1/2025/0411/c64371-40457507.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "既有分寸边界，也要担当作为（快评）",
+        "chinese_title": "既有分寸边界，也要担当作为（快评）",
+        "english_title": "There is not only a boundary of proportion, but also a responsibility (quick review)",
         "url": "http://fanfu.people.com.cn/n1/2025/0411/c64371-40457508.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "一线监督护春耕",
+        "chinese_title": "一线监督护春耕",
+        "english_title": "Front-line supervision and protection of spring ploughing",
         "url": "http://fanfu.people.com.cn/n1/2025/0410/c64371-40456730.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "把脉问诊提升办案质效",
+        "chinese_title": "把脉问诊提升办案质效",
+        "english_title": "Check the pulse to improve the quality and efficiency of case handling",
         "url": "http://fanfu.people.com.cn/n1/2025/0410/c64371-40456728.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "增强基层干部群众获得感",
+        "chinese_title": "增强基层干部群众获得感",
+        "english_title": "Enhance the sense of gain of grassroots cadres and the masses",
         "url": "http://fanfu.people.com.cn/n1/2025/0410/c64371-40456727.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "点亮万家安心灯",
+        "chinese_title": "点亮万家安心灯",
+        "english_title": "Light up the peace of mind lamp of Wanjia",
         "url": "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455949.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "贵州用好纪检监察建议有力武器",
+        "chinese_title": "贵州用好纪检监察建议有力武器",
+        "english_title": "Guizhou has made good use of the powerful weapon of discipline inspection and supervision proposals",
         "url": "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455940.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "打通提振消费政策落实堵点",
+        "chinese_title": "打通提振消费政策落实堵点",
+        "english_title": "Break through the implementation of policies to boost consumption",
         "url": "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455936.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "占用水泵10年不还，肥水流进“谁家田”？（整治群众身边不正之风和腐败问题）",
+        "chinese_title": "占用水泵10年不还，肥水流进“谁家田”？（整治群众身边不正之风和腐败问题）",
+        "english_title": "If the pump is not returned for 10 years, the fertilizer water flows into \"whose field\"? (Rectifying unhealthy tendencies and corruption around the masses)",
         "url": "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455927.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "不能让惠民工程打折扣（执纪者说）",
+        "chinese_title": "不能让惠民工程打折扣（执纪者说）",
+        "english_title": "The project of benefiting the people cannot be discounted (said the discipliner)",
         "url": "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455928.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "二十届中央第五轮巡视对象公布",
+        "chinese_title": "二十届中央第五轮巡视对象公布",
+        "english_title": "The fifth round of inspection objects of the 20th Central Committee was announced",
         "url": "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455920.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "持续深化整治形式主义为基层减负",
+        "chinese_title": "持续深化整治形式主义为基层减负",
+        "english_title": "Continue to deepen the rectification of formalism and reduce the burden on the grassroots",
         "url": "http://fanfu.people.com.cn/n1/2025/0409/c64371-40455921.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "专项整治保障农村用水",
+        "chinese_title": "专项整治保障农村用水",
+        "english_title": "Special rectification to ensure rural water supply",
         "url": "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455193.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "斩断风腐交织链条",
+        "chinese_title": "斩断风腐交织链条",
+        "english_title": "Cut off the intertwined chain of wind rot",
         "url": "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455192.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "移花接木的公证费，进了谁的腰包？（整治群众身边不正之风和腐败问题）",
+        "chinese_title": "移花接木的公证费，进了谁的腰包？（整治群众身边不正之风和腐败问题）",
+        "english_title": "Whose pocket did the notary fee go into? (Rectifying unhealthy tendencies and corruption around the masses)",
         "url": "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455186.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "“窗口腐败”，败坏的不只是窗口（执纪者说）",
+        "chinese_title": "“窗口腐败”，败坏的不只是窗口（执纪者说）",
+        "english_title": "\"The window is corrupt\", it is not only the window that is corrupted (the disciplinarian said)",
         "url": "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455187.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "中央纪委国家监委驻中央组织部纪检监察组原组长李刚严重违纪违法被开除党籍和公职",
+        "chinese_title": "中央纪委国家监委驻中央组织部纪检监察组原组长李刚严重违纪违法被开除党籍和公职",
+        "english_title": "Li Gang, former head of the discipline inspection and supervision group of the Central Commission for Discipline Inspection and the State Supervision Commission in the Organization Department of the CPC Central Committee, was expelled from the party and public office for serious violations of discipline and law",
         "url": "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455188.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "河南省人大常委会原党组副书记、副主任刘满仓严重违纪违法被开除党籍",
+        "chinese_title": "河南省人大常委会原党组副书记、副主任刘满仓严重违纪违法被开除党籍",
+        "english_title": "Liu Mancang, former deputy secretary and deputy director of the Standing Committee of the Henan Provincial People's Congress, was expelled from the party for serious violations of discipline and law",
         "url": "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455189.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "海南省纪委原副书记、省监委原副主任陈笑波严重违纪违法被开除党籍和公职",
+        "chinese_title": "海南省纪委原副书记、省监委原副主任陈笑波严重违纪违法被开除党籍和公职",
+        "english_title": "Chen Xiaobo, former deputy secretary of the Hainan Provincial Commission for Discipline Inspection and former deputy director of the Provincial Supervision Commission, was expelled from the party and public office for serious violations of discipline and law",
         "url": "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455190.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "“小马拉大车”问题这样破解（整治形式主义为基层减负）",
+        "chinese_title": "“小马拉大车”问题这样破解（整治形式主义为基层减负）",
+        "english_title": "The problem of \"small horses and carts\" is solved in this way (rectifying formalism to reduce the burden on the grassroots)",
         "url": "http://fanfu.people.com.cn/n1/2025/0408/c64371-40455183.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "海南省纪委原副书记、省监委原副主任陈笑波严重违纪违法被开除党籍和公职",
+        "chinese_title": "海南省纪委原副书记、省监委原副主任陈笑波严重违纪违法被开除党籍和公职",
+        "english_title": "Chen Xiaobo, former deputy secretary of the Hainan Provincial Commission for Discipline Inspection and former deputy director of the Provincial Supervision Commission, was expelled from the party and public office for serious violations of discipline and law",
         "url": "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454965.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "河南省人大常委会原党组副书记、副主任刘满仓严重违纪违法被开除党籍",
+        "chinese_title": "河南省人大常委会原党组副书记、副主任刘满仓严重违纪违法被开除党籍",
+        "english_title": "Liu Mancang, former deputy secretary and deputy director of the Standing Committee of the Henan Provincial People's Congress, was expelled from the party for serious violations of discipline and law",
         "url": "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454961.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "中央纪委国家监委驻中央组织部纪检监察组原组长李刚严重违纪违法被开除党籍和公职",
+        "chinese_title": "中央纪委国家监委驻中央组织部纪检监察组原组长李刚严重违纪违法被开除党籍和公职",
+        "english_title": "Li Gang, former head of the discipline inspection and supervision group of the Central Commission for Discipline Inspection and the State Supervision Commission in the Organization Department of the CPC Central Committee, was expelled from the party and public office for serious violations of discipline and law",
         "url": "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454958.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:55"
       },
       {
-        "title": "深化高标准农田建设领域治理",
+        "chinese_title": "深化高标准农田建设领域治理",
+        "english_title": "Deepen governance in the field of high-standard farmland construction",
         "url": "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454382.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:56"
       },
       {
-        "title": "保障民营经济高质量发展",
+        "chinese_title": "保障民营经济高质量发展",
+        "english_title": "Ensure the high-quality development of the private economy",
         "url": "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454380.html",
         "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
-      },
-      {
-        "title": "推动纪律教育常态化长效化",
-        "url": "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454374.html",
-        "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
-      },
-      {
-        "title": "缩水的“校园餐”，肥了谁？（整治群众身边不正之风和腐败问题）",
-        "url": "http://fanfu.people.com.cn/n1/2025/0407/c64371-40454372.html",
-        "source": "反腐倡廉",
-        "date": "2025-04-11 13:54:13"
+        "date": "2025-04-12 04:34:56"
       }
     ]
   }
