@@ -40,6 +40,7 @@ jobs:
       # Run the main entry point script now
       run: python main.py # <--- *** CHANGED SCRIPT NAME ***
 
+
     - name: Commit and push changes
       run: |
         # Print each command before executing it (debug)
@@ -56,21 +57,34 @@ jobs:
 
         # Check if the data file (headlines.json) has uncommitted changes
         echo "Checking for changes in headlines.json..."
-        git diff --quiet --exit-code headlines.json
-        EXIT_CODE=$? # Store exit code immediately
-        echo "git diff exit code: $EXIT_CODE"
 
-        if [ $EXIT_CODE -eq 0 ]; then
+        # Use git diff directly in the if condition.
+        # The 'if' statement naturally handles exit codes 0 (true) and non-zero (false)
+        # without set -e interfering *for the condition itself*.
+        if git diff --quiet --exit-code headlines.json; then
+          # Exit code was 0 (no changes)
           echo "No changes detected in headlines.json. Nothing to commit."
-          exit 0 # Exit this step successfully
-        elif [ $EXIT_CODE -eq 1 ]; then
-          # If exit code is 1, there are changes. Proceed.
-          echo "Changes detected in headlines.json. Proceeding with commit..."
+          # Turn off command printing before successful exit (optional)
+          set +x
+          exit 0
         else
-          # Handle other potential git diff errors (exit code > 1)
-          echo "git diff encountered an error (Exit Code: $EXIT_CODE)."
-          exit $EXIT_CODE # Propagate the error
+          # Exit code was non-zero. Check if it was 1 (changes found) or >1 (error).
+          EXIT_CODE=$? # Capture the non-zero exit code
+          echo "git diff exit code: $EXIT_CODE"
+          if [ $EXIT_CODE -eq 1 ]; then
+              # Exit code 1 specifically means changes were found
+              echo "Changes detected in headlines.json. Proceeding with commit..."
+              # Continue with the rest of the script...
+          else
+              # Any other non-zero exit code indicates a git diff command error
+              echo "git diff encountered an error (Exit Code: $EXIT_CODE)."
+              # Turn off command printing before failing (optional)
+              set +x
+              exit $EXIT_CODE # Propagate the specific error code
+          fi
         fi
+
+        # ----- This part only runs if EXIT_CODE was 1 -----
 
         # Stage the specific data file
         echo "Staging headlines.json..."
@@ -89,3 +103,4 @@ jobs:
         # Turn off command printing (optional)
         set +x
         echo "Commit and push step completed successfully."
+    
