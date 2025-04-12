@@ -2,61 +2,72 @@ name: Run Scraper and Update Data
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Adjust schedule as needed
-  workflow_dispatch:
+    # Run 4 times a day (every 6 hours: at 00:00, 06:00, 12:00, 18:00 UTC)
+    # Note: GitHub Actions schedules can sometimes be delayed.
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allows manual triggering from the Actions tab
 
 jobs:
-  scrape_and_commit: # Give the job a descriptive name
-    runs-on: ubuntu-latest
-    permissions:      # <--- Add this permissions block
-      contents: write # <--- Grant write permission for repository contents
+  scrape_and_commit: # Job name
+    runs-on: ubuntu-latest # Use the latest Ubuntu runner
+    permissions:
+      contents: write # Grant permission for the job to push commits
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4 # Use latest checkout action
+      uses: actions/checkout@v4 # Checks out your repository code
 
     - name: Set up Python
-      uses: actions/setup-python@v5 # Use latest setup-python action
+      uses: actions/setup-python@v5 # Sets up the specified Python version
       with:
-        python-version: '3.9' # Or your desired Python version
+        # Ensure this Python version is compatible with your code and dependencies
+        python-version: '3.12' # Or '3.9', '3.10', '3.11' etc. matching your needs
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        # Installs packages listed in requirements.txt
         pip install -r requirements.txt
 
-    - name: Run scraper script
-      env:
+    - name: Run scraper script # Changed step name slightly for clarity
+      env: # Pass secrets as environment variables to the Python script
         TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         MS_TRANSLATOR_KEY: ${{ secrets.MS_TRANSLATOR_KEY }}
-        #MS_TRANSLATOR_REGION: ${{ secrets.MS_TRANSLATOR_REGION }}
-      run: python scraper.py # This script modifies headlines.json
+        # Uncomment the next line if you have set MS_TRANSLATOR_REGION as a secret
+        # and want to use it instead of the default 'global' in config.py
+        MS_TRANSLATOR_REGION: ${{ secrets.MS_TRANSLATOR_REGION }}
+      # Run the main entry point script now
+      run: python main.py # <--- *** CHANGED SCRIPT NAME ***
 
-    - name: Commit and push changes # <--- Add these steps
+    - name: Commit and push changes
       run: |
-        # Configure Git user for commits made by the action
+        # Configure Git identity for commits made by this workflow
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-        # Pull latest changes before attempting to commit/push
-        # Helps avoid conflicts if the repo changed since checkout
+        # Pull latest changes from the repository branch before committing
+        # This helps prevent conflicts if the branch was updated externally
         git pull
 
-        # Check if the headlines file has changed
-        if git diff --quiet headlines.json; then
+        # Check if the data file (headlines.json) has uncommitted changes
+        # Use --exit-code to make it exit with 1 if there are changes, 0 otherwise
+        git diff --quiet headlines.json --exit-code
+        # $? holds the exit code of the last command
+        if [ $? -eq 0 ]; then
           echo "No changes detected in headlines.json. Nothing to commit."
-          exit 0 # Exit successfully if no changes
+          exit 0 # Exit this step successfully
         fi
 
-        # Stage, commit, and push if changes were detected
+        # If changes were detected (exit code was non-zero):
         echo "Changes detected in headlines.json. Committing..."
-        git add headlines.json # Make sure this matches the file your script modifies
-        # Dynamically create commit message with current date (using runner's timezone - likely UTC)
-        # Alternatively, set TZ for specific timezone: TZ='Asia/Taipei' date +'%Y-%m-%d'
-        COMMIT_DATE=$(date +'%Y-%m-%d')
+        # Stage the specific data file
+        git add headlines.json
+
+        # Create commit message using the current date in Taipei Time (UTC+8)
+        # TZ='Asia/Taipei' sets the timezone just for the 'date' command
+        COMMIT_DATE=$(TZ='Asia/Taipei' date +'%Y-%m-%d %H:%M CST') # <--- SET TIMEZONE (CST = UTC+8)
         git commit -m "Update headlines for $COMMIT_DATE"
+
+        # Push the commit to the repository's default branch (e.g., main)
         git push
-      env:
-          # Needed if your repo uses GITHUB_TOKEN for authentication, which is default
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

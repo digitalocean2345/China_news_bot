@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-12T11:42:22.276874",
+  "last_run": "2025-04-12T14:51:22.280323+00:00",
   "processed_urls": [
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426219.html",
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426222.html",
@@ -263,6 +263,8 @@
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=13929386643130730237&toc_style_id=feeds_default&track_id=BF88E126-B470-4F4B-9F08-AFBC265334D7_765814460935&share_to=copy_url",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=497890627906580205&toc_style_id=feeds_default&share_to=copy_url&track_id=49a57866-6988-4bc5-a1fa-c9be8ae65a30",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=7108938998401040194&toc_style_id=feeds_default&track_id=4ACCFFBC-B179-4C4B-9DC1-480C5623FADD_766021516625&share_to=copy_url",
+    "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=7590608488211105339&t=1744331191992&toc_style_id=feeds_default&track_id=A7192971-2B99-455D-9957-92E74084A75E_766025325890&share_to=copy_url",
+    "https://content-static.cctvnews.cctv.com/snow-book/video.html?item_id=5598803770712174665&t=1744371151731&toc_style_id=video_default&track_id=A0438C26-6359-4A3B-833C-24004C3C1470_766065569278&share_to=copy_url",
     "https://h.xinhuaxmt.com/vh512/share/12374766?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12482894?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12487250?newstype=1001&homeshow=1",
@@ -275,14 +277,17 @@
     "https://h.xinhuaxmt.com/vh512/share/12490891?docid=12490891&newstype=1001&d=134ff2b",
     "https://h.xinhuaxmt.com/vh512/share/12490911?docid=12490911&newstype=1001&d=134ff2b",
     "https://h.xinhuaxmt.com/vh512/share/12492062?d=134ff2c",
+    "https://h.xinhuaxmt.com/vh512/share/12492126?newstype=1001&homeshow=1",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153251",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153275",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153284",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153301",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153321",
+    "https://m.thepaper.cn/papernews/morningEveningPaper?n=153336",
     "https://mp.weixin.qq.com/s/vBd8Gygjsst-NmmkJ5unZA",
     "https://news.cctv.com/2025/04/07/ARTI00rXpGv0TsXFw3XBQkNu250407.shtml",
     "https://news.cctv.com/2025/04/09/ARTInWrgufJbozE4ftss2OO5250409.shtml",
+    "https://news.cctv.com/2025/04/10/ARTI0TGKUfHWd0yDNsuy7mpj250410.shtml",
     "https://news.cctv.com/2025/04/10/ARTIgYGsVBJhmdQa1Gpoeji5250410.shtml",
     "https://news.cctv.com/2025/04/10/ARTIsTsLiwgbyGF08nsCGF1t250410.shtml",
     "https://news.cctv.com/2025/04/11/ARTI1ly95yNJST5BMKf6IxMi250411.shtml",
@@ -492,8 +497,17 @@
     "https://www.thepaper.cn/newsDetail_forward_30633124",
     "https://www.thepaper.cn/newsDetail_forward_30633334",
     "https://www.thepaper.cn/newsDetail_forward_30633412",
+    "https://www.thepaper.cn/newsDetail_forward_30633438",
+    "https://www.thepaper.cn/newsDetail_forward_30633438?commTag=true",
     "https://www.thepaper.cn/newsDetail_forward_30633446",
-    "https://www.thepaper.cn/newsDetail_forward_30633468"
+    "https://www.thepaper.cn/newsDetail_forward_30633468",
+    "https://www.thepaper.cn/newsDetail_forward_30633534",
+    "https://www.thepaper.cn/newsDetail_forward_30633591?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30633592?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30633594",
+    "https://www.thepaper.cn/newsDetail_forward_30633595",
+    "https://www.thepaper.cn/newsDetail_forward_30633595?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30634193"
   ],
   "headlines": {
     "2025-04-12": [
@@ -3947,6 +3961,104 @@
         "url": "https://www.thepaper.cn/newsDetail_forward_30611463",
         "source": "Paper public opinion",
         "date": "2025-04-12 11:42:22"
+      },
+      {
+        "chinese_title": "金湘军被查，山西省委表态：坚决拥护党中央决定",
+        "english_title": "Jin Xiangjun was investigated, and the Shanxi Provincial Party Committee expressed its position: resolutely support the decision of the Party Central Committee",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30634193",
+        "source": "Paper China Government",
+        "date": "2025-04-12 13:46:43"
+      },
+      {
+        "chinese_title": "合肥市委书记费高云在合肥高新区调研科技创新和产业发展情况",
+        "english_title": "Fei Gaoyun, Secretary of the Hefei Municipal Party Committee, investigated scientific and technological innovation and industrial development in Hefei High-tech Zone",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30633594",
+        "source": "Paper China Government",
+        "date": "2025-04-12 13:46:43"
+      },
+      {
+        "chinese_title": "联播观察｜只留清气满乾坤",
+        "english_title": "Simulcast observation|Only leave a clear air",
+        "url": "https://news.cctv.com/2025/04/10/ARTI0TGKUfHWd0yDNsuy7mpj250410.shtml",
+        "source": "Paper China Government",
+        "date": "2025-04-12 13:46:43"
+      },
+      {
+        "chinese_title": "学习卡丨做好周边工作，这些原则至关重要！",
+        "english_title": "Learning card丨Do a good job of peripheral work, these principles are very important!",
+        "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=7590608488211105339&t=1744331191992&toc_style_id=feeds_default&track_id=A7192971-2B99-455D-9957-92E74084A75E_766025325890&share_to=copy_url",
+        "source": "Paper China Government",
+        "date": "2025-04-12 13:46:43"
+      },
+      {
+        "chinese_title": "15",
+        "english_title": "15",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30633592?commTag=true",
+        "source": "Paper China Government",
+        "date": "2025-04-12 13:46:43"
+      },
+      {
+        "chinese_title": "第一观察 | 做强内需主引擎，畅通经济大循环",
+        "english_title": "First Observation | Strengthen the main engine of domestic demand and smooth the economic cycle",
+        "url": "https://h.xinhuaxmt.com/vh512/share/12492126?newstype=1001&homeshow=1",
+        "source": "Paper China Government",
+        "date": "2025-04-12 13:46:43"
+      },
+      {
+        "chinese_title": "15",
+        "english_title": "15",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30633591?commTag=true",
+        "source": "Paper China Government",
+        "date": "2025-04-12 13:46:43"
+      },
+      {
+        "chinese_title": "湖南省委政法委副书记李忠履新省司法厅党组书记",
+        "english_title": "Li Zhong, deputy secretary of the Political and Legal Committee of the Hunan Provincial Party Committee, served as the party secretary of the new Provincial Department of Justice",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30633534",
+        "source": "Paper Personnel Trends",
+        "date": "2025-04-12 13:46:45"
+      },
+      {
+        "chinese_title": "山西省省长金湘军通报被查，今年已有15名中管干部落马",
+        "english_title": "Shanxi Provincial Governor Jin Xiangjun reported that 15 central management cadres have been investigated this year",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30633595",
+        "source": "Paper Tiger Hunt",
+        "date": "2025-04-12 13:46:46"
+      },
+      {
+        "chinese_title": "103",
+        "english_title": "103",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30633595?commTag=true",
+        "source": "Paper Tiger Hunt",
+        "date": "2025-04-12 13:46:46"
+      },
+      {
+        "chinese_title": "昆明边检将国家安全教育融入出入境管理全流程",
+        "english_title": "Kunming Border Inspection integrates national security education into the entire process of entry and exit management",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30633438",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-12 13:46:51"
+      },
+      {
+        "chinese_title": "12",
+        "english_title": "12",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30633438?commTag=true",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-12 13:46:51"
+      },
+      {
+        "chinese_title": "澎湃早晚报｜晚安湃·还会刮多久",
+        "english_title": "How long will it last?",
+        "url": "https://m.thepaper.cn/papernews/morningEveningPaper?n=153336",
+        "source": "Paper public opinion",
+        "date": "2025-04-12 13:46:53"
+      },
+      {
+        "chinese_title": "“两新”政策加力 激发消费新活力",
+        "english_title": "The &quot;two new&quot; policies have been strengthened to stimulate new vitality in consumption",
+        "url": "https://content-static.cctvnews.cctv.com/snow-book/video.html?item_id=5598803770712174665&t=1744371151731&toc_style_id=video_default&track_id=A0438C26-6359-4A3B-833C-24004C3C1470_766065569278&share_to=copy_url",
+        "source": "Paper China Government",
+        "date": "2025-04-12 14:38:36"
       }
     ]
   }
