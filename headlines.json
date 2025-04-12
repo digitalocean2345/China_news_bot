@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-12T15:18:15.461090+00:00",
+  "last_run": "2025-04-12T18:20:00.020501+00:00",
   "processed_urls": [
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426219.html",
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426222.html",
@@ -507,7 +507,9 @@
     "https://www.thepaper.cn/newsDetail_forward_30633594",
     "https://www.thepaper.cn/newsDetail_forward_30633595",
     "https://www.thepaper.cn/newsDetail_forward_30633595?commTag=true",
-    "https://www.thepaper.cn/newsDetail_forward_30634193"
+    "https://www.thepaper.cn/newsDetail_forward_30634193",
+    "https://www.thepaper.cn/newsDetail_forward_30634193?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30634289"
   ],
   "headlines": {
     "2025-04-12": [
@@ -4059,6 +4061,20 @@
         "url": "https://content-static.cctvnews.cctv.com/snow-book/video.html?item_id=5598803770712174665&t=1744371151731&toc_style_id=video_default&track_id=A0438C26-6359-4A3B-833C-24004C3C1470_766065569278&share_to=copy_url",
         "source": "Paper China Government",
         "date": "2025-04-12 14:38:36"
+      },
+      {
+        "chinese_title": "18",
+        "english_title": "18",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30634193?commTag=true",
+        "source": "Paper China Government",
+        "date": "2025-04-12 18:19:42"
+      },
+      {
+        "chinese_title": "北京部分公交、地铁线路和2条有轨电车明起恢复运营",
+        "english_title": "Some buses, subway lines and two trams in Beijing will resume operation tomorrow",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30634289",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-12 18:19:43"
       }
     ]
   }
