@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-13T02:43:20.969666+00:00",
+  "last_run": "2025-04-13T06:21:14.443636+00:00",
   "processed_urls": [
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426219.html",
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426221.html",
@@ -172,6 +172,7 @@
     "http://society.people.com.cn/n1/2025/0413/c1008-40458492.html",
     "http://society.people.com.cn/n1/2025/0413/c1008-40458493.html",
     "http://society.people.com.cn/n1/2025/0413/c1008-40458554.html",
+    "http://society.people.com.cn/n1/2025/0413/c1008-40458570.html",
     "http://society.people.com.cn/n1/2025/0413/c1008-40458574.html",
     "http://society.people.com.cn/n1/2025/0413/c1008-40458576.html",
     "http://society.people.com.cn/n1/2025/0413/c1008-40458578.html",
@@ -180,6 +181,8 @@
     "http://society.people.com.cn/n1/2025/0413/c1008-40458584.html",
     "http://society.people.com.cn/n1/2025/0413/c1008-40458585.html",
     "http://society.people.com.cn/n1/2025/0413/c1008-40458588.html",
+    "http://society.people.com.cn/n1/2025/0413/c1008-40458660.html",
+    "http://society.people.com.cn/n1/2025/0413/c1008-40458662.html",
     "http://world.people.com.cn/n1/2025/0301/c1002-40428780.html",
     "http://world.people.com.cn/n1/2025/0303/c1002-40429433.html",
     "http://world.people.com.cn/n1/2025/0303/c1002-40429688.html",
@@ -346,6 +349,17 @@
     "http://world.people.com.cn/n1/2025/0413/c1002-40458630.html",
     "http://world.people.com.cn/n1/2025/0413/c1002-40458631.html",
     "http://world.people.com.cn/n1/2025/0413/c1002-40458633.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458635.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458640.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458649.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458650.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458651.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458654.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458656.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458665.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458667.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458668.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458674.html",
     "http://www.chinanews.com.cn/gn/2025/04-03/10394315.shtml",
     "http://www.chinanews.com.cn/gn/2025/04-11/10397994.shtml",
     "http://www.chinanews.com.cn/gn/shipin/cns/2025/04-11/news1017987.shtml",
@@ -354,6 +368,7 @@
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=497890627906580205&toc_style_id=feeds_default&share_to=copy_url&track_id=49a57866-6988-4bc5-a1fa-c9be8ae65a30",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=7108938998401040194&toc_style_id=feeds_default&track_id=4ACCFFBC-B179-4C4B-9DC1-480C5623FADD_766021516625&share_to=copy_url",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=7590608488211105339&t=1744331191992&toc_style_id=feeds_default&track_id=A7192971-2B99-455D-9957-92E74084A75E_766025325890&share_to=copy_url",
+    "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9608556364778435608&t=1744502674102&toc_style_id=feeds_default&track_id=64F0D83B-FBE7-49DD-8564-AAE27B9D9B04_766197104821&share_to=copy_url",
     "https://content-static.cctvnews.cctv.com/snow-book/video.html?item_id=5598803770712174665&t=1744371151731&toc_style_id=video_default&track_id=A0438C26-6359-4A3B-833C-24004C3C1470_766065569278&share_to=copy_url",
     "https://h.xinhuaxmt.com/vh512/share/12374766?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12482894?newstype=1001&homeshow=1",
@@ -387,6 +402,7 @@
     "https://news.cnr.cn/dj/sz/20250409/t20250409_527127906.shtml",
     "https://news.cnr.cn/dj/sz/20250409/t20250409_527128503.shtml",
     "https://news.cri.cn/20250412/ec3114c8-eca8-b4cb-3745-4dde5a51fb9b.html",
+    "https://news.southcn.com/node_822c00b27b/9385822022.shtml?r=0.8934633828891141",
     "https://www.chinanews.com.cn/gn/2025/04-09/10397023.shtml",
     "https://www.chinanews.com.cn/gn/shipin/cns/2025/04-04/news1017549.shtml",
     "https://www.chinanews.com.cn/gn/shipin/cns/2025/04-10/news1017918.shtml",
@@ -397,6 +413,7 @@
     "https://www.peopleapp.com/column/30048741264-500006190129",
     "https://www.peopleapp.com/column/30048750694-500006191652",
     "https://www.peopleapp.com/column/30048763430-500006193729",
+    "https://www.peopleapp.com/column/30048774306-500006196473",
     "https://www.thepaper.cn/list_25423",
     "https://www.thepaper.cn/list_25424",
     "https://www.thepaper.cn/list_25427",
@@ -609,9 +626,17 @@
     "https://www.thepaper.cn/newsDetail_forward_30636476",
     "https://www.thepaper.cn/newsDetail_forward_30636492",
     "https://www.thepaper.cn/newsDetail_forward_30636492?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30636683",
+    "https://www.thepaper.cn/newsDetail_forward_30636683?commTag=true",
     "https://www.thepaper.cn/newsDetail_forward_30636687",
     "https://www.thepaper.cn/newsDetail_forward_30636687?commTag=true",
-    "https://www.thepaper.cn/newsDetail_forward_30636747"
+    "https://www.thepaper.cn/newsDetail_forward_30636747",
+    "https://www.thepaper.cn/newsDetail_forward_30636768",
+    "https://www.thepaper.cn/newsDetail_forward_30636768?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30636841",
+    "https://www.thepaper.cn/newsDetail_forward_30636853",
+    "https://www.thepaper.cn/newsDetail_forward_30636876",
+    "https://www.thepaper.cn/newsDetail_forward_30637263"
   ],
   "headlines": {
     "2025-04-12": [
@@ -4893,6 +4918,181 @@
         "url": "https://www.thepaper.cn/newsDetail_forward_30636474",
         "source": "Paper public opinion",
         "date": "2025-04-13 02:43:05"
+      },
+      {
+        "chinese_title": "塔吉克斯坦发生6.1级地震",
+        "english_title": "A magnitude 6.1 earthquake struck Tajikistan",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458674.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 06:21:09"
+      },
+      {
+        "chinese_title": "欧盟磋商设立共同防务基金",
+        "english_title": "The EU negotiated the establishment of a common defence fund",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458668.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 06:21:09"
+      },
+      {
+        "chinese_title": "首尔市长放弃竞选韩国总统",
+        "english_title": "The mayor of Seoul gave up running for president of South Korea",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458667.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 06:21:09"
+      },
+      {
+        "chinese_title": "专访丨赓续传统情谊 升级务实合作——访中国驻越南大使何炜",
+        "english_title": "Interview丨Continuing Traditional Friendship and Upgrading Practical Cooperation——Interview with Chinese Ambassador to Vietnam He Wei",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458665.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 06:21:10"
+      },
+      {
+        "chinese_title": "俄罗斯姑娘赏菏泽牡丹：原来这就是中国人的“国色天香”！",
+        "english_title": "Russian girl admires Heze peony: It turns out that this is the &quot;national color and heavenly fragrance&quot; of the Chinese!",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458656.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 06:21:10"
+      },
+      {
+        "chinese_title": "中国出版代表团亮相2025年巴黎图书节",
+        "english_title": "The Chinese publishing delegation debuted at the 2025 Paris Book Festival",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458654.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 06:21:10"
+      },
+      {
+        "chinese_title": "柬埔寨71C号国家公路举行通车典礼",
+        "english_title": "Cambodia&#x27;s National Highway 71C was opened to traffic",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458651.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 06:21:10"
+      },
+      {
+        "chinese_title": "“新教育实验作品”走进法国语言与文化学术图书馆",
+        "english_title": "&quot;New Educational Experimental Works&quot; entered the French Chinese Language and Culture Academic Library",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458650.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 06:21:10"
+      },
+      {
+        "chinese_title": "第十五届澳门青少年外交知识竞赛获奖学生参访团访问印尼阿…",
+        "english_title": "The 15th Macao Youth Diplomacy Knowledge Contest Winning Student Delegation Visited Indonesia...",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458649.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 06:21:10"
+      },
+      {
+        "chinese_title": "“五核国青年专家与中国智库对话会”活动 在北京举办",
+        "english_title": "The &quot;Dialogue between Young Experts from the Five Nuclear States and Chinese Think Tanks&quot; was held in Beijing",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458635.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 06:21:10"
+      },
+      {
+        "chinese_title": "命运与共好伙伴丨“在印尼现代化过程中，中国…",
+        "english_title": "Destiny and Partner丨&quot;In the process of Indonesia&#x27;s modernization, China...",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458640.html",
+        "source": "PD International In-depth",
+        "date": "2025-04-13 06:21:10"
+      },
+      {
+        "chinese_title": "因大风停运的北京部分地铁公交恢复运营",
+        "english_title": "Some of Beijing&#x27;s subway buses, which were suspended due to strong winds, resumed operation",
+        "url": "http://society.people.com.cn/n1/2025/0413/c1008-40458662.html",
+        "source": "PD Society",
+        "date": "2025-04-13 06:21:10"
+      },
+      {
+        "chinese_title": "北京：六成测站极大风9级以上 最大阵风达14级",
+        "english_title": "Beijing: Liucheng station has a maximum wind of more than 9 and a maximum gust of 14",
+        "url": "http://society.people.com.cn/n1/2025/0413/c1008-40458660.html",
+        "source": "PD Society",
+        "date": "2025-04-13 06:21:10"
+      },
+      {
+        "chinese_title": "说法丨交天价服务费就能“闪婚”？司法促推婚介乱象治理",
+        "english_title": "Saying丨Pay sky-high service fees to &quot;flash marriage&quot;? The judiciary promotes the management of marriage matchmaking chaos",
+        "url": "http://society.people.com.cn/n1/2025/0413/c1008-40458570.html",
+        "source": "PD Society",
+        "date": "2025-04-13 06:21:10"
+      },
+      {
+        "chinese_title": "遇见习近平丨给中越友谊谱写更多音乐",
+        "english_title": "Meet Xi Jinping丨Write more music for China-Vietnam friendship",
+        "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9608556364778435608&t=1744502674102&toc_style_id=feeds_default&track_id=64F0D83B-FBE7-49DD-8564-AAE27B9D9B04_766197104821&share_to=copy_url",
+        "source": "Paper China Government",
+        "date": "2025-04-13 06:21:12"
+      },
+      {
+        "chinese_title": "贵州省统计局原副局长王瑛履新安顺市委常委、组织部部长",
+        "english_title": "Wang Ying, former deputy director of the Guizhou Provincial Bureau of Statistics, served as a member of the Standing Committee of the Anshun Municipal Party Committee and head of the Organization Department",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30637263",
+        "source": "Paper Personnel Trends",
+        "date": "2025-04-13 06:21:12"
+      },
+      {
+        "chinese_title": "安徽亳州市市长秦凤玉任亳州市委书记",
+        "english_title": "Qin Fengyu, mayor of Bozhou City, Anhui Province, served as secretary of the Bozhou Municipal Party Committee",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30636876",
+        "source": "Paper Personnel Trends",
+        "date": "2025-04-13 06:21:12"
+      },
+      {
+        "chinese_title": "云南迪庆州原副州长蔡武成、政法委原书记扎西顿珠被开除党籍",
+        "english_title": "Cai Wucheng, former vice governor of Diqing Prefecture in Yunnan, and Tashi Dunzhu, former secretary of the Political and Legal Committee, were expelled from the party",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30636841",
+        "source": "Paper Tiger Hunt",
+        "date": "2025-04-13 06:21:12"
+      },
+      {
+        "chinese_title": "1国安部：男子落选处长、炒股巨亏后出卖涉密文件30多份，获刑无期",
+        "english_title": "1 Ministry of State Security: The man sold more than 30 confidential documents after losing the election as director and making huge losses in stock speculation, and was sentenced to life imprisonment",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30636768",
+        "source": "Paper Project No1",
+        "date": "2025-04-13 06:21:13"
+      },
+      {
+        "chinese_title": "21",
+        "english_title": "21",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30636768?commTag=true",
+        "source": "Paper Project No1",
+        "date": "2025-04-13 06:21:13"
+      },
+      {
+        "chinese_title": "学习时节｜“中国人民不惹事也不怕事”",
+        "english_title": "Study Season|&quot;Chinese people do not cause trouble and are not afraid of things&quot;",
+        "url": "https://news.southcn.com/node_822c00b27b/9385822022.shtml?r=0.8934633828891141",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-13 06:21:13"
+      },
+      {
+        "chinese_title": "习语丨总书记为何如此重视周边工作？",
+        "english_title": "Why does the general secretary attach so much importance to the surrounding work?",
+        "url": "https://www.peopleapp.com/column/30048774306-500006196473",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-13 06:21:13"
+      },
+      {
+        "chinese_title": "安徽六安通报：大风刮倒路边树木，骑电动车女子被砸中身亡",
+        "english_title": "Anhui Lu&#x27;an Bulletin: Strong winds blew down trees on the side of the road, and a woman riding an electric car was hit and killed",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30636853",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-13 06:21:14"
+      },
+      {
+        "chinese_title": "探访原阳“最牛高速服务区”：登记后享20项免费服务，已十多年",
+        "english_title": "Visit Yuanyang&#x27;s &quot;Most Bullish Expressway Service Area&quot;: Enjoy 20 free services after registration, more than 10 years",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30636683",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-13 06:21:14"
+      },
+      {
+        "chinese_title": "28",
+        "english_title": "28",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30636683?commTag=true",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-13 06:21:14"
       }
     ]
   }
