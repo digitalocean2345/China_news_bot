@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-13T06:21:14.443636+00:00",
+  "last_run": "2025-04-13T12:29:14.818807+00:00",
   "processed_urls": [
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426219.html",
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426221.html",
@@ -106,6 +106,8 @@
     "http://finance.people.com.cn/n1/2025/0413/c1004-40458545.html",
     "http://finance.people.com.cn/n1/2025/0413/c1004-40458549.html",
     "http://finance.people.com.cn/n1/2025/0413/c1004-40458551.html",
+    "http://finance.people.com.cn/n1/2025/0413/c1004-40458707.html",
+    "http://finance.people.com.cn/n1/2025/0413/c1004-40458708.html",
     "http://renshi.people.com.cn/n1/2025/0226/c139617-40426395.html",
     "http://renshi.people.com.cn/n1/2025/0228/c139617-40428020.html",
     "http://renshi.people.com.cn/n1/2025/0228/c139617-40428038.html",
@@ -360,6 +362,15 @@
     "http://world.people.com.cn/n1/2025/0413/c1002-40458667.html",
     "http://world.people.com.cn/n1/2025/0413/c1002-40458668.html",
     "http://world.people.com.cn/n1/2025/0413/c1002-40458674.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458683.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458684.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458685.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458686.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458688.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458689.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458690.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458692.html",
+    "http://world.people.com.cn/n1/2025/0413/c1002-40458693.html",
     "http://www.chinanews.com.cn/gn/2025/04-03/10394315.shtml",
     "http://www.chinanews.com.cn/gn/2025/04-11/10397994.shtml",
     "http://www.chinanews.com.cn/gn/shipin/cns/2025/04-11/news1017987.shtml",
@@ -368,6 +379,7 @@
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=497890627906580205&toc_style_id=feeds_default&share_to=copy_url&track_id=49a57866-6988-4bc5-a1fa-c9be8ae65a30",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=7108938998401040194&toc_style_id=feeds_default&track_id=4ACCFFBC-B179-4C4B-9DC1-480C5623FADD_766021516625&share_to=copy_url",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=7590608488211105339&t=1744331191992&toc_style_id=feeds_default&track_id=A7192971-2B99-455D-9957-92E74084A75E_766025325890&share_to=copy_url",
+    "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=8240419373493521149&t=1744515267646&toc_style_id=feeds_default&share_to=wechat&track_id=4a0edf75-c4ae-4161-a737-f547cc22d620",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9608556364778435608&t=1744502674102&toc_style_id=feeds_default&track_id=64F0D83B-FBE7-49DD-8564-AAE27B9D9B04_766197104821&share_to=copy_url",
     "https://content-static.cctvnews.cctv.com/snow-book/video.html?item_id=5598803770712174665&t=1744371151731&toc_style_id=video_default&track_id=A0438C26-6359-4A3B-833C-24004C3C1470_766065569278&share_to=copy_url",
     "https://h.xinhuaxmt.com/vh512/share/12374766?newstype=1001&homeshow=1",
@@ -382,8 +394,10 @@
     "https://h.xinhuaxmt.com/vh512/share/12490823?docid=12490823&newstype=1001&d=134ff2b",
     "https://h.xinhuaxmt.com/vh512/share/12490891?docid=12490891&newstype=1001&d=134ff2b",
     "https://h.xinhuaxmt.com/vh512/share/12490911?docid=12490911&newstype=1001&d=134ff2b",
+    "https://h.xinhuaxmt.com/vh512/share/12491480?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12492062?d=134ff2c",
     "https://h.xinhuaxmt.com/vh512/share/12492126?newstype=1001&homeshow=1",
+    "https://h.xinhuaxmt.com/vh512/share/12493004?newstype=1001&homeshow=1",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153251",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153275",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153284",
@@ -398,9 +412,13 @@
     "https://news.cctv.com/2025/04/10/ARTIgYGsVBJhmdQa1Gpoeji5250410.shtml",
     "https://news.cctv.com/2025/04/10/ARTIsTsLiwgbyGF08nsCGF1t250410.shtml",
     "https://news.cctv.com/2025/04/11/ARTI1ly95yNJST5BMKf6IxMi250411.shtml",
+    "https://news.cctv.com/2025/04/12/ARTICihpSR2uk5pSMvgPTbCL250412.shtml",
+    "https://news.cctv.com/2025/04/12/ARTIG2HRPPHMA1RiX1etbpPC250412.shtml",
     "https://news.cctv.com/2025/04/12/ARTIlOXFHvUuHaJ6NTGlDBfv250412.shtml",
+    "https://news.cctv.com/2025/04/12/ARTIreiRiBKQsDs6wVYMFivP250412.shtml",
     "https://news.cnr.cn/dj/sz/20250409/t20250409_527127906.shtml",
     "https://news.cnr.cn/dj/sz/20250409/t20250409_527128503.shtml",
+    "https://news.cri.cn/20250411/dbeb8762-c42e-4897-dfb3-2629c7b4f6ce.html",
     "https://news.cri.cn/20250412/ec3114c8-eca8-b4cb-3745-4dde5a51fb9b.html",
     "https://news.southcn.com/node_822c00b27b/9385822022.shtml?r=0.8934633828891141",
     "https://www.chinanews.com.cn/gn/2025/04-09/10397023.shtml",
@@ -414,6 +432,8 @@
     "https://www.peopleapp.com/column/30048750694-500006191652",
     "https://www.peopleapp.com/column/30048763430-500006193729",
     "https://www.peopleapp.com/column/30048774306-500006196473",
+    "https://www.peopleapp.com/column/30048774975-500006196524",
+    "https://www.peopleapp.com/column/30048776637-500006196695",
     "https://www.thepaper.cn/list_25423",
     "https://www.thepaper.cn/list_25424",
     "https://www.thepaper.cn/list_25427",
@@ -636,7 +656,18 @@
     "https://www.thepaper.cn/newsDetail_forward_30636841",
     "https://www.thepaper.cn/newsDetail_forward_30636853",
     "https://www.thepaper.cn/newsDetail_forward_30636876",
-    "https://www.thepaper.cn/newsDetail_forward_30637263"
+    "https://www.thepaper.cn/newsDetail_forward_30637263",
+    "https://www.thepaper.cn/newsDetail_forward_30637515",
+    "https://www.thepaper.cn/newsDetail_forward_30637552",
+    "https://www.thepaper.cn/newsDetail_forward_30637552?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30637561",
+    "https://www.thepaper.cn/newsDetail_forward_30637561?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30637573?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30637576?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30637808",
+    "https://www.thepaper.cn/newsDetail_forward_30637808?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30637986",
+    "https://www.thepaper.cn/newsDetail_forward_30637986?commTag=true"
   ],
   "headlines": {
     "2025-04-12": [
@@ -5093,6 +5124,223 @@
         "url": "https://www.thepaper.cn/newsDetail_forward_30636683?commTag=true",
         "source": "Paper Live on the scene",
         "date": "2025-04-13 06:21:14"
+      },
+      {
+        "chinese_title": "开箱！俄罗斯姑娘在菏泽买了啥？",
+        "english_title": "Unboxing! What did the Russian girl buy in Heze?",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458693.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 12:29:08"
+      },
+      {
+        "chinese_title": "中外游客打卡菏泽 点赞“赏花经济”新活力",
+        "english_title": "Chinese and foreign tourists check in Heze and praise the new vitality of the &quot;flower appreciation economy&quot;.",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458692.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 12:29:08"
+      },
+      {
+        "chinese_title": "泰国正式启动“2025玛哈世界泼水节”活动",
+        "english_title": "Thailand officially launched the &quot;2025 Maha World Songkran Festival&quot; activity",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458690.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 12:29:08"
+      },
+      {
+        "chinese_title": "美国把对俄制裁的国家紧急状态延长一年",
+        "english_title": "The United States extended the state of emergency against Russia for one year",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458689.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 12:29:08"
+      },
+      {
+        "chinese_title": "美国一小型飞机坠毁 至少一人死亡",
+        "english_title": "A small plane crashed in the United States, killing at least one person",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458688.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 12:29:08"
+      },
+      {
+        "chinese_title": "圭亚那外长称赞中国医疗队义诊工作",
+        "english_title": "Guyana&#x27;s foreign minister praised the Chinese medical team&#x27;s work in providing free clinics",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458686.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 12:29:08"
+      },
+      {
+        "chinese_title": "埃及和印尼强调建立独立的巴勒斯坦国是实现地区和平的唯一…",
+        "english_title": "Egypt and Indonesia emphasize that the establishment of an independent Palestinian state is the only way to achieve peace in the region...",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458685.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 12:29:08"
+      },
+      {
+        "chinese_title": "专栏丨美国滥施关税殃及贸易伙伴——以澳大利亚为例",
+        "english_title": "Column丨U.S. Tariffs Hurt Trading Partners – Take Australia as an Example",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458684.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 12:29:09"
+      },
+      {
+        "chinese_title": "塔吉克斯坦发生5.9级地震",
+        "english_title": "A magnitude 5.9 earthquake struck Tajikistan",
+        "url": "http://world.people.com.cn/n1/2025/0413/c1002-40458683.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-13 12:29:09"
+      },
+      {
+        "chinese_title": "2025年日本大阪世博会中国馆正式开馆",
+        "english_title": "The China Pavilion at Expo 2025 in Osaka, Japan was officially opened",
+        "url": "http://finance.people.com.cn/n1/2025/0413/c1004-40458707.html",
+        "source": "PD Economy",
+        "date": "2025-04-13 12:29:08"
+      },
+      {
+        "chinese_title": "注重高阶能力培养 人工智能加速融入教育业态",
+        "english_title": "Focus on the cultivation of high-level capabilities, and accelerate the integration of artificial intelligence into the education industry",
+        "url": "http://finance.people.com.cn/n1/2025/0413/c1004-40458708.html",
+        "source": "PD Economy",
+        "date": "2025-04-13 12:29:08"
+      },
+      {
+        "chinese_title": "【讲习所·中国与世界】平等互利创新开放惠民 中拉关系进入新阶段",
+        "english_title": "China and the World: Equality, Mutual Benefit, Innovation, Opening-up and Benefiting the People China-Latin America relations have entered a new stage",
+        "url": "https://news.cri.cn/20250411/dbeb8762-c42e-4897-dfb3-2629c7b4f6ce.html",
+        "source": "Paper China Government",
+        "date": "2025-04-13 12:29:11"
+      },
+      {
+        "chinese_title": "中央党校机构调整后，多个省级党校也已设立国家治理、统一战线教研部门",
+        "english_title": "After the restructuring of the Central Party School, a number of provincial-level Party schools have also set up teaching and research departments for national governance and the united front",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30637986",
+        "source": "Paper China Government",
+        "date": "2025-04-13 12:29:11"
+      },
+      {
+        "chinese_title": "28",
+        "english_title": "28",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30637986?commTag=true",
+        "source": "Paper China Government",
+        "date": "2025-04-13 12:29:12"
+      },
+      {
+        "chinese_title": "【新思想引领新征程】以新发展格局夯实中国经济发展根基",
+        "english_title": "【New Ideas Lead a New Journey】Consolidate the foundation of China&#x27;s economic development with a new development pattern",
+        "url": "https://news.cctv.com/2025/04/12/ARTIreiRiBKQsDs6wVYMFivP250412.shtml",
+        "source": "Paper China Government",
+        "date": "2025-04-13 12:29:12"
+      },
+      {
+        "chinese_title": "联播+｜三年三访 西班牙首相为何如此重视中国？",
+        "english_title": "Simulcast+|Three visits in three years, why does the Spanish Prime Minister attach so much importance to China?",
+        "url": "https://news.cctv.com/2025/04/12/ARTICihpSR2uk5pSMvgPTbCL250412.shtml",
+        "source": "Paper China Government",
+        "date": "2025-04-13 12:29:12"
+      },
+      {
+        "chinese_title": "第一观察 | 从实践看构建新发展格局的战略思维",
+        "english_title": "First Observation | From the perspective of practice, the strategic thinking of building a new development pattern",
+        "url": "https://h.xinhuaxmt.com/vh512/share/12491480?newstype=1001&homeshow=1",
+        "source": "Paper China Government",
+        "date": "2025-04-13 12:29:12"
+      },
+      {
+        "chinese_title": "18",
+        "english_title": "18",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30637576?commTag=true",
+        "source": "Paper China Government",
+        "date": "2025-04-13 12:29:12"
+      },
+      {
+        "chinese_title": "时政微观察丨亲望亲好，邻望邻好",
+        "english_title": "Micro-observation of current affairs丨 Relatives look at relatives, neighbors look at neighbors",
+        "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=8240419373493521149&t=1744515267646&toc_style_id=feeds_default&share_to=wechat&track_id=4a0edf75-c4ae-4161-a737-f547cc22d620",
+        "source": "Paper China Government",
+        "date": "2025-04-13 12:29:12"
+      },
+      {
+        "chinese_title": "18",
+        "english_title": "18",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30637573?commTag=true",
+        "source": "Paper China Government",
+        "date": "2025-04-13 12:29:12"
+      },
+      {
+        "chinese_title": "投资中国就是投资未来——坚定不移推进高水平对外开放观察（上）",
+        "english_title": "Investing in China is Investing in the Future: Unswervingly Promoting High-level Opening-up (Part I)",
+        "url": "https://www.peopleapp.com/column/30048776637-500006196695",
+        "source": "Paper China Government",
+        "date": "2025-04-13 12:29:12"
+      },
+      {
+        "chinese_title": "焦点访谈｜千磨万击还坚劲 现代服务业为中国经济注入新动能",
+        "english_title": "Focus Interview|Thousands of blows are still strong The modern service industry has injected new momentum into China&#x27;s economy",
+        "url": "https://news.cctv.com/2025/04/12/ARTIG2HRPPHMA1RiX1etbpPC250412.shtml",
+        "source": "Paper China Government",
+        "date": "2025-04-13 12:29:12"
+      },
+      {
+        "chinese_title": "孙晓明履新中科院秘书长，前任翟立新已任天津市副市长",
+        "english_title": "Sun Xiaoming has been appointed as the new secretary-general of the Chinese Academy of Sciences, and his predecessor Zhai Lixin has been appointed as the vice mayor of Tianjin",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30637515",
+        "source": "Paper Personnel Trends",
+        "date": "2025-04-13 12:29:11"
+      },
+      {
+        "chinese_title": "一见·回顾这些镜头，期待习近平主席今年首次出访",
+        "english_title": "Looking back at these shots, I look forward to President Xi Jinping&#x27;s first foreign visit this year",
+        "url": "https://www.peopleapp.com/column/30048774975-500006196524",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-13 12:29:13"
+      },
+      {
+        "chinese_title": "第一观察｜这场会见中，习近平主席两次提及“定力”",
+        "english_title": "In this meeting, President Xi Jinping mentioned &quot;determination&quot; twice",
+        "url": "https://h.xinhuaxmt.com/vh512/share/12493004?newstype=1001&homeshow=1",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-13 12:29:13"
+      },
+      {
+        "chinese_title": "20余人大风极端天气不听劝阻强行爬野山，北京怀柔：组织者被传唤",
+        "english_title": "More than 20 people did not listen to the dissuasion of the extreme weather and forcibly climbed the wild mountain, Huairou Beijing: The organizer was summoned",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30637561",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-13 12:29:13"
+      },
+      {
+        "chinese_title": "75",
+        "english_title": "75",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30637561?commTag=true",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-13 12:29:13"
+      },
+      {
+        "chinese_title": "杭州一男孩从27楼坠亡，官方：为意外坠楼",
+        "english_title": "A boy in Hangzhou fell to his death from the 27th floor, official: it was an accidental fall",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30637552",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-13 12:29:13"
+      },
+      {
+        "chinese_title": "12",
+        "english_title": "12",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30637552?commTag=true",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-13 12:29:13"
+      },
+      {
+        "chinese_title": "人民热评：三河强换商户招牌，需给公众一个交代",
+        "english_title": "People&#x27;s hot comment: Sanhe forcibly changed the signboard of the merchants, and it is necessary to give an explanation to the public",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30637808",
+        "source": "Paper public opinion",
+        "date": "2025-04-13 12:29:14"
+      },
+      {
+        "chinese_title": "226",
+        "english_title": "226",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30637808?commTag=true",
+        "source": "Paper public opinion",
+        "date": "2025-04-13 12:29:14"
       }
     ]
   }
