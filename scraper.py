@@ -26,6 +26,11 @@ def scrape_site(site_name, url, processed_urls_set):
 
         soup = BeautifulSoup(response.text, 'html.parser')
         selector = SITE_SELECTORS.get(site_name)
+        
+        # --- Add this Debugging line ---
+        print(f"DEBUG: For site '{site_name}', selector type is {type(selector)}, value is: {selector}")
+        # --- End Debugging line ---
+
         if not selector:
             logging.error(f"No selector defined for site: {site_name}")
             return []

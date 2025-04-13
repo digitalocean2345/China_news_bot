@@ -11,12 +11,7 @@ TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
 MS_TRANSLATOR_KEY = os.getenv('MS_TRANSLATOR_KEY')
 MS_TRANSLATOR_REGION = os.getenv('MS_TRANSLATOR_REGION', 'global')
-'''
-print(TELEGRAM_TOKEN)
-print(TELEGRAM_CHAT_ID)
-print(MS_TRANSLATOR_KEY)
-print(MS_TRANSLATOR_REGION)
-'''
+
 # --- File Paths and Limits ---
 DATA_FILE = "headlines.json"
 MAX_MESSAGE_LENGTH = 4000  # Telegram's limit is 4096
@@ -39,7 +34,9 @@ WEBSITES = {
     "Paper Zhongnanhai": "https://www.thepaper.cn/list_25488",
     "Paper Live on the scene": "https://www.thepaper.cn/list_25428",
     "Paper exclusive reports": "https://www.thepaper.cn/list_25427",
-    "Paper public opinion": "https://www.thepaper.cn/list_25489"
+    "Paper public opinion": "https://www.thepaper.cn/list_25489",
+    "Guancha International": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/list_1.shtml",
+    "Guancha Chinese Diplomacy": "https://www.guancha.cn/ZhongGuoWaiJiao/list_1.shtml"
 }
 
 # --- CSS Selectors ---
@@ -48,6 +45,8 @@ PD_RENMIN_SELECTOR = 'div.fl a[href*="/n1/"]'
 PD_WORLD_SELECTOR = 'div.ej_bor a[href*="/n1/"]'
 PD_SOC_ECO_SELECTOR = 'div.ej_list_box a[href*="/n1/"]'
 PAPER_SELECTOR = 'a.index_inherit__A1ImK[target="_blank"]:not(.index_listcontentbot__92p4_ a)' # Common selector for The Paper
+GUANCHA_SELECTOR = 'h4.module-title a'
+
 
 SITE_SELECTORS = {
     "人民网人事频道": PD_RENMIN_SELECTOR,
@@ -64,6 +63,8 @@ SITE_SELECTORS = {
     "Paper Live on the scene": PAPER_SELECTOR,
     "Paper exclusive reports": PAPER_SELECTOR,
     "Paper public opinion": PAPER_SELECTOR,
+    "Guancha International": GUANCHA_SELECTOR,
+    "Guancha Chinese Diplomacy": GUANCHA_SELECTOR
 }
 
 # --- Validation (Optional but Recommended) ---
