@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-14T14:53:18.564401+00:00",
+  "last_run": "2025-04-14T18:22:50.183541+00:00",
   "processed_urls": [
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426219.html",
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426221.html",
@@ -990,6 +990,7 @@
     "https://www.globaltimes.cn/page/202412/1324840.shtml",
     "https://www.globaltimes.cn/page/202412/1324845.shtml",
     "https://www.globaltimes.cn/page/202412/1324860.shtml",
+    "https://www.globaltimes.cn/page/202412/1324873.shtml",
     "https://www.globaltimes.cn/page/202412/1324887.shtml",
     "https://www.globaltimes.cn/page/202412/1324888.shtml",
     "https://www.globaltimes.cn/page/202412/1324892.shtml",
@@ -2295,6 +2296,23 @@
     "https://www.globaltimes.cn/page/202504/1332085.shtml",
     "https://www.globaltimes.cn/page/202504/1332087.shtml",
     "https://www.globaltimes.cn/page/202504/1332088.shtml",
+    "https://www.globaltimes.cn/page/202504/1332089.shtml",
+    "https://www.globaltimes.cn/page/202504/1332090.shtml",
+    "https://www.globaltimes.cn/page/202504/1332091.shtml",
+    "https://www.globaltimes.cn/page/202504/1332092.shtml",
+    "https://www.globaltimes.cn/page/202504/1332093.shtml",
+    "https://www.globaltimes.cn/page/202504/1332094.shtml",
+    "https://www.globaltimes.cn/page/202504/1332095.shtml",
+    "https://www.globaltimes.cn/page/202504/1332096.shtml",
+    "https://www.globaltimes.cn/page/202504/1332097.shtml",
+    "https://www.globaltimes.cn/page/202504/1332099.shtml",
+    "https://www.globaltimes.cn/page/202504/1332100.shtml",
+    "https://www.globaltimes.cn/page/202504/1332101.shtml",
+    "https://www.globaltimes.cn/page/202504/1332102.shtml",
+    "https://www.globaltimes.cn/page/202504/1332105.shtml",
+    "https://www.globaltimes.cn/page/202504/1332106.shtml",
+    "https://www.globaltimes.cn/page/202504/1332107.shtml",
+    "https://www.globaltimes.cn/page/202504/1332108.shtml",
     "https://www.globaltimes.cn/special-coverage/Two-Sessions-2025/index.html",
     "https://www.guancha.cn/JinCanRong/2025_04_14_772028.shtml",
     "https://www.guancha.cn/MaoKeJi/2025_04_14_772038.shtml",
@@ -2396,6 +2414,9 @@
     "https://www.guancha.cn/internation/2025_04_14_772132.shtml",
     "https://www.guancha.cn/internation/2025_04_14_772136.shtml",
     "https://www.guancha.cn/internation/2025_04_14_772139.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772141.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772142.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772143.shtml",
     "https://www.guancha.cn/politics/2025_03_29_770187.shtml",
     "https://www.guancha.cn/yueyonghuan/2025_04_13_771962.shtml",
     "https://www.guancha.cn/yupengkun/2025_04_14_772058.shtml",
@@ -21831,6 +21852,153 @@
         "url": "https://www.guancha.cn/internation/2025_04_14_772139.shtml",
         "source": "Guancha International",
         "date": "2025-04-14 14:53:15"
+      },
+      {
+        "chinese_title": "习近平同越共中央总书记苏林举行会谈",
+        "english_title": "Xi Jinping held talks with Su Lin, general secretary of the Central Committee of the Communist Party of Vietnam",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772143.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 18:22:35"
+      },
+      {
+        "chinese_title": "“人人都想制造业回流美国，但没多少人想自己下工厂”",
+        "english_title": "&quot;Everyone wants to bring manufacturing back to the United States, but not many people want to go to the factory on their own&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772142.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 18:22:35"
+      },
+      {
+        "chinese_title": "“不能太依赖美国，欧洲得买点俄气”",
+        "english_title": "&quot;Can&#x27;t rely too much on the United States, Europe has to buy some Russian gas&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772141.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 18:22:35"
+      },
+      {
+        "chinese_title": "S.Korean President Yoon rejects insurrection charges, vows to fight until the last moment",
+        "english_title": "S.Korean President Yoon rejects insurrection charges, vows to fight until the last moment",
+        "url": "https://www.globaltimes.cn/page/202412/1324873.shtml",
+        "source": "GT China Politics",
+        "date": "2025-04-14 18:22:34"
+      },
+      {
+        "chinese_title": "China Advertising Association criticizes color ban on shop signs in Hebei city as &#x27;overreach of management&#x27;",
+        "english_title": "China Advertising Association criticizes color ban on shop signs in Hebei city as &#x27;overreach of management&#x27;",
+        "url": "https://www.globaltimes.cn/page/202504/1332107.shtml",
+        "source": "GT China Society",
+        "date": "2025-04-14 18:22:34"
+      },
+      {
+        "chinese_title": "Xi urges China, Vietnam to jointly march toward modernization",
+        "english_title": "Xi urges China, Vietnam to jointly march toward modernization",
+        "url": "https://www.globaltimes.cn/page/202504/1332100.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-14 18:22:34"
+      },
+      {
+        "chinese_title": "Xi calls on China, Vietnam to oppose unilateral bullying",
+        "english_title": "Xi calls on China, Vietnam to oppose unilateral bullying",
+        "url": "https://www.globaltimes.cn/page/202504/1332099.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-14 18:22:34"
+      },
+      {
+        "chinese_title": "Xi calls on China, Vietnam to oppose hegemonism, unilateralism, protectionism",
+        "english_title": "Xi calls on China, Vietnam to oppose hegemonism, unilateralism, protectionism",
+        "url": "https://www.globaltimes.cn/page/202504/1332092.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-14 18:22:34"
+      },
+      {
+        "chinese_title": "China&#x27;s May Day holiday sparks surge in outbound travel",
+        "english_title": "China&#x27;s May Day holiday sparks surge in outbound travel",
+        "url": "https://www.globaltimes.cn/page/202504/1332108.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-14 18:22:36"
+      },
+      {
+        "chinese_title": "Nations need to unite to strengthen multilateralism, counter US tariffs and avoid global trade war",
+        "english_title": "Nations need to unite to strengthen multilateralism, counter US tariffs and avoid global trade war",
+        "url": "https://www.globaltimes.cn/page/202504/1332102.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-14 18:22:36"
+      },
+      {
+        "chinese_title": "US biggest casualty of Washington&#x27;s tariffs as the rest of world encouraged to turn away from trade with US",
+        "english_title": "US biggest casualty of Washington&#x27;s tariffs as the rest of world encouraged to turn away from trade with US",
+        "url": "https://www.globaltimes.cn/page/202504/1332101.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-14 18:22:36"
+      },
+      {
+        "chinese_title": "Uplift efficiency",
+        "english_title": "Uplift efficiency",
+        "url": "https://www.globaltimes.cn/page/202504/1332097.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-14 18:22:36"
+      },
+      {
+        "chinese_title": "Ship maintenance",
+        "english_title": "Ship maintenance",
+        "url": "https://www.globaltimes.cn/page/202504/1332096.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-14 18:22:36"
+      },
+      {
+        "chinese_title": "China&#x27;s first airport pet terminal to open in May in Guangzhou",
+        "english_title": "China&#x27;s first airport pet terminal to open in May in Guangzhou",
+        "url": "https://www.globaltimes.cn/page/202504/1332095.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-14 18:22:36"
+      },
+      {
+        "chinese_title": "Chinese cities unveil measures to boost trade integration amid US tariff concerns",
+        "english_title": "Chinese cities unveil measures to boost trade integration amid US tariff concerns",
+        "url": "https://www.globaltimes.cn/page/202504/1332094.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-14 18:22:36"
+      },
+      {
+        "chinese_title": "Foreign businesses flock to consumer products expo",
+        "english_title": "Foreign businesses flock to consumer products expo",
+        "url": "https://www.globaltimes.cn/page/202504/1332093.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-14 18:22:36"
+      },
+      {
+        "chinese_title": "British govt should refrain from turning economic cooperation into political issue: Chinese FM on British Steel",
+        "english_title": "British govt should refrain from turning economic cooperation into political issue: Chinese FM on British Steel",
+        "url": "https://www.globaltimes.cn/page/202504/1332091.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-14 18:22:36"
+      },
+      {
+        "chinese_title": "China, EU have vast room for cooperation in multiple areas: GAC",
+        "english_title": "China, EU have vast room for cooperation in multiple areas: GAC",
+        "url": "https://www.globaltimes.cn/page/202504/1332090.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-14 18:22:36"
+      },
+      {
+        "chinese_title": "Building China-Vietnam community with shared future carries great global significance: Global Times editorial",
+        "english_title": "Building China-Vietnam community with shared future carries great global significance: Global Times editorial",
+        "url": "https://www.globaltimes.cn/page/202504/1332105.shtml",
+        "source": "GT Opinion Editorial",
+        "date": "2025-04-14 18:22:36"
+      },
+      {
+        "chinese_title": "Using &#x27;semiconductor iron triangle&#x27; as pledge of allegiance won&#x27;t win the game",
+        "english_title": "Using &#x27;semiconductor iron triangle&#x27; as pledge of allegiance won&#x27;t win the game",
+        "url": "https://www.globaltimes.cn/page/202504/1332106.shtml",
+        "source": "GT Opinion Observer",
+        "date": "2025-04-14 18:22:37"
+      },
+      {
+        "chinese_title": "&#x27;Harmony without uniformity&#x27; cherished in Chinese culture for millennia promotes China-Malaysia friendship: Malaysian expert",
+        "english_title": "&#x27;Harmony without uniformity&#x27; cherished in Chinese culture for millennia promotes China-Malaysia friendship: Malaysian expert",
+        "url": "https://www.globaltimes.cn/page/202504/1332089.shtml",
+        "source": "GT Indepth",
+        "date": "2025-04-14 18:22:37"
       }
     ]
   }
