@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-14T01:18:31.852201+00:00",
+  "last_run": "2025-04-14T06:25:22.708502+00:00",
   "processed_urls": [
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426219.html",
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426221.html",
@@ -120,6 +120,12 @@
     "http://finance.people.com.cn/n1/2025/0414/c1004-40459062.html",
     "http://finance.people.com.cn/n1/2025/0414/c1004-40459101.html",
     "http://finance.people.com.cn/n1/2025/0414/c1004-40459104.html",
+    "http://finance.people.com.cn/n1/2025/0414/c1004-40459240.html",
+    "http://finance.people.com.cn/n1/2025/0414/c1004-40459306.html",
+    "http://finance.people.com.cn/n1/2025/0414/c1004-40459348.html",
+    "http://finance.people.com.cn/n1/2025/0414/c1004-40459353.html",
+    "http://finance.people.com.cn/n1/2025/0414/c1004-40459354.html",
+    "http://finance.people.com.cn/n1/2025/0414/c1004-40459359.html",
     "http://renshi.people.com.cn/n1/2025/0226/c139617-40426395.html",
     "http://renshi.people.com.cn/n1/2025/0228/c139617-40428020.html",
     "http://renshi.people.com.cn/n1/2025/0228/c139617-40428038.html",
@@ -198,6 +204,36 @@
     "http://society.people.com.cn/n1/2025/0413/c1008-40458588.html",
     "http://society.people.com.cn/n1/2025/0413/c1008-40458660.html",
     "http://society.people.com.cn/n1/2025/0413/c1008-40458662.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40458813.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40458814.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40458815.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40458816.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40458817.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40458818.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40458819.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40458820.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40458828.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40458829.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40458830.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40458831.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40458833.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40458834.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40458835.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40459016.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40459021.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40459029.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40459043.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40459097.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40459105.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40459115.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40459140.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40459177.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40459220.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40459260.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40459301.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40459304.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40459419.html",
+    "http://society.people.com.cn/n1/2025/0414/c1008-40459427.html",
     "http://world.people.com.cn/n1/2025/0301/c1002-40428780.html",
     "http://world.people.com.cn/n1/2025/0303/c1002-40429433.html",
     "http://world.people.com.cn/n1/2025/0303/c1002-40429688.html",
@@ -394,6 +430,32 @@
     "http://world.people.com.cn/n1/2025/0414/c1002-40459149.html",
     "http://world.people.com.cn/n1/2025/0414/c1002-40459153.html",
     "http://world.people.com.cn/n1/2025/0414/c1002-40459158.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459162.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459206.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459253.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459265.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459271.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459276.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459287.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459292.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459297.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459310.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459314.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459362.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459365.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459370.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459373.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459374.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459376.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459377.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459378.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459379.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459381.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459384.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459415.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459417.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459418.html",
+    "http://world.people.com.cn/n1/2025/0414/c1002-40459432.html",
     "http://www.chinanews.com.cn/gn/2025/04-03/10394315.shtml",
     "http://www.chinanews.com.cn/gn/2025/04-11/10397994.shtml",
     "http://www.chinanews.com.cn/gn/shipin/cns/2025/04-11/news1017987.shtml",
@@ -421,6 +483,8 @@
     "https://h.xinhuaxmt.com/vh512/share/12492062?d=134ff2c",
     "https://h.xinhuaxmt.com/vh512/share/12492126?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12493004?newstype=1001&homeshow=1",
+    "https://h.xinhuaxmt.com/vh512/share/12493303?newstype=1001&homeshow=1",
+    "https://h.xinhuaxmt.com/vh512/share/12494501?newstype=1001&homeshow=1",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153251",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153275",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153284",
@@ -441,6 +505,8 @@
     "https://news.cctv.com/2025/04/12/ARTIG2HRPPHMA1RiX1etbpPC250412.shtml",
     "https://news.cctv.com/2025/04/12/ARTIlOXFHvUuHaJ6NTGlDBfv250412.shtml",
     "https://news.cctv.com/2025/04/12/ARTIreiRiBKQsDs6wVYMFivP250412.shtml",
+    "https://news.cctv.com/2025/04/13/ARTIX7ttmW9hGGPjJaLq8qFM250413.shtml",
+    "https://news.cctv.com/2025/04/13/ARTIoFmcjYpLiksmgX5e046S250413.shtml",
     "https://news.cnr.cn/dj/sz/20250409/t20250409_527127906.shtml",
     "https://news.cnr.cn/dj/sz/20250409/t20250409_527128503.shtml",
     "https://news.cri.cn/20250411/dbeb8762-c42e-4897-dfb3-2629c7b4f6ce.html",
@@ -449,6 +515,8 @@
     "https://www.chinanews.com.cn/gn/2025/04-09/10397023.shtml",
     "https://www.chinanews.com.cn/gn/shipin/cns/2025/04-04/news1017549.shtml",
     "https://www.chinanews.com.cn/gn/shipin/cns/2025/04-10/news1017918.shtml",
+    "https://www.guancha.cn/JinCanRong/2025_04_14_772028.shtml",
+    "https://www.guancha.cn/MaoKeJi/2025_04_14_772038.shtml",
     "https://www.guancha.cn/MartaBetanzos/2025_04_12_771863.shtml",
     "https://www.guancha.cn/VijayPrashad/2025_04_13_771937.shtml",
     "https://www.guancha.cn/internation/2025_03_28_770052.shtml",
@@ -500,6 +568,24 @@
     "https://www.guancha.cn/internation/2025_04_14_771999.shtml",
     "https://www.guancha.cn/internation/2025_04_14_772003.shtml",
     "https://www.guancha.cn/internation/2025_04_14_772009.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772012.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772015.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772017.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772021.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772024.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772025.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772026.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772030.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772032.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772034.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772035.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772037.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772039.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772044.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772045.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772047.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772050.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772051.shtml",
     "https://www.guancha.cn/politics/2025_03_29_770187.shtml",
     "https://www.guancha.cn/yueyonghuan/2025_04_13_771962.shtml",
     "https://www.peopleapp.com/column/30048702079-500006181794",
@@ -512,6 +598,7 @@
     "https://www.peopleapp.com/column/30048774306-500006196473",
     "https://www.peopleapp.com/column/30048774975-500006196524",
     "https://www.peopleapp.com/column/30048776637-500006196695",
+    "https://www.peopleapp.com/column/30048781826-500006198796",
     "https://www.thepaper.cn/list_25423",
     "https://www.thepaper.cn/list_25424",
     "https://www.thepaper.cn/list_25427",
@@ -767,7 +854,31 @@
     "https://www.thepaper.cn/newsDetail_forward_30640222",
     "https://www.thepaper.cn/newsDetail_forward_30640222?commTag=true",
     "https://www.thepaper.cn/newsDetail_forward_30640225",
-    "https://www.thepaper.cn/newsDetail_forward_30640263"
+    "https://www.thepaper.cn/newsDetail_forward_30640263",
+    "https://www.thepaper.cn/newsDetail_forward_30640647",
+    "https://www.thepaper.cn/newsDetail_forward_30640648",
+    "https://www.thepaper.cn/newsDetail_forward_30640648?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30640702",
+    "https://www.thepaper.cn/newsDetail_forward_30640720",
+    "https://www.thepaper.cn/newsDetail_forward_30640720?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30640748",
+    "https://www.thepaper.cn/newsDetail_forward_30640748?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30640807",
+    "https://www.thepaper.cn/newsDetail_forward_30640957",
+    "https://www.thepaper.cn/newsDetail_forward_30640979",
+    "https://www.thepaper.cn/newsDetail_forward_30640985",
+    "https://www.thepaper.cn/newsDetail_forward_30640985?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30640998",
+    "https://www.thepaper.cn/newsDetail_forward_30640998?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30641010",
+    "https://www.thepaper.cn/newsDetail_forward_30641289",
+    "https://www.thepaper.cn/newsDetail_forward_30641554",
+    "https://www.thepaper.cn/newsDetail_forward_30641562",
+    "https://www.thepaper.cn/newsDetail_forward_30641563",
+    "https://www.thepaper.cn/newsDetail_forward_30641576",
+    "https://www.thepaper.cn/newsDetail_forward_30641740",
+    "https://www.thepaper.cn/newsDetail_forward_30641766",
+    "https://www.thepaper.cn/newsDetail_forward_30641776"
   ],
   "headlines": {
     "2025-04-12": [
@@ -6143,6 +6254,783 @@
         "url": "https://www.guancha.cn/internation/2025_04_14_771992.shtml",
         "source": "Guancha International",
         "date": "2025-04-14 01:18:31"
+      },
+      {
+        "chinese_title": "河内Citywalk：中越美食“互粉记”",
+        "english_title": "Hanoi Citywalk: Chinese and Vietnamese Food &quot;Mutual Fans&quot;",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459432.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:24:58"
+      },
+      {
+        "chinese_title": "第五届消博会主宾国英国：期待加强贸易互利合作",
+        "english_title": "The United Kingdom, the Guest of Honour at the 5th CICGF, looks forward to strengthening mutually beneficial cooperation in trade",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459418.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:24:58"
+      },
+      {
+        "chinese_title": "河内Citywalk：咖啡飘香 中越情长",
+        "english_title": "Hanoi Citywalk: The fragrance of coffee is long in China and Vietnam",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459417.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "特稿丨“切水不断”的友谊代代传——习近平推动中马友好的…",
+        "english_title": "Special Article丨The friendship of &quot;cutting water continuously&quot; has been passed down from generation to generation - Xi Jinping promotes China-Malaysia friendship...",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459415.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "美国宾州州长官邸纵火案嫌疑人被捕",
+        "english_title": "A suspect in the arson of the Pennsylvania governor&#x27;s residence was arrested",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459384.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "斐济南部海域发生6.5级地震",
+        "english_title": "A magnitude 6.5 earthquake struck the southern part of Fiji",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459381.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "苏丹北达尔富尔州一城市遭袭致56人死亡",
+        "english_title": "An attack on a city in Sudan&#x27;s Northern Darfur State killed 56 people",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459379.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "也门胡塞武装称击落一架美军无人机",
+        "english_title": "Yemen&#x27;s Houthi rebels claim to have shot down a U.S. military drone",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459378.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "伊拉克军方打死3名“伊斯兰国”武装分子",
+        "english_title": "The Iraqi military killed three ISIL militants",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459377.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "美国警方称宾州州长官邸遭纵火",
+        "english_title": "U.S. police say the Pennsylvania governor&#x27;s residence was set on fire",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459376.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "以色列拦截一枚胡塞武装发射的导弹",
+        "english_title": "Israel intercepts a missile fired by the Houthis",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459374.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "初步结果显示恩圭马在加蓬总统选举中获胜",
+        "english_title": "Preliminary results show Nguema winning the Gabon presidential election",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459373.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "“人类的记忆——中国世界遗产”摄影展巴黎巡展开幕",
+        "english_title": "The &quot;Memory of Mankind - World Heritage in China&quot; photo exhibition opened in Paris",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459370.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "特稿丨志同道合的好朋友 携手发展的好伙伴——马来西亚各…",
+        "english_title": "Special Article丨Like-minded good friends and good partners for hand in hand development - Malaysia...",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459365.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "高端访谈丨越中关系“在多个领域实现强劲、全面和显著发展…",
+        "english_title": "High-level Interview丨Vietnam-China Relations &quot;Achieve Strong, Comprehensive and Significant Development in Multiple Fields...",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459362.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "“反华神棍”，翻车又断粮",
+        "english_title": "&quot;Anti-China god stick&quot;, overturned and ran out of food",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459314.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "大阪世博会中国馆正式开馆",
+        "english_title": "The China Pavilion at the Osaka World Expo was officially opened",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459310.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "河内Citywalk：中越消费同频共振",
+        "english_title": "Hanoi Citywalk: Consumption in China and Vietnam resonates at the same frequency",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459297.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:25:01"
+      },
+      {
+        "chinese_title": "大阪世博会中国馆开馆",
+        "english_title": "The China Pavilion at the Osaka World Expo opened",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459292.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:25:01"
+      },
+      {
+        "chinese_title": "首届世界人工智能电影节在法国尼斯举行",
+        "english_title": "The first World Artificial Intelligence Film Festival was held in Nice, France",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459287.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:25:01"
+      },
+      {
+        "chinese_title": "大阪世博会中国馆惊艳亮相",
+        "english_title": "The China Pavilion at the Osaka World Expo made a stunning appearance",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459276.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:25:01"
+      },
+      {
+        "chinese_title": "中国人民解放军驻吉布提保障基地首次为驻吉中企员工实施手术",
+        "english_title": "For the first time, the Chinese People&#x27;s Liberation Army support base in Djibouti performed surgery for employees of Chinese enterprises in Djibouti",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459271.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:25:01"
+      },
+      {
+        "chinese_title": "诺沃亚当选厄瓜多尔总统",
+        "english_title": "Noboa was elected president of Ecuador",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459265.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:25:01"
+      },
+      {
+        "chinese_title": "“同志加兄弟”：在胡志明故居感受中越深厚情谊",
+        "english_title": "&quot;Comrades and brothers&quot;: Feel the deep friendship between China and Vietnam at the former residence of Ho Chi Minh",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459206.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:25:02"
+      },
+      {
+        "chinese_title": "数读中越合作成就",
+        "english_title": "Mathematics reads the achievements of Sino-Vietnamese cooperation",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459162.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-14 06:25:02"
+      },
+      {
+        "chinese_title": "和合共生是中国和东南亚各国的共同追求",
+        "english_title": "Harmony and symbiosis are the common pursuit of China and Southeast Asian countries",
+        "url": "http://world.people.com.cn/n1/2025/0414/c1002-40459253.html",
+        "source": "PD International In-depth",
+        "date": "2025-04-14 06:24:58"
+      },
+      {
+        "chinese_title": "培养民政领域高技能人才！两部门首次联合发文",
+        "english_title": "Cultivate high-skilled talents in the field of civil affairs! The two departments jointly issued a document for the first time",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40459427.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:56"
+      },
+      {
+        "chinese_title": "民政部印发《意见》 加大对养老护理员等民政技能人才队伍建设",
+        "english_title": "The Ministry of Civil Affairs issued the &quot;Opinions&quot; to increase the construction of a team of skilled civil affairs personnel such as elderly care workers",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40459419.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:56"
+      },
+      {
+        "chinese_title": "辽宁检察机关依法对徐佐涉嫌受贿、非法经营同类营业案提起公诉",
+        "english_title": "The Liaoning procuratorate prosecuted Xu Zuo on suspicion of accepting bribes and illegally operating similar businesses in accordance with the law",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40459304.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:56"
+      },
+      {
+        "chinese_title": "学法时习之｜守护国家安全，这些知识要牢记",
+        "english_title": "When studying the law, we should keep this knowledge in mind",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40459301.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:56"
+      },
+      {
+        "chinese_title": "学法时习之丨收藏学习！国家安全的20个重点领域",
+        "english_title": "Learn the Fa when you learn it丨Collect and learn! 20 focus areas of national security",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40459260.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:57"
+      },
+      {
+        "chinese_title": "甘肃民乐：祁连山下起苗忙",
+        "english_title": "Gansu folk music: The seedlings are busy under the Qilian Mountain",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40459220.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:57"
+      },
+      {
+        "chinese_title": "是便利还是陷阱？警惕“先用后付”的法律风险",
+        "english_title": "Is it a convenience or a trap? Be wary of the legal risks of &quot;use now, pay later&quot;.",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40459177.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:57"
+      },
+      {
+        "chinese_title": "内蒙古华北黄淮等地仍有大风 4月16日后南方多降雨",
+        "english_title": "There are still strong winds in Inner Mongolia, North China, Huanghuai and other places, and there will be more rain in the south after April 16",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40459140.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:57"
+      },
+      {
+        "chinese_title": "刷视频找工作靠谱吗？——聚焦“直播带岗”就业新模式",
+        "english_title": "Is it reliable to find a job by watching videos? -- Focus on the new employment model of &quot;live broadcast with jobs&quot;.",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40459115.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:57"
+      },
+      {
+        "chinese_title": "内蒙古华北黄淮等地仍有大风 16日后南方多降雨",
+        "english_title": "There are still strong winds in Inner Mongolia, North China, Huanghuai and other places, and there will be more rain in the south after the 16th",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40459105.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:58"
+      },
+      {
+        "chinese_title": "青海贵德：黄河岸畔春意浓",
+        "english_title": "Qinghai Guide: Spring is strong on the banks of the Yellow River",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40459097.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:58"
+      },
+      {
+        "chinese_title": "春日泛舟好休闲",
+        "english_title": "Spring boating is good for leisure",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40459043.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:58"
+      },
+      {
+        "chinese_title": "山西灵丘：科技小院“扎”在田间地头",
+        "english_title": "Lingqiu, Shanxi: The science and technology courtyard is &quot;rooted&quot; in the field",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40459029.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:58"
+      },
+      {
+        "chinese_title": "河南中牟：紧扣体验经济 激活消费市场",
+        "english_title": "Henan Zhongmu: Closely follow the experience economy and activate the consumer market",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40459021.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:58"
+      },
+      {
+        "chinese_title": "重庆北碚：“家文化”润得社区生活更美好",
+        "english_title": "Beibei, Chongqing: &quot;Family Culture&quot; makes community life better",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40459016.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:58"
+      },
+      {
+        "chinese_title": "智慧交通标准化试点项目推出",
+        "english_title": "The pilot project of smart transportation standardization was launched",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40458835.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "一季度国家铁路发送货物9.7亿吨",
+        "english_title": "In the first quarter, the national railway sent 970 million tons of goods",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40458834.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "新能源车投保难？这个平台能解决（信息服务台）",
+        "english_title": "Is it difficult to insure new energy vehicles? This platform can solve the problem (information help desk)",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40458833.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "看，三星堆文物如何“开口说话”（深阅读·文化和科技融合）",
+        "english_title": "Look, how Sanxingdui cultural relics &quot;speak&quot; (deep reading, integration of culture and technology)",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40458831.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "为大风中的外卖骑手系上“安全带”（民生观）",
+        "english_title": "Fasten a &quot;seat belt&quot; for delivery riders in strong winds (People&#x27;s Livelihood Concept)",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40458830.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "14级狂风中的紧急救援（在现场）",
+        "english_title": "Emergency rescue in a force 14 squal wind (on site)",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40458829.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "各地全力应对大风天气",
+        "english_title": "All localities are fully prepared for windy weather",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40458828.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "五位院士回答网友提问（讲述·弘扬科学家精神（100期特别策划））",
+        "english_title": "Five academicians answer questions from netizens (narrating and promoting the spirit of scientists (100 special plans))",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40458820.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "跑好科技创新的接力棒",
+        "english_title": "Run the baton of scientific and technological innovation",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40458819.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "村规民约树新风（金台视线·推进农村移风易俗（中））",
+        "english_title": "Village Rules and People&#x27;s Covenant to Establish a New Wind (Jintai Vision: Promoting Rural Changing Customs (Middle))",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40458818.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "巧用约定除旧俗（大家谈）",
+        "english_title": "Clever use of conventions to get rid of old customs (let&#x27;s talk)",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40458817.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "耕地被河水冲毁 亟须治理（身边事）",
+        "english_title": "Farmland washed away by rivers and urgently needs to be treated (side affairs)",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40458816.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "下架相关产品 调查涉事企业（反馈）",
+        "english_title": "Removal of related products Investigation of the companies involved (feedback)",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40458815.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:25:01"
+      },
+      {
+        "chinese_title": "彩礼宴席“限高”  礼轻情分重了（链接）",
+        "english_title": "The bride price banquet &quot;height limit&quot; is light and heavy (link)",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40458814.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:25:01"
+      },
+      {
+        "chinese_title": "成立家宴中心  酒席成本降了（链接）",
+        "english_title": "Set up a family banquet center and the cost of banquets has been reduced (link)",
+        "url": "http://society.people.com.cn/n1/2025/0414/c1008-40458813.html",
+        "source": "PD Society",
+        "date": "2025-04-14 06:25:01"
+      },
+      {
+        "chinese_title": "一季度我国与共建“一带一路”国家货物贸易规模再创历史同期新高",
+        "english_title": "In the first quarter, the scale of China&#x27;s trade in goods with the countries of the Belt and Road Initiative hit a new high in the same period in history",
+        "url": "http://finance.people.com.cn/n1/2025/0414/c1004-40459359.html",
+        "source": "PD Economy",
+        "date": "2025-04-14 06:24:56"
+      },
+      {
+        "chinese_title": "海关总署：一季度出口规模突破6万亿元 在压力下展现较强韧性",
+        "english_title": "General Administration of Customs: The export scale exceeded 6 trillion yuan in the first quarter, showing strong resilience under pressure",
+        "url": "http://finance.people.com.cn/n1/2025/0414/c1004-40459354.html",
+        "source": "PD Economy",
+        "date": "2025-04-14 06:24:56"
+      },
+      {
+        "chinese_title": "2025年外贸优品中华行在海南启动",
+        "english_title": "In 2025, the China Bank of Foreign Trade Premium will be launched in Hainan",
+        "url": "http://finance.people.com.cn/n1/2025/0414/c1004-40459353.html",
+        "source": "PD Economy",
+        "date": "2025-04-14 06:24:56"
+      },
+      {
+        "chinese_title": "平稳开局！一季度我国货物贸易进出口同比增长1.3%",
+        "english_title": "Smooth start! In the first quarter, China&#x27;s import and export of goods increased by 1.3% year-on-year",
+        "url": "http://finance.people.com.cn/n1/2025/0414/c1004-40459348.html",
+        "source": "PD Economy",
+        "date": "2025-04-14 06:24:56"
+      },
+      {
+        "chinese_title": "商务部等6部门启动“购在中国”系列活动",
+        "english_title": "Six departments, including the Ministry of Commerce, launched a series of activities called &quot;Shopping in China&quot;.",
+        "url": "http://finance.people.com.cn/n1/2025/0414/c1004-40459306.html",
+        "source": "PD Economy",
+        "date": "2025-04-14 06:24:56"
+      },
+      {
+        "chinese_title": "百年骑楼邂逅英伦风 消博会“食”光架起文化桥",
+        "english_title": "A century-old arcade meets a British style The &quot;food&quot; light of the Consumer Expo builds a cultural bridge",
+        "url": "http://finance.people.com.cn/n1/2025/0414/c1004-40459240.html",
+        "source": "PD Economy",
+        "date": "2025-04-14 06:24:57"
+      },
+      {
+        "chinese_title": "民政部：当前存在养老服务技能人才总量不足、高层次人才短缺等问题",
+        "english_title": "Ministry of Civil Affairs: At present, there are problems such as the shortage of skilled talents in pension services and the shortage of high-level talents",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30641562",
+        "source": "Paper China Government",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "第一观察丨读懂构建新发展格局的产业支撑",
+        "english_title": "First observation丨Understand the industrial support for building a new development pattern",
+        "url": "https://h.xinhuaxmt.com/vh512/share/12493303?newstype=1001&homeshow=1",
+        "source": "Paper China Government",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "民政部：截至目前各类养老机构和设施总数达40.6万个",
+        "english_title": "Ministry of Civil Affairs: Up to now, the total number of various pension institutions and facilities has reached 406,000",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30641576",
+        "source": "Paper China Government",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "西藏著名歌唱家、《北京的金山上》首唱者雍西逝世，享年78岁",
+        "english_title": "Yongxi, a famous Tibetan singer and the first singer of &quot;On the Golden Mountain in Beijing&quot;, passed away at the age of 78",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30641289",
+        "source": "Paper China Government",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "民政部：截至3月底婚姻登记“跨省通办”累计办理超51万对",
+        "english_title": "Ministry of Civil Affairs: As of the end of March, more than 510,000 couples have been handled for marriage registration",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30641010",
+        "source": "Paper China Government",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "民政部：截至2月底农村低保平均标准达到每人每月594元",
+        "english_title": "Ministry of Civil Affairs: As of the end of February, the average standard of rural subsistence allowance reached 594 yuan per person per month",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30640979",
+        "source": "Paper China Government",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "如何让民政高技能人才站上“C位”？民政部答澎湃",
+        "english_title": "How to let high-skilled talents in civil affairs stand in the &quot;C position&quot;? The Ministry of Civil Affairs replied",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30640957",
+        "source": "Paper China Government",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "河北最新常住人口数据出炉：扣除自然增长后净流入2万人",
+        "english_title": "Hebei&#x27;s latest permanent population data is released: a net inflow of 20,000 people after deducting natural growth",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30640748",
+        "source": "Paper China Government",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "12",
+        "english_title": "12",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30640748?commTag=true",
+        "source": "Paper China Government",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "海南省拟出台育儿补贴办法，探索设置中小学春秋假",
+        "english_title": "Hainan Province plans to introduce childcare subsidy measures and explore the establishment of spring and autumn holidays for primary and secondary schools",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30640807",
+        "source": "Paper China Government",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "从学徒工到首席技师，养老服务技能人才职业技能等级认定来了",
+        "english_title": "From apprentices to chief technicians, the recognition of the vocational skill level of senior service skilled talents is coming",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30640702",
+        "source": "Paper China Government",
+        "date": "2025-04-14 06:25:01"
+      },
+      {
+        "chinese_title": "我国工业领域大规模设备更新加速推进",
+        "english_title": "China&#x27;s industrial field large-scale equipment renewal is accelerating",
+        "url": "https://news.cctv.com/2025/04/13/ARTIX7ttmW9hGGPjJaLq8qFM250413.shtml",
+        "source": "Paper China Government",
+        "date": "2025-04-14 06:25:01"
+      },
+      {
+        "chinese_title": "【锲而不舍落实中央八项规定精神】各地扎实推动学习教育见行见效",
+        "english_title": "[Perseverance in implementing the spirit of the eight provisions of the central government] All localities have solidly promoted learning and education, and achieved results",
+        "url": "https://news.cctv.com/2025/04/13/ARTIoFmcjYpLiksmgX5e046S250413.shtml",
+        "source": "Paper China Government",
+        "date": "2025-04-14 06:25:01"
+      },
+      {
+        "chinese_title": "中国商飞领导班子再调整：70后吴文生已任副总经理",
+        "english_title": "COMAC&#x27;s leadership team has been readjusted: Wu Wensheng, who was born in the 70s, has been appointed deputy general manager",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30641554",
+        "source": "Paper Personnel Trends",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "舞蹈家黄豆豆，拟破格提拔为副局级干部",
+        "english_title": "Dancer Huang Doudou plans to be promoted to a deputy director-level cadre",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30640985",
+        "source": "Paper Personnel Trends",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "28",
+        "english_title": "28",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30640985?commTag=true",
+        "source": "Paper Personnel Trends",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "安徽淮南市委常委、宣传部长邬平川出任合肥大学党委书记",
+        "english_title": "Wu Pingchuan, member of the Standing Committee of the Huainan Municipal Party Committee and Minister of Propaganda of Anhui Province, served as Secretary of the Party Committee of Hefei University",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30640647",
+        "source": "Paper Personnel Trends",
+        "date": "2025-04-14 06:24:59"
+      },
+      {
+        "chinese_title": "中信集团原副总经理徐佐被提起公诉",
+        "english_title": "Xu Zuo, the former deputy general manager of CITIC Group, was prosecuted",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30640720",
+        "source": "Paper Project No1",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "12",
+        "english_title": "12",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30640720?commTag=true",
+        "source": "Paper Project No1",
+        "date": "2025-04-14 06:25:00"
+      },
+      {
+        "chinese_title": "一见·听！这三首歌，有邻居心中的中国印象",
+        "english_title": "See and listen! These three songs have the impression of China in the hearts of neighbors",
+        "url": "https://www.peopleapp.com/column/30048781826-500006198796",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-14 06:25:01"
+      },
+      {
+        "chinese_title": "中共中央总书记、国家主席习近平抵达河内，开始对越南进行国事访问",
+        "english_title": "Xi Jinping, General Secretary of the CPC Central Committee and President of the People&#x27;s Republic of China, arrived in Hanoi to begin his state visit to Vietnam",
+        "url": "https://h.xinhuaxmt.com/vh512/share/12494501?newstype=1001&homeshow=1",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-14 06:25:01"
+      },
+      {
+        "chinese_title": "投喂了月余的流浪金毛犬追咬人，岳阳男子被判赔1.6万余元",
+        "english_title": "The stray golden retriever dog who had been fed for more than a month chased and bitten people, and the Yueyang man was sentenced to pay more than 16,000 yuan",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30641766",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-14 06:25:02"
+      },
+      {
+        "chinese_title": "浙江仙居警方通报车辆涉水游玩被困：两名女子抢救无效死亡",
+        "english_title": "Zhejiang Xianju police reported that the vehicle was trapped in the water and playing: two women died after rescue failed",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30641776",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-14 06:25:02"
+      },
+      {
+        "chinese_title": "浙江仙居一辆越野车涉水被冲走两人遇难？当地多部门回应",
+        "english_title": "An off-road vehicle in Xianju, Zhejiang was washed away by wading in the water, and two people were killed? Local multi-agency response",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30641740",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-14 06:25:02"
+      },
+      {
+        "chinese_title": "163岁机车老炮儿张金成去世，疑似意外摔车",
+        "english_title": "Zhang Jincheng, a 163-year-old locomotive veteran, died, suspected of accidentally falling into a car",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30641563",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-14 06:25:02"
+      },
+      {
+        "chinese_title": "浙江丽水一小区8楼承重墙被凿续：技术报告建议加固处理，业主提异议",
+        "english_title": "The load-bearing wall on the 8th floor of a community in Lishui, Zhejiang Province was chiseled: the technical report suggested reinforcement, and the owner raised objections",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30640998",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-14 06:25:02"
+      },
+      {
+        "chinese_title": "12",
+        "english_title": "12",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30640998?commTag=true",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-14 06:25:02"
+      },
+      {
+        "chinese_title": "“司机泄愤撞死一家三口案”15日开庭，媒体回访事故现场",
+        "english_title": "The case of &quot;the driver venting his anger and killing a family of three&quot; was held on the 15th, and the media visited the scene of the accident",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30640648",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-14 06:25:03"
+      },
+      {
+        "chinese_title": "141",
+        "english_title": "141",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30640648?commTag=true",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-14 06:25:03"
+      },
+      {
+        "chinese_title": "“如果关税战长期持续，相当数量的美国农民将破产”",
+        "english_title": "&quot;If the tariff war lasts for a long time, a significant number of American farmers will go bankrupt&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772051.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:03"
+      },
+      {
+        "chinese_title": "习近平抵达越南河内内排国际机场发表书面讲话",
+        "english_title": "Xi Jinping arrived at Noi Bai International Airport in Hanoi, Vietnam, to deliver a written speech",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772050.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:03"
+      },
+      {
+        "chinese_title": "习近平抵达越南河内",
+        "english_title": "Xi Jinping arrives in Hanoi, Vietnam",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772047.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:03"
+      },
+      {
+        "chinese_title": "美业界“喊疼”：请中方“收回成命”",
+        "english_title": "The U.S. industry &quot;cries out for pain&quot;: asks China to &quot;take back its fate&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772045.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:04"
+      },
+      {
+        "chinese_title": "习近平将抵达越南首都河内",
+        "english_title": "Xi Jinping will arrive in Hanoi, the capital of Vietnam",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772044.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:04"
+      },
+      {
+        "chinese_title": "中美贸易领域是否存在脱钩可能？官方回应",
+        "english_title": "Is there a possibility of decoupling from the trade between China and the United States? Official response",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772039.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:04"
+      },
+      {
+        "chinese_title": "印度自己搞砸了制造业，还好意思怪中国？",
+        "english_title": "India has messed up the manufacturing industry itself, and is it embarrassing to blame China?",
+        "url": "https://www.guancha.cn/MaoKeJi/2025_04_14_772038.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:04"
+      },
+      {
+        "chinese_title": "“还跟我提投资？等美国稳定了再说吧”",
+        "english_title": "&quot;Still invest with me? Let&#x27;s wait until the United States is stable.&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772037.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:04"
+      },
+      {
+        "chinese_title": "海关总署：暂停3家美企输华资质",
+        "english_title": "General Administration of Customs: Suspend the qualifications of 3 US companies to export to China",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772035.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:04"
+      },
+      {
+        "chinese_title": "日本发布地震预估或致29.8万人死亡，我大使馆提醒",
+        "english_title": "Japan released an earthquake estimate that 298,000 people may die, our embassy reminded",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772034.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:04"
+      },
+      {
+        "chinese_title": "一季度我国进口为何下降？海关总署回应",
+        "english_title": "Why did China&#x27;s imports decline in the first quarter? The General Administration of Customs responded",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772032.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:05"
+      },
+      {
+        "chinese_title": "“你是写了《交易的艺术》，但中国人写了‘战争的艺术’”",
+        "english_title": "&quot;You wrote &#x27;The Art of Trading&#x27;, but the Chinese wrote &#x27;The Art of War&#x27;&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772030.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:05"
+      },
+      {
+        "chinese_title": "应对特朗普对华关税战，要把中国周边打造成“稳定岛”",
+        "english_title": "In response to Trump&#x27;s tariff war with China, it is necessary to turn China&#x27;s neighborhood into an &quot;island of stability&quot;",
+        "url": "https://www.guancha.cn/JinCanRong/2025_04_14_772028.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:05"
+      },
+      {
+        "chinese_title": "乌克兰这下有戏了？",
+        "english_title": "Is there a drama in Ukraine now?",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772026.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:05"
+      },
+      {
+        "chinese_title": "韩国民调：总统人选支持率李在明48.8%领跑",
+        "english_title": "South Korean poll: Lee Jae-myung leads the presidential candidate with 48.8%.",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772025.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:05"
+      },
+      {
+        "chinese_title": "鸡蛋说明美国市场经济原理变了，高度垄断，关税战马上引发大通胀",
+        "english_title": "The egg shows that the principle of the market economy in the United States has changed, with a high degree of monopoly, and the tariff war will immediately trigger big inflation",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772024.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:05"
+      },
+      {
+        "chinese_title": "俄副外长：中国需要多少石油，俄罗斯就准备供应多少",
+        "english_title": "Russian Deputy Foreign Minister: Russia is ready to supply as much oil as China needs",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772021.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:06"
+      },
+      {
+        "chinese_title": "特朗普对华贸易战注定失败，原因如下↓",
+        "english_title": "Trump&#x27;s trade war with China is doomed to fail for the following reasons↓",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772017.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:06"
+      },
+      {
+        "chinese_title": "被马斯克骂“傻蛋”后，纳瓦罗：我们关系很好",
+        "english_title": "After being called a &quot;fool&quot; by Musk, Navarro: We have a good relationship",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772015.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:06"
+      },
+      {
+        "chinese_title": "朝令夕改！“没人知道特朗普五天后的规定是啥样”",
+        "english_title": "The order changes! &quot;No one knows what Trump&#x27;s rules will look like in five days&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772012.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 06:25:06"
       }
     ]
   }
