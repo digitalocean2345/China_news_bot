@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-14T10:14:13.069726+00:00",
+  "last_run": "2025-04-14T10:33:08.511105+00:00",
   "processed_urls": [
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426219.html",
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426221.html",
@@ -2680,7 +2680,9 @@
     "https://www.thepaper.cn/newsDetail_forward_30642153?commTag=true",
     "https://www.thepaper.cn/newsDetail_forward_30642326",
     "https://www.thepaper.cn/newsDetail_forward_30642401",
-    "https://www.thepaper.cn/newsDetail_forward_30642783"
+    "https://www.thepaper.cn/newsDetail_forward_30642783",
+    "https://www.thepaper.cn/newsDetail_forward_30642967",
+    "https://www.thepaper.cn/newsDetail_forward_30643062"
   ],
   "headlines": {
     "2025-04-12": [
@@ -21447,6 +21449,20 @@
         "url": "https://www.globaltimes.cn/page/202409/1319735.shtml",
         "source": "GT Indepth",
         "date": "2025-04-14 10:14:13"
+      },
+      {
+        "chinese_title": "二十届中央第四轮巡视完成反馈",
+        "english_title": "The fourth round of inspections of the 20th Central Committee has been completed",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30643062",
+        "source": "Paper China Government",
+        "date": "2025-04-14 10:33:02"
+      },
+      {
+        "chinese_title": "地基基础工程专家刘金砺逝世，曾主编新中国第一部《建筑桩基技术规范》",
+        "english_title": "Liu Jinli, an expert in foundation engineering, passed away, and he was the chief editor of the first &quot;Technical Code for Building Pile Foundation&quot; in New China",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30642967",
+        "source": "Paper China Government",
+        "date": "2025-04-14 10:33:02"
       }
     ]
   }

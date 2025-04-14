@@ -28,7 +28,7 @@ def scrape_site(site_name, url, processed_urls_set):
         selector = SITE_SELECTORS.get(site_name)
         
         # --- Add this Debugging line ---
-        print(f"DEBUG: For site '{site_name}', selector type is {type(selector)}, value is: {selector}")
+        #print(f"DEBUG: For site '{site_name}', selector type is {type(selector)}, value is: {selector}")
         # --- End Debugging line ---
 
         if not selector:
@@ -57,7 +57,35 @@ def scrape_site(site_name, url, processed_urls_set):
             # Check if URL has already been processed
             if full_url not in processed_urls_set:
                 logging.info(f"Found new item from {site_name}: {chinese_title[:50]}... ({full_url})")
-                english_title = translate_text(chinese_title) # Use imported function
+
+                # Conditional Translation
+                needs_translation = True  # Assume all these websites need translation
+                # If you have specific English websites, you can add them here
+                english_websites = ["GT China Politics",
+                                    "GT China Society",
+                                    "GT China Diplomacy",
+                                    "GT China Military",
+                                    "GT China Science",
+                                    "GT Source Voice",
+                                    "GT Source Insight",
+                                    "GT Source Ecomony",
+                                    "GT Source Comments",
+                                    "GT Opinion Editorial",
+                                    "GT Opinion Observer",
+                                    "GT Opinion Asian Review",
+                                    "GT Opinion Toptalk",
+                                    "GT Opinion Viewpoint",
+                                    "GT Indepth"] # Add the names of your English websites here
+    
+                if site_name in english_websites:
+                    needs_translation = False
+                    logging.info(f" {site_name} doesnot need translation)")
+                if needs_translation:
+                    english_title = translate_text(chinese_title)
+                else:
+                    english_title = chinese_title
+
+                #english_title = translate_text(chinese_title) # Use imported function
 
                 # Escape titles for HTML safety in Telegram message
                 safe_english_title = html.escape(english_title) if english_title else "[Translation Error]"
