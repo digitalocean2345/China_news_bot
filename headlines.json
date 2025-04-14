@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-14T14:45:59.418518+00:00",
+  "last_run": "2025-04-14T14:53:18.564401+00:00",
   "processed_urls": [
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426219.html",
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426221.html",
@@ -2395,6 +2395,7 @@
     "https://www.guancha.cn/internation/2025_04_14_772128.shtml",
     "https://www.guancha.cn/internation/2025_04_14_772132.shtml",
     "https://www.guancha.cn/internation/2025_04_14_772136.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772139.shtml",
     "https://www.guancha.cn/politics/2025_03_29_770187.shtml",
     "https://www.guancha.cn/yueyonghuan/2025_04_13_771962.shtml",
     "https://www.guancha.cn/yupengkun/2025_04_14_772058.shtml",
@@ -21823,6 +21824,13 @@
         "url": "https://www.globaltimes.cn/page/202504/1332087.shtml",
         "source": "GT Indepth",
         "date": "2025-04-14 14:45:46"
+      },
+      {
+        "chinese_title": "“抛售美债是对美国经济政策丧失信心”",
+        "english_title": "&quot;The sell-off of US bonds is a loss of confidence in US economic policy&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772139.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 14:53:15"
       }
     ]
   }
