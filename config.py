@@ -36,7 +36,22 @@ WEBSITES = {
     "Paper exclusive reports": "https://www.thepaper.cn/list_25427",
     "Paper public opinion": "https://www.thepaper.cn/list_25489",
     "Guancha International": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/list_1.shtml",
-    "Guancha Chinese Diplomacy": "https://www.guancha.cn/ZhongGuoWaiJiao/list_1.shtml"
+    "Guancha Chinese Diplomacy": "https://www.guancha.cn/ZhongGuoWaiJiao/list_1.shtml",
+    "GT China Politics": "https://www.globaltimes.cn/china/politics/index.html",
+    "GT China Society": "https://www.globaltimes.cn/china/society/index.html",
+    "GT China Diplomacy": "https://www.globaltimes.cn/china/diplomacy/index.html",
+    "GT China Military": "https://www.globaltimes.cn/china/military/index.html",
+    "GT China Science": "https://www.globaltimes.cn/china/science/index.html",
+    "GT Source Voice": "https://www.globaltimes.cn/source/gt-voice/index.html",
+    "GT Source Insight": "https://www.globaltimes.cn/source/insight/index.html",
+    "GT Source Ecomony": "https://www.globaltimes.cn/source/economy/index.html",
+    "GT Source Comments": "https://www.globaltimes.cn/source/comments/index.html",
+    "GT Opinion Editorial": "https://www.globaltimes.cn/opinion/editorial/index.html",
+    "GT Opinion Observer": "https://www.globaltimes.cn/opinion/observer/index.html",
+    "GT Opinion Asian Review": "https://www.globaltimes.cn/opinion/asian-review/index.html",
+    "GT Opinion Toptalk": "https://www.globaltimes.cn/opinion/top-talk/index.html",
+    "GT Opinion Viewpoint": "https://www.globaltimes.cn/opinion/viewpoint/index.html",
+    "GT Indepth":"https://www.globaltimes.cn/In-depth/index.html",
 }
 
 # --- CSS Selectors ---
@@ -46,6 +61,7 @@ PD_WORLD_SELECTOR = 'div.ej_bor a[href*="/n1/"]'
 PD_SOC_ECO_SELECTOR = 'div.ej_list_box a[href*="/n1/"]'
 PAPER_SELECTOR = 'a.index_inherit__A1ImK[target="_blank"]:not(.index_listcontentbot__92p4_ a)' # Common selector for The Paper
 GUANCHA_SELECTOR = 'h4.module-title a'
+GT_SELECTOR = 'a.new_title_ms,div.common_title a,a.new_title_ml'
 
 
 SITE_SELECTORS = {
@@ -64,7 +80,22 @@ SITE_SELECTORS = {
     "Paper exclusive reports": PAPER_SELECTOR,
     "Paper public opinion": PAPER_SELECTOR,
     "Guancha International": GUANCHA_SELECTOR,
-    "Guancha Chinese Diplomacy": GUANCHA_SELECTOR
+    "Guancha Chinese Diplomacy": GUANCHA_SELECTOR,
+    "GT China Politics": GT_SELECTOR,
+    "GT China Society": GT_SELECTOR,
+    "GT China Diplomacy": GT_SELECTOR,
+    "GT China Military": GT_SELECTOR,
+    "GT China Science": GT_SELECTOR,
+    "GT Source Voice": GT_SELECTOR,
+    "GT Source Insight": GT_SELECTOR,
+    "GT Source Ecomony": GT_SELECTOR,
+    "GT Source Comments": GT_SELECTOR,
+    "GT Opinion Editorial": GT_SELECTOR,
+    "GT Opinion Observer": GT_SELECTOR,
+    "GT Opinion Asian Review": GT_SELECTOR,
+    "GT Opinion Toptalk": GT_SELECTOR,
+    "GT Opinion Viewpoint": GT_SELECTOR,
+    "GT Indepth":GT_SELECTOR,
 }
 
 # --- Validation (Optional but Recommended) ---
