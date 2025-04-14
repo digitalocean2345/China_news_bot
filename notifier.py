@@ -120,6 +120,21 @@ async def send_telegram_messages(bot: Bot, chat_id: str, messages: list):
     """Sends a list of messages to Telegram, handling potential errors."""
     if not messages:
         logging.info("No messages to send.")
+        try:
+            await bot.send_message(
+                chat_id=chat_id,
+                text="No new headline",
+                parse_mode=ParseMode.HTML,
+                disable_web_page_preview=True
+            )
+            logging.debug("Successfully sent 'No new headline' message.")
+        except BadRequest as e:
+            logging.error(f"Telegram Bad Request error sending 'No new headline': {e}")
+        except TelegramError as e:
+            logging.error(f"Telegram API error sending 'No new headline': {e}")
+        except Exception as e:
+            logging.error(f"Unexpected error sending 'No new headline': {e}", exc_info=True)
+
         return
 
     for i, message in enumerate(messages, 1):

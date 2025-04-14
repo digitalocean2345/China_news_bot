@@ -6,8 +6,8 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # --- Parameters ---
-url_to_inspect = "https://opinion.huanqiu.com/editorial"
-selector_to_check = '.csr_sketch_txt_3 .item' # Keep selector for optional check
+url_to_inspect = "https://www.thepaper.cn/list_122903"
+selector_to_check = 'a.index_inherit__A1ImK[target="_blank"]:not(.index_listcontentbot__92p4_ a)' # Keep selector for optional check
 REQUESTS_TIMEOUT = 15
 # ------------------
 
@@ -59,7 +59,7 @@ try:
     match_count = len(elements_found)
     print(f"\nINFO: Found {match_count} element(s) matching selector '{selector_to_check}' within this source.")
 
-
+    print(response.text)
 except requests.exceptions.Timeout:
     logging.error(f"Timeout error requesting {url_to_inspect}")
     print(f"ERROR: Timeout occurred when requesting the URL.")

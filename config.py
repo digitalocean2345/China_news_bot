@@ -76,7 +76,7 @@ ENGLISH_WEBSITES = ["GT China Politics",
 PD_RENMIN_SELECTOR = 'div.fl a[href*="/n1/"]'
 PD_WORLD_SELECTOR = 'div.ej_bor a[href*="/n1/"]'
 PD_SOC_ECO_SELECTOR = 'div.ej_list_box a[href*="/n1/"]'
-PAPER_SELECTOR = 'a.index_inherit__A1ImK[target="_blank"]:not(.index_listcontentbot__92p4_ a)' # Common selector for The Paper
+PAPER_SELECTOR = 'div.small_toplink__GmZhY > a.index_inherit__A1ImK[target="_blank"]' # Common selector for The Paper
 GUANCHA_SELECTOR = 'h4.module-title a'
 GT_SELECTOR = 'a.new_title_ms,div.common_title a,a.new_title_ml'
 
