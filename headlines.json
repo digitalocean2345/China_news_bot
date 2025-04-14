@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-14T10:48:31.342329+00:00",
+  "last_run": "2025-04-14T12:33:14.131486+00:00",
   "processed_urls": [
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426219.html",
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426221.html",
@@ -132,6 +132,8 @@
     "http://finance.people.com.cn/n1/2025/0414/c1004-40459543.html",
     "http://finance.people.com.cn/n1/2025/0414/c1004-40459607.html",
     "http://finance.people.com.cn/n1/2025/0414/c1004-40459663.html",
+    "http://finance.people.com.cn/n1/2025/0414/c1004-40459677.html",
+    "http://finance.people.com.cn/n1/2025/0414/c1004-40459678.html",
     "http://finance.people.com.cn/n1/2025/0414/c70846-40459522.html",
     "http://renshi.people.com.cn/n1/2025/0226/c139617-40426395.html",
     "http://renshi.people.com.cn/n1/2025/0228/c139617-40428020.html",
@@ -483,6 +485,7 @@
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=10127645188733961989&toc_style_id=feeds_default&share_to=copy_url&track_id=1a4e032b-11a4-466c-bd1c-de47411b4b67",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=13929386643130730237&toc_style_id=feeds_default&track_id=BF88E126-B470-4F4B-9F08-AFBC265334D7_765814460935&share_to=copy_url",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=17077813856392055754&t=1744547799348&toc_style_id=feeds_default&share_to=wechat&track_id=f106f39f-580f-4772-824a-1064138c3322",
+    "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=3356265618710870258&t=1744629664867&toc_style_id=feeds_default&track_id=B21D9D8F-E2FC-4546-8D6E-4980D47C1CD1_766323385044&share_to=copy_url",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=497890627906580205&toc_style_id=feeds_default&share_to=copy_url&track_id=49a57866-6988-4bc5-a1fa-c9be8ae65a30",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=7108938998401040194&toc_style_id=feeds_default&track_id=4ACCFFBC-B179-4C4B-9DC1-480C5623FADD_766021516625&share_to=copy_url",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=7590608488211105339&t=1744331191992&toc_style_id=feeds_default&track_id=A7192971-2B99-455D-9957-92E74084A75E_766025325890&share_to=copy_url",
@@ -509,6 +512,7 @@
     "https://h.xinhuaxmt.com/vh512/share/12493303?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12493813?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12493968?newstype=1001&homeshow=1",
+    "https://h.xinhuaxmt.com/vh512/share/12493998?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12494501?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12494529?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12495051?newstype=1001&homeshow=1",
@@ -2279,6 +2283,7 @@
     "https://www.globaltimes.cn/page/202504/1332071.shtml",
     "https://www.globaltimes.cn/page/202504/1332072.shtml",
     "https://www.globaltimes.cn/page/202504/1332073.shtml",
+    "https://www.globaltimes.cn/page/202504/1332074.shtml",
     "https://www.globaltimes.cn/special-coverage/Two-Sessions-2025/index.html",
     "https://www.guancha.cn/JinCanRong/2025_04_14_772028.shtml",
     "https://www.guancha.cn/MaoKeJi/2025_04_14_772038.shtml",
@@ -2372,6 +2377,10 @@
     "https://www.guancha.cn/internation/2025_04_14_772106.shtml",
     "https://www.guancha.cn/internation/2025_04_14_772108.shtml",
     "https://www.guancha.cn/internation/2025_04_14_772109.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772113.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772120.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772124.shtml",
+    "https://www.guancha.cn/internation/2025_04_14_772125.shtml",
     "https://www.guancha.cn/politics/2025_03_29_770187.shtml",
     "https://www.guancha.cn/yueyonghuan/2025_04_13_771962.shtml",
     "https://www.guancha.cn/yupengkun/2025_04_14_772058.shtml",
@@ -2673,11 +2682,13 @@
     "https://www.thepaper.cn/newsDetail_forward_30641771",
     "https://www.thepaper.cn/newsDetail_forward_30641771?commTag=true",
     "https://www.thepaper.cn/newsDetail_forward_30641776",
+    "https://www.thepaper.cn/newsDetail_forward_30641776?commTag=true",
     "https://www.thepaper.cn/newsDetail_forward_30641932",
     "https://www.thepaper.cn/newsDetail_forward_30641963",
     "https://www.thepaper.cn/newsDetail_forward_30641963?commTag=true",
     "https://www.thepaper.cn/newsDetail_forward_30641982",
     "https://www.thepaper.cn/newsDetail_forward_30641996",
+    "https://www.thepaper.cn/newsDetail_forward_30641996?commTag=true",
     "https://www.thepaper.cn/newsDetail_forward_30642072",
     "https://www.thepaper.cn/newsDetail_forward_30642097",
     "https://www.thepaper.cn/newsDetail_forward_30642117",
@@ -2689,8 +2700,16 @@
     "https://www.thepaper.cn/newsDetail_forward_30642783",
     "https://www.thepaper.cn/newsDetail_forward_30642931",
     "https://www.thepaper.cn/newsDetail_forward_30642967",
+    "https://www.thepaper.cn/newsDetail_forward_30642967?commTag=true",
     "https://www.thepaper.cn/newsDetail_forward_30642971",
-    "https://www.thepaper.cn/newsDetail_forward_30643062"
+    "https://www.thepaper.cn/newsDetail_forward_30643062",
+    "https://www.thepaper.cn/newsDetail_forward_30643062?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30643063",
+    "https://www.thepaper.cn/newsDetail_forward_30643063?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30643075",
+    "https://www.thepaper.cn/newsDetail_forward_30643084?commTag=true",
+    "https://www.thepaper.cn/newsDetail_forward_30643223",
+    "https://www.thepaper.cn/newsDetail_forward_30643239"
   ],
   "headlines": {
     "2025-04-12": [
@@ -21527,6 +21546,139 @@
         "url": "https://www.globaltimes.cn/page/202504/1332073.shtml",
         "source": "GT China Diplomacy",
         "date": "2025-04-14 10:48:27"
+      },
+      {
+        "chinese_title": "促进实体经济健康发展 金融资产管理公司迎监管新规",
+        "english_title": "Promote the healthy development of the real economy Financial asset management companies welcome the new regulatory regulations",
+        "url": "http://finance.people.com.cn/n1/2025/0414/c1004-40459677.html",
+        "source": "PD Economy",
+        "date": "2025-04-14 12:32:57"
+      },
+      {
+        "chinese_title": "支持实体经济力度稳固 一季度人民币贷款增加超9万亿元",
+        "english_title": "Solid support for the real economy RMB loans increased by more than 9 trillion yuan in the first quarter",
+        "url": "http://finance.people.com.cn/n1/2025/0414/c1004-40459678.html",
+        "source": "PD Economy",
+        "date": "2025-04-14 12:32:57"
+      },
+      {
+        "chinese_title": "心相近丨“中越友好的根基在人民”——习近平主席引领推动中越传统友谊恒久常新",
+        "english_title": "&quot;The foundation of China-Vietnam friendship lies in the people&quot; -- President Xi Jinping has led the promotion of the traditional friendship between China and Vietnam",
+        "url": "https://h.xinhuaxmt.com/vh512/share/12493998?newstype=1001&homeshow=1",
+        "source": "Paper China Government",
+        "date": "2025-04-14 12:32:54"
+      },
+      {
+        "chinese_title": "中国工程爆破事业的奠基人和学术带头人冯叔瑜院士逝世",
+        "english_title": "Academician Feng Shuyu, the founder and academic leader of China&#x27;s engineering blasting industry, passed away",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30643223",
+        "source": "Paper China Government",
+        "date": "2025-04-14 12:32:54"
+      },
+      {
+        "chinese_title": "18",
+        "english_title": "18",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30643062?commTag=true",
+        "source": "Paper China Government",
+        "date": "2025-04-14 12:32:54"
+      },
+      {
+        "chinese_title": "12",
+        "english_title": "12",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30642967?commTag=true",
+        "source": "Paper China Government",
+        "date": "2025-04-14 12:32:54"
+      },
+      {
+        "chinese_title": "12",
+        "english_title": "12",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30641996?commTag=true",
+        "source": "Paper China Government",
+        "date": "2025-04-14 12:32:54"
+      },
+      {
+        "chinese_title": "越共中央总书记苏林为习近平举行欢迎仪式",
+        "english_title": "General Secretary of the Central Committee of the Communist Party of Vietnam Su Lin held a welcoming ceremony for Xi Jinping",
+        "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=3356265618710870258&t=1744629664867&toc_style_id=feeds_default&track_id=B21D9D8F-E2FC-4546-8D6E-4980D47C1CD1_766323385044&share_to=copy_url",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-14 12:32:56"
+      },
+      {
+        "chinese_title": "15",
+        "english_title": "15",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30643084?commTag=true",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-14 12:32:56"
+      },
+      {
+        "chinese_title": "“棉花糖爸爸”确认找到被拐的女儿：19年寻遍全国，孩子或一直在失踪地生活",
+        "english_title": "&quot;Marshmallow Daddy&quot; confirms that he has found his abducted daughter: 19 years of searching all over the country, the child may have been living in the missing place",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30643063",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-14 12:32:56"
+      },
+      {
+        "chinese_title": "37",
+        "english_title": "37",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30643063?commTag=true",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-14 12:32:56"
+      },
+      {
+        "chinese_title": "常州福彩中奖者已兑奖，奖金合计109863720元",
+        "english_title": "Changzhou Fucai winners have claimed their prizes, with a total prize of 109863720 yuan",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30643075",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-14 12:32:56"
+      },
+      {
+        "chinese_title": "12",
+        "english_title": "12",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30641776?commTag=true",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-14 12:32:57"
+      },
+      {
+        "chinese_title": "人民锐评：商家招牌禁用“红蓝”，城市治理不能如此要“面子”",
+        "english_title": "People&#x27;s Comment: Business signboards are forbidden to &quot;red and blue&quot;, and urban governance can&#x27;t be so &quot;face-saving&quot;",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30643239",
+        "source": "Paper public opinion",
+        "date": "2025-04-14 12:32:57"
+      },
+      {
+        "chinese_title": "关税战下的义乌外贸人：非常淡定，给人一种积极的“劲儿”",
+        "english_title": "Yiwu foreign traders under the tariff war: very calm, giving people a positive &quot;energy&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772125.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 12:32:58"
+      },
+      {
+        "chinese_title": "越共中央总书记苏林为习近平举行欢迎仪式",
+        "english_title": "General Secretary of the Central Committee of the Communist Party of Vietnam Su Lin held a welcoming ceremony for Xi Jinping",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772124.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 12:32:58"
+      },
+      {
+        "chinese_title": "对华电子产品征税朝令夕改，特朗普当总统“屈才”了，应该去翻烧饼",
+        "english_title": "The order on the taxation of Chinese electronic products has changed day by day, and Trump has &quot;yielded&quot; to the president, and he should go to turn over the cake",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772120.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 12:32:58"
+      },
+      {
+        "chinese_title": "海关总署：东盟继续保持我国第一大贸易伙伴地位",
+        "english_title": "General Administration of Customs: ASEAN continues to maintain its position as China&#x27;s largest trading partner",
+        "url": "https://www.guancha.cn/internation/2025_04_14_772113.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-14 12:32:59"
+      },
+      {
+        "chinese_title": "Low-altitude economy exhibition zone shines at Hainan Expo, drawing global investors",
+        "english_title": "Low-altitude economy exhibition zone shines at Hainan Expo, drawing global investors",
+        "url": "https://www.globaltimes.cn/page/202504/1332074.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-14 12:32:59"
       }
     ]
   }
