@@ -4,9 +4,10 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import logging
 import html
+import config
 from datetime import datetime
 
-from config import SITE_SELECTORS, REQUESTS_TIMEOUT
+from config import ENGLISH_WEBSITES, SITE_SELECTORS, REQUESTS_TIMEOUT
 from translator import translate_text # Import from our translator module
 
 def scrape_site(site_name, url, processed_urls_set):
@@ -61,23 +62,8 @@ def scrape_site(site_name, url, processed_urls_set):
                 # Conditional Translation
                 needs_translation = True  # Assume all these websites need translation
                 # If you have specific English websites, you can add them here
-                english_websites = ["GT China Politics",
-                                    "GT China Society",
-                                    "GT China Diplomacy",
-                                    "GT China Military",
-                                    "GT China Science",
-                                    "GT Source Voice",
-                                    "GT Source Insight",
-                                    "GT Source Ecomony",
-                                    "GT Source Comments",
-                                    "GT Opinion Editorial",
-                                    "GT Opinion Observer",
-                                    "GT Opinion Asian Review",
-                                    "GT Opinion Toptalk",
-                                    "GT Opinion Viewpoint",
-                                    "GT Indepth"] # Add the names of your English websites here
-    
-                if site_name in english_websites:
+                    
+                if site_name in config.ENGLISH_WEBSITES:
                     needs_translation = False
                     logging.info(f" {site_name} doesnot need translation)")
                 if needs_translation:

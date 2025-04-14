@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-14T10:33:08.511105+00:00",
+  "last_run": "2025-04-14T10:48:31.342329+00:00",
   "processed_urls": [
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426219.html",
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426221.html",
@@ -478,6 +478,7 @@
     "http://world.people.com.cn/n1/2025/0414/c1002-40459665.html",
     "http://www.chinanews.com.cn/gn/2025/04-03/10394315.shtml",
     "http://www.chinanews.com.cn/gn/2025/04-11/10397994.shtml",
+    "http://www.chinanews.com.cn/gn/2025/04-14/10399054.shtml",
     "http://www.chinanews.com.cn/gn/shipin/cns/2025/04-11/news1017987.shtml",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=10127645188733961989&toc_style_id=feeds_default&share_to=copy_url&track_id=1a4e032b-11a4-466c-bd1c-de47411b4b67",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=13929386643130730237&toc_style_id=feeds_default&track_id=BF88E126-B470-4F4B-9F08-AFBC265334D7_765814460935&share_to=copy_url",
@@ -510,6 +511,7 @@
     "https://h.xinhuaxmt.com/vh512/share/12493968?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12494501?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12494529?newstype=1001&homeshow=1",
+    "https://h.xinhuaxmt.com/vh512/share/12495051?newstype=1001&homeshow=1",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153251",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153275",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153284",
@@ -536,6 +538,7 @@
     "https://news.cnr.cn/dj/sz/20250409/t20250409_527128503.shtml",
     "https://news.cri.cn/20250411/dbeb8762-c42e-4897-dfb3-2629c7b4f6ce.html",
     "https://news.cri.cn/20250412/ec3114c8-eca8-b4cb-3745-4dde5a51fb9b.html",
+    "https://news.cri.cn/20250413/5465b8b9-489f-2032-f752-4a6651a5646e.html",
     "https://news.southcn.com/node_822c00b27b/9385822022.shtml?r=0.8934633828891141",
     "https://www.chinanews.com.cn/gn/2025/04-09/10397023.shtml",
     "https://www.chinanews.com.cn/gn/shipin/cns/2025/04-04/news1017549.shtml",
@@ -2275,6 +2278,7 @@
     "https://www.globaltimes.cn/page/202504/1332070.shtml",
     "https://www.globaltimes.cn/page/202504/1332071.shtml",
     "https://www.globaltimes.cn/page/202504/1332072.shtml",
+    "https://www.globaltimes.cn/page/202504/1332073.shtml",
     "https://www.globaltimes.cn/special-coverage/Two-Sessions-2025/index.html",
     "https://www.guancha.cn/JinCanRong/2025_04_14_772028.shtml",
     "https://www.guancha.cn/MaoKeJi/2025_04_14_772038.shtml",
@@ -2379,9 +2383,11 @@
     "https://www.peopleapp.com/column/30048750694-500006191652",
     "https://www.peopleapp.com/column/30048763430-500006193729",
     "https://www.peopleapp.com/column/30048774306-500006196473",
+    "https://www.peopleapp.com/column/30048774824-500006196515",
     "https://www.peopleapp.com/column/30048774975-500006196524",
     "https://www.peopleapp.com/column/30048776637-500006196695",
     "https://www.peopleapp.com/column/30048781826-500006198796",
+    "https://www.peopleapp.com/column/30048787470-500006199775",
     "https://www.thepaper.cn/list_25423",
     "https://www.thepaper.cn/list_25424",
     "https://www.thepaper.cn/list_25427",
@@ -2681,7 +2687,9 @@
     "https://www.thepaper.cn/newsDetail_forward_30642326",
     "https://www.thepaper.cn/newsDetail_forward_30642401",
     "https://www.thepaper.cn/newsDetail_forward_30642783",
+    "https://www.thepaper.cn/newsDetail_forward_30642931",
     "https://www.thepaper.cn/newsDetail_forward_30642967",
+    "https://www.thepaper.cn/newsDetail_forward_30642971",
     "https://www.thepaper.cn/newsDetail_forward_30643062"
   ],
   "headlines": {
@@ -21463,6 +21471,62 @@
         "url": "https://www.thepaper.cn/newsDetail_forward_30642967",
         "source": "Paper China Government",
         "date": "2025-04-14 10:33:02"
+      },
+      {
+        "chinese_title": "跟着习主席去柬埔寨｜吴哥古迹的中国守护者",
+        "english_title": "Follow President Xi to Cambodia |",
+        "url": "https://www.peopleapp.com/column/30048774824-500006196515",
+        "source": "Paper China Government",
+        "date": "2025-04-14 10:48:26"
+      },
+      {
+        "chinese_title": "【讲习所·跟着习主席看世界】从亲诚惠容理念感悟习近平的邻里之道",
+        "english_title": "【Workshop: Follow President Xi Jinping to see the world】Understand Xi Jinping&#x27;s neighborhood from the concept of affinity, sincerity and tolerance",
+        "url": "https://news.cri.cn/20250413/5465b8b9-489f-2032-f752-4a6651a5646e.html",
+        "source": "Paper China Government",
+        "date": "2025-04-14 10:48:26"
+      },
+      {
+        "chinese_title": "习言道丨同志加兄弟！一图了解习近平到访的这个国家",
+        "english_title": "Xi Yandao丨Comrades plus brothers! A picture to understand the country that Xi Jinping visited",
+        "url": "http://www.chinanews.com.cn/gn/2025/04-14/10399054.shtml",
+        "source": "Paper China Government",
+        "date": "2025-04-14 10:48:26"
+      },
+      {
+        "chinese_title": "一见·从这三个节点，看习主席的东南亚之行",
+        "english_title": "From these three nodes, look at President Xi&#x27;s trip to Southeast Asia",
+        "url": "https://www.peopleapp.com/column/30048787470-500006199775",
+        "source": "Paper China Government",
+        "date": "2025-04-14 10:48:26"
+      },
+      {
+        "chinese_title": "大学生因室友的锂电池燃爆致90%烧伤，已起诉室友和三级房东等",
+        "english_title": "The college student has sued his roommate and the third-level landlord for 90% burns caused by the explosion of his roommate&#x27;s lithium battery",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30642971",
+        "source": "Paper Project No1",
+        "date": "2025-04-14 10:48:26"
+      },
+      {
+        "chinese_title": "中共中央总书记、国家主席习近平出席越共中央总书记苏林举行的欢迎仪式",
+        "english_title": "Xi Jinping, General Secretary of the CPC Central Committee and President of the People&#x27;s Republic of China, attended the welcoming ceremony held by General Secretary of the Central Committee of the Communist Party of Vietnam (CPV) Surin",
+        "url": "https://h.xinhuaxmt.com/vh512/share/12495051?newstype=1001&homeshow=1",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-14 10:48:26"
+      },
+      {
+        "chinese_title": "广州白云机场开设全国首个宠物航站楼，5月起将正式对外开放",
+        "english_title": "Guangzhou Baiyun Airport opened the country&#x27;s first pet terminal, which will be officially opened to the public from May",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30642931",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-14 10:48:27"
+      },
+      {
+        "chinese_title": "Xi&#x27;s Southeast Asia tour to cement neighborly bond, bolster regional cooperation",
+        "english_title": "Xi&#x27;s Southeast Asia tour to cement neighborly bond, bolster regional cooperation",
+        "url": "https://www.globaltimes.cn/page/202504/1332073.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-14 10:48:27"
       }
     ]
   }

@@ -53,6 +53,23 @@ WEBSITES = {
     "GT Opinion Viewpoint": "https://www.globaltimes.cn/opinion/viewpoint/index.html",
     "GT Indepth":"https://www.globaltimes.cn/In-depth/index.html",
 }
+# ----------------ENGLISH_WEBSITES-------------------------------
+ENGLISH_WEBSITES = ["GT China Politics",
+                    "GT China Society",
+                    "GT China Diplomacy",
+                    "GT China Military",
+                    "GT China Science",
+                    "GT Source Voice",
+                    "GT Source Insight",
+                    "GT Source Ecomony",
+                    "GT Source Comments",
+                    "GT Opinion Editorial",
+                    "GT Opinion Observer",
+                    "GT Opinion Asian Review",
+                    "GT Opinion Toptalk",
+                    "GT Opinion Viewpoint",
+                    "GT Indepth"
+                ] # Add the names of your English websites here
 
 # --- CSS Selectors ---
 # Grouped for readability
