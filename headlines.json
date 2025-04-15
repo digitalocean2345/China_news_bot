@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-15T12:32:55.967583+00:00",
+  "last_run": "2025-04-15T18:20:33.318886+00:00",
   "processed_urls": [
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426219.html",
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426221.html",
@@ -599,12 +599,18 @@
     "http://world.people.com.cn/n1/2025/0415/c1002-40460411.html",
     "http://world.people.com.cn/n1/2025/0415/c1002-40460471.html",
     "http://world.people.com.cn/n1/2025/0415/c1002-40460474.html",
+    "http://world.people.com.cn/n1/2025/0415/c1002-40460547.html",
+    "http://world.people.com.cn/n1/2025/0415/c1002-40460559.html",
+    "http://world.people.com.cn/n1/2025/0415/c1002-40460633.html",
+    "http://world.people.com.cn/n1/2025/0415/c1002-40460636.html",
     "http://www.chinanews.com.cn/gn/2025/04-03/10394315.shtml",
     "http://www.chinanews.com.cn/gn/2025/04-11/10397994.shtml",
     "http://www.chinanews.com.cn/gn/2025/04-14/10399054.shtml",
     "http://www.chinanews.com.cn/gn/shipin/cns/2025/04-11/news1017987.shtml",
     "http://www.qstheory.cn/20250415/0bc2022e17ea489db4445494b72959af/c.html",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=10127645188733961989&toc_style_id=feeds_default&share_to=copy_url&track_id=1a4e032b-11a4-466c-bd1c-de47411b4b67",
+    "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=10566562932461991335&toc_style_id=feeds_default&share_to=copy_url&track_id=5c1a3736-ef82-4ea1-8832-ebd3eb3bc632",
+    "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=11158028100428961659&toc_style_id=feeds_default&track_id=C300B5C6-F76B-4B41-995C-ABDA7DC758FE_766416203904&share_to=copy_url",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=13929386643130730237&toc_style_id=feeds_default&track_id=BF88E126-B470-4F4B-9F08-AFBC265334D7_765814460935&share_to=copy_url",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=1556565396382551826&toc_style_id=feeds_default&share_to=copy_url&track_id=6cb71df7-66d0-41c4-869a-26391dfc4ba5",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=17077813856392055754&t=1744547799348&toc_style_id=feeds_default&share_to=wechat&track_id=f106f39f-580f-4772-824a-1064138c3322",
@@ -638,6 +644,7 @@
     "https://h.xinhuaxmt.com/vh512/share/12493813?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12493968?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12493998?newstype=1001&homeshow=1",
+    "https://h.xinhuaxmt.com/vh512/share/12494062?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12494501?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12494529?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12495051?newstype=1001&homeshow=1",
@@ -653,6 +660,7 @@
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153379",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153426",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153437",
+    "https://m.thepaper.cn/papernews/morningEveningPaper?n=153468",
     "https://mp.weixin.qq.com/s/vBd8Gygjsst-NmmkJ5unZA",
     "https://news.cctv.com/2025/04/07/ARTI00rXpGv0TsXFw3XBQkNu250407.shtml",
     "https://news.cctv.com/2025/04/09/ARTInWrgufJbozE4ftss2OO5250409.shtml",
@@ -667,6 +675,11 @@
     "https://news.cctv.com/2025/04/13/ARTIX7ttmW9hGGPjJaLq8qFM250413.shtml",
     "https://news.cctv.com/2025/04/13/ARTIoFmcjYpLiksmgX5e046S250413.shtml",
     "https://news.cctv.com/2025/04/14/ARTI8nKVLLF8rLGfffetk8EI250414.shtml",
+    "https://news.cctv.com/2025/04/15/ARTI3QopWzCE0sIbUKKn6AId250415.shtml",
+    "https://news.cctv.com/2025/04/15/ARTI52k4XQjwJYDYiNXmMXLS250415.shtml",
+    "https://news.cctv.com/2025/04/15/ARTIK5WOfKAXSFv12jg5MYZt250415.shtml",
+    "https://news.cctv.com/2025/04/15/ARTINeex4rZhx30FZpsebuIN250415.shtml",
+    "https://news.cctv.com/2025/04/15/ARTImHWLF0ek0aVxIee2AGSb250415.shtml",
     "https://news.cnr.cn/dj/sz/20250409/t20250409_527127906.shtml",
     "https://news.cnr.cn/dj/sz/20250409/t20250409_527128503.shtml",
     "https://news.cri.cn/20250411/dbeb8762-c42e-4897-dfb3-2629c7b4f6ce.html",
@@ -2465,6 +2478,27 @@
     "https://www.globaltimes.cn/page/202504/1332150.shtml",
     "https://www.globaltimes.cn/page/202504/1332152.shtml",
     "https://www.globaltimes.cn/page/202504/1332153.shtml",
+    "https://www.globaltimes.cn/page/202504/1332155.shtml",
+    "https://www.globaltimes.cn/page/202504/1332156.shtml",
+    "https://www.globaltimes.cn/page/202504/1332157.shtml",
+    "https://www.globaltimes.cn/page/202504/1332158.shtml",
+    "https://www.globaltimes.cn/page/202504/1332159.shtml",
+    "https://www.globaltimes.cn/page/202504/1332160.shtml",
+    "https://www.globaltimes.cn/page/202504/1332163.shtml",
+    "https://www.globaltimes.cn/page/202504/1332164.shtml",
+    "https://www.globaltimes.cn/page/202504/1332167.shtml",
+    "https://www.globaltimes.cn/page/202504/1332170.shtml",
+    "https://www.globaltimes.cn/page/202504/1332171.shtml",
+    "https://www.globaltimes.cn/page/202504/1332173.shtml",
+    "https://www.globaltimes.cn/page/202504/1332175.shtml",
+    "https://www.globaltimes.cn/page/202504/1332176.shtml",
+    "https://www.globaltimes.cn/page/202504/1332177.shtml",
+    "https://www.globaltimes.cn/page/202504/1332178.shtml",
+    "https://www.globaltimes.cn/page/202504/1332179.shtml",
+    "https://www.globaltimes.cn/page/202504/1332180.shtml",
+    "https://www.globaltimes.cn/page/202504/1332181.shtml",
+    "https://www.globaltimes.cn/page/202504/1332183.shtml",
+    "https://www.globaltimes.cn/page/202504/1332184.shtml",
     "https://www.globaltimes.cn/special-coverage/Two-Sessions-2025/index.html",
     "https://www.gov.cn/lianbo/bumen/",
     "https://www.gov.cn/lianbo/bumen/202504/content_7018463.htm",
@@ -2487,6 +2521,8 @@
     "https://www.gov.cn/lianbo/bumen/202504/content_7018848.htm",
     "https://www.gov.cn/lianbo/bumen/202504/content_7018855.htm",
     "https://www.gov.cn/lianbo/bumen/202504/content_7018878.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7018886.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7018888.htm",
     "https://www.gov.cn/lianbo/difang/",
     "https://www.gov.cn/lianbo/difang/202504/content_7018308.htm",
     "https://www.gov.cn/lianbo/difang/202504/content_7018321.htm",
@@ -2560,6 +2596,8 @@
     "https://www.gov.cn/yaowen/liebiao/202504/content_7018812.htm",
     "https://www.gov.cn/yaowen/liebiao/202504/content_7018820.htm",
     "https://www.gov.cn/yaowen/liebiao/202504/content_7018822.htm",
+    "https://www.gov.cn/yaowen/liebiao/202504/content_7018883.htm",
+    "https://www.gov.cn/yaowen/liebiao/202504/content_7018901.htm",
     "https://www.gov.cn/yaowen/shipin/202504/content_7018328.htm",
     "https://www.gov.cn/yaowen/shipin/202504/content_7018391.htm",
     "https://www.gov.cn/yaowen/shipin/202504/content_7018392.htm",
@@ -2764,6 +2802,14 @@
     "https://www.guancha.cn/internation/2025_04_15_772277.shtml",
     "https://www.guancha.cn/internation/2025_04_15_772279.shtml",
     "https://www.guancha.cn/internation/2025_04_15_772286.shtml",
+    "https://www.guancha.cn/internation/2025_04_15_772289.shtml",
+    "https://www.guancha.cn/internation/2025_04_15_772292.shtml",
+    "https://www.guancha.cn/internation/2025_04_15_772293.shtml",
+    "https://www.guancha.cn/internation/2025_04_15_772305.shtml",
+    "https://www.guancha.cn/internation/2025_04_15_772306.shtml",
+    "https://www.guancha.cn/internation/2025_04_15_772309.shtml",
+    "https://www.guancha.cn/internation/2025_04_15_772310.shtml",
+    "https://www.guancha.cn/internation/2025_04_15_772314.shtml",
     "https://www.guancha.cn/politics/2025_03_29_770187.shtml",
     "https://www.guancha.cn/yueyonghuan/2025_04_13_771962.shtml",
     "https://www.guancha.cn/yupengkun/2025_04_14_772058.shtml",
@@ -3153,7 +3199,13 @@
     "https://www.thepaper.cn/newsDetail_forward_30652661",
     "https://www.thepaper.cn/newsDetail_forward_30652784",
     "https://www.thepaper.cn/newsDetail_forward_30652791",
-    "https://www.thepaper.cn/newsDetail_forward_30652849"
+    "https://www.thepaper.cn/newsDetail_forward_30652849",
+    "https://www.thepaper.cn/newsDetail_forward_30654037",
+    "https://www.thepaper.cn/newsDetail_forward_30654592",
+    "https://www.thepaper.cn/newsDetail_forward_30654658",
+    "https://www.thepaper.cn/newsDetail_forward_30654659",
+    "https://www.thepaper.cn/newsDetail_forward_30654693",
+    "https://www.thepaper.cn/newsDetail_forward_30654724"
   ],
   "headlines": {
     "2025-04-12": [
@@ -25240,6 +25292,370 @@
         "url": "https://www.gov.cn/zhengce/202504/content_7018858.htm",
         "source": "State Council Policy Interpretation",
         "date": "2025-04-15 12:32:55"
+      },
+      {
+        "chinese_title": "习近平抵达吉隆坡，开始对马来西亚进行国事访问",
+        "english_title": "Xi Jinping arrived in Kuala Lumpur to begin a state visit to Malaysia",
+        "url": "http://world.people.com.cn/n1/2025/0415/c1002-40460636.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-15 18:20:25"
+      },
+      {
+        "chinese_title": "穆虹会见肯尼亚联合民主同盟总书记奥马尔",
+        "english_title": "Mu Hong met with Omar, General Secretary of the United Democratic League of Kenya",
+        "url": "http://world.people.com.cn/n1/2025/0415/c1002-40460633.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-15 18:20:26"
+      },
+      {
+        "chinese_title": "外交部：中国是世界的市场、各国的机遇",
+        "english_title": "Ministry of Foreign Affairs: China is the world&#x27;s market and an opportunity for all countries",
+        "url": "http://world.people.com.cn/n1/2025/0415/c1002-40460559.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-15 18:20:26"
+      },
+      {
+        "chinese_title": "外交部：中方将继续采取一切必要措施保护自身网络安全",
+        "english_title": "Ministry of Foreign Affairs: China will continue to take all necessary measures to protect its own cybersecurity",
+        "url": "http://world.people.com.cn/n1/2025/0415/c1002-40460547.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-15 18:20:26"
+      },
+      {
+        "chinese_title": "中央网信办：加大涉“开盒”挂人等违法违规行为举报受理处置力度",
+        "english_title": "Central Cyberspace Administration of China: Increase the acceptance and handling of reports of violations of laws and regulations such as &quot;opening boxes&quot; and hanging people",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30654693",
+        "source": "Paper China Government",
+        "date": "2025-04-15 18:20:27"
+      },
+      {
+        "chinese_title": "著名演员童正维逝世，系《编辑部的故事》牛大姐扮演者",
+        "english_title": "The famous actor Tong Zhengwei passed away, and he was the actor of Sister Niu in &quot;The Story of the Editorial Department&quot;.",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30654037",
+        "source": "Paper China Government",
+        "date": "2025-04-15 18:20:28"
+      },
+      {
+        "chinese_title": "两名“80后”金融监管系统纪委书记跨省联动调整",
+        "english_title": "Two secretaries of the Discipline Inspection Commission of the &quot;post-80s&quot; financial regulatory system have been adjusted across provinces",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30654658",
+        "source": "Paper Personnel Trends",
+        "date": "2025-04-15 18:20:27"
+      },
+      {
+        "chinese_title": "青海大学常务副校长（正厅级）任延明拟调任青海省直单位正职",
+        "english_title": "Ren Yanming, executive vice president of Qinghai University (department level), plans to be transferred to the head of the Qinghai Provincial Unit",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30654592",
+        "source": "Paper Personnel Trends",
+        "date": "2025-04-15 18:20:27"
+      },
+      {
+        "chinese_title": "习近平瞻仰胡志明陵并敬献花圈",
+        "english_title": "Xi Jinping pays homage to Ho Chi Minh&#x27;s Mausoleum and lays a wreath",
+        "url": "https://news.cctv.com/2025/04/15/ARTI3QopWzCE0sIbUKKn6AId250415.shtml",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-15 18:20:28"
+      },
+      {
+        "chinese_title": "习近平会见越南国家主席梁强",
+        "english_title": "Xi Jinping meets with Vietnamese President Liang Qiang",
+        "url": "https://news.cctv.com/2025/04/15/ARTINeex4rZhx30FZpsebuIN250415.shtml",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-15 18:20:28"
+      },
+      {
+        "chinese_title": "习近平圆满结束对越南的国事访问",
+        "english_title": "Xi Jinping successfully concluded his state visit to Vietnam",
+        "url": "https://news.cctv.com/2025/04/15/ARTImHWLF0ek0aVxIee2AGSb250415.shtml",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-15 18:20:28"
+      },
+      {
+        "chinese_title": "视频丨习近平主席到访马来西亚 各界人士夹道欢迎",
+        "english_title": "Video丨President Xi Jinping&#x27;s visit to Malaysia was welcomed by people from all walks of life",
+        "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=10566562932461991335&toc_style_id=feeds_default&share_to=copy_url&track_id=5c1a3736-ef82-4ea1-8832-ebd3eb3bc632",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-15 18:20:28"
+      },
+      {
+        "chinese_title": "习近平同越共中央总书记苏林话别",
+        "english_title": "Xi Jinping said goodbye to Su Lin, general secretary of the Central Committee of the Communist Party of Vietnam",
+        "url": "https://news.cctv.com/2025/04/15/ARTIK5WOfKAXSFv12jg5MYZt250415.shtml",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-15 18:20:28"
+      },
+      {
+        "chinese_title": "视频画报丨隔海相望的千年友邻",
+        "english_title": "Video Pictorial丨A thousand-year-old friendly neighbor across the sea",
+        "url": "https://h.xinhuaxmt.com/vh512/share/12494062?newstype=1001&homeshow=1",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-15 18:20:29"
+      },
+      {
+        "chinese_title": "习近平抵达吉隆坡对马来西亚进行国事访问",
+        "english_title": "Xi Jinping arrives in Kuala Lumpur for a state visit to Malaysia",
+        "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=11158028100428961659&toc_style_id=feeds_default&track_id=C300B5C6-F76B-4B41-995C-ABDA7DC758FE_766416203904&share_to=copy_url",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-15 18:20:29"
+      },
+      {
+        "chinese_title": "习近平同越共中央总书记苏林、越南国家主席梁强共同会见中越人民大联欢活动代表",
+        "english_title": "Xi Jinping, General Secretary of the Central Committee of the Communist Party of Vietnam Surin and Vietnamese President Liang Qiang jointly met with representatives of the Chinese and Vietnamese people&#x27;s gala",
+        "url": "https://news.cctv.com/2025/04/15/ARTI52k4XQjwJYDYiNXmMXLS250415.shtml",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-15 18:20:29"
+      },
+      {
+        "chinese_title": "光明网评论员：治理学术不端如何更精准有效",
+        "english_title": "Commentator of Guangming.com: How to be more accurate and effective in dealing with academic misconduct",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30654724",
+        "source": "Paper public opinion",
+        "date": "2025-04-15 18:20:29"
+      },
+      {
+        "chinese_title": "光明日报：“拒绝上学门诊”一号难求，治本药方或在医院外",
+        "english_title": "Guangming Daily: &quot;Refusal to go to school outpatient clinic&quot; No. 1 is difficult to find, and the cure may be outside the hospital",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30654659",
+        "source": "Paper public opinion",
+        "date": "2025-04-15 18:20:30"
+      },
+      {
+        "chinese_title": "澎湃早晚报｜晚安湃·开启中马关系新的黄金50年",
+        "english_title": "Good night and evening news: Opening a new golden 50 years of China-Malaysia relations",
+        "url": "https://m.thepaper.cn/papernews/morningEveningPaper?n=153468",
+        "source": "Paper public opinion",
+        "date": "2025-04-15 18:20:30"
+      },
+      {
+        "chinese_title": "欧盟抱怨：谈了两小时，不知道美国要什么",
+        "english_title": "The EU complained: after two hours of talking, it does not know what the United States wants",
+        "url": "https://www.guancha.cn/internation/2025_04_15_772314.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-15 18:20:29"
+      },
+      {
+        "chinese_title": "海关总署召开进出口企业、行业协会商会座谈会",
+        "english_title": "The General Administration of Customs held a symposium on import and export enterprises, industry associations and chambers of commerce",
+        "url": "https://www.guancha.cn/internation/2025_04_15_772310.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-15 18:20:29"
+      },
+      {
+        "chinese_title": "隔空互怼，万斯批泽连斯基：荒谬",
+        "english_title": "Fighting each other in the air, Vance criticizes Zelensky: ridiculous",
+        "url": "https://www.guancha.cn/internation/2025_04_15_772309.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-15 18:20:29"
+      },
+      {
+        "chinese_title": "“他俩激烈争吵，姆努钦还被拉出来鞭尸”",
+        "english_title": "&quot;They quarreled violently, and Mnuchin was pulled out and whipped on the body&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_15_772306.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-15 18:20:30"
+      },
+      {
+        "chinese_title": "哈梅内伊表态",
+        "english_title": "Khamenei made a statement",
+        "url": "https://www.guancha.cn/internation/2025_04_15_772305.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-15 18:20:30"
+      },
+      {
+        "chinese_title": "中越联合声明（全文）",
+        "english_title": "Sino-Vietnamese Joint Statement (Full Text)",
+        "url": "https://www.guancha.cn/internation/2025_04_15_772293.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-15 18:20:30"
+      },
+      {
+        "chinese_title": "4月15日《新闻联播》主要内容",
+        "english_title": "The main content of &quot;News Network&quot; on April 15",
+        "url": "https://www.guancha.cn/internation/2025_04_15_772292.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-15 18:20:30"
+      },
+      {
+        "chinese_title": "“眼下是美国痛感更强、压力更大，想重回谈判桌”",
+        "english_title": "&quot;Right now, the United States is feeling more pain and pressure, and wants to return to the negotiating table&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_15_772289.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-15 18:20:30"
+      },
+      {
+        "chinese_title": "Philippine vessel stages provocative actions near Huangyan Dao",
+        "english_title": "Philippine vessel stages provocative actions near Huangyan Dao",
+        "url": "https://www.globaltimes.cn/page/202504/1332155.shtml",
+        "source": "GT China Society",
+        "date": "2025-04-15 18:20:30"
+      },
+      {
+        "chinese_title": "Xi arrives in Kuala Lumpur for state visit to Malaysia",
+        "english_title": "Xi arrives in Kuala Lumpur for state visit to Malaysia",
+        "url": "https://www.globaltimes.cn/page/202504/1332181.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-15 18:20:29"
+      },
+      {
+        "chinese_title": "Exclusive: The &#x27;new sapling&#x27; of China-Malaysia relations has grown into a &#x27;towering tree&#x27;: Chinese envoy",
+        "english_title": "Exclusive: The &#x27;new sapling&#x27; of China-Malaysia relations has grown into a &#x27;towering tree&#x27;: Chinese envoy",
+        "url": "https://www.globaltimes.cn/page/202504/1332180.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-15 18:20:29"
+      },
+      {
+        "chinese_title": "US postponing tariffs sounds like a reprieve, but people should be bracing for stronger measures, warns Singaporean SM Lee",
+        "english_title": "US postponing tariffs sounds like a reprieve, but people should be bracing for stronger measures, warns Singaporean SM Lee",
+        "url": "https://www.globaltimes.cn/page/202504/1332164.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-15 18:20:29"
+      },
+      {
+        "chinese_title": "Xi arrives in Kuala Lumpur for state visit to Malaysia; locals express warm welcome, great anticipation for closer ties",
+        "english_title": "Xi arrives in Kuala Lumpur for state visit to Malaysia; locals express warm welcome, great anticipation for closer ties",
+        "url": "https://www.globaltimes.cn/page/202504/1332157.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-15 18:20:29"
+      },
+      {
+        "chinese_title": "GT Voice: Why are deeper China-SK trade ties crucial for Asian economic co-op?",
+        "english_title": "GT Voice: Why are deeper China-SK trade ties crucial for Asian economic co-op?",
+        "url": "https://www.globaltimes.cn/page/202504/1332176.shtml",
+        "source": "GT Source Voice",
+        "date": "2025-04-15 18:20:30"
+      },
+      {
+        "chinese_title": "Metal export",
+        "english_title": "Metal export",
+        "url": "https://www.globaltimes.cn/page/202504/1332179.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-15 18:20:31"
+      },
+      {
+        "chinese_title": "Foreign attendees voice support to uphold multilateralism at China expo",
+        "english_title": "Foreign attendees voice support to uphold multilateralism at China expo",
+        "url": "https://www.globaltimes.cn/page/202504/1332178.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-15 18:20:31"
+      },
+      {
+        "chinese_title": "Economies should diversify trade for sustainable growth amid US&#x27; tariffs; China emerges as a stabilizer: expert",
+        "english_title": "Economies should diversify trade for sustainable growth amid US&#x27; tariffs; China emerges as a stabilizer: expert",
+        "url": "https://www.globaltimes.cn/page/202504/1332177.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-15 18:20:31"
+      },
+      {
+        "chinese_title": "Can US auto sector withstand challenges after Washington&#x27;s tariffs take effect?",
+        "english_title": "Can US auto sector withstand challenges after Washington&#x27;s tariffs take effect?",
+        "url": "https://www.globaltimes.cn/page/202504/1332175.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-15 18:20:31"
+      },
+      {
+        "chinese_title": "Global investors hail China&#x27;s openness, predictable development opportunities amid tariff uncertainties",
+        "english_title": "Global investors hail China&#x27;s openness, predictable development opportunities amid tariff uncertainties",
+        "url": "https://www.globaltimes.cn/page/202504/1332173.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-15 18:20:31"
+      },
+      {
+        "chinese_title": "Chinese private space company rolls out 100th engine to be used for country&#x27;s first reusable rocket",
+        "english_title": "Chinese private space company rolls out 100th engine to be used for country&#x27;s first reusable rocket",
+        "url": "https://www.globaltimes.cn/page/202504/1332167.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-15 18:20:31"
+      },
+      {
+        "chinese_title": "Global buyers flock to Canton Fair amid US tariff turmoil",
+        "english_title": "Global buyers flock to Canton Fair amid US tariff turmoil",
+        "url": "https://www.globaltimes.cn/page/202504/1332163.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-15 18:20:31"
+      },
+      {
+        "chinese_title": "China sets new record in shipbuilding with delivery of world&#x27;s largest LNG-fueled container ship",
+        "english_title": "China sets new record in shipbuilding with delivery of world&#x27;s largest LNG-fueled container ship",
+        "url": "https://www.globaltimes.cn/page/202504/1332156.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-15 18:20:31"
+      },
+      {
+        "chinese_title": "Revival of US high-end manufacturing must rely on global markets, not tariffs",
+        "english_title": "Revival of US high-end manufacturing must rely on global markets, not tariffs",
+        "url": "https://www.globaltimes.cn/page/202504/1332170.shtml",
+        "source": "GT Source Comments",
+        "date": "2025-04-15 18:20:30"
+      },
+      {
+        "chinese_title": "The China-ASEAN &#x27;ship of friendship&#x27; serves as a model of openness and cooperation: Global Times editorial",
+        "english_title": "The China-ASEAN &#x27;ship of friendship&#x27; serves as a model of openness and cooperation: Global Times editorial",
+        "url": "https://www.globaltimes.cn/page/202504/1332183.shtml",
+        "source": "GT Opinion Editorial",
+        "date": "2025-04-15 18:20:30"
+      },
+      {
+        "chinese_title": "Cracks deepen as EU hands out burner phones to US-bound staff over spying fears",
+        "english_title": "Cracks deepen as EU hands out burner phones to US-bound staff over spying fears",
+        "url": "https://www.globaltimes.cn/page/202504/1332184.shtml",
+        "source": "GT Opinion Observer",
+        "date": "2025-04-15 18:20:30"
+      },
+      {
+        "chinese_title": "Maturing China-Malaysia relationship helps anchor China-ASEAN ties",
+        "english_title": "Maturing China-Malaysia relationship helps anchor China-ASEAN ties",
+        "url": "https://www.globaltimes.cn/page/202504/1332158.shtml",
+        "source": "GT Opinion Toptalk",
+        "date": "2025-04-15 18:20:31"
+      },
+      {
+        "chinese_title": "US tariff war goal is ultimately unwinnable",
+        "english_title": "US tariff war goal is ultimately unwinnable",
+        "url": "https://www.globaltimes.cn/page/202504/1332159.shtml",
+        "source": "GT Opinion Viewpoint",
+        "date": "2025-04-15 18:20:31"
+      },
+      {
+        "chinese_title": "Braving tariff storm: How China&#x27;s vibrant export hub Yiwu is coping amid trade uncertainties",
+        "english_title": "Braving tariff storm: How China&#x27;s vibrant export hub Yiwu is coping amid trade uncertainties",
+        "url": "https://www.globaltimes.cn/page/202504/1332171.shtml",
+        "source": "GT Indepth",
+        "date": "2025-04-15 18:20:31"
+      },
+      {
+        "chinese_title": "China, Malaysia share common aspiration to foster sustainable and inclusive future, says former Malaysian ambassador",
+        "english_title": "China, Malaysia share common aspiration to foster sustainable and inclusive future, says former Malaysian ambassador",
+        "url": "https://www.globaltimes.cn/page/202504/1332160.shtml",
+        "source": "GT Indepth",
+        "date": "2025-04-15 18:20:31"
+      },
+      {
+        "chinese_title": "四部门发文明确金融“五篇大文章”统计标准",
+        "english_title": "The four departments issued a document to clarify the statistical standards of the &quot;five major articles&quot; in finance",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7018888.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-15 18:20:33"
+      },
+      {
+        "chinese_title": "中国人民银行、金融监管总局、中国证监会、国家外汇局联合印发《金融“五篇大文章”总体统计制度（试行）》",
+        "english_title": "The People&#x27;s Bank of China, the State Administration of Financial Regulation, the China Securities Regulatory Commission and the State Administration of Foreign Exchange jointly issued the &quot;Overall Statistical System of the &quot;Five Major Articles&quot; of Finance (Trial Implementation)",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7018886.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-15 18:20:33"
+      },
+      {
+        "chinese_title": "习近平抵达吉隆坡对马来西亚进行国事访问",
+        "english_title": "Xi Jinping arrives in Kuala Lumpur for a state visit to Malaysia",
+        "url": "https://www.gov.cn/yaowen/liebiao/202504/content_7018901.htm",
+        "source": "State Council Breaking News",
+        "date": "2025-04-15 18:20:33"
+      },
+      {
+        "chinese_title": "习近平在马来西亚媒体发表署名文章",
+        "english_title": "Xi Jinping published a signed article in the Malaysian media",
+        "url": "https://www.gov.cn/yaowen/liebiao/202504/content_7018883.htm",
+        "source": "State Council Breaking News",
+        "date": "2025-04-15 18:20:33"
       }
     ]
   }
