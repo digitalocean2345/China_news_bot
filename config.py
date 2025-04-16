@@ -58,7 +58,10 @@ WEBSITES = {
     "State Council Government News Broadcast": "https://www.gov.cn/lianbo/",
     "State Council Breaking News": "https://www.gov.cn/toutiao/liebiao/",
     "State Council Latest Policies": "https://www.gov.cn/zhengce/zuixin/",
-    "State Council Policy Interpretation": "https://www.gov.cn/zhengce/jiedu/"
+    "State Council Policy Interpretation": "https://www.gov.cn/zhengce/jiedu/",
+    "NBS Data Release": "https://www.stats.gov.cn/sj/zxfb/",
+    "NBS Data Interpretation": "https://www.stats.gov.cn/sj/sjjd/",
+    "NBS Press Conference": "https://www.stats.gov.cn/sj/xwfbh/fbhwd/"
 
 }
 # ----------------ENGLISH_WEBSITES-------------------------------
@@ -88,6 +91,7 @@ PAPER_SELECTOR = 'div.small_toplink__GmZhY > a.index_inherit__A1ImK[target="_bla
 GUANCHA_SELECTOR = 'h4.module-title a'
 GT_SELECTOR = 'a.new_title_ms,div.common_title a,a.new_title_ml'
 SC_SELECTOR = 'div.news_box a'
+NBS_SELECTOR = 'a.pc1200'
 
 
 SITE_SELECTORS = {
@@ -128,7 +132,10 @@ SITE_SELECTORS = {
     "State Council Government News Broadcast": 'div.zwlb_title a',
     "State Council Breaking News": SC_SELECTOR,
     "State Council Latest Policies": SC_SELECTOR,
-    "State Council Policy Interpretation": SC_SELECTOR
+    "State Council Policy Interpretation": SC_SELECTOR,
+    "NBS Data Release": NBS_SELECTOR,
+    "NBS Data Interpretation": NBS_SELECTOR,
+    "NBS Press Conference": NBS_SELECTOR,
 }
 
 # --- Validation (Optional but Recommended) ---

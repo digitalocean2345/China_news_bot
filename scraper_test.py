@@ -17,9 +17,9 @@ def translate_text(text): return f"[Translated] {text}" # Dummy function
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # --- Test parameters ---
-target_url = "https://www.gov.cn/lianbo/"
+target_url = "https://www.mca.gov.cn/n152/n164/index.html"
 #target_selector =  'a.index_inherit__A1ImK[target="_blank"]:not(.index_listcontentbot__92p4_ a)'
-target_selector = 'div.zwlb_title a'
+target_selector = 'a.artitlelist'
 site_name_for_logging = "Test" # Added for logging clarity
 # ----------------------
 
