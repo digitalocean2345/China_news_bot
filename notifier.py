@@ -65,7 +65,8 @@ async def prepare_telegram_messages(items_by_site):
             # Titles are already escaped in scraper.py
             item_text = (
                 f"• <b>{item['english_title']}</b>\n"
-                f"  ({item['chinese_title']})\n"
+                f"{f'  ({item['chinese_title']})\n' if item['english_title'] != item['chinese_title'] else ''}"
+                #f"  ({item['chinese_title']})\n"
                 # Escape URL just in case, though urljoin should produce safe ones
                 f"  <a href='{html.escape(item['url'])}'>Read more</a>\n\n"
             )
