@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-16T05:23:30.779991+00:00",
+  "last_run": "2025-04-16T06:23:48.521533+00:00",
   "processed_urls": [
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426219.html",
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426221.html",
@@ -694,14 +694,27 @@
     "http://world.people.com.cn/n1/2025/0416/c1002-40461041.html",
     "http://world.people.com.cn/n1/2025/0416/c1002-40461047.html",
     "http://world.people.com.cn/n1/2025/0416/c1002-40461052.html",
+    "http://world.people.com.cn/n1/2025/0416/c1002-40461116.html",
     "http://world.people.com.cn/n1/2025/0416/c1002-40461136.html",
+    "http://world.people.com.cn/n1/2025/0416/c1002-40461139.html",
+    "http://world.people.com.cn/n1/2025/0416/c1002-40461150.html",
     "http://world.people.com.cn/n1/2025/0416/c1002-40461167.html",
+    "http://world.people.com.cn/n1/2025/0416/c1002-40461185.html",
+    "http://world.people.com.cn/n1/2025/0416/c1002-40461187.html",
+    "http://world.people.com.cn/n1/2025/0416/c1002-40461189.html",
+    "http://world.people.com.cn/n1/2025/0416/c1002-40461193.html",
+    "http://world.people.com.cn/n1/2025/0416/c1002-40461196.html",
+    "http://world.people.com.cn/n1/2025/0416/c1002-40461203.html",
     "http://world.people.com.cn/n1/2025/0416/c1002-40461220.html",
     "http://world.people.com.cn/n1/2025/0416/c1002-40461221.html",
     "http://world.people.com.cn/n1/2025/0416/c1002-40461223.html",
     "http://world.people.com.cn/n1/2025/0416/c1002-40461224.html",
     "http://world.people.com.cn/n1/2025/0416/c1002-40461238.html",
     "http://world.people.com.cn/n1/2025/0416/c1002-40461245.html",
+    "http://world.people.com.cn/n1/2025/0416/c1002-40461260.html",
+    "http://world.people.com.cn/n1/2025/0416/c1002-40461261.html",
+    "http://world.people.com.cn/n1/2025/0416/c1002-40461262.html",
+    "http://world.people.com.cn/n1/2025/0416/c1002-40461263.html",
     "http://www.chinanews.com.cn/gn/2025/04-03/10394315.shtml",
     "http://www.chinanews.com.cn/gn/2025/04-11/10397994.shtml",
     "http://www.chinanews.com.cn/gn/2025/04-14/10399054.shtml",
@@ -2613,6 +2626,9 @@
     "https://www.globaltimes.cn/page/202504/1332210.shtml",
     "https://www.globaltimes.cn/page/202504/1332211.shtml",
     "https://www.globaltimes.cn/page/202504/1332212.shtml",
+    "https://www.globaltimes.cn/page/202504/1332213.shtml",
+    "https://www.globaltimes.cn/page/202504/1332214.shtml",
+    "https://www.globaltimes.cn/page/202504/1332215.shtml",
     "https://www.globaltimes.cn/special-coverage/Two-Sessions-2025/index.html",
     "https://www.gov.cn/lianbo/bumen/",
     "https://www.gov.cn/lianbo/bumen/202504/content_7018463.htm",
@@ -2970,6 +2986,7 @@
     "https://www.guancha.cn/internation/2025_04_16_772371.shtml",
     "https://www.guancha.cn/internation/2025_04_16_772373.shtml",
     "https://www.guancha.cn/internation/2025_04_16_772375.shtml",
+    "https://www.guancha.cn/internation/2025_04_16_772388.shtml",
     "https://www.guancha.cn/politics/2025_03_29_770187.shtml",
     "https://www.guancha.cn/yueyonghuan/2025_04_13_771962.shtml",
     "https://www.guancha.cn/yupengkun/2025_04_14_772058.shtml",
@@ -3441,7 +3458,8 @@
     "https://www.thepaper.cn/newsDetail_forward_30661112",
     "https://www.thepaper.cn/newsDetail_forward_30661141",
     "https://www.thepaper.cn/newsDetail_forward_30661156",
-    "https://www.thepaper.cn/newsDetail_forward_30661396"
+    "https://www.thepaper.cn/newsDetail_forward_30661396",
+    "https://www.thepaper.cn/newsDetail_forward_30661927"
   ],
   "headlines": {
     "2025-04-12": [
@@ -27546,6 +27564,132 @@
         "url": "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202312/t20231215_1945570.html",
         "source": "NBS Press Conference",
         "date": "2025-04-16 05:16:54"
+      },
+      {
+        "chinese_title": "苏丹快速支援部队宣布成立“和平与团结政府”",
+        "english_title": "Sudan&#x27;s Rapid Support Forces announce the formation of a &quot;Government of Peace and Unity&quot;",
+        "url": "http://world.people.com.cn/n1/2025/0416/c1002-40461263.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-16 06:23:27"
+      },
+      {
+        "chinese_title": "突尼斯总统赛义德重申支持巴勒斯坦建国",
+        "english_title": "Tunisian President Saied reaffirmed his support for Palestinian statehood",
+        "url": "http://world.people.com.cn/n1/2025/0416/c1002-40461262.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-16 06:23:27"
+      },
+      {
+        "chinese_title": "北约秘书长：从未许诺把乌克兰入约写入俄乌和平协议",
+        "english_title": "NATO Secretary-General: It has never promised to include Ukraine&#x27;s accession to the treaty in the Russia-Ukraine peace agreement",
+        "url": "http://world.people.com.cn/n1/2025/0416/c1002-40461261.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-16 06:23:27"
+      },
+      {
+        "chinese_title": "摩洛哥警方查获逾17吨大麻制品",
+        "english_title": "Moroccan police seized more than 17 tons of cannabis products",
+        "url": "http://world.people.com.cn/n1/2025/0416/c1002-40461260.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-16 06:23:27"
+      },
+      {
+        "chinese_title": "携手奋进 共创繁荣！中国马来西亚人文交流活动在吉隆坡举行",
+        "english_title": "Hand in hand to create prosperity! The China-Malaysia people-to-people exchange event was held in Kuala Lumpur",
+        "url": "http://world.people.com.cn/n1/2025/0416/c1002-40461203.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-16 06:23:27"
+      },
+      {
+        "chinese_title": "《平“语”近人——习近平喜欢的典故》（马来语版）在马来…",
+        "english_title": "&quot;Ping&quot; Yu &quot;Approaching People-Xi Jinping&#x27;s Favorite Allusions&quot; (Malay version) in Malay...",
+        "url": "http://world.people.com.cn/n1/2025/0416/c1002-40461196.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-16 06:23:27"
+      },
+      {
+        "chinese_title": "全球葡萄与葡萄酒行业持续承压 国际组织呼吁加强合作与绿…",
+        "english_title": "The global grape and wine industry continues to be under pressure, and international organizations call for greater cooperation and green...",
+        "url": "http://world.people.com.cn/n1/2025/0416/c1002-40461193.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-16 06:23:27"
+      },
+      {
+        "chinese_title": "新疆文化和旅游资源海外推广活动匈牙利专场成功举行",
+        "english_title": "The overseas promotion of Xinjiang&#x27;s cultural and tourism resources was successfully held in Hungary",
+        "url": "http://world.people.com.cn/n1/2025/0416/c1002-40461189.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-16 06:23:27"
+      },
+      {
+        "chinese_title": "《2024年欧洲气候状况》报告：极端天气风险正在不断上升",
+        "english_title": "The State of the Climate in Europe 2024 report: The risk of extreme weather is rising",
+        "url": "http://world.people.com.cn/n1/2025/0416/c1002-40461187.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-16 06:23:27"
+      },
+      {
+        "chinese_title": "“一带一路”共建国家遗产保护官员齐聚黄山 共话遗产守护…",
+        "english_title": "&quot;Belt and Road&quot; National Heritage Protection Officials Gather in Huangshan to Discuss Heritage Protection...",
+        "url": "http://world.people.com.cn/n1/2025/0416/c1002-40461185.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-16 06:23:27"
+      },
+      {
+        "chinese_title": "阿尔及利亚：中阿投资论坛在阿尔及尔举办",
+        "english_title": "Algeria: The China-Arab Investment Forum was held in Algiers",
+        "url": "http://world.people.com.cn/n1/2025/0416/c1002-40461150.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-16 06:23:28"
+      },
+      {
+        "chinese_title": "“书香传情·智汇未来”捐赠仪式举行",
+        "english_title": "The donation ceremony of &quot;Scholarly Love, Wisdom for the Future&quot; was held",
+        "url": "http://world.people.com.cn/n1/2025/0416/c1002-40461139.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-16 06:23:28"
+      },
+      {
+        "chinese_title": "国际观察：“真朋友是金山银山换不来的”",
+        "english_title": "International Observation: &quot;True Friends Can&#x27;t Be Bought with Gold and Silver&quot;",
+        "url": "http://world.people.com.cn/n1/2025/0416/c1002-40461116.html",
+        "source": "PD International In-depth",
+        "date": "2025-04-16 06:23:27"
+      },
+      {
+        "chinese_title": "言短意长｜论文抄袭有新趋势",
+        "english_title": "There is a new trend of plagiarism in papers",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30661927",
+        "source": "Paper China Government",
+        "date": "2025-04-16 06:23:30"
+      },
+      {
+        "chinese_title": "“我们花了22年在中国打造这一切，全毁了”",
+        "english_title": "&quot;It took us 22 years to build it all in China, and it was all ruined&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_16_772388.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-16 06:23:33"
+      },
+      {
+        "chinese_title": "DPP Lai&#x27;s &#x27;global north&#x27; claim a fabricated concept serving anti-China and decoupling agenda, doomed to fail: spokesperson",
+        "english_title": "DPP Lai&#x27;s &#x27;global north&#x27; claim a fabricated concept serving anti-China and decoupling agenda, doomed to fail: spokesperson",
+        "url": "https://www.globaltimes.cn/page/202504/1332214.shtml",
+        "source": "GT China Politics",
+        "date": "2025-04-16 06:23:33"
+      },
+      {
+        "chinese_title": "Taiwan Affairs Office spokesperson slams DPP&#x27;s hyping of pavilion name at Osaka Expo as self-deception",
+        "english_title": "Taiwan Affairs Office spokesperson slams DPP&#x27;s hyping of pavilion name at Osaka Expo as self-deception",
+        "url": "https://www.globaltimes.cn/page/202504/1332213.shtml",
+        "source": "GT China Politics",
+        "date": "2025-04-16 06:23:33"
+      },
+      {
+        "chinese_title": "China&#x27;s total retail sales rise by 5.9% in March as stimulus measures gain traction: National Bureau of Statistics",
+        "english_title": "China&#x27;s total retail sales rise by 5.9% in March as stimulus measures gain traction: National Bureau of Statistics",
+        "url": "https://www.globaltimes.cn/page/202504/1332215.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-16 06:23:34"
       }
     ]
   }
