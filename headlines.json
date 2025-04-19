@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-18T18:21:43.726467+00:00",
+  "last_run": "2025-04-19T01:13:32.868669+00:00",
   "processed_urls": [
     "http://cpc-app.people.cn/n1/2025/0415/c164113-40460410.html",
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426219.html",
@@ -70,6 +70,8 @@
     "http://fanfu.people.com.cn/n1/2025/0418/c64371-40462681.html",
     "http://fanfu.people.com.cn/n1/2025/0418/c64371-40462685.html",
     "http://fanfu.people.com.cn/n1/2025/0418/c64371-40462862.html",
+    "http://fanfu.people.com.cn/n1/2025/0419/c64371-40463519.html",
+    "http://fanfu.people.com.cn/n1/2025/0419/c64371-40463520.html",
     "http://finance.people.com.cn/n1/2025/0411/c1004-40457779.html",
     "http://finance.people.com.cn/n1/2025/0411/c1004-40457780.html",
     "http://finance.people.com.cn/n1/2025/0411/c1004-40457783.html",
@@ -287,6 +289,17 @@
     "http://finance.people.com.cn/n1/2025/0418/c1004-40463358.html",
     "http://finance.people.com.cn/n1/2025/0418/c1004-40463361.html",
     "http://finance.people.com.cn/n1/2025/0418/c1004-40463366.html",
+    "http://finance.people.com.cn/n1/2025/0419/c1004-40463474.html",
+    "http://finance.people.com.cn/n1/2025/0419/c1004-40463475.html",
+    "http://finance.people.com.cn/n1/2025/0419/c1004-40463526.html",
+    "http://finance.people.com.cn/n1/2025/0419/c1004-40463531.html",
+    "http://finance.people.com.cn/n1/2025/0419/c1004-40463536.html",
+    "http://finance.people.com.cn/n1/2025/0419/c1004-40463540.html",
+    "http://finance.people.com.cn/n1/2025/0419/c1004-40463541.html",
+    "http://finance.people.com.cn/n1/2025/0419/c1004-40463542.html",
+    "http://finance.people.com.cn/n1/2025/0419/c1004-40463545.html",
+    "http://finance.people.com.cn/n1/2025/0419/c1004-40463569.html",
+    "http://finance.people.com.cn/n1/2025/0419/c1004-40463570.html",
     "http://renshi.people.com.cn/n1/2025/0226/c139617-40426395.html",
     "http://renshi.people.com.cn/n1/2025/0228/c139617-40428020.html",
     "http://renshi.people.com.cn/n1/2025/0228/c139617-40428038.html",
@@ -313,6 +326,7 @@
     "http://renshi.people.com.cn/n1/2025/0414/c139617-40459171.html",
     "http://renshi.people.com.cn/n1/2025/0415/c139617-40460031.html",
     "http://renshi.people.com.cn/n1/2025/0416/c139617-40461058.html",
+    "http://renshi.people.com.cn/n1/2025/0419/c139617-40463521.html",
     "http://society.people.com.cn/n1/2025/0411/c1008-40457481.html",
     "http://society.people.com.cn/n1/2025/0411/c1008-40457638.html",
     "http://society.people.com.cn/n1/2025/0411/c1008-40457652.html",
@@ -1141,6 +1155,7 @@
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153549",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153569",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153589",
+    "https://m.thepaper.cn/papernews/morningEveningPaper?n=153609",
     "https://mp.weixin.qq.com/s/vBd8Gygjsst-NmmkJ5unZA",
     "https://news.cctv.com/2025/04/07/ARTI00rXpGv0TsXFw3XBQkNu250407.shtml",
     "https://news.cctv.com/2025/04/09/ARTInWrgufJbozE4ftss2OO5250409.shtml",
@@ -3127,6 +3142,7 @@
     "https://www.globaltimes.cn/page/202504/1332419.shtml",
     "https://www.globaltimes.cn/page/202504/1332424.shtml",
     "https://www.globaltimes.cn/page/202504/1332425.shtml",
+    "https://www.globaltimes.cn/page/202504/1332427.shtml",
     "https://www.globaltimes.cn/special-coverage/Two-Sessions-2025/index.html",
     "https://www.gov.cn/lianbo/bumen/",
     "https://www.gov.cn/lianbo/bumen/202504/content_7018463.htm",
@@ -3257,6 +3273,7 @@
     "https://www.gov.cn/lianbo/difang/202504/content_7019534.htm",
     "https://www.gov.cn/lianbo/difang/202504/content_7019834.htm",
     "https://www.gov.cn/lianbo/difang/202504/content_7019909.htm",
+    "https://www.gov.cn/lianbo/difang/202504/content_7019975.htm",
     "https://www.gov.cn/lianbo/fabu/",
     "https://www.gov.cn/lianbo/fabu/202503/content_7012192.htm",
     "https://www.gov.cn/lianbo/fabu/202503/content_7014020.htm",
@@ -3730,6 +3747,9 @@
     "https://www.guancha.cn/internation/2025_04_18_772850.shtml",
     "https://www.guancha.cn/internation/2025_04_18_772852.shtml",
     "https://www.guancha.cn/internation/2025_04_18_772853.shtml",
+    "https://www.guancha.cn/internation/2025_04_19_772856.shtml",
+    "https://www.guancha.cn/internation/2025_04_19_772866.shtml",
+    "https://www.guancha.cn/internation/2025_04_19_772867.shtml",
     "https://www.guancha.cn/politics/2025_03_29_770187.shtml",
     "https://www.guancha.cn/wengshijie/2025_04_17_772577.shtml",
     "https://www.guancha.cn/yueyonghuan/2025_04_13_771962.shtml",
@@ -4336,6 +4356,7 @@
     "https://www.thepaper.cn/newsDetail_forward_30681384",
     "https://www.thepaper.cn/newsDetail_forward_30681389",
     "https://www.thepaper.cn/newsDetail_forward_30681456",
+    "https://www.thepaper.cn/newsDetail_forward_30681645",
     "https://www.thepaper.cn/newsDetail_forward_30681737",
     "https://www.thepaper.cn/newsDetail_forward_30681783",
     "https://www.thepaper.cn/newsDetail_forward_30681854",
@@ -4345,7 +4366,11 @@
     "https://www.thepaper.cn/newsDetail_forward_30682166",
     "https://www.thepaper.cn/newsDetail_forward_30682957",
     "https://www.thepaper.cn/newsDetail_forward_30683080",
-    "https://www.thepaper.cn/newsDetail_forward_30683092"
+    "https://www.thepaper.cn/newsDetail_forward_30683092",
+    "https://www.thepaper.cn/newsDetail_forward_30686267",
+    "https://www.thepaper.cn/newsDetail_forward_30686268",
+    "https://www.thepaper.cn/newsDetail_forward_30686271",
+    "https://www.thepaper.cn/newsDetail_forward_30686288"
   ],
   "headlines": {
     "2025-04-12": [
@@ -34782,6 +34807,183 @@
         "url": "https://www.gov.cn/zhengce/202504/content_7019853.htm",
         "source": "State Council Policy Interpretation",
         "date": "2025-04-18 18:21:23"
+      }
+    ],
+    "2025-04-19": [
+      {
+        "chinese_title": "江苏省省管领导干部任职前公示",
+        "english_title": "Jiangsu Provincial Provincial Management Leading Cadres Announced Before Their Appointments",
+        "url": "http://renshi.people.com.cn/n1/2025/0419/c139617-40463521.html",
+        "source": "人民网人事频道",
+        "date": "2025-04-19 01:13:32"
+      },
+      {
+        "chinese_title": "确保公益性岗位成为“阳光岗”",
+        "english_title": "Ensure that public welfare posts become &quot;sunshine posts&quot;",
+        "url": "http://fanfu.people.com.cn/n1/2025/0419/c64371-40463520.html",
+        "source": "PD Anti Corruption",
+        "date": "2025-04-19 01:13:08"
+      },
+      {
+        "chinese_title": "清淤疏堵推进高标准农田建设",
+        "english_title": "Dredging and dredging to promote the construction of high-standard farmland",
+        "url": "http://fanfu.people.com.cn/n1/2025/0419/c64371-40463519.html",
+        "source": "PD Anti Corruption",
+        "date": "2025-04-19 01:13:09"
+      },
+      {
+        "chinese_title": "从广交会感受外贸“新”内涵",
+        "english_title": "Feel the &quot;new&quot; connotation of foreign trade from the Canton Fair",
+        "url": "http://finance.people.com.cn/n1/2025/0419/c1004-40463570.html",
+        "source": "PD Economy",
+        "date": "2025-04-19 01:13:09"
+      },
+      {
+        "chinese_title": "搏出上扬曲线 外贸韧性更显",
+        "english_title": "Fight out of the upward curve and the resilience of foreign trade is more obvious",
+        "url": "http://finance.people.com.cn/n1/2025/0419/c1004-40463569.html",
+        "source": "PD Economy",
+        "date": "2025-04-19 01:13:09"
+      },
+      {
+        "chinese_title": "中证协发文规范券商并表管理",
+        "english_title": "The China Securities Association issued a document to standardize the consolidated statement management of securities firms",
+        "url": "http://finance.people.com.cn/n1/2025/0419/c1004-40463545.html",
+        "source": "PD Economy",
+        "date": "2025-04-19 01:13:10"
+      },
+      {
+        "chinese_title": "中国加快推进服务业扩大开放",
+        "english_title": "China has accelerated the opening up of the service industry",
+        "url": "http://finance.people.com.cn/n1/2025/0419/c1004-40463542.html",
+        "source": "PD Economy",
+        "date": "2025-04-19 01:13:10"
+      },
+      {
+        "chinese_title": "杭州调整住房契税优惠规则 释放住房需求",
+        "english_title": "Hangzhou adjusts the preferential rules for housing deed tax to release housing demand",
+        "url": "http://finance.people.com.cn/n1/2025/0419/c1004-40463541.html",
+        "source": "PD Economy",
+        "date": "2025-04-19 01:13:10"
+      },
+      {
+        "chinese_title": "截至3月末中国存续私募基金规模达19.97万亿元",
+        "english_title": "As of the end of March, the scale of China&#x27;s existing private equity funds reached 19.97 trillion yuan",
+        "url": "http://finance.people.com.cn/n1/2025/0419/c1004-40463540.html",
+        "source": "PD Economy",
+        "date": "2025-04-19 01:13:10"
+      },
+      {
+        "chinese_title": "海南自贸港对标国际加强知识产权法治保障",
+        "english_title": "The Hainan Free Trade Port has strengthened the legal protection of intellectual property rights in line with international benchmarks",
+        "url": "http://finance.people.com.cn/n1/2025/0419/c1004-40463536.html",
+        "source": "PD Economy",
+        "date": "2025-04-19 01:13:10"
+      },
+      {
+        "chinese_title": "兰州一块胶的“逆袭”之旅",
+        "english_title": "The &quot;counterattack&quot; journey of a piece of rubber in Lanzhou",
+        "url": "http://finance.people.com.cn/n1/2025/0419/c1004-40463531.html",
+        "source": "PD Economy",
+        "date": "2025-04-19 01:13:10"
+      },
+      {
+        "chinese_title": "高原缝纫机“哒哒”响 东西协作云端“缝”出共富路",
+        "english_title": "The plateau sewing machine &quot;clicks&quot; and cooperates with the east and west to &quot;sew&quot; the road to common prosperity",
+        "url": "http://finance.people.com.cn/n1/2025/0419/c1004-40463526.html",
+        "source": "PD Economy",
+        "date": "2025-04-19 01:13:10"
+      },
+      {
+        "chinese_title": "激发消费活力 多地因地制宜推进首发经济",
+        "english_title": "Stimulate the vitality of consumption and promote the first economy in many places according to local conditions",
+        "url": "http://finance.people.com.cn/n1/2025/0419/c1004-40463475.html",
+        "source": "PD Economy",
+        "date": "2025-04-19 01:13:10"
+      },
+      {
+        "chinese_title": "商务部回应美对我海事、物流和造船等领域宣布最终措施",
+        "english_title": "The Ministry of Commerce responded to the announcement of final measures by the United States in the fields of maritime, logistics and shipbuilding",
+        "url": "http://finance.people.com.cn/n1/2025/0419/c1004-40463474.html",
+        "source": "PD Economy",
+        "date": "2025-04-19 01:13:10"
+      },
+      {
+        "chinese_title": "人民日报读者点题·共同关注：今天，我们需要什么样的企业家？",
+        "english_title": "People&#x27;s Daily readers&#x27; questions: What kind of entrepreneurs do we need today?",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30686268",
+        "source": "Paper China Government",
+        "date": "2025-04-19 01:13:10"
+      },
+      {
+        "chinese_title": "徐州沛县一村委会因无资质处理固废，被环保部门罚款19万元",
+        "english_title": "A village committee in Pei County, Xuzhou, was fined 190,000 yuan by the environmental protection department for not being qualified to handle solid waste",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30681645",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-19 01:13:12"
+      },
+      {
+        "chinese_title": "1新闻1+1丨全球首场人机共跑马拉松，有何看点？",
+        "english_title": "1 News 1+1丨What are the highlights of the world&#x27;s first human-machine marathon?",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30686288",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-19 01:13:12"
+      },
+      {
+        "chinese_title": "澎湃早晚报｜早餐湃·不降息就走人",
+        "english_title": "The surging morning and evening newspaper|Breakfast is overflowing, and you will leave without cutting interest rates",
+        "url": "https://m.thepaper.cn/papernews/morningEveningPaper?n=153609",
+        "source": "Paper public opinion",
+        "date": "2025-04-19 01:13:13"
+      },
+      {
+        "chinese_title": "医院招聘误发内部信息反获好评，求职者就需要这样的“敞亮”",
+        "english_title": "Hospital recruitment mistakenly sent internal information to get praise, job seekers need such a &quot;bright&quot;",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30686271",
+        "source": "Paper public opinion",
+        "date": "2025-04-19 01:13:13"
+      },
+      {
+        "chinese_title": "人民网评：官方轻踩刹车，智能驾驶不能“蒙眼狂奔”",
+        "english_title": "People&#x27;s Online Commentary: The official lightly stepped on the brakes, and intelligent driving could not &quot;run blindfolded&quot;",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30686267",
+        "source": "Paper public opinion",
+        "date": "2025-04-19 01:13:13"
+      },
+      {
+        "chinese_title": "加总理扬言：除了中美，还有其他人",
+        "english_title": "The Canadian prime minister threatened: In addition to China and the United States, there are other people",
+        "url": "https://www.guancha.cn/internation/2025_04_19_772867.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-19 01:13:13"
+      },
+      {
+        "chinese_title": "特朗普也直说了：不行，就放弃",
+        "english_title": "Trump also said bluntly: No, just give up",
+        "url": "https://www.guancha.cn/internation/2025_04_19_772866.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-19 01:13:13"
+      },
+      {
+        "chinese_title": "中国船东协会发声",
+        "english_title": "The China Shipowners Association spoke out",
+        "url": "https://www.guancha.cn/internation/2025_04_19_772856.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-19 01:13:13"
+      },
+      {
+        "chinese_title": "Cutting ties with China would be &quot;very foolish,&quot; says British chancellor",
+        "english_title": "Cutting ties with China would be &quot;very foolish,&quot; says British chancellor",
+        "url": "https://www.globaltimes.cn/page/202504/1332427.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-19 01:13:13"
+      },
+      {
+        "chinese_title": "江苏省数据交易所首批380个数据产品上线",
+        "english_title": "The first batch of 380 data products of Jiangsu Provincial Data Exchange was launched",
+        "url": "https://www.gov.cn/lianbo/difang/202504/content_7019975.htm",
+        "source": "State Council Local News",
+        "date": "2025-04-19 01:13:16"
       }
     ]
   }
