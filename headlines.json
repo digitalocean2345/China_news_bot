@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-19T12:28:56.378638+00:00",
+  "last_run": "2025-04-19T18:20:12.554011+00:00",
   "processed_urls": [
     "http://cpc-app.people.cn/n1/2025/0415/c164113-40460410.html",
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426219.html",
@@ -1152,6 +1152,10 @@
     "http://world.people.com.cn/n1/2025/0419/c1002-40463681.html",
     "http://world.people.com.cn/n1/2025/0419/c1002-40463691.html",
     "http://world.people.com.cn/n1/2025/0419/c1002-40463694.html",
+    "http://world.people.com.cn/n1/2025/0419/c1002-40463731.html",
+    "http://world.people.com.cn/n1/2025/0419/c1002-40463771.html",
+    "http://world.people.com.cn/n1/2025/0419/c1002-40463774.html",
+    "http://world.people.com.cn/n1/2025/0419/c1002-40463776.html",
     "http://www.chinanews.com.cn/gn/2025/04-03/10394315.shtml",
     "http://www.chinanews.com.cn/gn/2025/04-11/10397994.shtml",
     "http://www.chinanews.com.cn/gn/2025/04-14/10399054.shtml",
@@ -1235,6 +1239,7 @@
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153569",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153589",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153609",
+    "https://m.thepaper.cn/papernews/morningEveningPaper?n=153621",
     "https://mp.weixin.qq.com/s/vBd8Gygjsst-NmmkJ5unZA",
     "https://news.cctv.com/2025/04/07/ARTI00rXpGv0TsXFw3XBQkNu250407.shtml",
     "https://news.cctv.com/2025/04/09/ARTInWrgufJbozE4ftss2OO5250409.shtml",
@@ -3231,6 +3236,7 @@
     "https://www.globaltimes.cn/page/202504/1332435.shtml",
     "https://www.globaltimes.cn/page/202504/1332436.shtml",
     "https://www.globaltimes.cn/page/202504/1332438.shtml",
+    "https://www.globaltimes.cn/page/202504/1332443.shtml",
     "https://www.globaltimes.cn/special-coverage/Two-Sessions-2025/index.html",
     "https://www.gov.cn/lianbo/bumen/",
     "https://www.gov.cn/lianbo/bumen/202504/content_7018463.htm",
@@ -3461,6 +3467,7 @@
     "https://www.gov.cn/yaowen/shipin/202504/content_7019306.htm",
     "https://www.gov.cn/yaowen/shipin/202504/content_7019879.htm",
     "https://www.gov.cn/yaowen/shipin/202504/content_7019881.htm",
+    "https://www.gov.cn/yaowen/shipin/202504/content_7020023.htm",
     "https://www.gov.cn/zhengce/202503/content_7013809.htm",
     "https://www.gov.cn/zhengce/202503/content_7014017.htm",
     "https://www.gov.cn/zhengce/202503/content_7014544.htm",
@@ -3869,6 +3876,8 @@
     "https://www.guancha.cn/internation/2025_04_19_772915.shtml",
     "https://www.guancha.cn/internation/2025_04_19_772916.shtml",
     "https://www.guancha.cn/internation/2025_04_19_772918.shtml",
+    "https://www.guancha.cn/internation/2025_04_19_772931.shtml",
+    "https://www.guancha.cn/internation/2025_04_19_772932.shtml",
     "https://www.guancha.cn/politics/2025_03_29_770187.shtml",
     "https://www.guancha.cn/wanglihua/2025_04_19_772893.shtml",
     "https://www.guancha.cn/wengshijie/2025_04_17_772577.shtml",
@@ -4508,7 +4517,10 @@
     "https://www.thepaper.cn/newsDetail_forward_30687109",
     "https://www.thepaper.cn/newsDetail_forward_30687124",
     "https://www.thepaper.cn/newsDetail_forward_30687361",
-    "https://www.thepaper.cn/newsDetail_forward_30687416"
+    "https://www.thepaper.cn/newsDetail_forward_30687416",
+    "https://www.thepaper.cn/newsDetail_forward_30687677",
+    "https://www.thepaper.cn/newsDetail_forward_30687995",
+    "https://www.thepaper.cn/newsDetail_forward_30688062"
   ],
   "headlines": {
     "2025-04-12": [
@@ -36088,6 +36100,90 @@
         "url": "https://www.gov.cn/lianbo/difang/202504/content_7020011.htm",
         "source": "State Council Local News",
         "date": "2025-04-19 12:28:52"
+      },
+      {
+        "chinese_title": "普京宣布俄军在复活节期间暂时停火",
+        "english_title": "Putin announced a temporary ceasefire of Russian troops during Easter",
+        "url": "http://world.people.com.cn/n1/2025/0419/c1002-40463776.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-19 18:19:52"
+      },
+      {
+        "chinese_title": "普京下令在东正教复活节到来之际俄军将暂时停火",
+        "english_title": "Putin ordered a temporary ceasefire of the Russian army on the occasion of Orthodox Easter",
+        "url": "http://world.people.com.cn/n1/2025/0419/c1002-40463774.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-19 18:19:53"
+      },
+      {
+        "chinese_title": "上合组织秘书长：中国不断助力本组织可持续发展，深化区域…",
+        "english_title": "SCO Secretary-General: China continues to contribute to the sustainable development of the SCO and deepen the regional...",
+        "url": "http://world.people.com.cn/n1/2025/0419/c1002-40463771.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-19 18:19:53"
+      },
+      {
+        "chinese_title": "第二十一届全国外交学学科建设年会暨“中国与联合国：推动…",
+        "english_title": "The 21st National Annual Conference on the Discipline of Diplomacy and &quot;China and the United Nations: Promoting...",
+        "url": "http://world.people.com.cn/n1/2025/0419/c1002-40463731.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-19 18:19:53"
+      },
+      {
+        "chinese_title": "85岁眼科专家、武汉大学人民医院原眼科主任喻长泰逝世",
+        "english_title": "Yu Changtai, an 85-year-old ophthalmologist and former director of the Department of Ophthalmology of the People&#x27;s Hospital of Wuhan University, passed away",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30687995",
+        "source": "Paper China Government",
+        "date": "2025-04-19 18:19:56"
+      },
+      {
+        "chinese_title": "人民网评：“中国传递爱而不是关税”",
+        "english_title": "People&#x27;s Online Commentary: &quot;China Delivers Love Instead of Tariffs&quot;",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30688062",
+        "source": "Paper public opinion",
+        "date": "2025-04-19 18:19:58"
+      },
+      {
+        "chinese_title": "澎湃早晚报｜晚安湃·全球首次人机共跑",
+        "english_title": "The surging morning and evening newspaper|Good night, the world&#x27;s first man-machine run",
+        "url": "https://m.thepaper.cn/papernews/morningEveningPaper?n=153621",
+        "source": "Paper public opinion",
+        "date": "2025-04-19 18:19:58"
+      },
+      {
+        "chinese_title": "新华社经济随笔：把握不确定性中的确定性",
+        "english_title": "Xinhua News Agency&#x27;s Economic Essay: Grasping Certainty in Uncertainty",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30687677",
+        "source": "Paper public opinion",
+        "date": "2025-04-19 18:19:58"
+      },
+      {
+        "chinese_title": "普京宣布：临时停火",
+        "english_title": "Putin announced: a temporary ceasefire",
+        "url": "https://www.guancha.cn/internation/2025_04_19_772932.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-19 18:20:00"
+      },
+      {
+        "chinese_title": "“中国正投入万亿美元，我们却在这胡搞”",
+        "english_title": "&quot;China is investing trillions of dollars, but we are messing around here&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_19_772931.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-19 18:20:00"
+      },
+      {
+        "chinese_title": "Officials and scholars call for technology oriented toward human rights protection at forum, opposing certain countries&#x27; trampling of human rights via tech blockades",
+        "english_title": "Officials and scholars call for technology oriented toward human rights protection at forum, opposing certain countries&#x27; trampling of human rights via tech blockades",
+        "url": "https://www.globaltimes.cn/page/202504/1332443.shtml",
+        "source": "GT China Society",
+        "date": "2025-04-19 18:19:59"
+      },
+      {
+        "chinese_title": "今年1—3月全国新设立外商投资企业12603家",
+        "english_title": "From January to March this year, 12,603 foreign-invested enterprises were newly established across the country",
+        "url": "https://www.gov.cn/yaowen/shipin/202504/content_7020023.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-19 18:20:03"
       }
     ]
   }
