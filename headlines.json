@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-19T18:20:12.554011+00:00",
+  "last_run": "2025-04-20T01:21:47.777761+00:00",
   "processed_urls": [
     "http://cpc-app.people.cn/n1/2025/0415/c164113-40460410.html",
     "http://cpc.people.com.cn/n1/2025/0226/c64387-40426219.html",
@@ -72,6 +72,9 @@
     "http://fanfu.people.com.cn/n1/2025/0418/c64371-40462862.html",
     "http://fanfu.people.com.cn/n1/2025/0419/c64371-40463519.html",
     "http://fanfu.people.com.cn/n1/2025/0419/c64371-40463520.html",
+    "http://fanfu.people.com.cn/n1/2025/0420/c64371-40463856.html",
+    "http://fanfu.people.com.cn/n1/2025/0420/c64371-40463863.html",
+    "http://fanfu.people.com.cn/n1/2025/0420/c64371-40463866.html",
     "http://finance.people.com.cn/n1/2025/0411/c1004-40457779.html",
     "http://finance.people.com.cn/n1/2025/0411/c1004-40457780.html",
     "http://finance.people.com.cn/n1/2025/0411/c1004-40457783.html",
@@ -1240,6 +1243,7 @@
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153589",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153609",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153621",
+    "https://m.thepaper.cn/papernews/morningEveningPaper?n=153630",
     "https://mp.weixin.qq.com/s/vBd8Gygjsst-NmmkJ5unZA",
     "https://news.cctv.com/2025/04/07/ARTI00rXpGv0TsXFw3XBQkNu250407.shtml",
     "https://news.cctv.com/2025/04/09/ARTInWrgufJbozE4ftss2OO5250409.shtml",
@@ -3237,6 +3241,8 @@
     "https://www.globaltimes.cn/page/202504/1332436.shtml",
     "https://www.globaltimes.cn/page/202504/1332438.shtml",
     "https://www.globaltimes.cn/page/202504/1332443.shtml",
+    "https://www.globaltimes.cn/page/202504/1332451.shtml",
+    "https://www.globaltimes.cn/page/202504/1332452.shtml",
     "https://www.globaltimes.cn/special-coverage/Two-Sessions-2025/index.html",
     "https://www.gov.cn/lianbo/bumen/",
     "https://www.gov.cn/lianbo/bumen/202504/content_7018463.htm",
@@ -3458,6 +3464,7 @@
     "https://www.gov.cn/yaowen/liebiao/202504/content_7019466.htm",
     "https://www.gov.cn/yaowen/liebiao/202504/content_7019636.htm",
     "https://www.gov.cn/yaowen/liebiao/202504/content_7019765.htm",
+    "https://www.gov.cn/yaowen/liebiao/202504/content_7020032.htm",
     "https://www.gov.cn/yaowen/shipin/202504/content_7018328.htm",
     "https://www.gov.cn/yaowen/shipin/202504/content_7018391.htm",
     "https://www.gov.cn/yaowen/shipin/202504/content_7018392.htm",
@@ -3522,6 +3529,7 @@
     "https://www.gov.cn/zhengce/202504/content_7019921.htm",
     "https://www.gov.cn/zhengce/202504/content_7019935.htm",
     "https://www.gov.cn/zhengce/202504/content_7019938.htm",
+    "https://www.gov.cn/zhengce/202504/content_7020036.htm",
     "https://www.gov.cn/zhengce/content/202503/content_7010604.htm",
     "https://www.gov.cn/zhengce/content/202503/content_7014486.htm",
     "https://www.gov.cn/zhengce/content/202503/content_7014716.htm",
@@ -3878,8 +3886,16 @@
     "https://www.guancha.cn/internation/2025_04_19_772918.shtml",
     "https://www.guancha.cn/internation/2025_04_19_772931.shtml",
     "https://www.guancha.cn/internation/2025_04_19_772932.shtml",
+    "https://www.guancha.cn/internation/2025_04_20_772934.shtml",
+    "https://www.guancha.cn/internation/2025_04_20_772935.shtml",
+    "https://www.guancha.cn/internation/2025_04_20_772937.shtml",
+    "https://www.guancha.cn/internation/2025_04_20_772938.shtml",
+    "https://www.guancha.cn/internation/2025_04_20_772939.shtml",
+    "https://www.guancha.cn/internation/2025_04_20_772942.shtml",
+    "https://www.guancha.cn/internation/2025_04_20_772945.shtml",
     "https://www.guancha.cn/politics/2025_03_29_770187.shtml",
     "https://www.guancha.cn/wanglihua/2025_04_19_772893.shtml",
+    "https://www.guancha.cn/wanglihua/2025_04_20_772940.shtml",
     "https://www.guancha.cn/wengshijie/2025_04_17_772577.shtml",
     "https://www.guancha.cn/yingguojinrongshibao/2025_04_19_772868.shtml",
     "https://www.guancha.cn/yueyonghuan/2025_04_13_771962.shtml",
@@ -4437,6 +4453,7 @@
     "https://www.thepaper.cn/newsDetail_forward_30673198",
     "https://www.thepaper.cn/newsDetail_forward_30673202",
     "https://www.thepaper.cn/newsDetail_forward_30673261",
+    "https://www.thepaper.cn/newsDetail_forward_30673300",
     "https://www.thepaper.cn/newsDetail_forward_30673322",
     "https://www.thepaper.cn/newsDetail_forward_30673329",
     "https://www.thepaper.cn/newsDetail_forward_30673331",
@@ -4519,8 +4536,16 @@
     "https://www.thepaper.cn/newsDetail_forward_30687361",
     "https://www.thepaper.cn/newsDetail_forward_30687416",
     "https://www.thepaper.cn/newsDetail_forward_30687677",
+    "https://www.thepaper.cn/newsDetail_forward_30687981",
     "https://www.thepaper.cn/newsDetail_forward_30687995",
-    "https://www.thepaper.cn/newsDetail_forward_30688062"
+    "https://www.thepaper.cn/newsDetail_forward_30688061",
+    "https://www.thepaper.cn/newsDetail_forward_30688062",
+    "https://www.thepaper.cn/newsDetail_forward_30689420",
+    "https://www.thepaper.cn/newsDetail_forward_30689421",
+    "https://www.thepaper.cn/newsDetail_forward_30689422",
+    "https://www.thepaper.cn/newsDetail_forward_30689423",
+    "https://www.thepaper.cn/newsDetail_forward_30689424",
+    "https://www.thepaper.cn/newsDetail_forward_30689515"
   ],
   "headlines": {
     "2025-04-12": [
@@ -36184,6 +36209,183 @@
         "url": "https://www.gov.cn/yaowen/shipin/202504/content_7020023.htm",
         "source": "State Council Department News",
         "date": "2025-04-19 18:20:03"
+      }
+    ],
+    "2025-04-20": [
+      {
+        "chinese_title": "旁听庭审敲警钟",
+        "english_title": "Observing the trial sounded the alarm",
+        "url": "http://fanfu.people.com.cn/n1/2025/0420/c64371-40463866.html",
+        "source": "PD Anti Corruption",
+        "date": "2025-04-20 01:21:29"
+      },
+      {
+        "chinese_title": "畅通村路促振兴",
+        "english_title": "Unblock village roads to promote revitalization",
+        "url": "http://fanfu.people.com.cn/n1/2025/0420/c64371-40463863.html",
+        "source": "PD Anti Corruption",
+        "date": "2025-04-20 01:21:29"
+      },
+      {
+        "chinese_title": "驰而不息纠治享乐奢靡歪风",
+        "english_title": "Gallop unceasingly to rectify the unhealthy trend of hedonism and extravagance",
+        "url": "http://fanfu.people.com.cn/n1/2025/0420/c64371-40463856.html",
+        "source": "PD Anti Corruption",
+        "date": "2025-04-20 01:21:29"
+      },
+      {
+        "chinese_title": "多地市场监管部门公开征集居民水电气计量不准确、收费不规范问题线索",
+        "english_title": "The market supervision departments in many places openly solicit clues on the inaccurate metering of water and electricity and the non-standard charging of residents",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30688061",
+        "source": "Paper China Government",
+        "date": "2025-04-20 01:21:28"
+      },
+      {
+        "chinese_title": "人民日报头版：各地扎实开展学习教育，一体推进学查改",
+        "english_title": "The front page of the People&#x27;s Daily: All localities have carried out solid learning and education, and promoted study and reform in an integrated manner",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30689420",
+        "source": "Paper China Government",
+        "date": "2025-04-20 01:21:28"
+      },
+      {
+        "chinese_title": "大理杨徐邱再审后上诉案将于下周开庭：案发已逾32年，故意杀人罪去年被撤销",
+        "english_title": "Dali&#x27;s Yang Xuqiu&#x27;s post-retrial appeal case will go to trial next week: more than 32 years after the case, the charge of intentional homicide was dropped last year",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30687981",
+        "source": "Paper Project No1",
+        "date": "2025-04-20 01:21:28"
+      },
+      {
+        "chinese_title": "“女子被前男友泼汽油烧伤案”二审将于22日开庭，一审判12年",
+        "english_title": "The second trial of the &quot;case of a woman who was burned by her ex-boyfriend pouring gasoline&quot; will be held on the 22nd, and the first trial will last for 12 years",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30689515",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-20 01:21:30"
+      },
+      {
+        "chinese_title": "影子调查丨义门陈遗址建筑被“没收”风波",
+        "english_title": "Shadow Investigation丨The Yimen Chen Ruins Building was &quot;confiscated&quot; in a turmoil",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30673300",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-20 01:21:30"
+      },
+      {
+        "chinese_title": "澎湃早晚报｜早餐湃·临时停火！交换战俘",
+        "english_title": "The surging morning and evening newspaper|Breakfast Pai Temporary ceasefire! Exchange of prisoners of war",
+        "url": "https://m.thepaper.cn/papernews/morningEveningPaper?n=153630",
+        "source": "Paper public opinion",
+        "date": "2025-04-20 01:21:30"
+      },
+      {
+        "chinese_title": "经济日报：“关税讹诈”拦不住中国制造升级",
+        "english_title": "Economic Daily: &quot;Tariff blackmail&quot; can&#x27;t stop China&#x27;s manufacturing upgrade",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30689424",
+        "source": "Paper public opinion",
+        "date": "2025-04-20 01:21:30"
+      },
+      {
+        "chinese_title": "人民日报：当阅读成为“刚需”",
+        "english_title": "People&#x27;s Daily: When reading becomes a &quot;rigid need&quot;",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30689422",
+        "source": "Paper public opinion",
+        "date": "2025-04-20 01:21:30"
+      },
+      {
+        "chinese_title": "经济日报金观平：拥抱中国就是拥抱确定性",
+        "english_title": "Jin Guanping, Economic Daily: Embracing China is embracing certainty",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30689423",
+        "source": "Paper public opinion",
+        "date": "2025-04-20 01:21:30"
+      },
+      {
+        "chinese_title": "人民日报和音：书写周边命运共同体建设新篇章",
+        "english_title": "People&#x27;s Daily and Yin: Write a new chapter in the construction of a community with a shared future in the surrounding areas",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30689421",
+        "source": "Paper public opinion",
+        "date": "2025-04-20 01:21:30"
+      },
+      {
+        "chinese_title": "泽连斯基回应：停火30小时太短，建议30天",
+        "english_title": "Zelensky responded: 30 hours of ceasefire is too short, 30 days is recommended",
+        "url": "https://www.guancha.cn/internation/2025_04_20_772945.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-20 01:21:31"
+      },
+      {
+        "chinese_title": "“趁纳瓦罗不在，他们冲进白宫劝说特朗普暂停关税”",
+        "english_title": "&quot;In Navarro&#x27;s absence, they stormed the White House to persuade Trump to suspend tariffs&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_20_772942.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-20 01:21:31"
+      },
+      {
+        "chinese_title": "如何打赢美国这只“纸老虎”？毛泽东思想里提到三个关键点",
+        "english_title": "How to win the &quot;paper tiger&quot; of the United States? Mao Zedong Thought mentions three key points",
+        "url": "https://www.guancha.cn/wanglihua/2025_04_20_772940.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-20 01:21:31"
+      },
+      {
+        "chinese_title": "日本北海道一酒店140人食物中毒，中使馆发布提醒",
+        "english_title": "140 people in a hotel in Hokkaido, Japan, were poisoned by food, and the Chinese Embassy issued a reminder",
+        "url": "https://www.guancha.cn/internation/2025_04_20_772939.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-20 01:21:31"
+      },
+      {
+        "chinese_title": "“中方从未限制，现实情况是在印中企经常受到不友好不公平对待”",
+        "english_title": "&quot;The Chinese side has never restricted it, and the reality is that Chinese companies in India are often treated unfriendly and unfairly&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_20_772938.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-20 01:21:31"
+      },
+      {
+        "chinese_title": "伊朗外长：下一轮伊美核问题谈判将于26日举行",
+        "english_title": "Iranian Foreign Minister: The next round of negotiations on the Iranian-US nuclear issue will be held on the 26th",
+        "url": "https://www.guancha.cn/internation/2025_04_20_772937.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-20 01:21:31"
+      },
+      {
+        "chinese_title": "俄乌互换246名在押人员",
+        "english_title": "Russia and Ukraine exchanged 246 detainees",
+        "url": "https://www.guancha.cn/internation/2025_04_20_772935.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-20 01:21:31"
+      },
+      {
+        "chinese_title": "美国又一小飞机坠毁，伤亡不明",
+        "english_title": "Another small plane crashed in the United States, and the casualties are unknown",
+        "url": "https://www.guancha.cn/internation/2025_04_20_772934.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-20 01:21:32"
+      },
+      {
+        "chinese_title": "China dispatches health team to quake-hit Myanmar",
+        "english_title": "China dispatches health team to quake-hit Myanmar",
+        "url": "https://www.globaltimes.cn/page/202504/1332451.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-20 01:21:31"
+      },
+      {
+        "chinese_title": "Expo in Hainan opens window for China-Europe economic ties",
+        "english_title": "Expo in Hainan opens window for China-Europe economic ties",
+        "url": "https://www.globaltimes.cn/page/202504/1332452.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-20 01:21:32"
+      },
+      {
+        "chinese_title": "“站在亚洲实现整体振兴的新起点上”——习近平主席对越南、马来西亚、柬埔寨进行国事访问纪实",
+        "english_title": "&quot;Standing at a new starting point for the overall rejuvenation of Asia&quot; - a record of President Xi Jinping&#x27;s state visits to Vietnam, Malaysia and Cambodia",
+        "url": "https://www.gov.cn/yaowen/liebiao/202504/content_7020032.htm",
+        "source": "State Council Breaking News",
+        "date": "2025-04-20 01:21:34"
+      },
+      {
+        "chinese_title": "家电以旧换新，政策加力、企业受益、消费者得实惠 不到8个月，购买量何以超亿台？",
+        "english_title": "Trade-in of household appliances, policy strengthening, enterprises benefit, consumers get benefits In less than 8 months, why did the purchase volume exceed 100 million units?",
+        "url": "https://www.gov.cn/zhengce/202504/content_7020036.htm",
+        "source": "State Council Policy Interpretation",
+        "date": "2025-04-20 01:21:34"
       }
     ]
   }
