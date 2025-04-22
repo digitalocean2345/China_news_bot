@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-22T12:32:52.652288+00:00",
+  "last_run": "2025-04-22T18:22:43.481155+00:00",
   "processed_urls": [
     "http://app.people.cn/h5/detail/normal/6281500301427712",
     "http://app.people.cn/h5/detail/normal/6282890953147392",
@@ -91,6 +91,7 @@
     "http://fanfu.people.com.cn/n1/2025/0422/c64371-40465102.html",
     "http://fanfu.people.com.cn/n1/2025/0422/c64371-40465105.html",
     "http://fanfu.people.com.cn/n1/2025/0422/c64371-40465400.html",
+    "http://finance-app.people.cn/n1/2025/0422/c1004-40464990.html",
     "http://finance.people.com.cn/n1/2025/0411/c1004-40457779.html",
     "http://finance.people.com.cn/n1/2025/0411/c1004-40457780.html",
     "http://finance.people.com.cn/n1/2025/0411/c1004-40457783.html",
@@ -1528,6 +1529,7 @@
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=7590608488211105339&t=1744331191992&toc_style_id=feeds_default&track_id=A7192971-2B99-455D-9957-92E74084A75E_766025325890&share_to=copy_url",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=8240419373493521149&t=1744515267646&toc_style_id=feeds_default&share_to=wechat&track_id=4a0edf75-c4ae-4161-a737-f547cc22d620",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=8499480616039101867&toc_style_id=feeds_default&share_to=wechat&track_id=6d2985fc-0df7-47df-a1bd-0f50deb42745",
+    "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=888247992408858313&toc_style_id=feeds_default&track_id=FFFC1AFF-7521-49A8-B724-B62CF32D5920_767001233823&share_to=wechat",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9171287276581796575&toc_style_id=feeds_default&track_id=431BF3B1-E984-44D2-9ABE-F225C5EFFED4_766407451721&share_to=copy_url",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9523008169129729637&t=1744733986506&toc_style_id=feeds_default&track_id=2C927FF7-F12F-4DFE-AF23-536D55807F5E_766462233886&share_to=copy_url",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9608556364778435608&t=1744502674102&toc_style_id=feeds_default&track_id=64F0D83B-FBE7-49DD-8564-AAE27B9D9B04_766197104821&share_to=copy_url",
@@ -1603,6 +1605,7 @@
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153652",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153678",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153698",
+    "https://m.thepaper.cn/papernews/morningEveningPaper?n=153709",
     "https://mp.weixin.qq.com/s/8op4eyXjJ9EKwLxRYULGSw",
     "https://mp.weixin.qq.com/s/JyCeuzLr86wj6PEfZHu6BA",
     "https://mp.weixin.qq.com/s/vBd8Gygjsst-NmmkJ5unZA",
@@ -3699,6 +3702,33 @@
     "https://www.globaltimes.cn/page/202504/1332608.shtml",
     "https://www.globaltimes.cn/page/202504/1332609.shtml",
     "https://www.globaltimes.cn/page/202504/1332612.shtml",
+    "https://www.globaltimes.cn/page/202504/1332614.shtml",
+    "https://www.globaltimes.cn/page/202504/1332615.shtml",
+    "https://www.globaltimes.cn/page/202504/1332616.shtml",
+    "https://www.globaltimes.cn/page/202504/1332617.shtml",
+    "https://www.globaltimes.cn/page/202504/1332619.shtml",
+    "https://www.globaltimes.cn/page/202504/1332620.shtml",
+    "https://www.globaltimes.cn/page/202504/1332621.shtml",
+    "https://www.globaltimes.cn/page/202504/1332622.shtml",
+    "https://www.globaltimes.cn/page/202504/1332623.shtml",
+    "https://www.globaltimes.cn/page/202504/1332624.shtml",
+    "https://www.globaltimes.cn/page/202504/1332625.shtml",
+    "https://www.globaltimes.cn/page/202504/1332626.shtml",
+    "https://www.globaltimes.cn/page/202504/1332627.shtml",
+    "https://www.globaltimes.cn/page/202504/1332630.shtml",
+    "https://www.globaltimes.cn/page/202504/1332632.shtml",
+    "https://www.globaltimes.cn/page/202504/1332633.shtml",
+    "https://www.globaltimes.cn/page/202504/1332634.shtml",
+    "https://www.globaltimes.cn/page/202504/1332635.shtml",
+    "https://www.globaltimes.cn/page/202504/1332637.shtml",
+    "https://www.globaltimes.cn/page/202504/1332638.shtml",
+    "https://www.globaltimes.cn/page/202504/1332639.shtml",
+    "https://www.globaltimes.cn/page/202504/1332640.shtml",
+    "https://www.globaltimes.cn/page/202504/1332641.shtml",
+    "https://www.globaltimes.cn/page/202504/1332642.shtml",
+    "https://www.globaltimes.cn/page/202504/1332645.shtml",
+    "https://www.globaltimes.cn/page/202504/1332646.shtml",
+    "https://www.globaltimes.cn/page/202504/1332648.shtml",
     "https://www.globaltimes.cn/special-coverage/Two-Sessions-2025/index.html",
     "https://www.gov.cn/lianbo/bumen/",
     "https://www.gov.cn/lianbo/bumen/202504/content_7018463.htm",
@@ -3834,6 +3864,7 @@
     "https://www.gov.cn/lianbo/bumen/202504/content_7020405.htm",
     "https://www.gov.cn/lianbo/bumen/202504/content_7020413.htm",
     "https://www.gov.cn/lianbo/bumen/202504/content_7020425.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7020457.htm",
     "https://www.gov.cn/lianbo/difang/",
     "https://www.gov.cn/lianbo/difang/202504/content_7018308.htm",
     "https://www.gov.cn/lianbo/difang/202504/content_7018321.htm",
@@ -3974,6 +4005,7 @@
     "https://www.gov.cn/yaowen/liebiao/202504/content_7020032.htm",
     "https://www.gov.cn/yaowen/liebiao/202504/content_7020154.htm",
     "https://www.gov.cn/yaowen/liebiao/202504/content_7020155.htm",
+    "https://www.gov.cn/yaowen/liebiao/202504/content_7020433.htm",
     "https://www.gov.cn/yaowen/shipin/202504/content_7018328.htm",
     "https://www.gov.cn/yaowen/shipin/202504/content_7018391.htm",
     "https://www.gov.cn/yaowen/shipin/202504/content_7018392.htm",
@@ -3988,6 +4020,9 @@
     "https://www.gov.cn/yaowen/shipin/202504/content_7020265.htm",
     "https://www.gov.cn/yaowen/shipin/202504/content_7020267.htm",
     "https://www.gov.cn/yaowen/shipin/202504/content_7020268.htm",
+    "https://www.gov.cn/yaowen/shipin/202504/content_7020437.htm",
+    "https://www.gov.cn/yaowen/shipin/202504/content_7020443.htm",
+    "https://www.gov.cn/yaowen/shipin/202504/content_7020445.htm",
     "https://www.gov.cn/zhengce/202503/content_7013809.htm",
     "https://www.gov.cn/zhengce/202503/content_7014017.htm",
     "https://www.gov.cn/zhengce/202503/content_7014544.htm",
@@ -4055,6 +4090,7 @@
     "https://www.gov.cn/zhengce/202504/content_7020315.htm",
     "https://www.gov.cn/zhengce/202504/content_7020362.htm",
     "https://www.gov.cn/zhengce/202504/content_7020385.htm",
+    "https://www.gov.cn/zhengce/202504/content_7020432.htm",
     "https://www.gov.cn/zhengce/content/202503/content_7010604.htm",
     "https://www.gov.cn/zhengce/content/202503/content_7014486.htm",
     "https://www.gov.cn/zhengce/content/202503/content_7014716.htm",
@@ -4521,6 +4557,16 @@
     "https://www.guancha.cn/internation/2025_04_22_773226.shtml",
     "https://www.guancha.cn/internation/2025_04_22_773237.shtml",
     "https://www.guancha.cn/internation/2025_04_22_773245.shtml",
+    "https://www.guancha.cn/internation/2025_04_22_773250.shtml",
+    "https://www.guancha.cn/internation/2025_04_22_773255.shtml",
+    "https://www.guancha.cn/internation/2025_04_22_773258.shtml",
+    "https://www.guancha.cn/internation/2025_04_22_773260.shtml",
+    "https://www.guancha.cn/internation/2025_04_22_773261.shtml",
+    "https://www.guancha.cn/internation/2025_04_22_773262.shtml",
+    "https://www.guancha.cn/internation/2025_04_22_773263.shtml",
+    "https://www.guancha.cn/internation/2025_04_22_773264.shtml",
+    "https://www.guancha.cn/internation/2025_04_22_773268.shtml",
+    "https://www.guancha.cn/internation/2025_04_22_773269.shtml",
     "https://www.guancha.cn/politics/2025_03_29_770187.shtml",
     "https://www.guancha.cn/politics/2025_04_21_773109.shtml",
     "https://www.guancha.cn/wanglihua/2025_04_19_772893.shtml",
@@ -5303,7 +5349,13 @@
     "https://www.thepaper.cn/newsDetail_forward_30700123",
     "https://www.thepaper.cn/newsDetail_forward_30700134",
     "https://www.thepaper.cn/newsDetail_forward_30700385",
-    "https://www.thepaper.cn/newsDetail_forward_30700452"
+    "https://www.thepaper.cn/newsDetail_forward_30700452",
+    "https://www.thepaper.cn/newsDetail_forward_30700493",
+    "https://www.thepaper.cn/newsDetail_forward_30701138",
+    "https://www.thepaper.cn/newsDetail_forward_30701415",
+    "https://www.thepaper.cn/newsDetail_forward_30701431",
+    "https://www.thepaper.cn/newsDetail_forward_30701469",
+    "https://www.thepaper.cn/newsDetail_forward_30701524"
   ],
   "headlines": {
     "2025-04-12": [
@@ -42489,6 +42541,370 @@
         "url": "https://www.gov.cn/lianbo/bumen/202504/content_7020397.htm",
         "source": "State Council Department News",
         "date": "2025-04-22 12:32:45"
+      },
+      {
+        "chinese_title": "全国人大常委会调研组在宁波调研，张庆伟带队钟山易炼红参加",
+        "english_title": "The research team of the Standing Committee of the National People&#x27;s Congress conducted research in Ningbo, and Zhang Qingwei led a team of Zhongshan Yi Lianhong to participate",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30701431",
+        "source": "Paper China Government",
+        "date": "2025-04-22 18:22:34"
+      },
+      {
+        "chinese_title": "何以中国 | 当孔子与朱熹坐论千年",
+        "english_title": "Why China | When Confucius and Zhu Xi sat down for a thousand years",
+        "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=888247992408858313&toc_style_id=feeds_default&track_id=FFFC1AFF-7521-49A8-B724-B62CF32D5920_767001233823&share_to=wechat",
+        "source": "Paper China Government",
+        "date": "2025-04-22 18:22:34"
+      },
+      {
+        "chinese_title": "几百元的工资优势已不能吸引人才流动，江苏多地探讨“抢人”高招",
+        "english_title": "The salary advantage of a few hundred yuan can no longer attract the flow of talents, and many places in Jiangsu are exploring &quot;grabbing people&quot; and recruiting high-level talents",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30700493",
+        "source": "Paper China Government",
+        "date": "2025-04-22 18:22:34"
+      },
+      {
+        "chinese_title": "“80后”保利文化集团董事长王波挂职哈尔滨副市长，负责文旅、招商",
+        "english_title": "Wang Bo, chairman of the &quot;post-80s&quot; Poly Culture Group, is temporarily appointed as the deputy mayor of Harbin, responsible for cultural tourism and investment promotion",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30701415",
+        "source": "Paper Personnel Trends",
+        "date": "2025-04-22 18:22:33"
+      },
+      {
+        "chinese_title": "河南省粮食和物资储备局党组书记吴祖明已任省国资委主任",
+        "english_title": "Wu Zuming, secretary of the party group of the Henan Provincial Food and Material Reserve Bureau, has been appointed director of the provincial SASAC",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30701138",
+        "source": "Paper Personnel Trends",
+        "date": "2025-04-22 18:22:33"
+      },
+      {
+        "chinese_title": "5旬辅警30余年前被人顶替上中专？河南沁阳：基本属实，将依法处理",
+        "english_title": "The 50-year-old auxiliary police were replaced by secondary schools more than 30 years ago? Qinyang, Henan: It is basically true and will be dealt with in accordance with the law",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30701524",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-22 18:22:35"
+      },
+      {
+        "chinese_title": "北京地铁5号线仗义执言女乘客发文：同理心无比重要，希望就此平息",
+        "english_title": "Beijing Metro Line 5 speaks to female passengers: Empathy is extremely important, and I hope it will subside",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30701469",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-22 18:22:35"
+      },
+      {
+        "chinese_title": "爱拼会赢 勇毅前行（走市场 看韧性 强信心）",
+        "english_title": "Love will win and move forward bravely (go to the market, see resilience, and strengthen confidence)",
+        "url": "http://finance-app.people.cn/n1/2025/0422/c1004-40464990.html",
+        "source": "Paper public opinion",
+        "date": "2025-04-22 18:22:35"
+      },
+      {
+        "chinese_title": "澎湃早晚报｜晚安湃·教皇遗嘱公布",
+        "english_title": "The Surging Morning and Evening News|Good Night, Pope&#x27;s Will Announced",
+        "url": "https://m.thepaper.cn/papernews/morningEveningPaper?n=153709",
+        "source": "Paper public opinion",
+        "date": "2025-04-22 18:22:35"
+      },
+      {
+        "chinese_title": "“美国几代人的亚太布局被毁，盟友终将望向中国”",
+        "english_title": "&quot;The Asia-Pacific layout of the United States for several generations has been destroyed, and its allies will eventually look to China&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_22_773269.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-22 18:22:35"
+      },
+      {
+        "chinese_title": "“我们投给特朗普，现在他的关税搅乱了我们的行业”",
+        "english_title": "&quot;We voted for Trump, and now his tariffs are messing up our industry&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_22_773268.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-22 18:22:35"
+      },
+      {
+        "chinese_title": "罗马教皇方济各死因公布",
+        "english_title": "The cause of Pope Francis&#x27; death was announced",
+        "url": "https://www.guancha.cn/internation/2025_04_22_773264.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-22 18:22:35"
+      },
+      {
+        "chinese_title": "储量5.8吨！新疆发现一处金矿",
+        "english_title": "Reserves of 5.8 tons! A gold mine was discovered in Xinjiang",
+        "url": "https://www.guancha.cn/internation/2025_04_22_773263.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-22 18:22:35"
+      },
+      {
+        "chinese_title": "越南总理表态：越美谈判，不能影响其他市场",
+        "english_title": "The Vietnamese Prime Minister stated that the Vietnam-US negotiations should not affect other markets",
+        "url": "https://www.guancha.cn/internation/2025_04_22_773262.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "“别用中国的”，美国务院内部文件曝光",
+        "english_title": "&quot;Don&#x27;t use China&quot;, the internal documents of the US State Department were exposed",
+        "url": "https://www.guancha.cn/internation/2025_04_22_773261.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "王毅：当前单边霸凌横行背景下，中英有责任维护二战后形成的国际秩序",
+        "english_title": "Wang Yi: Against the backdrop of rampant unilateral bullying, China and the UK have the responsibility to uphold the international order formed after World War II",
+        "url": "https://www.guancha.cn/internation/2025_04_22_773260.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "2.7%→1.8%，IMF下调美国经济增速预期",
+        "english_title": "2.7% → 1.8%, the IMF lowered its forecast for U.S. economic growth",
+        "url": "https://www.guancha.cn/internation/2025_04_22_773258.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "美媒吐槽：全员滑跪，除了中国…",
+        "english_title": "The US media complained: All the staff slipped and knelt, except for China...",
+        "url": "https://www.guancha.cn/internation/2025_04_22_773255.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "“关税正在扼杀企业对美投资意愿，市场重心或转向”",
+        "english_title": "&quot;Tariffs are stifling companies&#x27; willingness to invest in the United States, and the market focus may shift&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_22_773250.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-22 18:22:37"
+      },
+      {
+        "chinese_title": "China firmly opposes US smearing China by rehashing &#x27;lab leak&#x27; theory on website, calls it another ploy for political manipulation under pretext of COVID origins-tracing",
+        "english_title": "China firmly opposes US smearing China by rehashing &#x27;lab leak&#x27; theory on website, calls it another ploy for political manipulation under pretext of COVID origins-tracing",
+        "url": "https://www.globaltimes.cn/page/202504/1332648.shtml",
+        "source": "GT China Politics",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "China restores 3.07 million hectares of grassland annually: National Forestry and Grassland Administration",
+        "english_title": "China restores 3.07 million hectares of grassland annually: National Forestry and Grassland Administration",
+        "url": "https://www.globaltimes.cn/page/202504/1332614.shtml",
+        "source": "GT China Society",
+        "date": "2025-04-22 18:22:35"
+      },
+      {
+        "chinese_title": "Philippines eases restrictions on official travel to the island of Taiwan; experts warn move amounts to dangerous maneuvering on Taiwan question",
+        "english_title": "Philippines eases restrictions on official travel to the island of Taiwan; experts warn move amounts to dangerous maneuvering on Taiwan question",
+        "url": "https://www.globaltimes.cn/page/202504/1332646.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "China expresses condolences over death of Pope Francis: FM",
+        "english_title": "China expresses condolences over death of Pope Francis: FM",
+        "url": "https://www.globaltimes.cn/page/202504/1332645.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "US abuse of tariffs dragging down world growth forecast; Chinese envoy slams &#x27;cruel and absurd&#x27; levies on LDC &#x27;heartbreaking&#x27;",
+        "english_title": "US abuse of tariffs dragging down world growth forecast; Chinese envoy slams &#x27;cruel and absurd&#x27; levies on LDC &#x27;heartbreaking&#x27;",
+        "url": "https://www.globaltimes.cn/page/202504/1332640.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "Azerbaijan president kicks off China visit, further enhance foundation of co-op",
+        "english_title": "Azerbaijan president kicks off China visit, further enhance foundation of co-op",
+        "url": "https://www.globaltimes.cn/page/202504/1332638.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "Wang Yi holds phone call with UK Foreign Secretary David Lammy, stressing shared responsibility to uphold multilateral trade system",
+        "english_title": "Wang Yi holds phone call with UK Foreign Secretary David Lammy, stressing shared responsibility to uphold multilateral trade system",
+        "url": "https://www.globaltimes.cn/page/202504/1332624.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "Iranian FM to visit China amid ongoing indirect talks with US",
+        "english_title": "Iranian FM to visit China amid ongoing indirect talks with US",
+        "url": "https://www.globaltimes.cn/page/202504/1332626.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "Putin&#x27;s reported proposal for bilateral talks with Ukraine gains wide attention",
+        "english_title": "Putin&#x27;s reported proposal for bilateral talks with Ukraine gains wide attention",
+        "url": "https://www.globaltimes.cn/page/202504/1332623.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "GT Voice: Innovation solidifies China&#x27;s key role in world&#x27;s NEV supply chain",
+        "english_title": "GT Voice: Innovation solidifies China&#x27;s key role in world&#x27;s NEV supply chain",
+        "url": "https://www.globaltimes.cn/page/202504/1332637.shtml",
+        "source": "GT Source Voice",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "US 301 restrictions on China&#x27;s maritime, logistics, shipbuilding sectors to backfire",
+        "english_title": "US 301 restrictions on China&#x27;s maritime, logistics, shipbuilding sectors to backfire",
+        "url": "https://www.globaltimes.cn/page/202504/1332632.shtml",
+        "source": "GT Source Insight",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "US trade policy fundamentally flawed from an economic standpoint: Chinese economist Justin Yifu Lin",
+        "english_title": "US trade policy fundamentally flawed from an economic standpoint: Chinese economist Justin Yifu Lin",
+        "url": "https://www.globaltimes.cn/page/202504/1332625.shtml",
+        "source": "GT Source Insight",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "India&#x27;s new steel tariffs send &#x27;negative signal&#x27; amid rising US protectionism: Chinese expert",
+        "english_title": "India&#x27;s new steel tariffs send &#x27;negative signal&#x27; amid rising US protectionism: Chinese expert",
+        "url": "https://www.globaltimes.cn/page/202504/1332635.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "Foreign shoppers flock to China, showing &#x27;strong appeal&#x27; of Chinese goods",
+        "english_title": "Foreign shoppers flock to China, showing &#x27;strong appeal&#x27; of Chinese goods",
+        "url": "https://www.globaltimes.cn/page/202504/1332634.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "South Korea&#x27;s &#x27;welcome week&#x27; to reveal multifaceted cooperation with China",
+        "english_title": "South Korea&#x27;s &#x27;welcome week&#x27; to reveal multifaceted cooperation with China",
+        "url": "https://www.globaltimes.cn/page/202504/1332633.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "China to host first ‌Embodied Artificial Intelligence Robot Games ‌in Wuxi",
+        "english_title": "China to host first ‌Embodied Artificial Intelligence Robot Games ‌in Wuxi",
+        "url": "https://www.globaltimes.cn/page/202504/1332630.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "Shanghai signs agreement with Toyota ahead of auto show",
+        "english_title": "Shanghai signs agreement with Toyota ahead of auto show",
+        "url": "https://www.globaltimes.cn/page/202504/1332627.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "China-Kenya trade grows 11.9% in Q1; Kenyan president&#x27;s visit to boost cooperation",
+        "english_title": "China-Kenya trade grows 11.9% in Q1; Kenyan president&#x27;s visit to boost cooperation",
+        "url": "https://www.globaltimes.cn/page/202504/1332622.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "IMF downgrades global growth forecast to 2.8 pct in 2025",
+        "english_title": "IMF downgrades global growth forecast to 2.8 pct in 2025",
+        "url": "https://www.globaltimes.cn/page/202504/1332617.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "World&#x27;s largest car carrier sets sail, meets new international environmental standards",
+        "english_title": "World&#x27;s largest car carrier sets sail, meets new international environmental standards",
+        "url": "https://www.globaltimes.cn/page/202504/1332616.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "China&#x27;s e-commerce giants JD, Meituan shares plunge, amid fierce competition",
+        "english_title": "China&#x27;s e-commerce giants JD, Meituan shares plunge, amid fierce competition",
+        "url": "https://www.globaltimes.cn/page/202504/1332615.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "What does American consumers&#x27; shopping spree in China mean?: Global Times editorial",
+        "english_title": "What does American consumers&#x27; shopping spree in China mean?: Global Times editorial",
+        "url": "https://www.globaltimes.cn/page/202504/1332641.shtml",
+        "source": "GT Opinion Editorial",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "US-Philippines Balikatan exercises a super troll, rather than a &#x27;Super Bowl&#x27;",
+        "english_title": "US-Philippines Balikatan exercises a super troll, rather than a &#x27;Super Bowl&#x27;",
+        "url": "https://www.globaltimes.cn/page/202504/1332642.shtml",
+        "source": "GT Opinion Observer",
+        "date": "2025-04-22 18:22:36"
+      },
+      {
+        "chinese_title": "Those who visit Xinjiang will return with &#x27;eyes full of light&#x27;",
+        "english_title": "Those who visit Xinjiang will return with &#x27;eyes full of light&#x27;",
+        "url": "https://www.globaltimes.cn/page/202504/1332621.shtml",
+        "source": "GT Opinion Viewpoint",
+        "date": "2025-04-22 18:22:37"
+      },
+      {
+        "chinese_title": "Upholding the right path of multilateralism, defending the international trade order",
+        "english_title": "Upholding the right path of multilateralism, defending the international trade order",
+        "url": "https://www.globaltimes.cn/page/202504/1332620.shtml",
+        "source": "GT Opinion Viewpoint",
+        "date": "2025-04-22 18:22:37"
+      },
+      {
+        "chinese_title": "A close look at Xinjiang frontier police outpost in mystical Wakhan Corridor",
+        "english_title": "A close look at Xinjiang frontier police outpost in mystical Wakhan Corridor",
+        "url": "https://www.globaltimes.cn/page/202504/1332639.shtml",
+        "source": "GT Indepth",
+        "date": "2025-04-22 18:22:37"
+      },
+      {
+        "chinese_title": "Healing in China: From life-saving technologies to personalized recovery plans, foreign visitors find trusted healthcare in China",
+        "english_title": "Healing in China: From life-saving technologies to personalized recovery plans, foreign visitors find trusted healthcare in China",
+        "url": "https://www.globaltimes.cn/page/202504/1332619.shtml",
+        "source": "GT Indepth",
+        "date": "2025-04-22 18:22:37"
+      },
+      {
+        "chinese_title": "一季度我国对肯尼亚进出口同比增长11.9%",
+        "english_title": "In the first quarter, China&#x27;s imports and exports to Kenya increased by 11.9% year-on-year",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7020457.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-22 18:22:39"
+      },
+      {
+        "chinese_title": "“十四五”生态保护修复预期目标基本完成",
+        "english_title": "The expected goals of ecological protection and restoration in the 14th Five-Year Plan have been basically completed",
+        "url": "https://www.gov.cn/yaowen/shipin/202504/content_7020437.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-22 18:22:39"
+      },
+      {
+        "chinese_title": "各地高效有序推进春耕春管",
+        "english_title": "All localities have promoted spring plowing and spring management in an efficient and orderly manner",
+        "url": "https://www.gov.cn/yaowen/shipin/202504/content_7020445.htm",
+        "source": "State Council Local News",
+        "date": "2025-04-22 18:22:39"
+      },
+      {
+        "chinese_title": "电商平台多举措助推外贸企业开拓内销渠道",
+        "english_title": "E-commerce platforms have taken many measures to help foreign trade enterprises develop domestic sales channels",
+        "url": "https://www.gov.cn/yaowen/shipin/202504/content_7020443.htm",
+        "source": "State Council Local News",
+        "date": "2025-04-22 18:22:39"
+      },
+      {
+        "chinese_title": "习近平总书记关切事 | 书香满家国",
+        "english_title": "General Secretary Xi Jinping&#x27;s concerns | Books fill the country",
+        "url": "https://www.gov.cn/yaowen/liebiao/202504/content_7020433.htm",
+        "source": "State Council Breaking News",
+        "date": "2025-04-22 18:22:39"
+      },
+      {
+        "chinese_title": "自然资源部地理信息管理司负责人解读天地图改版",
+        "english_title": "The person in charge of the Geographic Information Management Department of the Ministry of Natural Resources interprets the revised version of the map",
+        "url": "https://www.gov.cn/zhengce/202504/content_7020432.htm",
+        "source": "State Council Policy Interpretation",
+        "date": "2025-04-22 18:22:39"
       }
     ]
   }
