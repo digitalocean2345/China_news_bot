@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-25T12:33:09.181861+00:00",
+  "last_run": "2025-04-25T18:22:29.405550+00:00",
   "processed_urls": [
     "http://app.people.cn/h5/detail/normal/6281500301427712",
     "http://app.people.cn/h5/detail/normal/6282890953147392",
@@ -552,6 +552,8 @@
     "http://finance.people.com.cn/n1/2025/0425/c1004-40468447.html",
     "http://finance.people.com.cn/n1/2025/0425/c1004-40468448.html",
     "http://finance.people.com.cn/n1/2025/0425/c1004-40468462.html",
+    "http://finance.people.com.cn/n1/2025/0425/c1004-40468473.html",
+    "http://finance.people.com.cn/n1/2025/0425/c1004-40468474.html",
     "http://renshi.people.com.cn/n1/2025/0226/c139617-40426395.html",
     "http://renshi.people.com.cn/n1/2025/0228/c139617-40428020.html",
     "http://renshi.people.com.cn/n1/2025/0228/c139617-40428038.html",
@@ -2064,6 +2066,7 @@
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=8499480616039101867&toc_style_id=feeds_default&share_to=wechat&track_id=6d2985fc-0df7-47df-a1bd-0f50deb42745",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=888247992408858313&toc_style_id=feeds_default&track_id=FFFC1AFF-7521-49A8-B724-B62CF32D5920_767001233823&share_to=wechat",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9171287276581796575&toc_style_id=feeds_default&track_id=431BF3B1-E984-44D2-9ABE-F225C5EFFED4_766407451721&share_to=copy_url",
+    "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9286940510362210086&t=1745517326950&toc_style_id=feeds_default&share_to=copy_url&track_id=5dbe0203-749c-471d-8852-dfafd8c7d083",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9523008169129729637&t=1744733986506&toc_style_id=feeds_default&track_id=2C927FF7-F12F-4DFE-AF23-536D55807F5E_766462233886&share_to=copy_url",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9608556364778435608&t=1744502674102&toc_style_id=feeds_default&track_id=64F0D83B-FBE7-49DD-8564-AAE27B9D9B04_766197104821&share_to=copy_url",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9870406485716375467&toc_style_id=feeds_default&track_id=E32E1584-55A2-4508-A0F9-64655FD28289_766756438889&share_to=copy_url",
@@ -2121,9 +2124,11 @@
     "https://h.xinhuaxmt.com/vh512/share/12508862?d=134ff37&channel=weixin&time=1745390888541",
     "https://h.xinhuaxmt.com/vh512/share/12509138?d=134ff37&channel=weixin",
     "https://h.xinhuaxmt.com/vh512/share/12509834?newstype=1001&homeshow=1",
+    "https://h.xinhuaxmt.com/vh512/share/12510112?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12510143?d=134ff37&channel=weixin&time=1745423792095",
     "https://h.xinhuaxmt.com/vh512/share/12510279?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12510494?newstype=1001&homeshow=1",
+    "https://h.xinhuaxmt.com/vh512/share/12511576?newstype=1001&homeshow=1",
     "https://jingji.cctv.com/2025/04/20/ARTIZscGoDDGnV4P05PNncmP250420.shtml",
     "https://jingji.cctv.com/2025/04/22/ARTIPvqdUCiSNuTj6djj3nCy250422.shtml",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153251",
@@ -2157,6 +2162,7 @@
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153783",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153802",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153823",
+    "https://m.thepaper.cn/papernews/morningEveningPaper?n=153833",
     "https://mp.weixin.qq.com/s/8op4eyXjJ9EKwLxRYULGSw",
     "https://mp.weixin.qq.com/s/JyCeuzLr86wj6PEfZHu6BA",
     "https://mp.weixin.qq.com/s/vBd8Gygjsst-NmmkJ5unZA",
@@ -2189,6 +2195,7 @@
     "https://news.cctv.com/2025/04/23/ARTIQpmUs2w782x0prwHV04X250423.shtml",
     "https://news.cctv.com/2025/04/24/ARTIFZjG2qBK4988ZHBvM41O250424.shtml",
     "https://news.cctv.com/2025/04/24/ARTIzBYknqnrvaTSJCOGwFiM250424.shtml",
+    "https://news.cnr.cn/dj/20250424/t20250424_527147628.shtml",
     "https://news.cnr.cn/dj/sz/20250409/t20250409_527127906.shtml",
     "https://news.cnr.cn/dj/sz/20250409/t20250409_527128503.shtml",
     "https://news.cri.cn/20250411/dbeb8762-c42e-4897-dfb3-2629c7b4f6ce.html",
@@ -4605,6 +4612,13 @@
     "https://www.gov.cn/lianbo/bumen/202504/content_7021004.htm",
     "https://www.gov.cn/lianbo/bumen/202504/content_7021005.htm",
     "https://www.gov.cn/lianbo/bumen/202504/content_7021006.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7021015.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7021016.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7021017.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7021020.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7021021.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7021022.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7021025.htm",
     "https://www.gov.cn/lianbo/difang/",
     "https://www.gov.cn/lianbo/difang/202504/content_7018308.htm",
     "https://www.gov.cn/lianbo/difang/202504/content_7018321.htm",
@@ -4913,6 +4927,7 @@
     "https://www.gov.cn/zhengce/zhengceku/202504/content_7020857.htm",
     "https://www.gov.cn/zhengce/zhengceku/202504/content_7020867.htm",
     "https://www.gov.cn/zhengce/zhengceku/202504/content_7020965.htm",
+    "https://www.gov.cn/zhengce/zhengceku/202504/content_7021027.htm",
     "https://www.gov.cn/zhuanti/2025qglh/2025zfgzbgjd/index.htm",
     "https://www.gov.cn/zhuanti/2025qglhzb/live/20250309b5813697.html",
     "https://www.guancha.cn/AliAsgharSoltanieh/2025_04_24_773469.shtml",
@@ -5476,6 +5491,12 @@
     "https://www.guancha.cn/internation/2025_04_25_773652.shtml",
     "https://www.guancha.cn/internation/2025_04_25_773654.shtml",
     "https://www.guancha.cn/internation/2025_04_25_773655.shtml",
+    "https://www.guancha.cn/internation/2025_04_25_773658.shtml",
+    "https://www.guancha.cn/internation/2025_04_25_773664.shtml",
+    "https://www.guancha.cn/internation/2025_04_25_773665.shtml",
+    "https://www.guancha.cn/internation/2025_04_25_773666.shtml",
+    "https://www.guancha.cn/internation/2025_04_25_773668.shtml",
+    "https://www.guancha.cn/internation/2025_04_25_773669.shtml",
     "https://www.guancha.cn/politics/2025_03_29_770187.shtml",
     "https://www.guancha.cn/politics/2025_04_21_773109.shtml",
     "https://www.guancha.cn/wanglihua/2025_04_19_772893.shtml",
@@ -6423,7 +6444,17 @@
     "https://www.thepaper.cn/newsDetail_forward_30721164",
     "https://www.thepaper.cn/newsDetail_forward_30721237",
     "https://www.thepaper.cn/newsDetail_forward_30721328",
-    "https://www.thepaper.cn/newsDetail_forward_30721563"
+    "https://www.thepaper.cn/newsDetail_forward_30721563",
+    "https://www.thepaper.cn/newsDetail_forward_30722125",
+    "https://www.thepaper.cn/newsDetail_forward_30722209",
+    "https://www.thepaper.cn/newsDetail_forward_30722401",
+    "https://www.thepaper.cn/newsDetail_forward_30722410",
+    "https://www.thepaper.cn/newsDetail_forward_30722411",
+    "https://www.thepaper.cn/newsDetail_forward_30722420",
+    "https://www.thepaper.cn/newsDetail_forward_30722421",
+    "https://www.thepaper.cn/newsDetail_forward_30722422",
+    "https://www.thepaper.cn/newsDetail_forward_30722517",
+    "https://www.thepaper.cn/newsDetail_forward_30722530"
   ],
   "headlines": {
     "2025-04-12": [
@@ -51469,6 +51500,223 @@
         "url": "https://www.gov.cn/zhengce/202504/content_7020927.htm",
         "source": "State Council Policy Interpretation",
         "date": "2025-04-25 12:33:00"
+      },
+      {
+        "chinese_title": "吉利控股醇氢科技：解码绿色能源新路径",
+        "english_title": "Geely Holding Alcohol &amp; Hydrogen Technology: Decoding a New Path for Green Energy",
+        "url": "http://finance.people.com.cn/n1/2025/0425/c1004-40468474.html",
+        "source": "PD Economy",
+        "date": "2025-04-25 18:22:19"
+      },
+      {
+        "chinese_title": "捷途汽车：以技术向智、产品向野推动品牌向上",
+        "english_title": "Jietu Automobile: Promote the brand with technology to intelligence and products to the wild",
+        "url": "http://finance.people.com.cn/n1/2025/0425/c1004-40468473.html",
+        "source": "PD Economy",
+        "date": "2025-04-25 18:22:20"
+      },
+      {
+        "chinese_title": "中央政治局会议举行，传递三重确定性",
+        "english_title": "A meeting of the Politburo of the Central Committee was held, conveying a triple certainty",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30722517",
+        "source": "Paper China Government",
+        "date": "2025-04-25 18:22:20"
+      },
+      {
+        "chinese_title": "弘扬 “上海精神”，上合组织政党论坛聚焦政党责任与使命",
+        "english_title": "In line with the &quot;Shanghai Spirit&quot;, the SCO Political Parties Forum focuses on the responsibilities and missions of political parties",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30722401",
+        "source": "Paper China Government",
+        "date": "2025-04-25 18:22:20"
+      },
+      {
+        "chinese_title": "国家数据发展研究院在京正式揭牌",
+        "english_title": "The National Data Development Research Institute was officially unveiled in Beijing",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30722420",
+        "source": "Paper China Government",
+        "date": "2025-04-25 18:22:20"
+      },
+      {
+        "chinese_title": "银发列车悄然走红 让老年人爱上“说走就走的旅行”",
+        "english_title": "The silver-haired train quietly became popular, making the elderly fall in love with &quot;travel that says go&quot;",
+        "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9286940510362210086&t=1745517326950&toc_style_id=feeds_default&share_to=copy_url&track_id=5dbe0203-749c-471d-8852-dfafd8c7d083",
+        "source": "Paper China Government",
+        "date": "2025-04-25 18:22:20"
+      },
+      {
+        "chinese_title": "内蒙古纪检干部刘占波履新呼和浩特，曾参与涉煤腐败倒查20年工作",
+        "english_title": "Liu Zhanbo, a discipline inspection cadre in Inner Mongolia, took up his new post in Hohhot and participated in the investigation of coal-related corruption for 20 years",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30722421",
+        "source": "Paper Personnel Trends",
+        "date": "2025-04-25 18:22:20"
+      },
+      {
+        "chinese_title": "鞍钢矿业党委书记、董事长刘炳宇调任中铝集团副总经理",
+        "english_title": "Liu Bingyu, Secretary of the Party Committee and Chairman of Anshan Iron and Steel Mining, was transferred to the position of Deputy General Manager of Chinalco",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30722125",
+        "source": "Paper Personnel Trends",
+        "date": "2025-04-25 18:22:20"
+      },
+      {
+        "chinese_title": "杨荫凯履新浙江省委常委、组织部部长，曾任中央财办副主任",
+        "english_title": "Yang Yinkai served as a member of the Standing Committee of the Zhejiang Provincial Party Committee and head of the Organization Department, and served as deputy director of the Central Finance Office",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30722209",
+        "source": "Paper Personnel Trends",
+        "date": "2025-04-25 18:22:20"
+      },
+      {
+        "chinese_title": "杨荫凯已任浙江省委常委、组织部部长",
+        "english_title": "Yang Yinkai has been appointed as a member of the Standing Committee of the Zhejiang Provincial Party Committee and head of the Organization Department",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30722411",
+        "source": "Paper Personnel Trends",
+        "date": "2025-04-25 18:22:21"
+      },
+      {
+        "chinese_title": "一习话丨大力弘扬“两弹一星”精神、载人航天精神",
+        "english_title": "1. Vigorously carry forward the spirit of &quot;two bombs and one satellite&quot; and the spirit of manned spaceflight",
+        "url": "https://news.cnr.cn/dj/20250424/t20250424_527147628.shtml",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-25 18:22:21"
+      },
+      {
+        "chinese_title": "重磅微视频丨习近平的航天情缘",
+        "english_title": "Blockbuster micro video丨Xi Jinping&#x27;s aerospace love",
+        "url": "https://h.xinhuaxmt.com/vh512/share/12511576?newstype=1001&homeshow=1",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-25 18:22:21"
+      },
+      {
+        "chinese_title": "学习进行时丨感受阅读的力量",
+        "english_title": "Feel the power of reading as you learn",
+        "url": "https://h.xinhuaxmt.com/vh512/share/12510112?newstype=1001&homeshow=1",
+        "source": "Paper Zhongnanhai",
+        "date": "2025-04-25 18:22:21"
+      },
+      {
+        "chinese_title": "云南鲁甸县一河滩突然涨水致4死，有人在救人过程中遇难",
+        "english_title": "A river beach in Ludian County, Yunnan Province, suddenly rose to the water, killing 4 people, and some people were killed in the process of rescuing people",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30722410",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-25 18:22:21"
+      },
+      {
+        "chinese_title": "三亚一景区发生游客溺亡事件，官方通报：排除他杀",
+        "english_title": "A tourist drowned in a scenic spot in Sanya, and the official report ruled out homicide",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30722422",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-25 18:22:21"
+      },
+      {
+        "chinese_title": "中青报：“猿辅导员工猝死”事件上热搜，是对健康职场环境的共同关切",
+        "english_title": "China Youth Daily: The hot search on the incident of &quot;sudden death of ape counseling employees&quot; is a common concern for a healthy workplace environment",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30722530",
+        "source": "Paper public opinion",
+        "date": "2025-04-25 18:22:22"
+      },
+      {
+        "chinese_title": "澎湃早晚报｜晚安湃·巴基斯坦被断水",
+        "english_title": "The surging morning and evening newspaper|Good night Pai Pakistan was cut off from water",
+        "url": "https://m.thepaper.cn/papernews/morningEveningPaper?n=153833",
+        "source": "Paper public opinion",
+        "date": "2025-04-25 18:22:22"
+      },
+      {
+        "chinese_title": "中方出手，“肯尼亚完全转向中国”",
+        "english_title": "China Strikes, &quot;Kenya Completely Turns to China&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_25_773669.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-25 18:22:23"
+      },
+      {
+        "chinese_title": "信中国还是信特朗普？CNN直播吵起来了",
+        "english_title": "China or Trump? CNN live quarreled",
+        "url": "https://www.guancha.cn/internation/2025_04_25_773668.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-25 18:22:23"
+      },
+      {
+        "chinese_title": "俄方定性：恐袭",
+        "english_title": "Russian characterization: terrorist attack",
+        "url": "https://www.guancha.cn/internation/2025_04_25_773666.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-25 18:22:23"
+      },
+      {
+        "chinese_title": "NASA资助的高校借到月壤，美国尴尬不？",
+        "english_title": "NASA-funded colleges and universities borrow lunar soil, isn&#x27;t the United States embarrassed?",
+        "url": "https://www.guancha.cn/internation/2025_04_25_773665.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-25 18:22:23"
+      },
+      {
+        "chinese_title": "我大使敲打韩国：对美错误行为，不能听之任之",
+        "english_title": "Our ambassador struck the ROK: We cannot let the wrong behavior of the United States go unchecked",
+        "url": "https://www.guancha.cn/internation/2025_04_25_773664.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-25 18:22:23"
+      },
+      {
+        "chinese_title": "加速！被欧美阻击，中国车绕道非洲",
+        "english_title": "Hasten! Blocked by Europe and the United States, Chinese cars detoured to Africa",
+        "url": "https://www.guancha.cn/internation/2025_04_25_773658.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-25 18:22:23"
+      },
+      {
+        "chinese_title": "中国证券监督管理委员会公告〔2025〕8号",
+        "english_title": "China Securities Regulatory Commission Announcement [2025] No. 8",
+        "url": "https://www.gov.cn/zhengce/zhengceku/202504/content_7021027.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-25 18:22:26"
+      },
+      {
+        "chinese_title": "证监会发布《上市公司信息披露暂缓与豁免管理规定》",
+        "english_title": "China Securities Regulatory Commission (CSRC) issued the Administrative Provisions on the Suspension and Exemption of Information Disclosure by Listed Companies",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7021025.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-25 18:22:26"
+      },
+      {
+        "chinese_title": "2035年纯电动汽车或将成为我国新销售车辆主流",
+        "english_title": "In 2035, pure electric vehicles may become the mainstream of new sales vehicles in China",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7021022.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-25 18:22:26"
+      },
+      {
+        "chinese_title": "关口前移！国家医保局开展智能监管改革试点",
+        "english_title": "Move the gate forward! The National Health Insurance Administration has launched a pilot project for intelligent regulatory reform",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7021021.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-25 18:22:26"
+      },
+      {
+        "chinese_title": "国务院联防联控机制：“五一”全国疫情形势总体平稳可控",
+        "english_title": "Joint prevention and control mechanism of the State Council: The national epidemic situation during the May Day campaign is generally stable and controllable",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7021020.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-25 18:22:26"
+      },
+      {
+        "chinese_title": "消费品以旧换新超1.2亿人次受益 带动销售额超7200亿元",
+        "english_title": "More than 120 million people benefited from the trade-in of consumer goods, driving sales of more than 720 billion yuan",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7021017.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-25 18:22:26"
+      },
+      {
+        "chinese_title": "快递变快了吗？公众满意度如何？国家邮政局发布2024年度调查结果",
+        "english_title": "Has the delivery become faster? What is public satisfaction? The State Post Bureau released the results of the 2024 annual survey",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7021016.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-25 18:22:27"
+      },
+      {
+        "chinese_title": "万能险新规发布 规范发展防范风险",
+        "english_title": "New regulations on universal insurance were issued to standardize development and prevent risks",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7021015.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-25 18:22:27"
       }
     ]
   }
