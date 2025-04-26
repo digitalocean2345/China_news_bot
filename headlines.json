@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-26T12:29:29.815889+00:00",
+  "last_run": "2025-04-26T18:20:04.494013+00:00",
   "processed_urls": [
     "http://app.people.cn/h5/detail/normal/6281500301427712",
     "http://app.people.cn/h5/detail/normal/6282890953147392",
@@ -2055,6 +2055,34 @@
     "http://world.people.com.cn/n1/2025/0425/c1002-40468400.html",
     "http://world.people.com.cn/n1/2025/0425/c1002-40468411.html",
     "http://world.people.com.cn/n1/2025/0425/c1002-40468413.html",
+    "http://world.people.com.cn/n1/2025/0425/c1002-40468428.html",
+    "http://world.people.com.cn/n1/2025/0425/c1002-40468436.html",
+    "http://world.people.com.cn/n1/2025/0425/c1002-40468443.html",
+    "http://world.people.com.cn/n1/2025/0425/c1002-40468460.html",
+    "http://world.people.com.cn/n1/2025/0425/c1002-40468497.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468502.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468504.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468505.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468506.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468507.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468518.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468521.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468522.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468523.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468524.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468530.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468531.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468532.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468533.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468534.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468535.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468536.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468537.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468538.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468539.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468540.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468721.html",
+    "http://world.people.com.cn/n1/2025/0426/c1002-40468729.html",
     "http://www.chinanews.com.cn/gn/2025/04-03/10394315.shtml",
     "http://www.chinanews.com.cn/gn/2025/04-11/10397994.shtml",
     "http://www.chinanews.com.cn/gn/2025/04-14/10399054.shtml",
@@ -2178,6 +2206,7 @@
     "https://h.xinhuaxmt.com/vh512/share/12512210?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12513260?d=134ff39",
     "https://h.xinhuaxmt.com/vh512/share/12513740?newstype=1001&homeshow=1",
+    "https://h.xinhuaxmt.com/vh512/share/12514060?d=134ff39",
     "https://jingji.cctv.com/2025/04/20/ARTIZscGoDDGnV4P05PNncmP250420.shtml",
     "https://jingji.cctv.com/2025/04/22/ARTIPvqdUCiSNuTj6djj3nCy250422.shtml",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153251",
@@ -2213,6 +2242,7 @@
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153823",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153833",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153853",
+    "https://m.thepaper.cn/papernews/morningEveningPaper?n=153865",
     "https://mp.weixin.qq.com/s/8op4eyXjJ9EKwLxRYULGSw",
     "https://mp.weixin.qq.com/s/JyCeuzLr86wj6PEfZHu6BA",
     "https://mp.weixin.qq.com/s/vBd8Gygjsst-NmmkJ5unZA",
@@ -4490,6 +4520,23 @@
     "https://www.globaltimes.cn/page/202504/1332900.shtml",
     "https://www.globaltimes.cn/page/202504/1332903.shtml",
     "https://www.globaltimes.cn/page/202504/1332904.shtml",
+    "https://www.globaltimes.cn/page/202504/1332910.shtml",
+    "https://www.globaltimes.cn/page/202504/1332911.shtml",
+    "https://www.globaltimes.cn/page/202504/1332913.shtml",
+    "https://www.globaltimes.cn/page/202504/1332914.shtml",
+    "https://www.globaltimes.cn/page/202504/1332916.shtml",
+    "https://www.globaltimes.cn/page/202504/1332917.shtml",
+    "https://www.globaltimes.cn/page/202504/1332919.shtml",
+    "https://www.globaltimes.cn/page/202504/1332920.shtml",
+    "https://www.globaltimes.cn/page/202504/1332921.shtml",
+    "https://www.globaltimes.cn/page/202504/1332922.shtml",
+    "https://www.globaltimes.cn/page/202504/1332923.shtml",
+    "https://www.globaltimes.cn/page/202504/1332924.shtml",
+    "https://www.globaltimes.cn/page/202504/1332927.shtml",
+    "https://www.globaltimes.cn/page/202504/1332930.shtml",
+    "https://www.globaltimes.cn/page/202504/1332931.shtml",
+    "https://www.globaltimes.cn/page/202504/1332932.shtml",
+    "https://www.globaltimes.cn/page/202504/1332934.shtml",
     "https://www.globaltimes.cn/special-coverage/Two-Sessions-2025/index.html",
     "https://www.gov.cn/lianbo/bumen/",
     "https://www.gov.cn/lianbo/bumen/202504/content_7018463.htm",
@@ -4873,6 +4920,9 @@
     "https://www.gov.cn/yaowen/shipin/202504/content_7020445.htm",
     "https://www.gov.cn/yaowen/shipin/202504/content_7020641.htm",
     "https://www.gov.cn/yaowen/shipin/202504/content_7021035.htm",
+    "https://www.gov.cn/yaowen/shipin/202504/content_7021110.htm",
+    "https://www.gov.cn/yaowen/shipin/202504/content_7021113.htm",
+    "https://www.gov.cn/yaowen/shipin/202504/content_7021114.htm",
     "https://www.gov.cn/zhengce/202503/content_7013809.htm",
     "https://www.gov.cn/zhengce/202503/content_7014017.htm",
     "https://www.gov.cn/zhengce/202503/content_7014544.htm",
@@ -5601,6 +5651,13 @@
     "https://www.guancha.cn/internation/2025_04_26_773738.shtml",
     "https://www.guancha.cn/internation/2025_04_26_773739.shtml",
     "https://www.guancha.cn/internation/2025_04_26_773741.shtml",
+    "https://www.guancha.cn/internation/2025_04_26_773743.shtml",
+    "https://www.guancha.cn/internation/2025_04_26_773744.shtml",
+    "https://www.guancha.cn/internation/2025_04_26_773745.shtml",
+    "https://www.guancha.cn/internation/2025_04_26_773746.shtml",
+    "https://www.guancha.cn/internation/2025_04_26_773748.shtml",
+    "https://www.guancha.cn/internation/2025_04_26_773750.shtml",
+    "https://www.guancha.cn/internation/2025_04_26_773751.shtml",
     "https://www.guancha.cn/politics/2025_03_29_770187.shtml",
     "https://www.guancha.cn/politics/2025_04_21_773109.shtml",
     "https://www.guancha.cn/wanglihua/2025_04_19_772893.shtml",
@@ -6592,7 +6649,9 @@
     "https://www.thepaper.cn/newsDetail_forward_30726859",
     "https://www.thepaper.cn/newsDetail_forward_30726898",
     "https://www.thepaper.cn/newsDetail_forward_30726944",
-    "https://www.thepaper.cn/newsDetail_forward_30727023"
+    "https://www.thepaper.cn/newsDetail_forward_30727023",
+    "https://www.thepaper.cn/newsDetail_forward_30727427",
+    "https://www.thepaper.cn/newsDetail_forward_30727458"
   ],
   "headlines": {
     "2025-04-12": [
@@ -52823,6 +52882,419 @@
         "url": "https://www.gov.cn/zhengce/202504/content_7021093.htm",
         "source": "State Council Policy Interpretation",
         "date": "2025-04-26 12:29:21"
+      },
+      {
+        "chinese_title": "伊朗媒体26日说，伊朗南部一港口当天发生大爆炸",
+        "english_title": "Iranian media said on the 26th that a large explosion occurred in a port in southern Iran on the same day",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468729.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:53"
+      },
+      {
+        "chinese_title": "中国代表：美滥用东道国地位频繁拒签他国外交人员",
+        "english_title": "Chinese representative: The United States abuses its status as a host country and frequently refuses visas for diplomats from other countries",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468721.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:53"
+      },
+      {
+        "chinese_title": "中老合资券商在老挝上市",
+        "english_title": "The Sino-Laos joint venture brokerage was listed in Laos",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468540.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:53"
+      },
+      {
+        "chinese_title": "纪念万隆会议70周年国际研讨会在印尼举行",
+        "english_title": "An international symposium to commemorate the 70th anniversary of the Bandung Conference was held in Indonesia",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468539.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:54"
+      },
+      {
+        "chinese_title": "高度赞赏阿盟外长理事会会议通过对华友好决议",
+        "english_title": "He highly appreciated the adoption of the friendship resolution on China at the meeting of the Council of Foreign Ministers of the League of Arab States",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468538.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:54"
+      },
+      {
+        "chinese_title": "《铁线礁、牛轭礁珊瑚礁生态系统调查报告》在京发布",
+        "english_title": "The &quot;Investigation Report on Coral Reef Ecosystems of Iron Line Reef and Oxbow Reef&quot; was released in Beijing",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468537.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:54"
+      },
+      {
+        "chinese_title": "柬中合作承载两国人民对美好生活的共同向往（国际论坛）",
+        "english_title": "Cambodia-China Cooperation Carries the Common Aspiration of the Two Peoples for a Better Life (International Forum)",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468536.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:54"
+      },
+      {
+        "chinese_title": "中国人民对外友好协会代表团访问美国",
+        "english_title": "A delegation from the Chinese Association for Friendship with Foreign Countries visited the United States",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468535.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:55"
+      },
+      {
+        "chinese_title": "彭清华会见希腊议会国防与外事委员会代表团",
+        "english_title": "Peng Qinghua met with a delegation from the Defence and Foreign Affairs Committee of the Greek Parliament",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468534.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:55"
+      },
+      {
+        "chinese_title": "中哈举行第二次外长战略对话",
+        "english_title": "China and Kazakhstan held the second Strategic Dialogue between Foreign Ministers",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468533.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:55"
+      },
+      {
+        "chinese_title": "亲诚惠容  命运与共（和音）",
+        "english_title": "Kindness, sincerity and affection, fate and harmony (harmony)",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468532.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:55"
+      },
+      {
+        "chinese_title": "推动共建清洁、美丽、可持续的世界",
+        "english_title": "Promote a clean, beautiful and sustainable world",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468531.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:55"
+      },
+      {
+        "chinese_title": "习近平主席首次访问美国艾奥瓦州40周年纪念活动在得梅…",
+        "english_title": "The 40th anniversary of President Xi Jinping&#x27;s first visit to Iowa in the United States was held in Demay...",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468530.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:55"
+      },
+      {
+        "chinese_title": "马中两国合作前景会更加广阔",
+        "english_title": "The prospects for cooperation between Malaysia and China will be even broader",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468524.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:56"
+      },
+      {
+        "chinese_title": "聚焦前沿技术与产业落地",
+        "english_title": "Focus on cutting-edge technology and industrial landing",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468523.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:56"
+      },
+      {
+        "chinese_title": "中印尼合作为“全球南方”打造共赢样板（专家谈）",
+        "english_title": "China-Indonesia cooperation creates a win-win model for the &quot;Global South&quot; (Expert Talk)",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468522.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:56"
+      },
+      {
+        "chinese_title": "中印尼共绘“全球南方”合作新图景（环球热点）",
+        "english_title": "China and Indonesia Draw a New Picture of &quot;Global South&quot; Cooperation (Global Hotspots)",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468521.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:56"
+      },
+      {
+        "chinese_title": "桃花源来了“洋农人”（我在中国·行耕记）",
+        "english_title": "The Peach Blossom Land is here for &quot;foreign farmers&quot; (I am in China, Farming)",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468518.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:56"
+      },
+      {
+        "chinese_title": "中国人民对外友好协会代表团访问美国",
+        "english_title": "A delegation from the Chinese Association for Friendship with Foreign Countries visited the United States",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468507.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:56"
+      },
+      {
+        "chinese_title": "王毅会见塔吉克斯坦外长穆赫里丁",
+        "english_title": "Wang Yi met with Tajik Foreign Minister Muhriddin",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468506.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:56"
+      },
+      {
+        "chinese_title": "王毅会见乌兹别克斯坦外长赛义多夫",
+        "english_title": "Wang Yi met with Foreign Minister Saidov of Uzbekistan",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468505.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:57"
+      },
+      {
+        "chinese_title": "中哈举行第二次外长战略对话",
+        "english_title": "China and Kazakhstan held the second Strategic Dialogue between Foreign Ministers",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468504.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:57"
+      },
+      {
+        "chinese_title": "心相近·特写丨延续40年的友谊，跨越太平洋的接力",
+        "english_title": "Close-up丨Friendship that lasted for 40 years, a relay across the Pacific",
+        "url": "http://world.people.com.cn/n1/2025/0426/c1002-40468502.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:57"
+      },
+      {
+        "chinese_title": "习近平主席首次访问美国艾奥瓦州40周年纪念活动在得梅因…",
+        "english_title": "The 40th anniversary of President Xi Jinping&#x27;s first visit to Iowa in the United States was held in Des Moines...",
+        "url": "http://world.people.com.cn/n1/2025/0425/c1002-40468497.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:57"
+      },
+      {
+        "chinese_title": "外交部：奉劝美方多做有利于地区稳定和发展的实事",
+        "english_title": "Ministry of Foreign Affairs: We would like to advise the US side to do more practical things that are conducive to regional stability and development",
+        "url": "http://world.people.com.cn/n1/2025/0425/c1002-40468460.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:57"
+      },
+      {
+        "chinese_title": "外交部：高度赞赏阿盟外长理事会会议通过对华友好决议",
+        "english_title": "Ministry of Foreign Affairs: We highly appreciate the adoption of the Friendship Resolution on China at the Council of Foreign Ministers of the League of Arab States",
+        "url": "http://world.people.com.cn/n1/2025/0425/c1002-40468443.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:57"
+      },
+      {
+        "chinese_title": "外交部：美方是国际军控与防扩散体系最大破坏者",
+        "english_title": "Ministry of Foreign Affairs: The US is the biggest saboteur of the international arms control and non-proliferation system",
+        "url": "http://world.people.com.cn/n1/2025/0425/c1002-40468436.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:58"
+      },
+      {
+        "chinese_title": "外交部：美国不应在错误的道路上越走越远",
+        "english_title": "Foreign Ministry: The United States should not go further down the wrong path",
+        "url": "http://world.people.com.cn/n1/2025/0425/c1002-40468428.html",
+        "source": "PD International Breaking News",
+        "date": "2025-04-26 18:19:58"
+      },
+      {
+        "chinese_title": "天津外国语大学原校长修刚突发疾病去世，享年68岁",
+        "english_title": "Xiu Gang, former president of Tianjin University of Foreign Chinese, died of a sudden illness at the age of 68",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30727458",
+        "source": "Paper China Government",
+        "date": "2025-04-26 18:19:55"
+      },
+      {
+        "chinese_title": "靳燕出任中央戏剧学院党委副书记，原任中戏院长助理",
+        "english_title": "Jin Yan served as the deputy secretary of the Party Committee of the Central Academy of Drama, and was formerly the assistant to the dean of Chinese opera",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30727427",
+        "source": "Paper Personnel Trends",
+        "date": "2025-04-26 18:19:55"
+      },
+      {
+        "chinese_title": "坚定不移办好自己的事，着力抓好“四稳”",
+        "english_title": "Unswervingly do their own things well, and strive to do a good job in the &quot;four stability&quot;",
+        "url": "https://h.xinhuaxmt.com/vh512/share/12514060?d=134ff39",
+        "source": "Paper public opinion",
+        "date": "2025-04-26 18:19:57"
+      },
+      {
+        "chinese_title": "澎湃早晚报｜晚安湃·白宫争吵后首度碰面",
+        "english_title": "The surging morning and evening newspaper|Good night Pai Pai met for the first time after the White House quarrel",
+        "url": "https://m.thepaper.cn/papernews/morningEveningPaper?n=153865",
+        "source": "Paper public opinion",
+        "date": "2025-04-26 18:19:57"
+      },
+      {
+        "chinese_title": "“哪来的谈判？特朗普在臆想，中国会给他狠狠上一课”",
+        "english_title": "&quot;Where did the negotiations come from? Trump is imagining that China will teach him a hard lesson&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_26_773751.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-26 18:19:58"
+      },
+      {
+        "chinese_title": "中方为何站出来进行反制？王毅给出答案",
+        "english_title": "Why did China stand up and take countermeasures? Wang Yi gave the answer",
+        "url": "https://www.guancha.cn/internation/2025_04_26_773750.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-26 18:19:58"
+      },
+      {
+        "chinese_title": "CIA副局长之子在俄乌冲突中死亡，“生前为俄方战斗”",
+        "english_title": "The son of the deputy director of the CIA died in the Russia-Ukraine conflict, &quot;fighting for the Russian side before his death&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_26_773748.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-26 18:19:58"
+      },
+      {
+        "chinese_title": "普京：俄愿无先决条件与乌谈判",
+        "english_title": "Putin: Russia is willing to negotiate with Ukraine without preconditions",
+        "url": "https://www.guancha.cn/internation/2025_04_26_773746.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-26 18:19:58"
+      },
+      {
+        "chinese_title": "俄军宣布完全收复库尔斯克，乌方否认",
+        "english_title": "The Russian army announced the complete recovery of Kursk, which the Ukrainian side denied",
+        "url": "https://www.guancha.cn/internation/2025_04_26_773745.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-26 18:19:58"
+      },
+      {
+        "chinese_title": "特朗普称“中方须做出实质性让步”，中方回应",
+        "english_title": "Trump said that &quot;China must make substantial concessions&quot;, and China responded",
+        "url": "https://www.guancha.cn/internation/2025_04_26_773744.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-26 18:19:58"
+      },
+      {
+        "chinese_title": "3名中国公民受轻伤",
+        "english_title": "Three Chinese nationals suffered minor injuries",
+        "url": "https://www.guancha.cn/internation/2025_04_26_773743.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-26 18:19:59"
+      },
+      {
+        "chinese_title": "Teen epilepsy patient plays games via brain-computer interface implant",
+        "english_title": "Teen epilepsy patient plays games via brain-computer interface implant",
+        "url": "https://www.globaltimes.cn/page/202504/1332924.shtml",
+        "source": "GT China Society",
+        "date": "2025-04-26 18:19:58"
+      },
+      {
+        "chinese_title": "Hangzhou Metro claims &#x27;coffin-looking&#x27; station design incorporating modern features",
+        "english_title": "Hangzhou Metro claims &#x27;coffin-looking&#x27; station design incorporating modern features",
+        "url": "https://www.globaltimes.cn/page/202504/1332923.shtml",
+        "source": "GT China Society",
+        "date": "2025-04-26 18:19:58"
+      },
+      {
+        "chinese_title": "Nine-year-old girl miraculously survives 25-storey fall",
+        "english_title": "Nine-year-old girl miraculously survives 25-storey fall",
+        "url": "https://www.globaltimes.cn/page/202504/1332922.shtml",
+        "source": "GT China Society",
+        "date": "2025-04-26 18:19:58"
+      },
+      {
+        "chinese_title": "Woman detained for blocking high-speed railway door with body to delay departure",
+        "english_title": "Woman detained for blocking high-speed railway door with body to delay departure",
+        "url": "https://www.globaltimes.cn/page/202504/1332921.shtml",
+        "source": "GT China Society",
+        "date": "2025-04-26 18:19:58"
+      },
+      {
+        "chinese_title": "Wuhan boy implanted with the world&#x27;s smallest magnetically levitated artificial heart",
+        "english_title": "Wuhan boy implanted with the world&#x27;s smallest magnetically levitated artificial heart",
+        "url": "https://www.globaltimes.cn/page/202504/1332920.shtml",
+        "source": "GT China Society",
+        "date": "2025-04-26 18:19:58"
+      },
+      {
+        "chinese_title": "Civic groups in Taiwan rally protest against DPP amid growing wave of opposition",
+        "english_title": "Civic groups in Taiwan rally protest against DPP amid growing wave of opposition",
+        "url": "https://www.globaltimes.cn/page/202504/1332919.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-26 18:19:58"
+      },
+      {
+        "chinese_title": "US&#x27; mixed messages on China trade talks &#x27;misleading&#x27;",
+        "english_title": "US&#x27; mixed messages on China trade talks &#x27;misleading&#x27;",
+        "url": "https://www.globaltimes.cn/page/202504/1332917.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-26 18:19:58"
+      },
+      {
+        "chinese_title": "China&#x27;s key meeting injects certainty to world as nation vows to unswervingly manage own affairs well amid tariff uncertainties",
+        "english_title": "China&#x27;s key meeting injects certainty to world as nation vows to unswervingly manage own affairs well amid tariff uncertainties",
+        "url": "https://www.globaltimes.cn/page/202504/1332916.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-26 18:19:58"
+      },
+      {
+        "chinese_title": "China puts forward five points of proposal for deepening China-Central Asia cooperation",
+        "english_title": "China puts forward five points of proposal for deepening China-Central Asia cooperation",
+        "url": "https://www.globaltimes.cn/page/202504/1332910.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-04-26 18:19:58"
+      },
+      {
+        "chinese_title": "Why does China imply certainty, future potential and opportunities amid global turbulence?",
+        "english_title": "Why does China imply certainty, future potential and opportunities amid global turbulence?",
+        "url": "https://www.globaltimes.cn/page/202504/1332930.shtml",
+        "source": "GT Source Insight",
+        "date": "2025-04-26 18:19:58"
+      },
+      {
+        "chinese_title": "China launches nearly 100 embodied AI products since 2024, capturing 70% of global market: MIIT official",
+        "english_title": "China launches nearly 100 embodied AI products since 2024, capturing 70% of global market: MIIT official",
+        "url": "https://www.globaltimes.cn/page/202504/1332932.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-26 18:19:59"
+      },
+      {
+        "chinese_title": "Shenyang in NE China launches cross-border e-commerce cargo flight to US&#x27; Miami",
+        "english_title": "Shenyang in NE China launches cross-border e-commerce cargo flight to US&#x27; Miami",
+        "url": "https://www.globaltimes.cn/page/202504/1332931.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-26 18:19:59"
+      },
+      {
+        "chinese_title": "China&#x27;s 31 provinces all show positive Q1 GDP growth, laying good foundation for whole-year target, despite headwinds",
+        "english_title": "China&#x27;s 31 provinces all show positive Q1 GDP growth, laying good foundation for whole-year target, despite headwinds",
+        "url": "https://www.globaltimes.cn/page/202504/1332927.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-26 18:19:59"
+      },
+      {
+        "chinese_title": "US consumers to pay high prices for holiday goods due to tariffs: Yiwu businesses",
+        "english_title": "US consumers to pay high prices for holiday goods due to tariffs: Yiwu businesses",
+        "url": "https://www.globaltimes.cn/page/202504/1332914.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-26 18:19:59"
+      },
+      {
+        "chinese_title": "GraphicAnalysis: Door opening wider for foreign services",
+        "english_title": "GraphicAnalysis: Door opening wider for foreign services",
+        "url": "https://www.globaltimes.cn/page/202504/1332913.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-04-26 18:19:59"
+      },
+      {
+        "chinese_title": "The world once again sees how reliable China is: Global Times editorial",
+        "english_title": "The world once again sees how reliable China is: Global Times editorial",
+        "url": "https://www.globaltimes.cn/page/202504/1332934.shtml",
+        "source": "GT Opinion Editorial",
+        "date": "2025-04-26 18:19:59"
+      },
+      {
+        "chinese_title": "China-Pakistan relationship tugs new string of space collaboration, friendship",
+        "english_title": "China-Pakistan relationship tugs new string of space collaboration, friendship",
+        "url": "https://www.globaltimes.cn/page/202504/1332911.shtml",
+        "source": "GT Opinion Viewpoint",
+        "date": "2025-04-26 18:19:59"
+      },
+      {
+        "chinese_title": "我国专利数量和质量稳步提升 “新三样”发明专利拥有量全球最多",
+        "english_title": "The number and quality of patents in China have steadily improved, and the number of &quot;new three&quot; invention patents is the largest in the world",
+        "url": "https://www.gov.cn/yaowen/shipin/202504/content_7021114.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-26 18:20:01"
+      },
+      {
+        "chinese_title": "中华文明探源工程第六期研究计划确定",
+        "english_title": "The sixth phase of the Chinese civilization exploration project research plan was determined",
+        "url": "https://www.gov.cn/yaowen/shipin/202504/content_7021113.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-26 18:20:01"
+      },
+      {
+        "chinese_title": "全国春播进展顺利 夏油丰收在望",
+        "english_title": "Spring sowing is progressing smoothly across the country, and a bumper summer oil harvest is in sight",
+        "url": "https://www.gov.cn/yaowen/shipin/202504/content_7021110.htm",
+        "source": "State Council Local News",
+        "date": "2025-04-26 18:20:01"
       }
     ]
   }
