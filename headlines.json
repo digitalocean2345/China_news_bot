@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-04-30T12:33:17.672270+00:00",
+  "last_run": "2025-04-30T18:22:58.752447+00:00",
   "processed_urls": [
     "http://app.people.cn/h5/detail/normal/6281500301427712",
     "http://app.people.cn/h5/detail/normal/6282890953147392",
@@ -742,6 +742,8 @@
     "http://finance.people.com.cn/n1/2025/0430/c1004-40471917.html",
     "http://finance.people.com.cn/n1/2025/0430/c1004-40471992.html",
     "http://finance.people.com.cn/n1/2025/0430/c1004-40471993.html",
+    "http://finance.people.com.cn/n1/2025/0430/c1004-40472011.html",
+    "http://finance.people.com.cn/n1/2025/0430/c1004-40472023.html",
     "http://opinion.people.com.cn/n1/2025/0429/c1003-40470330.html",
     "http://renshi.people.com.cn/n1/2025/0226/c139617-40426395.html",
     "http://renshi.people.com.cn/n1/2025/0228/c139617-40428020.html",
@@ -2922,6 +2924,7 @@
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153955",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153981",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153994",
+    "https://m.thepaper.cn/papernews/morningEveningPaper?n=154014",
     "https://mp.weixin.qq.com/s/6x10bznRvn4V3oQkua9BYw",
     "https://mp.weixin.qq.com/s/8op4eyXjJ9EKwLxRYULGSw",
     "https://mp.weixin.qq.com/s/JyCeuzLr86wj6PEfZHu6BA",
@@ -5651,6 +5654,15 @@
     "https://www.gov.cn/lianbo/bumen/202504/content_7022023.htm",
     "https://www.gov.cn/lianbo/bumen/202504/content_7022024.htm",
     "https://www.gov.cn/lianbo/bumen/202504/content_7022025.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7022041.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7022050.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7022052.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7022061.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7022064.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7022067.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7022069.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7022072.htm",
+    "https://www.gov.cn/lianbo/bumen/202504/content_7022073.htm",
     "https://www.gov.cn/lianbo/difang/",
     "https://www.gov.cn/lianbo/difang/202504/content_7018308.htm",
     "https://www.gov.cn/lianbo/difang/202504/content_7018321.htm",
@@ -5984,6 +5996,8 @@
     "https://www.gov.cn/zhengce/202504/content_7021848.htm",
     "https://www.gov.cn/zhengce/202504/content_7021852.htm",
     "https://www.gov.cn/zhengce/202504/content_7021901.htm",
+    "https://www.gov.cn/zhengce/202504/content_7022038.htm",
+    "https://www.gov.cn/zhengce/202504/content_7022075.htm",
     "https://www.gov.cn/zhengce/content/202503/content_7010604.htm",
     "https://www.gov.cn/zhengce/content/202503/content_7014486.htm",
     "https://www.gov.cn/zhengce/content/202503/content_7014716.htm",
@@ -6047,6 +6061,7 @@
     "https://www.gov.cn/zhengce/zhengceku/202504/content_7021547.htm",
     "https://www.gov.cn/zhengce/zhengceku/202504/content_7021640.htm",
     "https://www.gov.cn/zhengce/zhengceku/202504/content_7021667.htm",
+    "https://www.gov.cn/zhengce/zhengceku/202504/content_7022079.htm",
     "https://www.gov.cn/zhuanti/2025qglh/2025zfgzbgjd/index.htm",
     "https://www.gov.cn/zhuanti/2025qglhzb/live/20250309b5813697.html",
     "https://www.guancha.cn/AliAsgharSoltanieh/2025_04_24_773469.shtml",
@@ -6791,6 +6806,10 @@
     "https://www.guancha.cn/internation/2025_04_30_774289.shtml",
     "https://www.guancha.cn/internation/2025_04_30_774291.shtml",
     "https://www.guancha.cn/internation/2025_04_30_774296.shtml",
+    "https://www.guancha.cn/internation/2025_04_30_774298.shtml",
+    "https://www.guancha.cn/internation/2025_04_30_774299.shtml",
+    "https://www.guancha.cn/internation/2025_04_30_774311.shtml",
+    "https://www.guancha.cn/internation/2025_04_30_774312.shtml",
     "https://www.guancha.cn/ouyaxitongkexueyanjiuhui/2025_04_27_773771.shtml",
     "https://www.guancha.cn/politics/2025_03_29_770187.shtml",
     "https://www.guancha.cn/politics/2025_04_21_773109.shtml",
@@ -8016,7 +8035,16 @@
     "https://www.thepaper.cn/newsDetail_forward_30751693",
     "https://www.thepaper.cn/newsDetail_forward_30751694",
     "https://www.thepaper.cn/newsDetail_forward_30751701",
-    "https://www.thepaper.cn/newsDetail_forward_30751753"
+    "https://www.thepaper.cn/newsDetail_forward_30751753",
+    "https://www.thepaper.cn/newsDetail_forward_30751758",
+    "https://www.thepaper.cn/newsDetail_forward_30751761",
+    "https://www.thepaper.cn/newsDetail_forward_30751771",
+    "https://www.thepaper.cn/newsDetail_forward_30752311",
+    "https://www.thepaper.cn/newsDetail_forward_30752900",
+    "https://www.thepaper.cn/newsDetail_forward_30752906",
+    "https://www.thepaper.cn/newsDetail_forward_30752908",
+    "https://www.thepaper.cn/newsDetail_forward_30753052",
+    "https://www.thepaper.cn/newsDetail_forward_30753063"
   ],
   "headlines": {
     "2025-04-12": [
@@ -64244,6 +64272,209 @@
         "url": "https://www.gov.cn/yaowen/liebiao/202504/content_7021933.htm",
         "source": "State Council Breaking News",
         "date": "2025-04-30 12:33:05"
+      },
+      {
+        "chinese_title": "神舟十九号航天员乘组平安抵京",
+        "english_title": "The Shenzhou-19 astronaut crew arrived in Beijing safely",
+        "url": "http://finance.people.com.cn/n1/2025/0430/c1004-40472023.html",
+        "source": "PD Economy",
+        "date": "2025-04-30 18:22:46"
+      },
+      {
+        "chinese_title": "追光的你｜劳动者的荣光：坚守平凡岗位 守护洱海绿水青山",
+        "english_title": "The glory of laborers: stick to ordinary posts and protect the green waters and green mountains of Erhai Lake",
+        "url": "http://finance.people.com.cn/n1/2025/0430/c1004-40472011.html",
+        "source": "PD Economy",
+        "date": "2025-04-30 18:22:47"
+      },
+      {
+        "chinese_title": "北京亦庄启动青年人才创新创业生态示范区",
+        "english_title": "Beijing Yizhuang launched the Youth Talent Innovation and Entrepreneurship Ecological Demonstration Zone",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30752906",
+        "source": "Paper China Government",
+        "date": "2025-04-30 18:22:50"
+      },
+      {
+        "chinese_title": "全国人大常委会关于授权国务院在中国（新疆）自由贸易试验区暂时调整适用《中华人民共和国种子法》有关规定的决定",
+        "english_title": "Decision of the Standing Committee of the National People&#x27;s Congress on authorizing the State Council to temporarily adjust the application of the relevant provisions of the Seed Law of the People&#x27;s Republic of China in the China (Xinjiang) Pilot Free Trade Zone",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30751771",
+        "source": "Paper China Government",
+        "date": "2025-04-30 18:22:50"
+      },
+      {
+        "chinese_title": "七部门联合发布《终端设备直连卫星服务管理规定》",
+        "english_title": "Seven departments jointly issued the &quot;Regulations on the Administration of Terminal Equipment Direct Connection to Satellite Services&quot;",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30751761",
+        "source": "Paper China Government",
+        "date": "2025-04-30 18:22:50"
+      },
+      {
+        "chinese_title": "全国台联原会长杨国庆逝世，享年89岁",
+        "english_title": "Yang Guoqing, former president of the All-China Federation of Taiwan Compatriots, passed away at the age of 89",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30752311",
+        "source": "Paper China Government",
+        "date": "2025-04-30 18:22:50"
+      },
+      {
+        "chinese_title": "王受文已任中华全国工商业联合会领导班子成员",
+        "english_title": "Wang Shouwen has been appointed as a member of the leadership team of the All-China Federation of Industry and Commerce",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30752900",
+        "source": "Paper Personnel Trends",
+        "date": "2025-04-30 18:22:49"
+      },
+      {
+        "chinese_title": "网警查处编造传播“登顶泰山最高可得3万奖金”网络谣言者",
+        "english_title": "The Internet police investigated and dealt with those who fabricated and spread online rumors that &quot;climbing to the top of Mount Tai can get up to 30,000 rewards&quot;.",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30753063",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-30 18:22:50"
+      },
+      {
+        "chinese_title": "山西太原一小区发生爆炸，造成1人遇难21人受伤2人失联",
+        "english_title": "An explosion occurred in a small area in Taiyuan, Shanxi, killing one person, injuring 21 people, and missing 2 people",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30751758",
+        "source": "Paper Live on the scene",
+        "date": "2025-04-30 18:22:51"
+      },
+      {
+        "chinese_title": "新华时评：防范安全事故须臾不可放松",
+        "english_title": "Xinhua Times Commentary: The prevention of safety accidents must not be relaxed for a while",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30753052",
+        "source": "Paper public opinion",
+        "date": "2025-04-30 18:22:52"
+      },
+      {
+        "chinese_title": "人民日报社论：坚定信心、奋发有为、创新创造——写在“五一”国际劳动节",
+        "english_title": "People&#x27;s Daily editorial: Firm confidence, hard work, innovation and creation - written on the &quot;May Day&quot; International Labor Day",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30752908",
+        "source": "Paper public opinion",
+        "date": "2025-04-30 18:22:52"
+      },
+      {
+        "chinese_title": "澎湃早晚报｜晚安湃·龙马乘组回地球过五一",
+        "english_title": "The surging morning and evening newspaper|Good night Pai Longma crew returned to the earth for May Day",
+        "url": "https://m.thepaper.cn/papernews/morningEveningPaper?n=154014",
+        "source": "Paper public opinion",
+        "date": "2025-04-30 18:22:52"
+      },
+      {
+        "chinese_title": "美国一季度GDP萎缩0.3%，特朗普嘴硬：关税没错",
+        "english_title": "US GDP shrank by 0.3% in the first quarter, and Trump was stubborn: the tariffs are right",
+        "url": "https://www.guancha.cn/internation/2025_04_30_774312.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-30 18:22:52"
+      },
+      {
+        "chinese_title": "“如果没有人口大国愿意派遣兵力，这一计划将是死路一条”",
+        "english_title": "&quot;Without the willingness of the populous countries to send troops, this plan will be a dead end&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_30_774311.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-30 18:22:52"
+      },
+      {
+        "chinese_title": "“莫迪确认缺席，印防长将参加”",
+        "english_title": "&quot;Modi confirms absence, Indian defense minister will attend&quot;",
+        "url": "https://www.guancha.cn/internation/2025_04_30_774299.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-30 18:22:52"
+      },
+      {
+        "chinese_title": "泽连斯基暗示要袭击俄胜利日阅兵式？俄方回应",
+        "english_title": "Zelensky hinted at attacking the Russian Victory Day parade? The Russian side responded",
+        "url": "https://www.guancha.cn/internation/2025_04_30_774298.shtml",
+        "source": "Guancha International",
+        "date": "2025-04-30 18:22:52"
+      },
+      {
+        "chinese_title": "《终端设备直连卫星服务管理规定》答记者问",
+        "english_title": "&quot;Provisions on the Administration of Direct Satellite Services for Terminal Equipment&quot; answers questions from reporters",
+        "url": "https://www.gov.cn/zhengce/202504/content_7022075.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-30 18:22:55"
+      },
+      {
+        "chinese_title": "关于印发《终端设备直连卫星服务管理规定》的通知",
+        "english_title": "Notice on the issuance of the &quot;Provisions on the Administration of Direct Satellite Services for Terminal Equipment&quot;.",
+        "url": "https://www.gov.cn/zhengce/zhengceku/202504/content_7022079.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-30 18:22:55"
+      },
+      {
+        "chinese_title": "国家互联网信息办公室等七部门联合发布《终端设备直连卫星服务管理规定》",
+        "english_title": "Seven departments including the Cyberspace Administration of China jointly issued the &quot;Provisions on the Administration of Direct Satellite Services for Terminal Equipment&quot;",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7022073.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-30 18:22:56"
+      },
+      {
+        "chinese_title": "工业和信息化部组织开展电信业务“明白办、放心用”行动",
+        "english_title": "The Ministry of Industry and Information Technology organized and carried out the action of &quot;understanding and using with confidence&quot; in telecommunications business",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7022072.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-30 18:22:56"
+      },
+      {
+        "chinese_title": "国务院安委办、应急管理部进一步调度部署“五一”假期安全防范工作",
+        "english_title": "The Office of the Security Commission of the State Council and the Ministry of Emergency Management further dispatched and deployed the safety precautions during the May Day holiday",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7022069.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-30 18:22:56"
+      },
+      {
+        "chinese_title": "财政部、应急管理部预拨4000万元中央自然灾害救灾资金支持山西、广西、陕西做好抗旱救灾工作",
+        "english_title": "The Ministry of Finance and the Ministry of Emergency Management have allocated 40 million yuan of central natural disaster relief funds to support Shanxi, Guangxi, and Shaanxi in drought relief work",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7022067.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-30 18:22:56"
+      },
+      {
+        "chinese_title": "交通运输部救捞系统部署“五一”假期海上值守",
+        "english_title": "The salvage system of the Ministry of Transport deployed the &quot;May Day&quot; holiday on duty at sea",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7022064.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-30 18:22:57"
+      },
+      {
+        "chinese_title": "当前我国大中型灌区春灌用水总体有保障",
+        "english_title": "At present, the water supply for spring irrigation in large and medium-sized irrigation areas in China is generally guaranteed",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7022061.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-30 18:22:57"
+      },
+      {
+        "chinese_title": "国务院食安办印发通知加强“五一”和端午期间食品安全工作",
+        "english_title": "The Food Safety Office of the State Council issued a notice to strengthen food safety during the &quot;May Day&quot; and Dragon Boat Festival",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7022052.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-30 18:22:57"
+      },
+      {
+        "chinese_title": "4月央行开展12000亿元买断式逆回购操作",
+        "english_title": "In April, the central bank carried out an outright reverse repurchase operation of 1.2 trillion yuan",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7022050.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-30 18:22:57"
+      },
+      {
+        "chinese_title": "短期波动不改经济长期向好大势——解读4月份PMI数据",
+        "english_title": "Short-term fluctuations do not change the long-term positive trend of the economy - interpreting the PMI data for April",
+        "url": "https://www.gov.cn/lianbo/bumen/202504/content_7022041.htm",
+        "source": "State Council Department News",
+        "date": "2025-04-30 18:22:57"
+      },
+      {
+        "chinese_title": "《终端设备直连卫星服务管理规定》答记者问",
+        "english_title": "&quot;Provisions on the Administration of Direct Satellite Services for Terminal Equipment&quot; answers questions from reporters",
+        "url": "https://www.gov.cn/zhengce/202504/content_7022075.htm",
+        "source": "State Council Policy Interpretation",
+        "date": "2025-04-30 18:22:55"
+      },
+      {
+        "chinese_title": "国家发展改革委：制定颁布民营经济促进法凝聚信心、共识和力量",
+        "english_title": "National Development and Reform Commission: Formulate and promulgate the Law on the Promotion of Private Economy to gather confidence, consensus and strength",
+        "url": "https://www.gov.cn/zhengce/202504/content_7022038.htm",
+        "source": "State Council Policy Interpretation",
+        "date": "2025-04-30 18:22:55"
       }
     ]
   }
