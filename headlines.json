@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-05-02T12:32:39.899236+00:00",
+  "last_run": "2025-05-02T18:22:28.516156+00:00",
   "processed_urls": [
     "http://app.people.cn/h5/detail/normal/6281500301427712",
     "http://app.people.cn/h5/detail/normal/6282890953147392",
@@ -3095,6 +3095,7 @@
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=154036",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=154046",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=154054",
+    "https://m.thepaper.cn/papernews/morningEveningPaper?n=154062",
     "https://mp.weixin.qq.com/s/6x10bznRvn4V3oQkua9BYw",
     "https://mp.weixin.qq.com/s/8op4eyXjJ9EKwLxRYULGSw",
     "https://mp.weixin.qq.com/s/JyCeuzLr86wj6PEfZHu6BA",
@@ -3153,6 +3154,7 @@
     "https://news.cctv.com/2025/04/30/ARTIemUa8Cf9loqv6omWBJ9k250429.shtml",
     "https://news.cctv.com/2025/05/01/ARTI8POU5SBOdl71fSra34eF250501.shtml",
     "https://news.cctv.com/2025/05/01/ARTIlWLY5M6LJ93YWulq5N4Z250501.shtml",
+    "https://news.cctv.com/2025/05/02/ARTIMNXofewpf0RJeVZoARYp250502.shtml",
     "https://news.cnr.cn/dj/20250424/t20250424_527147628.shtml",
     "https://news.cnr.cn/dj/sz/20250409/t20250409_527127906.shtml",
     "https://news.cnr.cn/dj/sz/20250409/t20250409_527128503.shtml",
@@ -5604,6 +5606,10 @@
     "https://www.globaltimes.cn/page/202505/1333266.shtml",
     "https://www.globaltimes.cn/page/202505/1333267.shtml",
     "https://www.globaltimes.cn/page/202505/1333268.shtml",
+    "https://www.globaltimes.cn/page/202505/1333279.shtml",
+    "https://www.globaltimes.cn/page/202505/1333280.shtml",
+    "https://www.globaltimes.cn/page/202505/1333281.shtml",
+    "https://www.globaltimes.cn/page/202505/1333283.shtml",
     "https://www.globaltimes.cn/special-coverage/Two-Sessions-2025/index.html",
     "https://www.gov.cn/lianbo/bumen/",
     "https://www.gov.cn/lianbo/bumen/202504/content_7018463.htm",
@@ -5881,6 +5887,7 @@
     "https://www.gov.cn/lianbo/bumen/202505/content_7022225.htm",
     "https://www.gov.cn/lianbo/bumen/202505/content_7022237.htm",
     "https://www.gov.cn/lianbo/bumen/202505/content_7022261.htm",
+    "https://www.gov.cn/lianbo/bumen/202505/content_7022274.htm",
     "https://www.gov.cn/lianbo/difang/",
     "https://www.gov.cn/lianbo/difang/202504/content_7018308.htm",
     "https://www.gov.cn/lianbo/difang/202504/content_7018321.htm",
@@ -6111,6 +6118,8 @@
     "https://www.gov.cn/yaowen/shipin/202505/content_7022177.htm",
     "https://www.gov.cn/yaowen/shipin/202505/content_7022179.htm",
     "https://www.gov.cn/yaowen/shipin/202505/content_7022182.htm",
+    "https://www.gov.cn/yaowen/shipin/202505/content_7022277.htm",
+    "https://www.gov.cn/yaowen/shipin/202505/content_7022278.htm",
     "https://www.gov.cn/zhengce/202503/content_7013809.htm",
     "https://www.gov.cn/zhengce/202503/content_7014017.htm",
     "https://www.gov.cn/zhengce/202503/content_7014544.htm",
@@ -7106,6 +7115,11 @@
     "https://www.guancha.cn/internation/2025_05_02_774458.shtml",
     "https://www.guancha.cn/internation/2025_05_02_774461.shtml",
     "https://www.guancha.cn/internation/2025_05_02_774467.shtml",
+    "https://www.guancha.cn/internation/2025_05_02_774469.shtml",
+    "https://www.guancha.cn/internation/2025_05_02_774472.shtml",
+    "https://www.guancha.cn/internation/2025_05_02_774473.shtml",
+    "https://www.guancha.cn/internation/2025_05_02_774474.shtml",
+    "https://www.guancha.cn/internation/2025_05_02_774476.shtml",
     "https://www.guancha.cn/ouyaxitongkexueyanjiuhui/2025_04_27_773771.shtml",
     "https://www.guancha.cn/politics/2025_03_29_770187.shtml",
     "https://www.guancha.cn/politics/2025_04_21_773109.shtml",
@@ -8395,7 +8409,12 @@
     "https://www.thepaper.cn/newsDetail_forward_30762120",
     "https://www.thepaper.cn/newsDetail_forward_30762269",
     "https://www.thepaper.cn/newsDetail_forward_30762342",
-    "https://www.thepaper.cn/newsDetail_forward_30762362"
+    "https://www.thepaper.cn/newsDetail_forward_30762362",
+    "https://www.thepaper.cn/newsDetail_forward_30762754",
+    "https://www.thepaper.cn/newsDetail_forward_30762757",
+    "https://www.thepaper.cn/newsDetail_forward_30762766",
+    "https://www.thepaper.cn/newsDetail_forward_30762831",
+    "https://www.thepaper.cn/newsDetail_forward_30762832"
   ],
   "headlines": {
     "2025-04-12": [
@@ -67301,6 +67320,139 @@
         "url": "https://www.gov.cn/lianbo/difang/202505/content_7022262.htm",
         "source": "State Council Local News",
         "date": "2025-05-02 12:32:30"
+      },
+      {
+        "chinese_title": "五一假期前两日，多地党政主官暗访景点、商圈安全工作",
+        "english_title": "Two days before the May Day holiday, party and government officials in many places secretly visited scenic spots and business district safety work",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30762754",
+        "source": "Paper China Government",
+        "date": "2025-05-02 18:22:19"
+      },
+      {
+        "chinese_title": "假期首日交通运输保持高位运行态势 各部门多管齐下撑起出行“安全伞”",
+        "english_title": "On the first day of the holiday, transportation maintained a high operating situation, and all departments took a multi-pronged approach to support the &quot;safety umbrella&quot; of travel",
+        "url": "https://news.cctv.com/2025/05/02/ARTIMNXofewpf0RJeVZoARYp250502.shtml",
+        "source": "Paper China Government",
+        "date": "2025-05-02 18:22:19"
+      },
+      {
+        "chinese_title": "准85后青海海北州副州长、州公安局局长李贤荣挂职临沂市副市长",
+        "english_title": "Li Xianrong, vice governor of Qinghai Haibei Prefecture and director of the Prefecture Public Security Bureau, who was born after 85, was appointed as the deputy mayor of Linyi City",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30762766",
+        "source": "Paper Personnel Trends",
+        "date": "2025-05-02 18:22:19"
+      },
+      {
+        "chinese_title": "徐丹任武汉大学药学院院长：研究领域在国际上处领跑地位",
+        "english_title": "Xu Dan is the dean of the School of Pharmacy of Wuhan University: the research field is in a leading position in the world",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30762757",
+        "source": "Paper Personnel Trends",
+        "date": "2025-05-02 18:22:19"
+      },
+      {
+        "chinese_title": "苏州一直升机坠落致1死4伤，事故调查正展开",
+        "english_title": "A helicopter fell in Suzhou, killing one and injuring four, and the investigation of the accident is underway",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30762832",
+        "source": "Paper Live on the scene",
+        "date": "2025-05-02 18:22:21"
+      },
+      {
+        "chinese_title": "福州交警：一小型汽车因操作不当撞上汽车和电动车，致2人死亡",
+        "english_title": "Fuzhou traffic police: A small car crashed into a car and an electric car due to improper operation, resulting in 2 deaths",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30762831",
+        "source": "Paper Live on the scene",
+        "date": "2025-05-02 18:22:21"
+      },
+      {
+        "chinese_title": "澎湃早晚报｜晚安湃·体育消费新爆点",
+        "english_title": "The surging morning and evening newspaper|Good night, a new explosion point of sports consumption",
+        "url": "https://m.thepaper.cn/papernews/morningEveningPaper?n=154062",
+        "source": "Paper public opinion",
+        "date": "2025-05-02 18:22:21"
+      },
+      {
+        "chinese_title": "推迟谈判后，伊朗最新表态",
+        "english_title": "Iran&#x27;s latest statement after the postponement of the talks",
+        "url": "https://www.guancha.cn/internation/2025_05_02_774476.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-02 18:22:21"
+      },
+      {
+        "chinese_title": "砍1630亿美元！但“马斯克和SpaceX是赢家”",
+        "english_title": "Cut $163 billion! But &quot;Musk and SpaceX are winners&quot;",
+        "url": "https://www.guancha.cn/internation/2025_05_02_774474.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-02 18:22:21"
+      },
+      {
+        "chinese_title": "“145%关税是站不住脚的”，他们选择放弃美国市场",
+        "english_title": "&quot;The 145% tariff is untenable&quot;, they chose to abandon the American market",
+        "url": "https://www.guancha.cn/internation/2025_05_02_774473.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-02 18:22:21"
+      },
+      {
+        "chinese_title": "德雷克海峡地震或引发局地海啸，“不会影响我国沿岸”",
+        "english_title": "Drake Strait earthquake may trigger local tsunami, &quot;will not affect our coast&quot;",
+        "url": "https://www.guancha.cn/internation/2025_05_02_774472.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-02 18:22:21"
+      },
+      {
+        "chinese_title": "特朗普称将取消哈佛免税资格，“这是他们应得的”",
+        "english_title": "Trump says he will cancel Harvard&#x27;s tax-exempt status, &#x27;they deserve it&#x27;",
+        "url": "https://www.guancha.cn/internation/2025_05_02_774469.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-02 18:22:22"
+      },
+      {
+        "chinese_title": "7.1-magnitude quake hits Drake Passage -- GFZ",
+        "english_title": "7.1-magnitude quake hits Drake Passage -- GFZ",
+        "url": "https://www.globaltimes.cn/page/202505/1333280.shtml",
+        "source": "GT China Society",
+        "date": "2025-05-02 18:22:21"
+      },
+      {
+        "chinese_title": "Xi&#x27;s diplomacy injects certainty, stability into turbulent world",
+        "english_title": "Xi&#x27;s diplomacy injects certainty, stability into turbulent world",
+        "url": "https://www.globaltimes.cn/page/202505/1333283.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-05-02 18:22:21"
+      },
+      {
+        "chinese_title": "China&#x27;s railways handle record passenger trips on first day of May Day holiday",
+        "english_title": "China&#x27;s railways handle record passenger trips on first day of May Day holiday",
+        "url": "https://www.globaltimes.cn/page/202505/1333281.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-05-02 18:22:22"
+      },
+      {
+        "chinese_title": "Auto Shanghai 2025 offers glimpse into future of mobility powered by innovation",
+        "english_title": "Auto Shanghai 2025 offers glimpse into future of mobility powered by innovation",
+        "url": "https://www.globaltimes.cn/page/202505/1333279.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-05-02 18:22:22"
+      },
+      {
+        "chinese_title": "5月1日，全社会跨区域人员流动量完成33271.4万人次",
+        "english_title": "On May 1, the cross-regional flow of people in the whole society reached 332.714 million",
+        "url": "https://www.gov.cn/lianbo/bumen/202505/content_7022274.htm",
+        "source": "State Council Department News",
+        "date": "2025-05-02 18:22:23"
+      },
+      {
+        "chinese_title": "“以旧换新”激发消费市场新活力",
+        "english_title": "&quot;Trade-in&quot; stimulates new vitality in the consumer market",
+        "url": "https://www.gov.cn/yaowen/shipin/202505/content_7022278.htm",
+        "source": "State Council Local News",
+        "date": "2025-05-02 18:22:23"
+      },
+      {
+        "chinese_title": "假期活动丰富多彩 节日消费持续升温",
+        "english_title": "Holiday activities are rich and colorful, and holiday consumption continues to heat up",
+        "url": "https://www.gov.cn/yaowen/shipin/202505/content_7022277.htm",
+        "source": "State Council Local News",
+        "date": "2025-05-02 18:22:24"
       }
     ]
   }
