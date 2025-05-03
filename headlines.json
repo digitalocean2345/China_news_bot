@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-05-03T12:30:04.634426+00:00",
+  "last_run": "2025-05-03T18:20:53.779191+00:00",
   "processed_urls": [
     "http://app.people.cn/h5/detail/normal/6281500301427712",
     "http://app.people.cn/h5/detail/normal/6282890953147392",
@@ -2916,6 +2916,7 @@
     "http://world.people.com.cn/n1/2025/0503/c1002-40472675.html",
     "http://world.people.com.cn/n1/2025/0503/c1002-40472676.html",
     "http://world.people.com.cn/n1/2025/0503/c1002-40472833.html",
+    "http://world.people.com.cn/n1/2025/0503/c1002-40472852.html",
     "http://www.chinanews.com.cn/gn/2025/04-03/10394315.shtml",
     "http://www.chinanews.com.cn/gn/2025/04-11/10397994.shtml",
     "http://www.chinanews.com.cn/gn/2025/04-14/10399054.shtml",
@@ -3171,6 +3172,7 @@
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=154054",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=154062",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=154070",
+    "https://m.thepaper.cn/papernews/morningEveningPaper?n=154079",
     "https://mp.weixin.qq.com/s/6x10bznRvn4V3oQkua9BYw",
     "https://mp.weixin.qq.com/s/8op4eyXjJ9EKwLxRYULGSw",
     "https://mp.weixin.qq.com/s/JyCeuzLr86wj6PEfZHu6BA",
@@ -3235,6 +3237,7 @@
     "https://news.cctv.com/2025/05/02/ARTIR8vaz5WjlS3yya2SrcsM250502.shtml",
     "https://news.cctv.com/2025/05/02/ARTIU0JaHj9FbPTb5fWw63r0250502.shtml",
     "https://news.cctv.com/2025/05/02/ARTIlUI2WpXVIOeo0OCe8kMJ250502.shtml",
+    "https://news.cctv.com/2025/05/03/ARTIlcOh9T230jLCYsSmIlEq250503.shtml",
     "https://news.cnr.cn/dj/20250424/t20250424_527147628.shtml",
     "https://news.cnr.cn/dj/sz/20250409/t20250409_527127906.shtml",
     "https://news.cnr.cn/dj/sz/20250409/t20250409_527128503.shtml",
@@ -5706,6 +5709,8 @@
     "https://www.globaltimes.cn/page/202505/1333296.shtml",
     "https://www.globaltimes.cn/page/202505/1333297.shtml",
     "https://www.globaltimes.cn/page/202505/1333299.shtml",
+    "https://www.globaltimes.cn/page/202505/1333300.shtml",
+    "https://www.globaltimes.cn/page/202505/1333304.shtml",
     "https://www.globaltimes.cn/special-coverage/Two-Sessions-2025/index.html",
     "https://www.gov.cn/lianbo/bumen/",
     "https://www.gov.cn/lianbo/bumen/202504/content_7018463.htm",
@@ -5988,6 +5993,8 @@
     "https://www.gov.cn/lianbo/bumen/202505/content_7022290.htm",
     "https://www.gov.cn/lianbo/bumen/202505/content_7022293.htm",
     "https://www.gov.cn/lianbo/bumen/202505/content_7022316.htm",
+    "https://www.gov.cn/lianbo/bumen/202505/content_7022327.htm",
+    "https://www.gov.cn/lianbo/bumen/202505/content_7022343.htm",
     "https://www.gov.cn/lianbo/difang/",
     "https://www.gov.cn/lianbo/difang/202504/content_7018308.htm",
     "https://www.gov.cn/lianbo/difang/202504/content_7018321.htm",
@@ -6224,6 +6231,8 @@
     "https://www.gov.cn/yaowen/shipin/202505/content_7022182.htm",
     "https://www.gov.cn/yaowen/shipin/202505/content_7022277.htm",
     "https://www.gov.cn/yaowen/shipin/202505/content_7022278.htm",
+    "https://www.gov.cn/yaowen/shipin/202505/content_7022330.htm",
+    "https://www.gov.cn/yaowen/shipin/202505/content_7022341.htm",
     "https://www.gov.cn/zhengce/202503/content_7013809.htm",
     "https://www.gov.cn/zhengce/202503/content_7014017.htm",
     "https://www.gov.cn/zhengce/202503/content_7014544.htm",
@@ -7249,9 +7258,14 @@
     "https://www.guancha.cn/internation/2025_05_03_774524.shtml",
     "https://www.guancha.cn/internation/2025_05_03_774527.shtml",
     "https://www.guancha.cn/internation/2025_05_03_774530.shtml",
+    "https://www.guancha.cn/internation/2025_05_03_774531.shtml",
     "https://www.guancha.cn/internation/2025_05_03_774532.shtml",
     "https://www.guancha.cn/internation/2025_05_03_774534.shtml",
     "https://www.guancha.cn/internation/2025_05_03_774535.shtml",
+    "https://www.guancha.cn/internation/2025_05_03_774538.shtml",
+    "https://www.guancha.cn/internation/2025_05_03_774544.shtml",
+    "https://www.guancha.cn/internation/2025_05_03_774546.shtml",
+    "https://www.guancha.cn/internation/2025_05_03_774547.shtml",
     "https://www.guancha.cn/liuzongyi/2025_05_03_774513.shtml",
     "https://www.guancha.cn/ouyaxitongkexueyanjiuhui/2025_04_27_773771.shtml",
     "https://www.guancha.cn/politics/2025_03_29_770187.shtml",
@@ -7275,6 +7289,7 @@
     "https://www.news.cn/fortune/20250424/2eb1da9277064adcbadc167771f57eff/c.html",
     "https://www.news.cn/politics/20250422/73a9cfa656e64afe81ef62d1988d33df/c.html",
     "https://www.news.cn/politics/20250426/be570437ef2d48e88e0f0469812cb40e/c.html",
+    "https://www.news.cn/politics/20250503/8455ac5effab4c4a8ccdd97cc17b5039/c.html",
     "https://www.peopleapp.com/column/30048702079-500006181794",
     "https://www.peopleapp.com/column/30048706330-500006183289",
     "https://www.peopleapp.com/column/30048721972-500006187168",
@@ -7322,6 +7337,7 @@
     "https://www.peopleapp.com/column/30048953938-500006236446",
     "https://www.peopleapp.com/column/30048954447-500006236542",
     "https://www.peopleapp.com/column/30048957332-500006237462",
+    "https://www.peopleapp.com/column/30048963545-500006238783",
     "https://www.peopleapp.com/column/30048963967-500006238853",
     "https://www.southcn.com/node_07e973c1a3/fc8c9ac781.shtml?r=0.06209587676000927",
     "https://www.stats.gov.cn/sj/sjjd/202502/t20250227_1958811.html",
@@ -8586,7 +8602,8 @@
     "https://www.thepaper.cn/newsDetail_forward_30764997",
     "https://www.thepaper.cn/newsDetail_forward_30764999",
     "https://www.thepaper.cn/newsDetail_forward_30765052",
-    "https://www.thepaper.cn/newsDetail_forward_30765069"
+    "https://www.thepaper.cn/newsDetail_forward_30765069",
+    "https://www.thepaper.cn/newsDetail_forward_30765423"
   ],
   "headlines": {
     "2025-04-12": [
@@ -68838,6 +68855,132 @@
         "url": "https://www.gov.cn/zhengce/202505/content_7022301.htm",
         "source": "State Council Policy Interpretation",
         "date": "2025-05-03 12:29:53"
+      },
+      {
+        "chinese_title": "中国海警局新闻发言人就日民用飞机侵闯我钓鱼岛领空发表谈话",
+        "english_title": "The spokesman of the China Coast Guard issued a statement on the intrusion of Japanese civilian aircraft into China&#x27;s airspace over the Diaoyu Islands",
+        "url": "http://world.people.com.cn/n1/2025/0503/c1002-40472852.html",
+        "source": "PD International Breaking News",
+        "date": "2025-05-03 18:20:35"
+      },
+      {
+        "chinese_title": "劳动奋斗的身影熠熠生辉（劳动者之歌）",
+        "english_title": "The figure of labor struggle shines brightly (Song of Laborers)",
+        "url": "https://www.peopleapp.com/column/30048963545-500006238783",
+        "source": "Paper China Government",
+        "date": "2025-05-03 18:20:36"
+      },
+      {
+        "chinese_title": "交通部门细化服务 提升假期出行质量",
+        "english_title": "The transportation department refines services to improve the quality of holiday travel",
+        "url": "https://news.cctv.com/2025/05/03/ARTIlcOh9T230jLCYsSmIlEq250503.shtml",
+        "source": "Paper China Government",
+        "date": "2025-05-03 18:20:36"
+      },
+      {
+        "chinese_title": "河南博物院：警惕非官方网络平台 “买讲解保进馆” 等虚假信息",
+        "english_title": "Henan Museum: Be wary of false information such as unofficial online platforms such as &quot;buy explanations and protect the museum&quot;.",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30765423",
+        "source": "Paper Live on the scene",
+        "date": "2025-05-03 18:20:38"
+      },
+      {
+        "chinese_title": "新华社评论员：在推进中国式现代化的宽广舞台上绽放青春光彩",
+        "english_title": "Xinhua News Agency Commentator: Blooming with youthful brilliance on the broad stage of promoting Chinese-style modernization",
+        "url": "https://www.news.cn/politics/20250503/8455ac5effab4c4a8ccdd97cc17b5039/c.html",
+        "source": "Paper public opinion",
+        "date": "2025-05-03 18:20:38"
+      },
+      {
+        "chinese_title": "澎湃早晚报｜晚安湃·特种兵→慢度假",
+        "english_title": "The surging morning and evening newspaper|Good night, special forces→ slow vacation",
+        "url": "https://m.thepaper.cn/papernews/morningEveningPaper?n=154079",
+        "source": "Paper public opinion",
+        "date": "2025-05-03 18:20:38"
+      },
+      {
+        "chinese_title": "“如日方采取新的挑衅举动，中方必将坚决反制”",
+        "english_title": "&quot;If Japan takes new provocative moves, China will resolutely counteract&quot;",
+        "url": "https://www.guancha.cn/internation/2025_05_03_774547.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-03 18:20:38"
+      },
+      {
+        "chinese_title": "中方：祝贺",
+        "english_title": "China: Congratulations",
+        "url": "https://www.guancha.cn/internation/2025_05_03_774546.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-03 18:20:38"
+      },
+      {
+        "chinese_title": "他称“无法确保出席阅兵式的各国领导人安全”，俄方回击",
+        "english_title": "He said that &quot;it is impossible to ensure the safety of the leaders of the countries attending the parade&quot;, and the Russian side hit back",
+        "url": "https://www.guancha.cn/internation/2025_05_03_774544.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-03 18:20:39"
+      },
+      {
+        "chinese_title": "48%流向美贫困区，“离了这些，我们根本活不起了”",
+        "english_title": "48% went to poor areas in the United States, &quot;without these, we can&#x27;t live at all&quot;",
+        "url": "https://www.guancha.cn/internation/2025_05_03_774538.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-03 18:20:39"
+      },
+      {
+        "chinese_title": "阿尔巴尼斯成功连任，“特朗普因素成幕后推手”",
+        "english_title": "Albanese&#x27;s successful re-election, &quot;the Trump factor is behind the scenes&quot;",
+        "url": "https://www.guancha.cn/internation/2025_05_03_774531.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-03 18:20:39"
+      },
+      {
+        "chinese_title": "中方：祝贺",
+        "english_title": "China: Congratulations",
+        "url": "https://www.guancha.cn/internation/2025_05_03_774546.shtml",
+        "source": "Guancha Chinese Diplomacy",
+        "date": "2025-05-03 18:20:38"
+      },
+      {
+        "chinese_title": "CCG deploys helicopter to expel Japanese aircraft illegally entering China&#x27;s airspace over Diaoyu Dao",
+        "english_title": "CCG deploys helicopter to expel Japanese aircraft illegally entering China&#x27;s airspace over Diaoyu Dao",
+        "url": "https://www.globaltimes.cn/page/202505/1333300.shtml",
+        "source": "GT China Society",
+        "date": "2025-05-03 18:20:39"
+      },
+      {
+        "chinese_title": "Chinese FM congratulates Labor Party and Australian PM Albanese for winning election",
+        "english_title": "Chinese FM congratulates Labor Party and Australian PM Albanese for winning election",
+        "url": "https://www.globaltimes.cn/page/202505/1333304.shtml",
+        "source": "GT China Diplomacy",
+        "date": "2025-05-03 18:20:39"
+      },
+      {
+        "chinese_title": "交通部门细化服务 提升假期出行质量",
+        "english_title": "The transportation department refines services to improve the quality of holiday travel",
+        "url": "https://www.gov.cn/yaowen/shipin/202505/content_7022341.htm",
+        "source": "State Council Department News",
+        "date": "2025-05-03 18:20:41"
+      },
+      {
+        "chinese_title": "精准“算”雨！气象部门强化气象灾害风险预警",
+        "english_title": "Accurately &quot;calculate&quot; the rain! Meteorological departments have strengthened early warning of meteorological disaster risks",
+        "url": "https://www.gov.cn/lianbo/bumen/202505/content_7022327.htm",
+        "source": "State Council Department News",
+        "date": "2025-05-03 18:20:42"
+      },
+      {
+        "chinese_title": "《中国营商环境发展报告（2025）》发布",
+        "english_title": "The &quot;Report on the Development of China&#x27;s Business Environment (2025)&quot; was released",
+        "url": "https://www.gov.cn/lianbo/bumen/202505/content_7022343.htm",
+        "source": "State Council Department News",
+        "date": "2025-05-03 18:20:42"
+      },
+      {
+        "chinese_title": "城市乡村特色游 拉动假日消费热",
+        "english_title": "Urban and rural special tours have boosted holiday consumption",
+        "url": "https://www.gov.cn/yaowen/shipin/202505/content_7022330.htm",
+        "source": "State Council Local News",
+        "date": "2025-05-03 18:20:42"
       }
     ]
   }
