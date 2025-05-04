@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-05-04T12:30:48.255050+00:00",
+  "last_run": "2025-05-04T18:20:53.235539+00:00",
   "processed_urls": [
     "http://app.people.cn/h5/detail/normal/6281500301427712",
     "http://app.people.cn/h5/detail/normal/6282890953147392",
@@ -3023,6 +3023,7 @@
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=13738220684768293538&toc_style_id=feeds_default&share_to=copy_url&track_id=0a79da5a-e6f2-4d9a-ab52-2406aeaf5cec",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=13768610849511632291&toc_style_id=feeds_default&share_to=copy_url&track_id=2542c256-f2c1-4506-81c2-75970e4e2697",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=13929386643130730237&toc_style_id=feeds_default&track_id=BF88E126-B470-4F4B-9F08-AFBC265334D7_765814460935&share_to=copy_url",
+    "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=14027246400724055983&t=1746325205570&toc_style_id=feeds_default&track_id=DDF9E56E-A646-4B0E-8D02-B493E3C61BF0_768022311682&share_to=copy_url",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=14064351452578662081&toc_style_id=feeds_default&track_id=3904F7DA-B133-4AC1-9E84-71D09B493792_767617654264&share_to=copy_url",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=14393410463563399227&toc_style_id=feeds_default&share_to=wechat&track_id=5614f51c-1a2f-485d-8885-23b6ae7e30b8",
     "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=14474708479525788578&toc_style_id=feeds_default&share_to=wechat&track_id=4348976a-4591-441e-9428-dfd5608ebbb1",
@@ -3146,6 +3147,7 @@
     "https://h.xinhuaxmt.com/vh512/share/12510494?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12510516?d=134ff38&channel=weixin",
     "https://h.xinhuaxmt.com/vh512/share/12511576?newstype=1001&homeshow=1",
+    "https://h.xinhuaxmt.com/vh512/share/12511923?docid=12511923&newstype=1001&d=134ff38",
     "https://h.xinhuaxmt.com/vh512/share/12512210?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12512457?d=134ff39&channel=weixin",
     "https://h.xinhuaxmt.com/vh512/share/12512659?newstype=1001&homeshow=1",
@@ -3195,6 +3197,7 @@
     "https://h.xinhuaxmt.com/vh512/share/12525172?docid=12525172&newstype=1001&d=134ff87",
     "https://h.xinhuaxmt.com/vh512/share/12526006?newstype=1001&homeshow=1",
     "https://h.xinhuaxmt.com/vh512/share/12526116?newstype=1001&homeshow=1",
+    "https://h.xinhuaxmt.com/vh512/share/12526650?docid=12526650&newstype=1001&d=134ff88",
     "https://jingji.cctv.com/2025/04/20/ARTIZscGoDDGnV4P05PNncmP250420.shtml",
     "https://jingji.cctv.com/2025/04/22/ARTIPvqdUCiSNuTj6djj3nCy250422.shtml",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=153251",
@@ -3246,6 +3249,7 @@
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=154070",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=154079",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=154088",
+    "https://m.thepaper.cn/papernews/morningEveningPaper?n=154098",
     "https://mp.weixin.qq.com/s/6x10bznRvn4V3oQkua9BYw",
     "https://mp.weixin.qq.com/s/8op4eyXjJ9EKwLxRYULGSw",
     "https://mp.weixin.qq.com/s/JyCeuzLr86wj6PEfZHu6BA",
@@ -5802,6 +5806,9 @@
     "https://www.globaltimes.cn/page/202505/1333321.shtml",
     "https://www.globaltimes.cn/page/202505/1333322.shtml",
     "https://www.globaltimes.cn/page/202505/1333324.shtml",
+    "https://www.globaltimes.cn/page/202505/1333326.shtml",
+    "https://www.globaltimes.cn/page/202505/1333327.shtml",
+    "https://www.globaltimes.cn/page/202505/1333328.shtml",
     "https://www.globaltimes.cn/special-coverage/Two-Sessions-2025/index.html",
     "https://www.gov.cn/lianbo/bumen/",
     "https://www.gov.cn/lianbo/bumen/202504/content_7018463.htm",
@@ -6298,6 +6305,7 @@
     "https://www.gov.cn/yaowen/liebiao/202505/content_7022310.htm",
     "https://www.gov.cn/yaowen/liebiao/202505/content_7022312.htm",
     "https://www.gov.cn/yaowen/liebiao/202505/content_7022367.htm",
+    "https://www.gov.cn/yaowen/liebiao/202505/content_7022400.htm",
     "https://www.gov.cn/yaowen/shipin/202504/content_7018328.htm",
     "https://www.gov.cn/yaowen/shipin/202504/content_7018391.htm",
     "https://www.gov.cn/yaowen/shipin/202504/content_7018392.htm",
@@ -6332,6 +6340,9 @@
     "https://www.gov.cn/yaowen/shipin/202505/content_7022278.htm",
     "https://www.gov.cn/yaowen/shipin/202505/content_7022330.htm",
     "https://www.gov.cn/yaowen/shipin/202505/content_7022341.htm",
+    "https://www.gov.cn/yaowen/shipin/202505/content_7022389.htm",
+    "https://www.gov.cn/yaowen/shipin/202505/content_7022390.htm",
+    "https://www.gov.cn/yaowen/shipin/202505/content_7022391.htm",
     "https://www.gov.cn/zhengce/202503/content_7013809.htm",
     "https://www.gov.cn/zhengce/202503/content_7014017.htm",
     "https://www.gov.cn/zhengce/202503/content_7014544.htm",
@@ -7380,6 +7391,18 @@
     "https://www.guancha.cn/internation/2025_05_04_774572.shtml",
     "https://www.guancha.cn/internation/2025_05_04_774578.shtml",
     "https://www.guancha.cn/internation/2025_05_04_774583.shtml",
+    "https://www.guancha.cn/internation/2025_05_04_774585.shtml",
+    "https://www.guancha.cn/internation/2025_05_04_774586.shtml",
+    "https://www.guancha.cn/internation/2025_05_04_774589.shtml",
+    "https://www.guancha.cn/internation/2025_05_04_774592.shtml",
+    "https://www.guancha.cn/internation/2025_05_04_774598.shtml",
+    "https://www.guancha.cn/internation/2025_05_04_774599.shtml",
+    "https://www.guancha.cn/internation/2025_05_04_774600.shtml",
+    "https://www.guancha.cn/internation/2025_05_04_774601.shtml",
+    "https://www.guancha.cn/internation/2025_05_04_774603.shtml",
+    "https://www.guancha.cn/internation/2025_05_04_774613.shtml",
+    "https://www.guancha.cn/internation/2025_05_04_774618.shtml",
+    "https://www.guancha.cn/internation/2025_05_04_774619.shtml",
     "https://www.guancha.cn/liuzongyi/2025_05_03_774513.shtml",
     "https://www.guancha.cn/ouyaxitongkexueyanjiuhui/2025_04_27_773771.shtml",
     "https://www.guancha.cn/politics/2025_03_29_770187.shtml",
@@ -7390,6 +7413,7 @@
     "https://www.guancha.cn/wanglihua/2025_04_20_772940.shtml",
     "https://www.guancha.cn/wanglihua/2025_04_22_773194.shtml",
     "https://www.guancha.cn/wengshijie/2025_04_17_772577.shtml",
+    "https://www.guancha.cn/xinzhiguanchasuo/2025_05_04_774587.shtml",
     "https://www.guancha.cn/yangzhi/2025_04_25_773604.shtml",
     "https://www.guancha.cn/yanmo/2025_04_29_774003.shtml",
     "https://www.guancha.cn/yingguojinrongshibao/2025_04_19_772868.shtml",
@@ -8748,7 +8772,15 @@
     "https://www.thepaper.cn/newsDetail_forward_30767667",
     "https://www.thepaper.cn/newsDetail_forward_30767729",
     "https://www.thepaper.cn/newsDetail_forward_30767733",
-    "https://www.thepaper.cn/newsDetail_forward_30767772"
+    "https://www.thepaper.cn/newsDetail_forward_30767772",
+    "https://www.thepaper.cn/newsDetail_forward_30767777",
+    "https://www.thepaper.cn/newsDetail_forward_30768070",
+    "https://www.thepaper.cn/newsDetail_forward_30768159",
+    "https://www.thepaper.cn/newsDetail_forward_30768187",
+    "https://www.thepaper.cn/newsDetail_forward_30768189",
+    "https://www.thepaper.cn/newsDetail_forward_30768206",
+    "https://www.thepaper.cn/newsDetail_forward_30768216",
+    "https://www.thepaper.cn/newsDetail_forward_30768217"
   ],
   "headlines": {
     "2025-04-12": [
@@ -70150,6 +70182,230 @@
         "url": "https://www.gov.cn/yaowen/liebiao/202505/content_7022367.htm",
         "source": "State Council Breaking News",
         "date": "2025-05-04 12:30:32"
+      },
+      {
+        "chinese_title": "贵州省委省政府迅速组织开展黔西市游船倾覆事故救援工作",
+        "english_title": "The Guizhou Provincial Party Committee and Provincial Government quickly organized and carried out rescue work for the capsizing accident of a cruise ship in Qianxi City",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30768217",
+        "source": "Paper China Government",
+        "date": "2025-05-04 18:20:40"
+      },
+      {
+        "chinese_title": "习近平对贵州毕节市黔西市游船倾覆事故作出重要指示",
+        "english_title": "Xi Jinping gave important instructions on the capsizing accident of a cruise ship in Qianxi City, Bijie City, Guizhou Province",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30768187",
+        "source": "Paper China Government",
+        "date": "2025-05-04 18:20:40"
+      },
+      {
+        "chinese_title": "火热而有序 各地多措并举护文明安全旅游",
+        "english_title": "Fiery and orderly All localities have taken multiple measures to protect civilized and safe tourism",
+        "url": "https://h.xinhuaxmt.com/vh512/share/12526650?docid=12526650&newstype=1001&d=134ff88",
+        "source": "Paper China Government",
+        "date": "2025-05-04 18:20:40"
+      },
+      {
+        "chinese_title": "“五四”青年节丨闪耀吧！在青春的赛道上",
+        "english_title": "&quot;May Fourth&quot; Youth Day丨Shine! On the track of youth",
+        "url": "https://h.xinhuaxmt.com/vh512/share/12511923?docid=12511923&newstype=1001&d=134ff38",
+        "source": "Paper China Government",
+        "date": "2025-05-04 18:20:40"
+      },
+      {
+        "chinese_title": "文旅热潮涌动 大数据揭秘“五一”假期热门旅游地",
+        "english_title": "The cultural tourism boom is surging, and big data reveals the popular tourist destinations during the &quot;May Day&quot; holiday",
+        "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=14027246400724055983&t=1746325205570&toc_style_id=feeds_default&track_id=DDF9E56E-A646-4B0E-8D02-B493E3C61BF0_768022311682&share_to=copy_url",
+        "source": "Paper China Government",
+        "date": "2025-05-04 18:20:40"
+      },
+      {
+        "chinese_title": "深入景区、文化街区及消费一线，多地省委书记调研文旅市场",
+        "english_title": "In-depth scenic spots, cultural blocks and consumption frontlines, the secretaries of provincial party committees in many places investigated the cultural tourism market",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30767777",
+        "source": "Paper China Government",
+        "date": "2025-05-04 18:20:40"
+      },
+      {
+        "chinese_title": "岳伟华任北京大学第六医院院长，陆林院士卸任",
+        "english_title": "Yue Weihua was appointed president of Peking University Sixth Hospital, and Academician Lu Lin stepped down",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30768070",
+        "source": "Paper Personnel Trends",
+        "date": "2025-05-04 18:20:40"
+      },
+      {
+        "chinese_title": "贵州黔西游船发生侧翻事故，游客：事发时能见度只有一米，所乘船只停靠礁石避险",
+        "english_title": "Guizhou Qianxi cruise ship overturned accident, tourists: the visibility at the time of the incident was only one meter, and the boat docked at the reef to avoid danger",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30768216",
+        "source": "Paper Live on the scene",
+        "date": "2025-05-04 18:20:41"
+      },
+      {
+        "chinese_title": "黔西市游船倾覆事故发生后，贵州省气象局进入特别工作状态",
+        "english_title": "After the capsizing accident of the cruise ship in Qianxi City, the Guizhou Provincial Meteorological Bureau entered a special working state",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30768206",
+        "source": "Paper Live on the scene",
+        "date": "2025-05-04 18:20:41"
+      },
+      {
+        "chinese_title": "贵州黔西市载人游船倾覆事故已致3人遇难，14人正在搜救中",
+        "english_title": "Three people have been killed in the capsizing accident of a manned cruise ship in Qianxi City, Guizhou, and 14 people are being searched and rescued",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30768189",
+        "source": "Paper Live on the scene",
+        "date": "2025-05-04 18:20:41"
+      },
+      {
+        "chinese_title": "贵州游船侧翻248名消防员已在搜救",
+        "english_title": "A cruise ship in Guizhou overturned, and 248 firefighters have been searching for and rescuing them",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30768159",
+        "source": "Paper Live on the scene",
+        "date": "2025-05-04 18:20:41"
+      },
+      {
+        "chinese_title": "澎湃早晚报｜晚安湃·国羽剑指天",
+        "english_title": "Surging morning and evening newspaper|Good night, the national feather sword points to the sky",
+        "url": "https://m.thepaper.cn/papernews/morningEveningPaper?n=154098",
+        "source": "Paper public opinion",
+        "date": "2025-05-04 18:20:42"
+      },
+      {
+        "chinese_title": "“非洲民间兴起人民币支付网络，减少美元依赖”",
+        "english_title": "&quot;The rise of RMB payment networks in Africa to reduce dependence on US dollars&quot;",
+        "url": "https://www.guancha.cn/internation/2025_05_04_774619.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-04 18:20:43"
+      },
+      {
+        "chinese_title": "内塔尼亚胡回应机场遭袭：将予以回应，正与美方协调",
+        "english_title": "Netanyahu responded to the attack on the airport: he will respond and is coordinating with the US side",
+        "url": "https://www.guancha.cn/internation/2025_05_04_774618.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-04 18:20:43"
+      },
+      {
+        "chinese_title": "“气疯了！”美国年轻选民倒戈：为何牺牲我们？",
+        "english_title": "&quot;Maddened!&quot; Young American Voters Defect: Why Sacrifice Us?",
+        "url": "https://www.guancha.cn/internation/2025_05_04_774613.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-04 18:20:43"
+      },
+      {
+        "chinese_title": "越南工厂恐慌蔓延：客户已开始撤单，等90天有何用？",
+        "english_title": "Panic spreads in Vietnam factory: customers have started to cancel orders, what is the use of waiting for 90 days?",
+        "url": "https://www.guancha.cn/internation/2025_05_04_774603.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-04 18:20:43"
+      },
+      {
+        "chinese_title": "百日民调创80年最差，万斯：不相信、不在乎",
+        "english_title": "The 100-day poll is the worst in 80 years, Vance: I don&#x27;t believe it, I don&#x27;t care",
+        "url": "https://www.guancha.cn/internation/2025_05_04_774601.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-04 18:20:43"
+      },
+      {
+        "chinese_title": "日防卫省称中方舰载直升机侵犯日“领空”，国防部驳斥",
+        "english_title": "The Japanese Ministry of Defense said that the Chinese carrier-based helicopter violated Japan&#x27;s &quot;airspace&quot;, which was refuted by the Ministry of National Defense",
+        "url": "https://www.guancha.cn/internation/2025_05_04_774600.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-04 18:20:43"
+      },
+      {
+        "chinese_title": "“反特朗普主义”正在成为一种全球政治思潮",
+        "english_title": "&quot;Anti-Trumpism&quot; is becoming a global political trend",
+        "url": "https://www.guancha.cn/internation/2025_05_04_774599.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-04 18:20:43"
+      },
+      {
+        "chinese_title": "塞尔维亚副总理：武契奇没放弃访俄",
+        "english_title": "Serbian Deputy Prime Minister: Vučić did not give up his visit to Russia",
+        "url": "https://www.guancha.cn/internation/2025_05_04_774598.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-04 18:20:43"
+      },
+      {
+        "chinese_title": "外交部亚洲司司长向日方严正交涉",
+        "english_title": "The Director General of the Department of Asian Affairs of the Ministry of Foreign Affairs made solemn representations to the Japanese side",
+        "url": "https://www.guancha.cn/internation/2025_05_04_774592.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-04 18:20:44"
+      },
+      {
+        "chinese_title": "习近平将访俄并出席纪念苏联伟大卫国战争胜利80周年庆典",
+        "english_title": "Xi Jinping will visit Russia and attend the celebration of the 80th anniversary of the victory of the Soviet Union in the Great Patriotic War",
+        "url": "https://www.guancha.cn/internation/2025_05_04_774589.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-04 18:20:44"
+      },
+      {
+        "chinese_title": "SpaceX让马斯克的“政治欲火”持续燃烧",
+        "english_title": "SpaceX keeps Musk&#x27;s &quot;political desire&quot; burning",
+        "url": "https://www.guancha.cn/xinzhiguanchasuo/2025_05_04_774587.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-04 18:20:44"
+      },
+      {
+        "chinese_title": "日本东京都发生4.1级地震",
+        "english_title": "A magnitude 4.1 earthquake struck Tokyo, Japan",
+        "url": "https://www.guancha.cn/internation/2025_05_04_774586.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-04 18:20:44"
+      },
+      {
+        "chinese_title": "巴菲特罕见警告美元：不会投资“在下地狱”的货币",
+        "english_title": "Warren Buffett has a rare warning to the dollar: he will not invest in currencies that are &quot;going to hell&quot;.",
+        "url": "https://www.guancha.cn/internation/2025_05_04_774585.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-04 18:20:44"
+      },
+      {
+        "chinese_title": "2 passenger boats capsize in SW China, leaving 3 dead, 60 hospitalized",
+        "english_title": "2 passenger boats capsize in SW China, leaving 3 dead, 60 hospitalized",
+        "url": "https://www.globaltimes.cn/page/202505/1333328.shtml",
+        "source": "GT China Society",
+        "date": "2025-05-04 18:20:41"
+      },
+      {
+        "chinese_title": "Xi urges all-out search, rescue efforts following boat capsizing in SW China",
+        "english_title": "Xi urges all-out search, rescue efforts following boat capsizing in SW China",
+        "url": "https://www.globaltimes.cn/page/202505/1333327.shtml",
+        "source": "GT China Society",
+        "date": "2025-05-04 18:20:41"
+      },
+      {
+        "chinese_title": "China&#x27;s financial salvo gains speed to shore up economic growth",
+        "english_title": "China&#x27;s financial salvo gains speed to shore up economic growth",
+        "url": "https://www.globaltimes.cn/page/202505/1333326.shtml",
+        "source": "GT Source Ecomony",
+        "date": "2025-05-04 18:20:42"
+      },
+      {
+        "chinese_title": "交通部门多举措应对返程客流",
+        "english_title": "The transportation department has taken multiple measures to deal with the flow of returning passengers",
+        "url": "https://www.gov.cn/yaowen/shipin/202505/content_7022390.htm",
+        "source": "State Council Department News",
+        "date": "2025-05-04 18:20:45"
+      },
+      {
+        "chinese_title": "看美景 品美食 尽享假日美好时光",
+        "english_title": "See the beautiful scenery, taste the food, and enjoy the holiday time",
+        "url": "https://www.gov.cn/yaowen/shipin/202505/content_7022391.htm",
+        "source": "State Council Local News",
+        "date": "2025-05-04 18:20:45"
+      },
+      {
+        "chinese_title": "假日坚守岗位 全力保障群众便捷出行",
+        "english_title": "Stick to your post on holidays and make every effort to ensure the convenience of the masses",
+        "url": "https://www.gov.cn/yaowen/shipin/202505/content_7022389.htm",
+        "source": "State Council Local News",
+        "date": "2025-05-04 18:20:45"
+      },
+      {
+        "chinese_title": "习近平对贵州毕节市黔西市游船倾覆事故作出重要指示强调：千方百计搜救落水人员 全力救治伤员 坚决遏制重特大安全事故多发势头",
+        "english_title": "Xi Jinping made important instructions on the capsizing accident of a cruise ship in Qianxi City, Bijie City, Guizhou Province, stressing that every effort should be made to search and rescue people who fell into the water, make every effort to treat the injured, and resolutely curb the frequent occurrence of major safety accidents",
+        "url": "https://www.gov.cn/yaowen/liebiao/202505/content_7022400.htm",
+        "source": "State Council Breaking News",
+        "date": "2025-05-04 18:20:45"
       }
     ]
   }
