@@ -1,5 +1,5 @@
 {
-  "last_run": "2025-05-03T18:20:53.779191+00:00",
+  "last_run": "2025-05-04T01:25:35.217327+00:00",
   "processed_urls": [
     "http://app.people.cn/h5/detail/normal/6281500301427712",
     "http://app.people.cn/h5/detail/normal/6282890953147392",
@@ -152,6 +152,9 @@
     "http://fanfu.people.com.cn/n1/2025/0503/c64371-40472740.html",
     "http://fanfu.people.com.cn/n1/2025/0503/c64371-40472749.html",
     "http://fanfu.people.com.cn/n1/2025/0503/c64371-40472820.html",
+    "http://fanfu.people.com.cn/n1/2025/0504/c64371-40472950.html",
+    "http://fanfu.people.com.cn/n1/2025/0504/c64371-40472953.html",
+    "http://fanfu.people.com.cn/n1/2025/0504/c64371-40472959.html",
     "http://finance-app.people.cn/n1/2025/0422/c1004-40464990.html",
     "http://finance.people.com.cn/n1/2025/0411/c1004-40457779.html",
     "http://finance.people.com.cn/n1/2025/0411/c1004-40457780.html",
@@ -798,6 +801,14 @@
     "http://finance.people.com.cn/n1/2025/0503/c1004-40472772.html",
     "http://finance.people.com.cn/n1/2025/0503/c1004-40472817.html",
     "http://finance.people.com.cn/n1/2025/0503/c1004-40472842.html",
+    "http://finance.people.com.cn/n1/2025/0504/c1004-40472942.html",
+    "http://finance.people.com.cn/n1/2025/0504/c1004-40472943.html",
+    "http://finance.people.com.cn/n1/2025/0504/c1004-40472944.html",
+    "http://finance.people.com.cn/n1/2025/0504/c1004-40472945.html",
+    "http://finance.people.com.cn/n1/2025/0504/c1004-40472952.html",
+    "http://finance.people.com.cn/n1/2025/0504/c1004-40472956.html",
+    "http://finance.people.com.cn/n1/2025/0504/c1004-40472960.html",
+    "http://finance.people.com.cn/n1/2025/0504/c1004-40472967.html",
     "http://opinion.people.com.cn/n1/2025/0429/c1003-40470330.html",
     "http://renshi.people.com.cn/n1/2025/0226/c139617-40426395.html",
     "http://renshi.people.com.cn/n1/2025/0228/c139617-40428020.html",
@@ -3173,6 +3184,7 @@
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=154062",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=154070",
     "https://m.thepaper.cn/papernews/morningEveningPaper?n=154079",
+    "https://m.thepaper.cn/papernews/morningEveningPaper?n=154088",
     "https://mp.weixin.qq.com/s/6x10bznRvn4V3oQkua9BYw",
     "https://mp.weixin.qq.com/s/8op4eyXjJ9EKwLxRYULGSw",
     "https://mp.weixin.qq.com/s/JyCeuzLr86wj6PEfZHu6BA",
@@ -6469,6 +6481,7 @@
     "https://www.guancha.cn/XueKaiHuan/2025_04_29_774013.shtml",
     "https://www.guancha.cn/ZhangWeiWei/2025_04_20_772988.shtml",
     "https://www.guancha.cn/ZhangWeiWei/2025_04_27_773761.shtml",
+    "https://www.guancha.cn/ZhangWeiWei/2025_05_04_774550.shtml",
     "https://www.guancha.cn/ZhaoHuaSheng/2025_04_15_772231.shtml",
     "https://www.guancha.cn/ZhouBo3/2025_04_25_773602.shtml",
     "https://www.guancha.cn/ZhouBo3/2025_04_29_774049.shtml",
@@ -7266,6 +7279,10 @@
     "https://www.guancha.cn/internation/2025_05_03_774544.shtml",
     "https://www.guancha.cn/internation/2025_05_03_774546.shtml",
     "https://www.guancha.cn/internation/2025_05_03_774547.shtml",
+    "https://www.guancha.cn/internation/2025_05_04_774548.shtml",
+    "https://www.guancha.cn/internation/2025_05_04_774551.shtml",
+    "https://www.guancha.cn/internation/2025_05_04_774553.shtml",
+    "https://www.guancha.cn/internation/2025_05_04_774554.shtml",
     "https://www.guancha.cn/liuzongyi/2025_05_03_774513.shtml",
     "https://www.guancha.cn/ouyaxitongkexueyanjiuhui/2025_04_27_773771.shtml",
     "https://www.guancha.cn/politics/2025_03_29_770187.shtml",
@@ -8603,7 +8620,19 @@
     "https://www.thepaper.cn/newsDetail_forward_30764999",
     "https://www.thepaper.cn/newsDetail_forward_30765052",
     "https://www.thepaper.cn/newsDetail_forward_30765069",
-    "https://www.thepaper.cn/newsDetail_forward_30765423"
+    "https://www.thepaper.cn/newsDetail_forward_30765423",
+    "https://www.thepaper.cn/newsDetail_forward_30766309",
+    "https://www.thepaper.cn/newsDetail_forward_30766312",
+    "https://www.thepaper.cn/newsDetail_forward_30766313",
+    "https://www.thepaper.cn/newsDetail_forward_30766315",
+    "https://www.thepaper.cn/newsDetail_forward_30766316",
+    "https://www.thepaper.cn/newsDetail_forward_30766317",
+    "https://www.thepaper.cn/newsDetail_forward_30766320",
+    "https://www.thepaper.cn/newsDetail_forward_30766321",
+    "https://www.thepaper.cn/newsDetail_forward_30766330",
+    "https://www.thepaper.cn/newsDetail_forward_30766331",
+    "https://www.thepaper.cn/newsDetail_forward_30766349",
+    "https://www.thepaper.cn/newsDetail_forward_30766358"
   ],
   "headlines": {
     "2025-04-12": [
@@ -68981,6 +69010,211 @@
         "url": "https://www.gov.cn/yaowen/shipin/202505/content_7022330.htm",
         "source": "State Council Local News",
         "date": "2025-05-03 18:20:42"
+      }
+    ],
+    "2025-05-04": [
+      {
+        "chinese_title": "做实类案分析推进标本兼治",
+        "english_title": "Analyze similar cases and promote both the symptoms and the root causes",
+        "url": "http://fanfu.people.com.cn/n1/2025/0504/c64371-40472959.html",
+        "source": "PD Anti Corruption",
+        "date": "2025-05-04 01:25:18"
+      },
+      {
+        "chinese_title": "推动农村基层干部廉洁规范履职",
+        "english_title": "Promote the honest and standardized performance of duties by rural grassroots cadres",
+        "url": "http://fanfu.people.com.cn/n1/2025/0504/c64371-40472953.html",
+        "source": "PD Anti Corruption",
+        "date": "2025-05-04 01:25:18"
+      },
+      {
+        "chinese_title": "锤炼严实作风 凝聚发展合力",
+        "english_title": "Temper a strict style of work and gather a joint force for development",
+        "url": "http://fanfu.people.com.cn/n1/2025/0504/c64371-40472950.html",
+        "source": "PD Anti Corruption",
+        "date": "2025-05-04 01:25:19"
+      },
+      {
+        "chinese_title": "户外热催生“加速度” 浙江三门冲锋衣企业生产忙",
+        "english_title": "Outdoor heat gives birth to &quot;acceleration&quot; Zhejiang Sanmen jacket enterprises are busy with production",
+        "url": "http://finance.people.com.cn/n1/2025/0504/c1004-40472967.html",
+        "source": "PD Economy",
+        "date": "2025-05-04 01:25:18"
+      },
+      {
+        "chinese_title": "“让制造业回归”，还是让衰退回归？",
+        "english_title": "&quot;Let manufacturing come back&quot;, or let the recession return?",
+        "url": "http://finance.people.com.cn/n1/2025/0504/c1004-40472960.html",
+        "source": "PD Economy",
+        "date": "2025-05-04 01:25:19"
+      },
+      {
+        "chinese_title": "网红店前为啥排起长队",
+        "english_title": "Why is there a long queue in front of the Internet celebrity store?",
+        "url": "http://finance.people.com.cn/n1/2025/0504/c1004-40472956.html",
+        "source": "PD Economy",
+        "date": "2025-05-04 01:25:19"
+      },
+      {
+        "chinese_title": "让更多高科技走向大市场",
+        "english_title": "Let more high-tech go to the big market",
+        "url": "http://finance.people.com.cn/n1/2025/0504/c1004-40472952.html",
+        "source": "PD Economy",
+        "date": "2025-05-04 01:25:19"
+      },
+      {
+        "chinese_title": "民生商品供应足价格稳",
+        "english_title": "The supply of livelihood commodities is sufficient and the price is stable",
+        "url": "http://finance.people.com.cn/n1/2025/0504/c1004-40472945.html",
+        "source": "PD Economy",
+        "date": "2025-05-04 01:25:19"
+      },
+      {
+        "chinese_title": "支付要便捷也要安全",
+        "english_title": "Payments should be convenient and secure",
+        "url": "http://finance.people.com.cn/n1/2025/0504/c1004-40472944.html",
+        "source": "PD Economy",
+        "date": "2025-05-04 01:25:19"
+      },
+      {
+        "chinese_title": "家电换新热潮涌动",
+        "english_title": "The boom in home appliance replacement is surging",
+        "url": "http://finance.people.com.cn/n1/2025/0504/c1004-40472943.html",
+        "source": "PD Economy",
+        "date": "2025-05-04 01:25:19"
+      },
+      {
+        "chinese_title": "用足用好财政政策提振消费",
+        "english_title": "Make full use of fiscal policies to boost consumption",
+        "url": "http://finance.people.com.cn/n1/2025/0504/c1004-40472942.html",
+        "source": "PD Economy",
+        "date": "2025-05-04 01:25:20"
+      },
+      {
+        "chinese_title": "人民日报：创新成势、澎湃向前，中国科技创新突围的密码与担当",
+        "english_title": "People&#x27;s Daily: Innovation has become a trend and surging forward, and China&#x27;s scientific and technological innovation has broken through the password and responsibility",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30766331",
+        "source": "Paper China Government",
+        "date": "2025-05-04 01:25:19"
+      },
+      {
+        "chinese_title": "“五一”假期第三天，预计全社会跨区域人员流动量超2.8亿人次",
+        "english_title": "On the third day of the May Day holiday, it is estimated that the cross-regional flow of people in the whole society will exceed 280 million",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30766309",
+        "source": "Paper China Government",
+        "date": "2025-05-04 01:25:19"
+      },
+      {
+        "chinese_title": "浙江医生举报3岁男童疑遭生父虐待，妇联：已跟爷爷奶奶回家",
+        "english_title": "Zhejiang doctor reported that the 3-year-old boy was suspected of being abused by his biological father, and the Women&#x27;s Federation: has returned home with his grandparents",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30766358",
+        "source": "Paper Live on the scene",
+        "date": "2025-05-04 01:25:21"
+      },
+      {
+        "chinese_title": "大一女生头孢过敏输液室呼救无医护响应，自行拔针仍不幸身亡",
+        "english_title": "The first-year girl called for help in the cephalosporin allergy infusion room but did not respond to medical care, and she still died after pulling out the needle by herself",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30766349",
+        "source": "Paper Live on the scene",
+        "date": "2025-05-04 01:25:21"
+      },
+      {
+        "chinese_title": "澎湃早晚报｜早餐湃·巴菲特年底退休",
+        "english_title": "Buffett retired at the end of the year",
+        "url": "https://m.thepaper.cn/papernews/morningEveningPaper?n=154088",
+        "source": "Paper public opinion",
+        "date": "2025-05-04 01:25:22"
+      },
+      {
+        "chinese_title": "澎湃读报丨央媒头版五四青年节集中刊文：以青春之我，赴时代之约",
+        "english_title": "The surging reading newspaper丨The central media published an article on the May Fourth Youth Day on the front page: With my youth, I go to the appointment of the times",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30766317",
+        "source": "Paper public opinion",
+        "date": "2025-05-04 01:25:22"
+      },
+      {
+        "chinese_title": "解放军报八一锐评：青春无限好，奋斗正当时",
+        "english_title": "People&#x27;s Liberation Army Daily August 1 sharp comment: Youth is infinitely good, and struggle is at the right time",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30766330",
+        "source": "Paper public opinion",
+        "date": "2025-05-04 01:25:22"
+      },
+      {
+        "chinese_title": "老人误操作免密支付买几百只鸡崽，经济日报：支付要便捷也要安全",
+        "english_title": "The old man mistakenly operated the password-free payment to buy hundreds of chickens, Economic Daily: The payment should be convenient and safe",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30766320",
+        "source": "Paper public opinion",
+        "date": "2025-05-04 01:25:22"
+      },
+      {
+        "chinese_title": "人民日报今日谈：以青春之我，赴时代之约",
+        "english_title": "People&#x27;s Daily talks today: With my youth, I go to the appointment of the times",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30766312",
+        "source": "Paper public opinion",
+        "date": "2025-05-04 01:25:22"
+      },
+      {
+        "chinese_title": "新华每日电讯“关爱青年成长”三连评：青春应有多样的精彩",
+        "english_title": "Xinhua Daily Telegraph&#x27;s &quot;Caring for the Growth of Youth&quot; Triple Comment: Youth should be diverse and wonderful",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30766321",
+        "source": "Paper public opinion",
+        "date": "2025-05-04 01:25:23"
+      },
+      {
+        "chinese_title": "光明日报头版评论：让投身西部成为青春潮流",
+        "english_title": "Guangming Daily&#x27;s front-page comment: Let devoting oneself to the west become a youth trend",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30766313",
+        "source": "Paper public opinion",
+        "date": "2025-05-04 01:25:23"
+      },
+      {
+        "chinese_title": "经济日报头版评论：矢志奋斗筑梦青春中国",
+        "english_title": "The front page of the Economic Daily commented: Determined to strive to build a dream of a young China",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30766316",
+        "source": "Paper public opinion",
+        "date": "2025-05-04 01:25:23"
+      },
+      {
+        "chinese_title": "人民日报头版：让青春之花绽放在祖国和人民最需要的地方",
+        "english_title": "The front page of the People&#x27;s Daily: Let the flower of youth bloom where the motherland and the people need it most",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30766315",
+        "source": "Paper public opinion",
+        "date": "2025-05-04 01:25:23"
+      },
+      {
+        "chinese_title": "关税战里最尴尬的是印度？",
+        "english_title": "The most embarrassing thing in the tariff war is India?",
+        "url": "https://www.guancha.cn/internation/2025_05_04_774554.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-04 01:25:22"
+      },
+      {
+        "chinese_title": "武契奇已出院，医生：他短期内将暂停日常工作",
+        "english_title": "Vučić has been discharged from the hospital, doctors: he will suspend his daily work in the short term",
+        "url": "https://www.guancha.cn/internation/2025_05_04_774553.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-04 01:25:23"
+      },
+      {
+        "chinese_title": "特朗普提议派美军入境打击贩毒，墨西哥总统：拒绝",
+        "english_title": "Trump proposed to send U.S. troops into the country to fight drug trafficking, Mexican president: refuse",
+        "url": "https://www.guancha.cn/internation/2025_05_04_774551.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-04 01:25:23"
+      },
+      {
+        "chinese_title": "世界大变局：从“苏东波”到“美欧波”",
+        "english_title": "Great changes in the world: from &quot;Soviet East Poland&quot; to &quot;American and European Poland&quot;",
+        "url": "https://www.guancha.cn/ZhangWeiWei/2025_05_04_774550.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-04 01:25:23"
+      },
+      {
+        "chinese_title": "新加坡执政党人民行动党在2025年大选中获胜",
+        "english_title": "Singapore&#x27;s ruling People&#x27;s Action Party (PAP) wins the 2025 general election",
+        "url": "https://www.guancha.cn/internation/2025_05_04_774548.shtml",
+        "source": "Guancha International",
+        "date": "2025-05-04 01:25:23"
       }
     ]
   }
