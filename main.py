@@ -123,42 +123,29 @@ async def main_async():
         flat_new_items = [item for items in all_new_items_by_site.values() for item in items]
 
         # Update data structure for saving
-        # Use current date - consider making timezone explicit if running globally
-        # For Taipei Time (CST, UTC+8)
-        taipei_time = datetime.now(datetime.now().astimezone().tzinfo) # Get local time with tzinfo
-        # Alternatively, force UTC: datetime.now(datetime.timezone.utc)
+        taipei_time = datetime.now(datetime.now().astimezone().tzinfo)
         today_str = taipei_time.strftime("%Y-%m-%d")
         timestamp_str = taipei_time.isoformat()
 
-
-        if today_str not in data.get("headlines", {}): # Safe access using .get
-             data["headlines"] = data.get("headlines", {}) # Ensure headlines dict exists
-             data["headlines"][today_str] = []
+        if today_str not in data.get("headlines", {}):
+            data["headlines"] = data.get("headlines", {})
+            data["headlines"][today_str] = []
 
         # Append items found in this run to today's list
         data["headlines"][today_str].extend(flat_new_items)
 
-        data["processed_urls"] = processed_urls_set # Pass the updated set (will be converted to list in save_data)
+        data["processed_urls"] = processed_urls_set
         data["last_run"] = timestamp_str
-        save_data(data) # Save using the function from data_manager
+        save_data(data)
 
+        # TEMPORARILY COMMENTED OUT TELEGRAM MESSAGES
+        '''
         # Prepare and send messages
         logging.info(f"Preparing {total_new_items} total updates for Telegram...")
-        messages_to_send = await prepare_telegram_messages(all_new_items_by_site) # Uses the grouped dictionary
+        messages_to_send = await prepare_telegram_messages(all_new_items_by_site)
         await send_telegram_messages(bot, config.TELEGRAM_CHAT_ID, messages_to_send)
-
-        # Generate GitHub Pages
-        try:
-            page_generator = PageGenerator()
-            page_generator.generate_pages(data)
-            
-            # Push changes if enabled
-            if config.GITHUB_AUTO_PUSH:
-                git_manager = GitManager()
-                git_manager.push_changes()
-            
-        except Exception as e:
-            logging.error(f"Failed to generate/push GitHub Pages: {e}", exc_info=True)
+        '''
+        logging.info("Skipping Telegram messages while building URL database")
 
     else:
         logging.info("No new items found across all websites during this run.")
