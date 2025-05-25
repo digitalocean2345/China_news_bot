@@ -1,19 +1,14 @@
 name: Run Scraper and Deploy to GitHub Pages
 
 on:
-  push:
-    branches: [ main ]
-  workflow_dispatch:
   schedule:
-    # IST to UTC conversion:
-    # IST 00:00 (12 AM) = UTC 18:30 (previous day)
-    # IST 06:00 (6 AM)  = UTC 00:30
-    # IST 12:00 (12 PM) = UTC 06:30
-    # IST 18:00 (6 PM)  = UTC 12:30
-    - cron: '30 18 * * *'  # 00:00 IST (next day)
-    - cron: '30 0 * * *'   # 06:00 IST
-    - cron: '30 6 * * *'   # 12:00 IST
-    - cron: '30 12 * * *'  # 18:00 IST
+    - cron: "30 18 * * *"
+    - cron: "30 0 * * *"
+    - cron: "30 6 * * *"
+    - cron: "30 12 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN
 permissions:
@@ -33,23 +28,20 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Setup Git
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
+      - uses: actions/configure-pages@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      - uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: "3.9"
 
       - name: Install dependencies
         run: |
@@ -64,63 +56,14 @@ jobs:
           MS_TRANSLATOR_KEY: ${{ secrets.MS_TRANSLATOR_KEY }}
           MS_TRANSLATOR_REGION: ${{ secrets.MS_TRANSLATOR_REGION }}
         run: |
-          # Print commands for debugging
-          set -x
-          
-          # Ensure docs directory exists
           mkdir -p docs
-          
-          # Pull latest changes first
-          git pull origin main || {
-            echo "Failed to pull from main branch"
-            exit 1
-          }
-          
-          # Run the scraper with Telegram enabled
-          python main.py || {
-            echo "Failed to run main.py"
-            exit 1
-          }
-          
-          # Verify docs/index.html exists
-          if [ ! -f docs/index.html ]; then
-            echo "Error: docs/index.html not found after running main.py"
-            exit 1
-          fi
-          
-          # Check for changes in headlines.json
-          if git diff --quiet --exit-code headlines.json; then
-            echo "No changes to headlines.json"
-          else
-            # Create commit message using Taipei Time (UTC+8)
-            COMMIT_DATE=$(TZ='Asia/Taipei' date +'%Y-%m-%d %H:%M CST')
-            
-            # Commit and push changes
-            git add headlines.json
-            git commit -m "Update headlines for $COMMIT_DATE [skip ci]" || {
-              echo "Failed to commit changes"
-              exit 1
-            }
-            
-            git push origin main || {
-              echo "Failed to push to main branch"
-              exit 1
-            }
-          fi
-          
-          # Turn off command printing
-          set +x
-
-      - name: List docs directory content
-        run: |
-          echo "Contents of docs directory:"
-          ls -la docs/
+          python main.py
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './docs'
+          path: "./docs"
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4 
+        uses: actions/deploy-pages@v4
