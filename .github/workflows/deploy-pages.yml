@@ -16,13 +16,28 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'
+          python-version: '3.9'  # Specify exact version
 
+      - name: Debug Python Environment
+        run: |
+          which python
+          python --version
+          pip --version
+          echo "Python path:"
+          python -c "import sys; print(sys.path)"
+          
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install jinja2
-          pip install -r requirements.txt
+          pip install jinja2 --verbose
+          pip freeze  # Show all installed packages
+          pip install -r requirements.txt --verbose
+          echo "After installing requirements:"
+          pip freeze  # Show all installed packages again
+
+      - name: Verify Jinja2 Installation
+        run: |
+          python -c "from jinja2 import Environment, FileSystemLoader; print('Jinja2 imported successfully')"
 
       - name: Generate site
         run: python main.py
