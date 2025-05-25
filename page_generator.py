@@ -13,6 +13,12 @@ class PageGenerator:
         os.makedirs(self.docs_dir, exist_ok=True)
         os.makedirs(self.template_dir, exist_ok=True)
         
+        # Create .nojekyll file to disable Jekyll processing
+        nojekyll_path = os.path.join(self.docs_dir, '.nojekyll')
+        if not os.path.exists(nojekyll_path):
+            with open(nojekyll_path, 'w') as f:
+                pass  # Create empty file
+        
         # Create initial index.html if it doesn't exist
         self.create_initial_page()
         

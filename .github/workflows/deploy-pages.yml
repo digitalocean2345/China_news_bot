@@ -19,17 +19,11 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Create docs directory
+      - name: Create docs directory and disable Jekyll
         run: |
           mkdir -p docs
+          touch docs/.nojekyll
           echo "<!DOCTYPE html><html><head><title>China News Bot</title></head><body><h1>China News Bot</h1><p>Site is being set up...</p></body></html>" > docs/index.html
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
-          force_orphan: true  # This creates a single-commit history on gh-pages branch
 
       - name: Install dependencies
         run: |
@@ -37,4 +31,12 @@ jobs:
           pip install -r requirements.txt
 
       - name: Generate site content
-        run: python main.py 
+        run: python main.py
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          force_orphan: true
+          enable_jekyll: false 
