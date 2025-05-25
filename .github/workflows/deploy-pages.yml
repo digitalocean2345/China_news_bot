@@ -2,14 +2,12 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]  # or master, depending on your default branch
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -19,48 +17,34 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Create site structure
+      - name: Setup Git
         run: |
-          # Remove docs directory if it exists and create fresh
-          rm -rf docs
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+
+      - name: Create and switch to gh-pages branch
+        run: |
+          git checkout --orphan gh-pages
+          git reset --hard
+          git commit --allow-empty -m "Create gh-pages branch"
+          git checkout main
+
+      - name: Create site content
+        run: |
+          # Create docs directory and content
           mkdir -p docs
-          
-          # Create .nojekyll file
           touch docs/.nojekyll
-          
-          # Create a basic index.html
-          cat > docs/index.html << 'EOL'
-          <!DOCTYPE html>
-          <html>
-          <head>
-              <meta charset="UTF-8">
-              <title>China News Bot</title>
-          </head>
-          <body>
-              <h1>China News Bot</h1>
-              <p>Last updated: $(date)</p>
-          </body>
-          </html>
-          EOL
-          
-          # List contents to verify
-          ls -la docs/
+          echo '<!DOCTYPE html><html><head><title>China News Bot</title></head><body><h1>China News Bot</h1><p>Site is being updated...</p></body></html>' > docs/index.html
 
-      - name: Install dependencies
+      - name: Deploy to gh-pages
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Generate site content
-        run: |
-          python main.py
-          # Verify docs directory content after generation
-          echo "Contents of docs directory after generation:"
-          ls -la docs/
-
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: docs
-          branch: gh-pages
-          clean: true 
+          # Copy docs content to root of gh-pages branch
+          git checkout gh-pages
+          rm -rf *
+          cp -r docs/* .
+          cp docs/.nojekyll .
+          
+          # Add and commit changes
+          git add -A
+          git commit -m "Deploy to GitHub Pages"
+          git push origin gh-pages --force 
