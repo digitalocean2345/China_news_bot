@@ -163,6 +163,14 @@ async def main_async():
         data["processed_urls"] = processed_urls_set # Save updated set
         save_data(data)
 
+    # After saving data, generate the HTML pages
+    try:
+        page_generator = PageGenerator()
+        page_generator.generate_pages(data)
+        logging.info("Successfully generated HTML pages in docs directory")
+    except Exception as e:
+        logging.error(f"Failed to generate HTML pages: {e}", exc_info=True)
+
     logging.info("Script finished.")
 
 

@@ -2,34 +2,61 @@ import json
 import os
 from datetime import datetime
 from jinja2 import Environment, FileSystemLoader
-import shutil
+import pytz
+import logging
 
 class PageGenerator:
     def __init__(self, docs_dir='docs'):
         self.docs_dir = docs_dir
         self.template_dir = 'templates'
         
-        # Recreate docs directory
-        if os.path.exists(self.docs_dir):
-            shutil.rmtree(self.docs_dir)
-        os.makedirs(self.docs_dir)
+        # Create docs directory if it doesn't exist
+        os.makedirs(self.docs_dir, exist_ok=True)
         
-        # Create templates directory if it doesn't exist
-        os.makedirs(self.template_dir, exist_ok=True)
-        
-        # Create .nojekyll file
+        # Create .nojekyll file to disable GitHub Pages Jekyll processing
         with open(os.path.join(self.docs_dir, '.nojekyll'), 'w') as f:
             pass
-        
-        # Create initial index.html
-        self.create_initial_page()
-        
-        # Copy static assets if they don't exist
-        self.create_static_assets()
         
         # Setup Jinja2 environment
         self.env = Environment(loader=FileSystemLoader(self.template_dir))
         
+    def generate_pages(self, data):
+        """Generate the HTML pages from the news data"""
+        try:
+            # Get IST timezone
+            ist = pytz.timezone('Asia/Kolkata')
+            current_time = datetime.now(ist).strftime("%Y-%m-%d %H:%M:%S IST")
+            
+            # Organize news by date
+            news_by_date = {}
+            headlines = data.get("headlines", {})
+            
+            # Sort dates in reverse chronological order
+            sorted_dates = sorted(headlines.keys(), reverse=True)
+            
+            for date in sorted_dates:
+                news_by_date[date] = headlines[date]
+            
+            # Get the template
+            template = self.env.get_template('index.html')
+            
+            # Render the template
+            html_content = template.render(
+                current_time=current_time,
+                news_by_date=news_by_date
+            )
+            
+            # Write the rendered HTML to index.html
+            index_path = os.path.join(self.docs_dir, 'index.html')
+            with open(index_path, 'w', encoding='utf-8') as f:
+                f.write(html_content)
+                
+            logging.info(f"Successfully generated HTML page with {len(news_by_date)} dates of news")
+            
+        except Exception as e:
+            logging.error(f"Error generating HTML pages: {e}", exc_info=True)
+            raise
+
     def create_initial_page(self):
         """Create a basic index.html file"""
         index_path = os.path.join(self.docs_dir, 'index.html')
@@ -81,99 +108,6 @@ class PageGenerator:
             # Create a simple favicon or copy from assets
             pass
     
-    def generate_pages(self, data):
-        """Generate the HTML pages from the news data"""
-        # Load the news data
-        try:
-            with open('headlines.json', 'r', encoding='utf-8') as f:
-                news_data = json.load(f)
-        except FileNotFoundError:
-            news_data = {"headlines": {}}
-
-        # Get the latest date's news
-        dates = sorted(news_data.get("headlines", {}).keys(), reverse=True)
-        latest_news = news_data["headlines"][dates[0]] if dates else []
-
-        # Create index.html
-        index_path = os.path.join(self.docs_dir, 'index.html')
-        with open(index_path, 'w', encoding='utf-8') as f:
-            f.write(self.generate_html(latest_news))
-
-    def generate_html(self, news_items):
-        """Generate HTML content"""
-        current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        
-        return f'''
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>China News Bot</title>
-    <style>
-        body {{
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }}
-        .header {{
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
-        }}
-        .news-section {{
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }}
-        .news-item {{
-            border-bottom: 1px solid #eee;
-            padding: 15px 0;
-        }}
-        .news-item:last-child {{
-            border-bottom: none;
-        }}
-        .chinese-title {{
-            font-size: 1.1em;
-            color: #333;
-            margin-bottom: 5px;
-        }}
-        .english-title {{
-            color: #666;
-            margin-bottom: 10px;
-        }}
-        .meta {{
-            color: #888;
-            font-size: 0.9em;
-        }}
-    </style>
-</head>
-<body>
-    <div class="header">
-        <h1>China News Bot</h1>
-        <p>Last updated: {current_time}</p>
-    </div>
-    <div class="news-section">
-        <h2>Latest News</h2>
-        {''.join(f"""
-        <div class="news-item">
-            <div class="chinese-title">{item['chinese_title']}</div>
-            <div class="english-title">{item['english_title']}</div>
-            <div class="meta">
-                Source: {item['source']} | 
-                <a href="{item['url']}" target="_blank">Read More</a>
-            </div>
-        </div>
-        """ for item in news_items) if news_items else "<p>No news updates available.</p>"}
-    </div>
-</body>
-</html>
-'''
-
     def get_css_content(self):
         return """
         body {
