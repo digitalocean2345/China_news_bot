@@ -14,7 +14,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -32,6 +32,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Reset local changes
+        run: |
+          git fetch origin
+          git reset --hard origin/main
+          git clean -fd
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -47,12 +60,15 @@ jobs:
           pip install -r requirements.txt
           pip install pytz
 
-      - name: Run scraper and update news
+      - name: Run scraper and generate site
         run: |
-          python main.py  # This runs your scraper and sends Telegram messages
-
-      - name: Generate HTML content
-        run: |
+          python main.py
+          
+          # Stage and commit any changes to headlines.json
+          git add headlines.json
+          git diff --staged --quiet || git commit -m "Update headlines.json with new content"
+          
+          # Generate site content
           mkdir -p docs
           touch docs/.nojekyll
           
@@ -245,6 +261,14 @@ jobs:
           with open('docs/index.html', 'w', encoding='utf-8') as f:
               f.write(html_start + html_end)
           EOF
+
+      - name: Push changes if any
+        run: |
+          if git diff --quiet; then
+            echo "No changes to push"
+          else
+            git push
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
