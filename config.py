@@ -61,7 +61,10 @@ WEBSITES = {
     "State Council Policy Interpretation": "https://www.gov.cn/zhengce/jiedu/",
     "NBS Data Release": "https://www.stats.gov.cn/sj/zxfb/",
     "NBS Data Interpretation": "https://www.stats.gov.cn/sj/sjjd/",
-    "NBS Press Conference": "https://www.stats.gov.cn/sj/xwfbh/fbhwd/"
+    "NBS Press Conference": "https://www.stats.gov.cn/sj/xwfbh/fbhwd/",
+    "CAC":"https://www.cac.gov.cn/yaowen/wxyw/A093602index_1.htm",
+    "Taiwan Affairs Office": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/",
+    "Chinese Departments on Taiwan": "http://www.gwytb.gov.cn/bmst/"
 
 }
 # ----------------ENGLISH_WEBSITES-------------------------------
@@ -92,7 +95,8 @@ GUANCHA_SELECTOR = 'h4.module-title a'
 GT_SELECTOR = 'a.new_title_ms,div.common_title a,a.new_title_ml'
 SC_SELECTOR = 'div.news_box a'
 NBS_SELECTOR = 'a.pc1200'
-
+CAC_SELECTOR = 'div#loadingInfoPage a'
+TAO_SELECTOR = 'ul.scdList a'
 
 SITE_SELECTORS = {
     "人民网人事频道": PD_RENMIN_SELECTOR,
@@ -136,6 +140,9 @@ SITE_SELECTORS = {
     "NBS Data Release": NBS_SELECTOR,
     "NBS Data Interpretation": NBS_SELECTOR,
     "NBS Press Conference": NBS_SELECTOR,
+    "CAC": CAC_SELECTOR,
+    "Taiwan Affairs Office": TAO_SELECTOR,
+    "Chinese Departments on Taiwan": TAO_SELECTOR
 }
 
 # --- Validation (Optional but Recommended) ---
