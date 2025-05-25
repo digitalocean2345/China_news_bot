@@ -41,117 +41,135 @@ jobs:
 
       - name: Generate HTML content
         run: |
-          # Create docs directory
           mkdir -p docs
           touch docs/.nojekyll
           
-          # Get current date
-          CURRENT_DATE=$(date '+%Y-%m-%d %H:%M:%S UTC')
-          
-          # Run Python script to generate HTML
           python << EOF
           import json
           import os
           from datetime import datetime
           
-          # Create basic HTML structure
-          html_start = f'''
+          html_start = '''
           <!DOCTYPE html>
           <html>
           <head>
               <meta charset="UTF-8">
               <title>China News Bot</title>
               <style>
-                  body {{
+                  body {
                       font-family: Arial, sans-serif;
                       max-width: 800px;
                       margin: 0 auto;
                       padding: 20px;
                       background-color: #f5f5f5;
-                  }}
-                  .header {{
+                  }
+                  .header {
                       background-color: white;
                       padding: 20px;
                       border-radius: 8px;
                       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
                       margin-bottom: 20px;
-                  }}
-                  .news-section {{
+                  }
+                  .date-section {
                       background-color: white;
                       padding: 20px;
                       border-radius: 8px;
                       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-                  }}
-                  .news-item {{
+                      margin-bottom: 20px;
+                  }
+                  .date-header {
+                      background-color: #0366d6;
+                      color: white;
+                      padding: 10px 20px;
+                      border-radius: 4px;
+                      margin: -20px -20px 20px -20px;
+                  }
+                  .news-item {
                       border-bottom: 1px solid #eee;
                       padding: 15px 0;
-                  }}
-                  .news-item:last-child {{
+                  }
+                  .news-item:last-child {
                       border-bottom: none;
-                  }}
-                  .chinese-title {{
+                  }
+                  .chinese-title {
                       font-size: 1.1em;
                       color: #333;
                       margin-bottom: 5px;
-                  }}
-                  .english-title {{
+                  }
+                  .english-title {
                       color: #666;
                       margin-bottom: 10px;
-                  }}
-                  .meta {{
+                  }
+                  .meta {
                       color: #888;
                       font-size: 0.9em;
-                  }}
+                  }
+                  .time {
+                      color: #666;
+                      font-size: 0.9em;
+                  }
               </style>
           </head>
           <body>
               <div class="header">
                   <h1>China News Bot</h1>
-                  <p>Last updated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC")}</p>
+                  <p class="time">Last checked: ''' + datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC") + '''</p>
               </div>
-              <div class="news-section">
-                  <h2>Latest News</h2>
           '''
           
-          # Read news data
           try:
               with open('headlines.json', 'r', encoding='utf-8') as f:
                   data = json.load(f)
                   
-              # Get latest date's news
+              # Get all dates and sort them in reverse order
               dates = sorted(data.get("headlines", {}).keys(), reverse=True)
+              
               if dates:
-                  latest_news = data["headlines"][dates[0]]
-                  
-                  # Generate news items HTML
-                  news_items = ""
-                  for item in latest_news:
-                      news_items += f'''
-                      <div class="news-item">
-                          <div class="chinese-title">{item["chinese_title"]}</div>
-                          <div class="english-title">{item["english_title"]}</div>
-                          <div class="meta">
-                              Source: {item["source"]} | 
-                              <a href="{item["url"]}" target="_blank">Read More</a>
-                          </div>
-                      </div>
+                  for date in dates:
+                      news_items = data["headlines"][date]
+                      
+                      # Sort news items by their timestamp if available
+                      news_items = sorted(news_items, 
+                                       key=lambda x: x.get('date', ''),
+                                       reverse=True)
+                      
+                      # Create section for this date
+                      section = f'''
+                      <div class="date-section">
+                          <h2 class="date-header">{date}</h2>
                       '''
+                      
+                      for item in news_items:
+                          time_str = item.get('date', '').split(' ')[1] if item.get('date') else ''
+                          section += f'''
+                          <div class="news-item">
+                              <div class="time">{time_str}</div>
+                              <div class="chinese-title">{item["chinese_title"]}</div>
+                              <div class="english-title">{item["english_title"]}</div>
+                              <div class="meta">
+                                  Source: {item["source"]} | 
+                                  <a href="{item["url"]}" target="_blank">Read More</a>
+                              </div>
+                          </div>
+                          '''
+                      
+                      section += '</div>'
+                      html_start += section
               else:
-                  news_items = "<p>No news updates available.</p>"
+                  html_start += '<div class="date-section"><p>No news updates available.</p></div>'
+                  
           except FileNotFoundError:
-              news_items = "<p>No news data found.</p>"
+              html_start += '<div class="date-section"><p>No news data found.</p></div>'
           except Exception as e:
-              news_items = f"<p>Error loading news: {str(e)}</p>"
+              html_start += f'<div class="date-section"><p>Error loading news: {str(e)}</p></div>'
           
           html_end = '''
-              </div>
           </body>
           </html>
           '''
           
-          # Write complete HTML to file
           with open('docs/index.html', 'w', encoding='utf-8') as f:
-              f.write(html_start + news_items + html_end)
+              f.write(html_start + html_end)
           EOF
 
       - name: Upload artifact
