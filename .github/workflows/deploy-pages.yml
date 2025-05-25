@@ -34,7 +34,12 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Create site content
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run bot and generate content
         run: |
           # Create docs directory
           mkdir -p docs
@@ -42,8 +47,14 @@ jobs:
           # Create .nojekyll file
           touch docs/.nojekyll
           
-          # Create index.html
-          cat > docs/index.html << 'EOL'
+          # Run your Python script to get news
+          python main.py
+          
+          # Get current date and time
+          CURRENT_DATE=$(date '+%Y-%m-%d %H:%M:%S UTC')
+          
+          # Create index.html with news content
+          cat > docs/index.html << EOF
           <!DOCTYPE html>
           <html>
           <head>
@@ -55,25 +66,82 @@ jobs:
                       max-width: 800px;
                       margin: 0 auto;
                       padding: 20px;
+                      background-color: #f5f5f5;
                   }
                   .header {
-                      background-color: #f0f0f0;
+                      background-color: white;
                       padding: 20px;
                       border-radius: 8px;
+                      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                      margin-bottom: 20px;
+                  }
+                  .news-section {
+                      background-color: white;
+                      padding: 20px;
+                      border-radius: 8px;
+                      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                  }
+                  .news-item {
+                      border-bottom: 1px solid #eee;
+                      padding: 15px 0;
+                  }
+                  .news-item:last-child {
+                      border-bottom: none;
+                  }
+                  .chinese-title {
+                      font-size: 1.1em;
+                      color: #333;
+                      margin-bottom: 5px;
+                  }
+                  .english-title {
+                      color: #666;
+                      margin-bottom: 10px;
+                  }
+                  .meta {
+                      color: #888;
+                      font-size: 0.9em;
+                  }
+                  .timestamp {
+                      color: #666;
+                      font-size: 0.9em;
+                      font-style: italic;
                   }
               </style>
           </head>
           <body>
               <div class="header">
                   <h1>China News Bot</h1>
-                  <p>Last updated: $(date)</p>
+                  <p class="timestamp">Last updated: $CURRENT_DATE</p>
+              </div>
+              <div class="news-section">
+                  <h2>Latest News</h2>
+                  $(cat headlines.json | python -c '
+import sys, json
+data = json.load(sys.stdin)
+latest_date = sorted(data.get("headlines", {}).keys())[-1] if data.get("headlines") else None
+if latest_date:
+    for item in data["headlines"][latest_date]:
+        print(f"""
+        <div class="news-item">
+            <div class="chinese-title">{item["chinese_title"]}</div>
+            <div class="english-title">{item["english_title"]}</div>
+            <div class="meta">
+                Source: {item["source"]} | 
+                <a href="{item["url"]}" target="_blank">Read More</a>
+            </div>
+        </div>
+        """)
+else:
+    print("<p>No news updates available.</p>")
+                  ')
               </div>
           </body>
           </html>
-          EOL
+          EOF
           
-          # List contents
-          ls -la docs/
+          # Verify the content
+          echo "Created index.html with content:"
+          cat docs/index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
