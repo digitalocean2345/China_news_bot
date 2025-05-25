@@ -5,6 +5,7 @@ from datetime import datetime
 from telegram import Bot
 from telegram.error import InvalidToken, TelegramError
 import concurrent.futures # To manage the executor for synchronous tasks
+import os
 
 # Import functions and config from our modules
 import config
@@ -26,6 +27,9 @@ async def main_async():
     """Main asynchronous function to run the scraper and notifier."""
     logging.info("Starting scraper process...")
 
+    # Set URL collection mode
+    os.environ['URL_COLLECTION_MODE'] = 'true'
+
     # Load previous data and debug
     data = load_previous_data()
     processed_urls = data.get('processed_urls', set())
@@ -37,30 +41,34 @@ async def main_async():
     for url in sample_urls:
         logging.info(f"  - {url}")
 
-    # --- Validate Configuration ---
-    if not config.validate_config():
-         logging.critical("Configuration validation failed. Exiting.")
-         return # Exit if essential config is missing
+    # --- Initialize Bot only if not in URL collection mode ---
+    if not os.getenv('URL_COLLECTION_MODE'):
+        # --- Validate Configuration ---
+        if not config.validate_config():
+            logging.critical("Configuration validation failed. Exiting.")
+            return
+
+        # --- Initialize Bot ---
+        try:
+            bot = Bot(token=config.TELEGRAM_TOKEN)
+            await bot.get_me()
+            logging.info("Telegram Bot initialized successfully.")
+        except InvalidToken:
+            logging.critical("Invalid TELEGRAM_TOKEN. Exiting.")
+            return
+        except TelegramError as e:
+            logging.critical(f"Failed to connect to Telegram API: {e}. Check token and network.")
+            return
+        except Exception as e:
+            logging.critical(f"Failed to initialize Telegram bot: {e}", exc_info=True)
+            return
+    else:
+        logging.info("Running in URL collection mode - skipping Telegram initialization")
+        bot = None  # We'll check for this later when sending messages
 
     # --- Translator Key Check (Warning only) ---
     if not config.MS_TRANSLATOR_KEY:
         logging.warning("MS_TRANSLATOR_KEY not set. Headlines will not be translated.")
-
-    # --- Initialize Bot ---
-    try:
-        # Consider adding connection pool size if needed for high concurrency later
-        bot = Bot(token=config.TELEGRAM_TOKEN)
-        await bot.get_me() # Verify token validity by making a simple API call
-        logging.info("Telegram Bot initialized successfully.")
-    except InvalidToken:
-        logging.critical("Invalid TELEGRAM_TOKEN. Exiting.")
-        return
-    except TelegramError as e:
-         logging.critical(f"Failed to connect to Telegram API: {e}. Check token and network.")
-         return
-    except Exception as e:
-        logging.critical(f"Failed to initialize Telegram bot: {e}", exc_info=True)
-        return
 
     # --- Load Data and Scrape ---
     data = load_previous_data()
@@ -134,18 +142,18 @@ async def main_async():
         # Append items found in this run to today's list
         data["headlines"][today_str].extend(flat_new_items)
 
-        data["processed_urls"] = processed_urls_set
+        data["processed_urls"] = list(processed_urls_set)
         data["last_run"] = timestamp_str
         save_data(data)
 
-        # TEMPORARILY COMMENTED OUT TELEGRAM MESSAGES
-        '''
-        # Prepare and send messages
-        logging.info(f"Preparing {total_new_items} total updates for Telegram...")
-        messages_to_send = await prepare_telegram_messages(all_new_items_by_site)
-        await send_telegram_messages(bot, config.TELEGRAM_CHAT_ID, messages_to_send)
-        '''
-        logging.info("Skipping Telegram messages while building URL database")
+        # Skip Telegram messages in URL collection mode
+        if not os.getenv('URL_COLLECTION_MODE'):
+            logging.info(f"Preparing {total_new_items} total updates for Telegram...")
+            messages_to_send = await prepare_telegram_messages(all_new_items_by_site)
+            await send_telegram_messages(bot, config.TELEGRAM_CHAT_ID, messages_to_send)
+        else:
+            logging.info("Running in URL collection mode - skipping Telegram messages")
+            logging.info(f"Total processed URLs: {len(processed_urls_set)}")
 
     else:
         logging.info("No new items found across all websites during this run.")

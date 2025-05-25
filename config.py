@@ -154,21 +154,20 @@ SITE_SELECTORS = {
 
 # --- Validation (Optional but Recommended) ---
 def validate_config():
-    """Checks if essential configurations are set."""
-    essential_vars = {
-        "TELEGRAM_TOKEN": TELEGRAM_TOKEN,
-        "TELEGRAM_CHAT_ID": TELEGRAM_CHAT_ID,
-        # Add MS_TRANSLATOR_KEY if translation is strictly required
-    }
-    missing = [name for name, value in essential_vars.items() if not value]
-    if missing:
-        logging.critical(f"Missing essential environment variables: {', '.join(missing)}")
+    """Validate configuration settings."""
+    missing_vars = []
+    
+    # Only check for Telegram tokens if we're not in URL collection mode
+    if not os.getenv('URL_COLLECTION_MODE'):
+        if not TELEGRAM_TOKEN:
+            missing_vars.append('TELEGRAM_TOKEN')
+        if not TELEGRAM_CHAT_ID:
+            missing_vars.append('TELEGRAM_CHAT_ID')
+    
+    if missing_vars:
+        logging.critical(f"Missing essential environment variables: {', '.join(missing_vars)}")
         return False
-    # Check if selectors exist for all websites
-    missing_selectors = [name for name in WEBSITES if name not in SITE_SELECTORS]
-    if missing_selectors:
-         logging.critical(f"Missing selectors for websites: {', '.join(missing_selectors)}")
-         return False
+    
     return True
 
 # Add this with your other configuration variables

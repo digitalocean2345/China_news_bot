@@ -55,8 +55,16 @@ jobs:
           pip install pytz
 
       - name: Run scraper and generate site
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MS_TRANSLATOR_KEY: ${{ secrets.MS_TRANSLATOR_KEY }}
+          MS_TRANSLATOR_REGION: ${{ secrets.MS_TRANSLATOR_REGION }}
         run: |
-          # Run the scraper (which will use existing headlines.json)
+          # Pull latest changes first
+          git pull origin main
+          
+          # Run the scraper with Telegram enabled
           python main.py
           
           # Commit and push changes if any
