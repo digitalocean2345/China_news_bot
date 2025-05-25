@@ -38,6 +38,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install pytz
 
       - name: Generate HTML content
         run: |
@@ -48,6 +49,24 @@ jobs:
           import json
           import os
           from datetime import datetime
+          import pytz
+          
+          def get_ist_time(utc_str=None):
+              ist = pytz.timezone('Asia/Kolkata')
+              if utc_str:
+                  try:
+                      # Parse the UTC time string
+                      utc_dt = datetime.strptime(utc_str, "%Y-%m-%d %H:%M:%S")
+                      # Make it aware of UTC timezone
+                      utc_dt = pytz.utc.localize(utc_dt)
+                      # Convert to IST
+                      ist_dt = utc_dt.astimezone(ist)
+                      return ist_dt.strftime("%Y-%m-%d %H:%M:%S IST")
+                  except:
+                      return utc_str + " (UTC)"
+              else:
+                  # Get current time in IST
+                  return datetime.now(ist).strftime("%Y-%m-%d %H:%M:%S IST")
           
           html_start = '''
           <!DOCTYPE html>
@@ -113,7 +132,7 @@ jobs:
           <body>
               <div class="header">
                   <h1>China News Bot</h1>
-                  <p class="time">Last checked: ''' + datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC") + '''</p>
+                  <p class="time">Last checked: ''' + get_ist_time() + '''</p>
               </div>
           '''
           
@@ -140,7 +159,8 @@ jobs:
                       '''
                       
                       for item in news_items:
-                          time_str = item.get('date', '').split(' ')[1] if item.get('date') else ''
+                          # Convert the time to IST
+                          time_str = get_ist_time(item.get('date', '')) if item.get('date') else ''
                           section += f'''
                           <div class="news-item">
                               <div class="time">{time_str}</div>
