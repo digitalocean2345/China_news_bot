@@ -32,21 +32,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Git
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
-      - name: Handle existing headlines.json
-        run: |
-          # Remove headlines.json if it exists
-          if [ -f headlines.json ]; then
-            rm headlines.json
-          fi
-          
-          # Pull latest changes
-          git pull origin main --ff-only
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -64,17 +56,17 @@ jobs:
 
       - name: Run scraper and generate site
         run: |
-          # Run the scraper
+          # Run the scraper (which will use existing headlines.json)
           python main.py
           
-          # Stage and commit headlines.json
-          git add headlines.json
-          git commit -m "Update headlines.json with new content [skip ci]"
-          git push origin main
-          
-          # Generate site content
-          mkdir -p docs
-          touch docs/.nojekyll
+          # Commit and push changes if any
+          if git diff --quiet headlines.json; then
+            echo "No changes to headlines.json"
+          else
+            git add headlines.json
+            git commit -m "Update headlines.json [skip ci]"
+            git push origin main
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
