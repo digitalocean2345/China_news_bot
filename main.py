@@ -26,6 +26,17 @@ async def main_async():
     """Main asynchronous function to run the scraper and notifier."""
     logging.info("Starting scraper process...")
 
+    # Load previous data and debug
+    data = load_previous_data()
+    processed_urls = data.get('processed_urls', set())
+    logging.info(f"Loaded {len(processed_urls)} previously processed URLs")
+    
+    # Print first few URLs for verification
+    sample_urls = list(processed_urls)[:5]
+    logging.info("Sample of processed URLs:")
+    for url in sample_urls:
+        logging.info(f"  - {url}")
+
     # --- Validate Configuration ---
     if not config.validate_config():
          logging.critical("Configuration validation failed. Exiting.")

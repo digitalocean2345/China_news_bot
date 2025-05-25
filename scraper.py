@@ -14,6 +14,9 @@ def scrape_site(site_name, url, processed_urls_set):
     """Scrapes a single website for new headlines."""
     new_headlines = []
     try:
+        # Add debug logging for processed_urls_set
+        logging.info(f"Starting scrape for {site_name} with {len(processed_urls_set)} processed URLs")
+        
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
             'Accept-Language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7'
@@ -55,17 +58,15 @@ def scrape_site(site_name, url, processed_urls_set):
                  logging.warning(f"Skipping invalid looking URL in {site_name}: {full_url}")
                  continue
 
+            # Debug logging for URL checking
+            logging.debug(f"Checking URL: {full_url}")
+            logging.debug(f"Is URL in processed set: {full_url in processed_urls_set}")
+
             # Check if URL has already been processed
             if full_url not in processed_urls_set:
-                logging.info(f"Found new item from {site_name}: {chinese_title[:50]}... ({full_url})")
-
-                # Conditional Translation
-                needs_translation = True  # Assume all these websites need translation
-                # If you have specific English websites, you can add them here
-                    
-                if site_name in config.ENGLISH_WEBSITES:
-                    needs_translation = False
-                    logging.info(f" {site_name} doesnot need translation)")
+                logging.info(f"New URL found: {full_url}")
+                
+                needs_translation = site_name not in config.ENGLISH_WEBSITES
                 if needs_translation:
                     english_title = translate_text(chinese_title)
                 else:
@@ -85,8 +86,9 @@ def scrape_site(site_name, url, processed_urls_set):
                     "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 })
                 processed_urls_set.add(full_url) # Add to the set of processed URLs
+                logging.info(f"Added new headline: {safe_english_title[:50]}...")
             else:
-                logging.debug(f"Skipping already processed URL from {site_name}: {full_url}")
+                logging.debug(f"Skipping already processed URL: {full_url}")
 
         logging.info(f"Finished scraping {site_name}. Found {len(new_headlines)} new headlines.")
         return new_headlines
@@ -101,5 +103,5 @@ def scrape_site(site_name, url, processed_urls_set):
         logging.error(f"Network error scraping {site_name} ({url}): {e}")
         return []
     except Exception as e:
-        logging.error(f"Unexpected error scraping {site_name} ({url}): {e}", exc_info=True) # Log traceback
+        logging.error(f"Error scraping {site_name}: {e}", exc_info=True)
         return []
