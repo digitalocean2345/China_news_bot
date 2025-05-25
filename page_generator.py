@@ -9,17 +9,19 @@ class PageGenerator:
         self.docs_dir = docs_dir
         self.template_dir = 'templates'
         
-        # Create directories if they don't exist
-        os.makedirs(self.docs_dir, exist_ok=True)
+        # Recreate docs directory
+        if os.path.exists(self.docs_dir):
+            shutil.rmtree(self.docs_dir)
+        os.makedirs(self.docs_dir)
+        
+        # Create templates directory if it doesn't exist
         os.makedirs(self.template_dir, exist_ok=True)
         
-        # Create .nojekyll file to disable Jekyll processing
-        nojekyll_path = os.path.join(self.docs_dir, '.nojekyll')
-        if not os.path.exists(nojekyll_path):
-            with open(nojekyll_path, 'w') as f:
-                pass  # Create empty file
+        # Create .nojekyll file
+        with open(os.path.join(self.docs_dir, '.nojekyll'), 'w') as f:
+            pass
         
-        # Create initial index.html if it doesn't exist
+        # Create initial index.html
         self.create_initial_page()
         
         # Copy static assets if they don't exist
@@ -31,40 +33,39 @@ class PageGenerator:
     def create_initial_page(self):
         """Create a basic index.html file"""
         index_path = os.path.join(self.docs_dir, 'index.html')
-        if not os.path.exists(index_path):
-            with open(index_path, 'w', encoding='utf-8') as f:
-                f.write('''
+        with open(index_path, 'w', encoding='utf-8') as f:
+            f.write(f'''
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <title>China News Bot</title>
     <style>
-        body {
+        body {{
             font-family: Arial, sans-serif;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-        }
-        .header {
+        }}
+        .header {{
             background-color: #f0f0f0;
             padding: 20px;
             border-radius: 8px;
             margin-bottom: 20px;
-        }
+        }}
     </style>
 </head>
 <body>
     <div class="header">
         <h1>China News Bot</h1>
-        <p>Last updated: {}</p>
+        <p>Last updated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}</p>
     </div>
     <div class="content">
         <p>News updates will appear here soon.</p>
     </div>
 </body>
 </html>
-'''.format(datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
+''')
 
     def create_static_assets(self):
         """Create necessary static files if they don't exist"""

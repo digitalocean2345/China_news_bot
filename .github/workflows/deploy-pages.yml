@@ -19,11 +19,32 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Create docs directory and disable Jekyll
+      - name: Create site structure
         run: |
+          # Remove docs directory if it exists and create fresh
+          rm -rf docs
           mkdir -p docs
+          
+          # Create .nojekyll file
           touch docs/.nojekyll
-          echo "<!DOCTYPE html><html><head><title>China News Bot</title></head><body><h1>China News Bot</h1><p>Site is being set up...</p></body></html>" > docs/index.html
+          
+          # Create a basic index.html
+          cat > docs/index.html << 'EOL'
+          <!DOCTYPE html>
+          <html>
+          <head>
+              <meta charset="UTF-8">
+              <title>China News Bot</title>
+          </head>
+          <body>
+              <h1>China News Bot</h1>
+              <p>Last updated: $(date)</p>
+          </body>
+          </html>
+          EOL
+          
+          # List contents to verify
+          ls -la docs/
 
       - name: Install dependencies
         run: |
@@ -31,12 +52,15 @@ jobs:
           pip install -r requirements.txt
 
       - name: Generate site content
-        run: python main.py
+        run: |
+          python main.py
+          # Verify docs directory content after generation
+          echo "Contents of docs directory after generation:"
+          ls -la docs/
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
-          force_orphan: true
-          enable_jekyll: false 
+          folder: docs
+          branch: gh-pages
+          clean: true 
