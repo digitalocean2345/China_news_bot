@@ -17,34 +17,52 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Setup Git
-        run: |
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "actions@github.com"
-
-      - name: Create and switch to gh-pages branch
-        run: |
-          git checkout --orphan gh-pages
-          git reset --hard
-          git commit --allow-empty -m "Create gh-pages branch"
-          git checkout main
-
       - name: Create site content
         run: |
-          # Create docs directory and content
+          # Create docs directory
           mkdir -p docs
-          touch docs/.nojekyll
-          echo '<!DOCTYPE html><html><head><title>China News Bot</title></head><body><h1>China News Bot</h1><p>Site is being updated...</p></body></html>' > docs/index.html
-
-      - name: Deploy to gh-pages
-        run: |
-          # Copy docs content to root of gh-pages branch
-          git checkout gh-pages
-          rm -rf *
-          cp -r docs/* .
-          cp docs/.nojekyll .
           
-          # Add and commit changes
-          git add -A
-          git commit -m "Deploy to GitHub Pages"
-          git push origin gh-pages --force 
+          # Create .nojekyll file
+          touch docs/.nojekyll
+          
+          # Create index.html with some basic content
+          cat > docs/index.html << 'EOL'
+          <!DOCTYPE html>
+          <html>
+          <head>
+              <meta charset="UTF-8">
+              <title>China News Bot</title>
+              <style>
+                  body {
+                      font-family: Arial, sans-serif;
+                      max-width: 800px;
+                      margin: 0 auto;
+                      padding: 20px;
+                  }
+                  .header {
+                      background-color: #f0f0f0;
+                      padding: 20px;
+                      border-radius: 8px;
+                  }
+              </style>
+          </head>
+          <body>
+              <div class="header">
+                  <h1>China News Bot</h1>
+                  <p>Last updated: $(date)</p>
+              </div>
+          </body>
+          </html>
+          EOL
+          
+          # Verify content was created
+          ls -la docs/
+          cat docs/index.html
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          force_orphan: true
+          enable_jekyll: false 
