@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>China News Updates</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- Add meta tags for SEO -->
+    <meta name="description" content="Latest news updates from China with English translations">
+    <meta name="keywords" content="China, news, updates, headlines">
+</head>
+<body>
+    <div class="header">
+        <h1>China News Updates</h1>
+        <div class="last-updated">Last updated: {{ last_updated }}</div>
+    </div>
+
+    {% for date_section in news_by_date %}
+        <div class="date-section">
+            <h2 class="date-header">{{ date_section.date }}</h2>
+            {% for item in date_section.items %}
+                <div class="news-item">
+                    <div class="time">{{ item.date.split()[1] }}</div>
+                    <div class="title">
+                        <div class="chinese-title">{{ item.chinese_title }}</div>
+                        <div class="english-title">{{ item.english_title }}</div>
+                    </div>
+                    <div class="source">
+                        Source: {{ item.source }} | 
+                        <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">Read More</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+</body>
+</html> 

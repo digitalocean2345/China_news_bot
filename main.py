@@ -11,6 +11,8 @@ import config
 from data_manager import load_previous_data, save_data
 from scraper import scrape_site
 from notifier import prepare_telegram_messages, send_telegram_messages
+from page_generator import PageGenerator
+from git_manager import GitManager
 
 # Configure logging (do this once at the entry point)
 # Includes module name in the log format for better context
@@ -133,6 +135,19 @@ async def main_async():
         logging.info(f"Preparing {total_new_items} total updates for Telegram...")
         messages_to_send = await prepare_telegram_messages(all_new_items_by_site) # Uses the grouped dictionary
         await send_telegram_messages(bot, config.TELEGRAM_CHAT_ID, messages_to_send)
+
+        # Generate GitHub Pages
+        try:
+            page_generator = PageGenerator()
+            page_generator.generate_pages(data)
+            
+            # Push changes if enabled
+            if config.GITHUB_AUTO_PUSH:
+                git_manager = GitManager()
+                git_manager.push_changes()
+            
+        except Exception as e:
+            logging.error(f"Failed to generate/push GitHub Pages: {e}", exc_info=True)
 
     else:
         logging.info("No new items found across all websites during this run.")

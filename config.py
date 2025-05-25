@@ -170,3 +170,6 @@ def validate_config():
          logging.critical(f"Missing selectors for websites: {', '.join(missing_selectors)}")
          return False
     return True
+
+# Add this with your other configuration variables
+GITHUB_AUTO_PUSH = True  # Set to False if you don't want automatic pushing
