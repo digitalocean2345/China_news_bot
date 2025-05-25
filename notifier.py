@@ -62,12 +62,20 @@ async def prepare_telegram_messages(items_by_site):
 
         # Add items for this site
         for item in items:
-            # Construct the message with proper formatting
-            title_part = f"• <b>{item['english_title']}</b>\n"
-            chinese_part = f"  ({item['chinese_title']})\n" if item['english_title'] != item['chinese_title'] else ""
-            link_part = f"  <a href='{html.escape(item['url'])}'>Read more</a>\n\n"
-            
-            item_text = title_part + chinese_part + link_part
+            # First check if titles are the same
+            if item['english_title'] == item['chinese_title']:
+                # If same, show only once with the link
+                item_text = (
+                    f"• <b>{item['english_title']}</b>\n"
+                    f"  <a href='{html.escape(item['url'])}'>Read more</a>\n\n"
+                )
+            else:
+                # If different, show both titles with the link
+                item_text = (
+                    f"• <b>{item['english_title']}</b>\n"
+                    f"  ({item['chinese_title']})\n"
+                    f"  <a href='{html.escape(item['url'])}'>Read more</a>\n\n"
+                )
 
             # Check if item_text itself is too large (should be rare)
             if len(item_text) > MAX_MESSAGE_LENGTH:
