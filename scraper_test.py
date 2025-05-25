@@ -23,7 +23,7 @@ target_selector = 'li a'
 site_name_for_logging = "Test" # Added for logging clarity
 # ----------------------
 
-def scrape_site(url, selector):
+def scrape_site(url, selector, site_name):
     """Scrapes a single website for new headlines."""
     new_headlines = []
     try:
@@ -158,7 +158,7 @@ def extract_site_data(url, selector, site_name):
 # --- Execute the test ---
 #extracted_headlines = extract_site_data(target_url, target_selector, site_name_for_logging)
 
-extracted_headlines = scrape_site(target_url,target_selector)
+extracted_headlines = scrape_site(target_url,target_selector, site_name_for_logging)
 # --- Print the results ---
 print("\n--- Extraction Results ---")
 if extracted_headlines:

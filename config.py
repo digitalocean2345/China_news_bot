@@ -64,7 +64,10 @@ WEBSITES = {
     "NBS Press Conference": "https://www.stats.gov.cn/sj/xwfbh/fbhwd/",
     "CAC":"https://www.cac.gov.cn/yaowen/wxyw/A093602index_1.htm",
     "Taiwan Affairs Office": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/",
-    "Chinese Departments on Taiwan": "http://www.gwytb.gov.cn/bmst/"
+    "Chinese Departments on Taiwan": "http://www.gwytb.gov.cn/bmst/",
+    "MND Regular PC": "http://www.mod.gov.cn/gfbw/xwfyr/lxjzh_246940/index.html",
+    "MND Routine PC": "http://www.mod.gov.cn/gfbw/xwfyr/yzxwfb/index.html",
+    "MND Special PC": "http://www.mod.gov.cn/gfbw/xwfyr/ztjzh/index.html"
 
 }
 # ----------------ENGLISH_WEBSITES-------------------------------
@@ -97,6 +100,7 @@ SC_SELECTOR = 'div.news_box a'
 NBS_SELECTOR = 'a.pc1200'
 CAC_SELECTOR = 'div#loadingInfoPage a'
 TAO_SELECTOR = 'ul.scdList a'
+MND_SELECTOR = 'li a'
 
 SITE_SELECTORS = {
     "人民网人事频道": PD_RENMIN_SELECTOR,
@@ -142,7 +146,10 @@ SITE_SELECTORS = {
     "NBS Press Conference": NBS_SELECTOR,
     "CAC": CAC_SELECTOR,
     "Taiwan Affairs Office": TAO_SELECTOR,
-    "Chinese Departments on Taiwan": TAO_SELECTOR
+    "Chinese Departments on Taiwan": TAO_SELECTOR,
+    "MND Regular PC": MND_SELECTOR,
+    "MND Routine PC": MND_SELECTOR,
+    "MND Special PC": MND_SELECTOR
 }
 
 # --- Validation (Optional but Recommended) ---
