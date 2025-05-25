@@ -32,19 +32,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Git
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-      - name: Reset local changes
+      - name: Handle existing headlines.json
         run: |
-          git fetch origin
-          git reset --hard origin/main
-          git clean -fd
+          # Remove headlines.json if it exists
+          if [ -f headlines.json ]; then
+            rm headlines.json
+          fi
+          
+          # Pull latest changes
+          git pull origin main --ff-only
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -62,213 +64,17 @@ jobs:
 
       - name: Run scraper and generate site
         run: |
+          # Run the scraper
           python main.py
           
-          # Stage and commit any changes to headlines.json
+          # Stage and commit headlines.json
           git add headlines.json
-          git diff --staged --quiet || git commit -m "Update headlines.json with new content"
+          git commit -m "Update headlines.json with new content [skip ci]"
+          git push origin main
           
           # Generate site content
           mkdir -p docs
           touch docs/.nojekyll
-          
-          python << EOF
-          import json
-          import os
-          from datetime import datetime, timedelta
-          import pytz
-          
-          def get_ist_time(utc_str=None):
-              ist = pytz.timezone('Asia/Kolkata')
-              if utc_str:
-                  try:
-                      # Parse the UTC time string
-                      utc_dt = datetime.strptime(utc_str, "%Y-%m-%d %H:%M:%S")
-                      # Make it aware of UTC timezone
-                      utc_dt = pytz.utc.localize(utc_dt)
-                      # Convert to IST
-                      ist_dt = utc_dt.astimezone(ist)
-                      return ist_dt.strftime("%Y-%m-%d %H:%M:%S IST")
-                  except:
-                      return utc_str + " (UTC)"
-              else:
-                  # Get current time in IST
-                  return datetime.now(ist).strftime("%Y-%m-%d %H:%M:%S IST")
-          
-          def get_next_update_time():
-              """Calculate the next update time based on the schedule"""
-              ist = pytz.timezone('Asia/Kolkata')
-              now = datetime.now(ist)
-              
-              # Schedule times in hours (24-hour format)
-              schedule = [0, 6, 12, 18]  # 12 AM, 6 AM, 12 PM, 6 PM
-              
-              # Find the next scheduled time
-              current_hour = now.hour
-              next_hour = None
-              
-              for hour in schedule:
-                  if hour > current_hour:
-                      next_hour = hour
-                      break
-              
-              # If no next hour found, it means we're past the last scheduled time
-              # so the next update will be tomorrow at the first scheduled time
-              if next_hour is None:
-                  next_hour = schedule[0]
-                  next_time = now.replace(hour=next_hour, minute=0, second=0) + timedelta(days=1)
-              else:
-                  next_time = now.replace(hour=next_hour, minute=0, second=0)
-              
-              return next_time.strftime("%Y-%m-%d %I:%M %p IST")
-          
-          html_start = '''
-          <!DOCTYPE html>
-          <html>
-          <head>
-              <meta charset="UTF-8">
-              <title>China News Bot</title>
-              <meta http-equiv="refresh" content="900"> <!-- Auto refresh every 15 minutes -->
-              <style>
-                  body {
-                      font-family: Arial, sans-serif;
-                      max-width: 800px;
-                      margin: 0 auto;
-                      padding: 20px;
-                      background-color: #f5f5f5;
-                  }
-                  .header {
-                      background-color: white;
-                      padding: 20px;
-                      border-radius: 8px;
-                      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-                      margin-bottom: 20px;
-                  }
-                  .date-section {
-                      background-color: white;
-                      padding: 20px;
-                      border-radius: 8px;
-                      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-                      margin-bottom: 20px;
-                  }
-                  .date-header {
-                      background-color: #0366d6;
-                      color: white;
-                      padding: 10px 20px;
-                      border-radius: 4px;
-                      margin: -20px -20px 20px -20px;
-                  }
-                  .news-item {
-                      border-bottom: 1px solid #eee;
-                      padding: 15px 0;
-                  }
-                  .news-item:last-child {
-                      border-bottom: none;
-                  }
-                  .chinese-title {
-                      font-size: 1.1em;
-                      color: #333;
-                      margin-bottom: 5px;
-                  }
-                  .english-title {
-                      color: #666;
-                      margin-bottom: 10px;
-                  }
-                  .meta {
-                      color: #888;
-                      font-size: 0.9em;
-                  }
-                  .time {
-                      color: #666;
-                      font-size: 0.9em;
-                  }
-                  .update-info {
-                      background-color: #f0f8ff;
-                      padding: 10px;
-                      border-radius: 4px;
-                      margin-top: 10px;
-                      font-size: 0.9em;
-                  }
-                  .next-update {
-                      color: #666;
-                      font-style: italic;
-                  }
-              </style>
-          </head>
-          <body>
-              <div class="header">
-                  <h1>China News Bot</h1>
-                  <p class="time">Last updated: ''' + get_ist_time() + '''</p>
-                  <div class="update-info">
-                      <p>Updates scheduled at: 12:00 AM, 6:00 AM, 12:00 PM, and 6:00 PM IST</p>
-                      <p class="next-update">Next update will be at: ''' + get_next_update_time() + '''</p>
-                  </div>
-              </div>
-          '''
-          
-          try:
-              with open('headlines.json', 'r', encoding='utf-8') as f:
-                  data = json.load(f)
-                  
-              # Get all dates and sort them in reverse order
-              dates = sorted(data.get("headlines", {}).keys(), reverse=True)
-              
-              if dates:
-                  for date in dates:
-                      news_items = data["headlines"][date]
-                      
-                      # Sort news items by their timestamp if available
-                      news_items = sorted(news_items, 
-                                       key=lambda x: x.get('date', ''),
-                                       reverse=True)
-                      
-                      # Create section for this date
-                      section = f'''
-                      <div class="date-section">
-                          <h2 class="date-header">{date}</h2>
-                      '''
-                      
-                      for item in news_items:
-                          # Convert the time to IST
-                          time_str = get_ist_time(item.get('date', '')) if item.get('date') else ''
-                          section += f'''
-                          <div class="news-item">
-                              <div class="time">{time_str}</div>
-                              <div class="chinese-title">{item["chinese_title"]}</div>
-                              <div class="english-title">{item["english_title"]}</div>
-                              <div class="meta">
-                                  Source: {item["source"]} | 
-                                  <a href="{item["url"]}" target="_blank">Read More</a>
-                              </div>
-                          </div>
-                          '''
-                      
-                      section += '</div>'
-                      html_start += section
-              else:
-                  html_start += '<div class="date-section"><p>No news updates available.</p></div>'
-                  
-          except FileNotFoundError:
-              html_start += '<div class="date-section"><p>No news data found.</p></div>'
-          except Exception as e:
-              html_start += f'<div class="date-section"><p>Error loading news: {str(e)}</p></div>'
-          
-          html_end = '''
-          </body>
-          </html>
-          '''
-          
-          with open('docs/index.html', 'w', encoding='utf-8') as f:
-              f.write(html_start + html_end)
-          EOF
-
-      - name: Push changes if any
-        run: |
-          if git diff --quiet; then
-            echo "No changes to push"
-          else
-            git push
-          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
