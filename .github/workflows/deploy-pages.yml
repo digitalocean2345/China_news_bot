@@ -5,8 +5,12 @@ on:
     branches: [ main ]
   workflow_dispatch:
   schedule:
-    # Runs at 9:00 AM, 1:00 PM, 6:00 PM, and 10:00 PM IST
-    - cron: '30 3,7,12,16 * * *'
+    # IST to UTC conversion:
+    # IST 00:00 (12 AM) = UTC 18:30 (previous day)
+    # IST 06:00 (6 AM)  = UTC 00:30
+    # IST 12:00 (12 PM) = UTC 06:30
+    # IST 18:00 (6 PM)  = UTC 12:30
+    - cron: '30 18,0,6,12 * * *'
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -55,7 +59,7 @@ jobs:
           python << EOF
           import json
           import os
-          from datetime import datetime
+          from datetime import datetime, timedelta
           import pytz
           
           def get_ist_time(utc_str=None):
@@ -75,12 +79,40 @@ jobs:
                   # Get current time in IST
                   return datetime.now(ist).strftime("%Y-%m-%d %H:%M:%S IST")
           
+          def get_next_update_time():
+              """Calculate the next update time based on the schedule"""
+              ist = pytz.timezone('Asia/Kolkata')
+              now = datetime.now(ist)
+              
+              # Schedule times in hours (24-hour format)
+              schedule = [0, 6, 12, 18]  # 12 AM, 6 AM, 12 PM, 6 PM
+              
+              # Find the next scheduled time
+              current_hour = now.hour
+              next_hour = None
+              
+              for hour in schedule:
+                  if hour > current_hour:
+                      next_hour = hour
+                      break
+              
+              # If no next hour found, it means we're past the last scheduled time
+              # so the next update will be tomorrow at the first scheduled time
+              if next_hour is None:
+                  next_hour = schedule[0]
+                  next_time = now.replace(hour=next_hour, minute=0, second=0) + timedelta(days=1)
+              else:
+                  next_time = now.replace(hour=next_hour, minute=0, second=0)
+              
+              return next_time.strftime("%Y-%m-%d %I:%M %p IST")
+          
           html_start = '''
           <!DOCTYPE html>
           <html>
           <head>
               <meta charset="UTF-8">
               <title>China News Bot</title>
+              <meta http-equiv="refresh" content="900"> <!-- Auto refresh every 15 minutes -->
               <style>
                   body {
                       font-family: Arial, sans-serif;
@@ -134,12 +166,27 @@ jobs:
                       color: #666;
                       font-size: 0.9em;
                   }
+                  .update-info {
+                      background-color: #f0f8ff;
+                      padding: 10px;
+                      border-radius: 4px;
+                      margin-top: 10px;
+                      font-size: 0.9em;
+                  }
+                  .next-update {
+                      color: #666;
+                      font-style: italic;
+                  }
               </style>
           </head>
           <body>
               <div class="header">
                   <h1>China News Bot</h1>
                   <p class="time">Last updated: ''' + get_ist_time() + '''</p>
+                  <div class="update-info">
+                      <p>Updates scheduled at: 12:00 AM, 6:00 AM, 12:00 PM, and 6:00 PM IST</p>
+                      <p class="next-update">Next update will be at: ''' + get_next_update_time() + '''</p>
+                  </div>
               </div>
           '''
           
