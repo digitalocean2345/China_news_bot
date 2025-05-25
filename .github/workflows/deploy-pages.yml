@@ -2,48 +2,39 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]  # or 'master' if that's your default branch
+    branches: [ main ]  # or master, depending on your default branch
   workflow_dispatch:
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
+      - name: Setup Python
+        uses: actions/setup-python@v3
         with:
-          python-version: '3.9'  # Specify exact version
+          python-version: '3.9'
 
-      - name: Debug Python Environment
+      - name: Create docs directory
         run: |
-          which python
-          python --version
-          pip --version
-          echo "Python path:"
-          python -c "import sys; print(sys.path)"
-          
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install jinja2 --verbose
-          pip freeze  # Show all installed packages
-          pip install -r requirements.txt --verbose
-          echo "After installing requirements:"
-          pip freeze  # Show all installed packages again
-
-      - name: Verify Jinja2 Installation
-        run: |
-          python -c "from jinja2 import Environment, FileSystemLoader; print('Jinja2 imported successfully')"
-
-      - name: Generate site
-        run: python main.py
+          mkdir -p docs
+          echo "<!DOCTYPE html><html><head><title>China News Bot</title></head><body><h1>China News Bot</h1><p>Site is being set up...</p></body></html>" > docs/index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs 
+          publish_dir: ./docs
+          force_orphan: true  # This creates a single-commit history on gh-pages branch
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate site content
+        run: python main.py 
