@@ -62,17 +62,17 @@ async def prepare_telegram_messages(items_by_site):
 
         # Add items for this site
         for item in items:
-            # Titles are already escaped in scraper.py
-            item_text = (
-                f"• <b>{item['english_title']}</b>\n"
-                f"  ({item['chinese_title']})\n" if item['english_title'] != item['chinese_title'] else ""
-                f"  <a href='{html.escape(item['url'])}'>Read more</a>\n\n"
-            )
+            # Construct the message with proper formatting
+            title_part = f"• <b>{item['english_title']}</b>\n"
+            chinese_part = f"  ({item['chinese_title']})\n" if item['english_title'] != item['chinese_title'] else ""
+            link_part = f"  <a href='{html.escape(item['url'])}'>Read more</a>\n\n"
+            
+            item_text = title_part + chinese_part + link_part
 
             # Check if item_text itself is too large (should be rare)
             if len(item_text) > MAX_MESSAGE_LENGTH:
-                 logging.warning(f"Single item too long ({len(item_text)} chars), skipping: {item['url']}")
-                 continue # Skip this item
+                logging.warning(f"Single item too long ({len(item_text)} chars), skipping: {item['url']}")
+                continue  # Skip this item
 
             # Check if adding this item exceeds the limit
             if len(current_message) + len(item_text) > MAX_MESSAGE_LENGTH:
