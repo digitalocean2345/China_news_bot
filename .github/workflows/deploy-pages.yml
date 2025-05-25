@@ -39,109 +39,120 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run bot and generate content
+      - name: Generate HTML content
         run: |
           # Create docs directory
           mkdir -p docs
-          
-          # Create .nojekyll file
           touch docs/.nojekyll
           
-          # Run your Python script to get news
-          python main.py
-          
-          # Get current date and time
+          # Get current date
           CURRENT_DATE=$(date '+%Y-%m-%d %H:%M:%S UTC')
           
-          # Create index.html with news content
-          cat > docs/index.html << EOF
+          # Run Python script to generate HTML
+          python << EOF
+          import json
+          import os
+          from datetime import datetime
+          
+          # Create basic HTML structure
+          html_start = f'''
           <!DOCTYPE html>
           <html>
           <head>
               <meta charset="UTF-8">
               <title>China News Bot</title>
               <style>
-                  body {
+                  body {{
                       font-family: Arial, sans-serif;
                       max-width: 800px;
                       margin: 0 auto;
                       padding: 20px;
                       background-color: #f5f5f5;
-                  }
-                  .header {
+                  }}
+                  .header {{
                       background-color: white;
                       padding: 20px;
                       border-radius: 8px;
                       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
                       margin-bottom: 20px;
-                  }
-                  .news-section {
+                  }}
+                  .news-section {{
                       background-color: white;
                       padding: 20px;
                       border-radius: 8px;
                       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-                  }
-                  .news-item {
+                  }}
+                  .news-item {{
                       border-bottom: 1px solid #eee;
                       padding: 15px 0;
-                  }
-                  .news-item:last-child {
+                  }}
+                  .news-item:last-child {{
                       border-bottom: none;
-                  }
-                  .chinese-title {
+                  }}
+                  .chinese-title {{
                       font-size: 1.1em;
                       color: #333;
                       margin-bottom: 5px;
-                  }
-                  .english-title {
+                  }}
+                  .english-title {{
                       color: #666;
                       margin-bottom: 10px;
-                  }
-                  .meta {
+                  }}
+                  .meta {{
                       color: #888;
                       font-size: 0.9em;
-                  }
-                  .timestamp {
-                      color: #666;
-                      font-size: 0.9em;
-                      font-style: italic;
-                  }
+                  }}
               </style>
           </head>
           <body>
               <div class="header">
                   <h1>China News Bot</h1>
-                  <p class="timestamp">Last updated: $CURRENT_DATE</p>
+                  <p>Last updated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC")}</p>
               </div>
               <div class="news-section">
                   <h2>Latest News</h2>
-                  $(cat headlines.json | python -c '
-import sys, json
-data = json.load(sys.stdin)
-latest_date = sorted(data.get("headlines", {}).keys())[-1] if data.get("headlines") else None
-if latest_date:
-    for item in data["headlines"][latest_date]:
-        print(f"""
-        <div class="news-item">
-            <div class="chinese-title">{item["chinese_title"]}</div>
-            <div class="english-title">{item["english_title"]}</div>
-            <div class="meta">
-                Source: {item["source"]} | 
-                <a href="{item["url"]}" target="_blank">Read More</a>
-            </div>
-        </div>
-        """)
-else:
-    print("<p>No news updates available.</p>")
-                  ')
+          '''
+          
+          # Read news data
+          try:
+              with open('headlines.json', 'r', encoding='utf-8') as f:
+                  data = json.load(f)
+                  
+              # Get latest date's news
+              dates = sorted(data.get("headlines", {}).keys(), reverse=True)
+              if dates:
+                  latest_news = data["headlines"][dates[0]]
+                  
+                  # Generate news items HTML
+                  news_items = ""
+                  for item in latest_news:
+                      news_items += f'''
+                      <div class="news-item">
+                          <div class="chinese-title">{item["chinese_title"]}</div>
+                          <div class="english-title">{item["english_title"]}</div>
+                          <div class="meta">
+                              Source: {item["source"]} | 
+                              <a href="{item["url"]}" target="_blank">Read More</a>
+                          </div>
+                      </div>
+                      '''
+              else:
+                  news_items = "<p>No news updates available.</p>"
+          except FileNotFoundError:
+              news_items = "<p>No news data found.</p>"
+          except Exception as e:
+              news_items = f"<p>Error loading news: {str(e)}</p>"
+          
+          html_end = '''
               </div>
           </body>
           </html>
-          EOF
+          '''
           
-          # Verify the content
-          echo "Created index.html with content:"
-          cat docs/index.html
+          # Write complete HTML to file
+          with open('docs/index.html', 'w', encoding='utf-8') as f:
+              f.write(html_start + news_items + html_end)
+          EOF
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
