@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Run Scraper and Deploy to GitHub Pages
 
 on:
   push:
@@ -12,7 +12,7 @@ on:
     # IST 18:00 (6 PM)  = UTC 12:30
     - cron: '30 18,0,6,12 * * *'
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# Sets permissions of the GITHUB_TOKEN
 permissions:
   contents: write
   pages: write
@@ -61,20 +61,30 @@ jobs:
           MS_TRANSLATOR_KEY: ${{ secrets.MS_TRANSLATOR_KEY }}
           MS_TRANSLATOR_REGION: ${{ secrets.MS_TRANSLATOR_REGION }}
         run: |
+          # Print commands for debugging
+          set -x
+          
           # Pull latest changes first
           git pull origin main
           
           # Run the scraper with Telegram enabled
           python main.py
           
-          # Commit and push changes if any
-          if git diff --quiet headlines.json; then
+          # Check for changes in headlines.json
+          if git diff --quiet --exit-code headlines.json; then
             echo "No changes to headlines.json"
           else
+            # Create commit message using Taipei Time (UTC+8)
+            COMMIT_DATE=$(TZ='Asia/Taipei' date +'%Y-%m-%d %H:%M CST')
+            
+            # Commit and push changes
             git add headlines.json
-            git commit -m "Update headlines.json [skip ci]"
+            git commit -m "Update headlines for $COMMIT_DATE [skip ci]"
             git push origin main
           fi
+          
+          # Turn off command printing
+          set +x
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
