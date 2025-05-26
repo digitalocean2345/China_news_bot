@@ -15,6 +15,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  actions: write
 
 concurrency:
   group: pages
@@ -57,24 +58,18 @@ jobs:
         run: |
           mkdir -p docs
           python main.py
-          
-      - name: Debug - List docs directory
-        run: |
-          echo "Contents of docs directory:"
-          ls -la docs/
-          echo "Content of index.html (if exists):"
-          if [ -f docs/index.html ]; then
-            head -n 20 docs/index.html
-          else
-            echo "index.html not found!"
-          fi
 
-      # Clean up any existing artifacts
+      # Authenticate GitHub CLI
+      - name: Setup GitHub CLI
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+
+      # Clean up any existing artifacts using GitHub CLI
       - name: Delete existing artifacts
-        uses: geekyeggo/delete-artifact@v2
-        with:
-          name: github-pages
-          failOnError: false
+        run: |
+          gh api repos/${{ github.repository }}/actions/artifacts \
+            --paginate -q '.artifacts[] | select(.name=="github-pages") | .id' | \
+          xargs -I {} gh api repos/${{ github.repository }}/actions/artifacts/{} -X DELETE || true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
