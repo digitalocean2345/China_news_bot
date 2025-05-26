@@ -27,9 +27,6 @@ async def main_async():
     """Main asynchronous function to run the scraper and notifier."""
     logging.info("Starting scraper process...")
 
-    # Set URL collection mode
-    os.environ['URL_COLLECTION_MODE'] = 'true'
-
     # Load previous data and debug
     data = load_previous_data()
     processed_urls = data.get('processed_urls', set())
