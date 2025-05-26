@@ -35,7 +35,8 @@ class PageGenerator:
             sorted_dates = sorted(headlines.keys(), reverse=True)
             
             for date in sorted_dates:
-                news_by_date[date] = headlines[date]
+                # Reverse the order of news items within each date
+                news_by_date[date] = list(reversed(headlines[date]))
             
             # Get the template
             template = self.env.get_template('index.html')
