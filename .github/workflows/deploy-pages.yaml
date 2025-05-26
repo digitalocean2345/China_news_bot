@@ -58,6 +58,13 @@ jobs:
           mkdir -p docs
           python main.py
 
+      # Clean up any existing artifacts
+      - name: Delete existing artifacts
+        uses: geekyeggo/delete-artifact@v2
+        with:
+          name: github-pages
+          failOnError: false
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
