@@ -138,10 +138,12 @@ async def main_async():
 
         # Append items found in this run to today's list
         data["headlines"][today_str].extend(flat_new_items)
+        logging.info(f"Added {len(flat_new_items)} items to today's headlines")
 
         data["processed_urls"] = list(processed_urls_set)
         data["last_run"] = timestamp_str
         save_data(data)
+        logging.info("Saved updated data to headlines.json")
 
         # Skip Telegram messages in URL collection mode
         if not os.getenv('URL_COLLECTION_MODE'):
@@ -157,14 +159,25 @@ async def main_async():
         # Update last run time and save processed URLs even if no news
         timestamp_str = datetime.now(datetime.now().astimezone().tzinfo).isoformat()
         data["last_run"] = timestamp_str
-        data["processed_urls"] = processed_urls_set # Save updated set
+        data["processed_urls"] = list(processed_urls_set) # Save updated set
         save_data(data)
 
-    # After saving data, generate the HTML pages
+    # After saving data, generate the HTML pages - do this regardless of URL collection mode
     try:
         page_generator = PageGenerator()
         page_generator.generate_pages(data)
         logging.info("Successfully generated HTML pages in docs directory")
+        
+        # List contents of docs directory for verification
+        docs_contents = os.listdir('docs')
+        logging.info(f"Contents of docs directory: {docs_contents}")
+        
+        if 'index.html' in docs_contents:
+            with open(os.path.join('docs', 'index.html'), 'r', encoding='utf-8') as f:
+                first_lines = f.readlines()[:10]
+            logging.info("First 10 lines of generated index.html:")
+            for line in first_lines:
+                logging.info(line.strip())
     except Exception as e:
         logging.error(f"Failed to generate HTML pages: {e}", exc_info=True)
 
