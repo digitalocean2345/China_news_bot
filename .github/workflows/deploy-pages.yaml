@@ -57,6 +57,17 @@ jobs:
         run: |
           mkdir -p docs
           python main.py
+          
+      - name: Debug - List docs directory
+        run: |
+          echo "Contents of docs directory:"
+          ls -la docs/
+          echo "Content of index.html (if exists):"
+          if [ -f docs/index.html ]; then
+            head -n 20 docs/index.html
+          else
+            echo "index.html not found!"
+          fi
 
       # Clean up any existing artifacts
       - name: Delete existing artifacts
