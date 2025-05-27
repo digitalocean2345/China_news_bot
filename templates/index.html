@@ -39,6 +39,20 @@
             background-color: #f8f9fa;
             border-radius: 4px;
         }
+        .source-section {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+        .source-header {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #0366d6;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #0366d6;
+        }
         .news-item {
             border-bottom: 1px solid #eee;
             padding: 15px 0;
@@ -73,17 +87,21 @@
         <h1>China News Bot</h1>
         <p>Last updated: {{ current_time }}</p>
     </div>
-    {% for date, items in news_by_date.items() %}
+    {% for date, date_data in news_by_date.items() %}
     <div class="news-section">
         <div class="news-date">{{ date }}</div>
-        {% for item in items %}
-        <div class="news-item">
-            <div class="chinese-title">{{ item.chinese_title }}</div>
-            <div class="english-title">{{ item.english_title }}</div>
-            <div class="meta">
-                Source: {{ item.source }} | 
-                <a href="{{ item.url }}" target="_blank" class="read-more">Read More</a>
+        {% for source in date_data.sources %}
+        <div class="source-section">
+            <div class="source-header">📰 Updates from {{ source }}</div>
+            {% for item in date_data.items_by_source[source] %}
+            <div class="news-item">
+                <div class="chinese-title">{{ item.chinese_title }}</div>
+                <div class="english-title">{{ item.english_title }}</div>
+                <div class="meta">
+                    <a href="{{ item.url }}" target="_blank" class="read-more">Read More</a>
+                </div>
             </div>
+            {% endfor %}
         </div>
         {% endfor %}
     </div>

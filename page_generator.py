@@ -27,7 +27,7 @@ class PageGenerator:
             ist = pytz.timezone('Asia/Kolkata')
             current_time = datetime.now(ist).strftime("%Y-%m-%d %H:%M:%S IST")
             
-            # Organize news by date
+            # Organize news by date and then by source
             news_by_date = {}
             headlines = data.get("headlines", {})
             
@@ -35,8 +35,22 @@ class PageGenerator:
             sorted_dates = sorted(headlines.keys(), reverse=True)
             
             for date in sorted_dates:
-                # Reverse the order of news items within each date
-                news_by_date[date] = list(reversed(headlines[date]))
+                # Group items by source for this date
+                items_by_source = {}
+                for item in reversed(headlines[date]):  # Reverse to keep newest first
+                    source = item['source']
+                    if source not in items_by_source:
+                        items_by_source[source] = []
+                    items_by_source[source].append(item)
+                
+                # Sort sources alphabetically
+                sorted_sources = sorted(items_by_source.keys())
+                
+                # Create the final structure for this date
+                news_by_date[date] = {
+                    'sources': sorted_sources,
+                    'items_by_source': items_by_source
+                }
             
             # Get the template
             template = self.env.get_template('index.html')
