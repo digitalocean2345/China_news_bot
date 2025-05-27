@@ -4,7 +4,7 @@ import logging
 import html # <--- Add this import statement
 from telegram import Bot
 from telegram.constants import ParseMode
-from telegram.error import TelegramError, BadRequest
+from telegram.error import TelegramError, BadRequest, RetryAfter
 
 from config import MAX_MESSAGE_LENGTH
 
@@ -124,7 +124,7 @@ async def prepare_telegram_messages(items_by_site):
 
 
 async def send_telegram_messages(bot: Bot, chat_id: str, messages: list):
-    """Sends a list of messages to Telegram, handling potential errors."""
+    """Sends a list of messages to Telegram, handling potential errors and rate limits."""
     if not messages:
         logging.info("No messages to send.")
         try:
@@ -141,34 +141,57 @@ async def send_telegram_messages(bot: Bot, chat_id: str, messages: list):
             logging.error(f"Telegram API error sending 'No new headline': {e}")
         except Exception as e:
             logging.error(f"Unexpected error sending 'No new headline': {e}", exc_info=True)
-
         return
+
+    base_delay = 2  # Base delay between messages in seconds
+    max_retries = 5  # Maximum number of retries per message
 
     for i, message in enumerate(messages, 1):
         if not message or message.isspace():
             logging.warning(f"Skipping empty message part {i}/{len(messages)}.")
             continue
-        try:
-            logging.info(f"Sending message part {i}/{len(messages)} ({len(message)} chars)")
-            await bot.send_message(
-                chat_id=chat_id,
-                text=message,
-                parse_mode=ParseMode.HTML,
-                disable_web_page_preview=True
-            )
-            logging.debug(f"Successfully sent message part {i}")
-            # Add a small delay between messages if sending many parts
-            if len(messages) > 1 and i < len(messages): # Avoid sleep after last message
-                await asyncio.sleep(0.5) # 0.5 second delay
 
-        except BadRequest as e:
-             # Often due to malformed HTML or message length issues
-             logging.error(f"Telegram Bad Request error sending part {i}: {e}. Message length: {len(message)}")
-             logging.debug(f"Failed message content (first 500 chars): {message[:500]}...") # Log snippet
-        except TelegramError as e:
-            # More general Telegram API errors (network, rate limits, etc.)
-            logging.error(f"Telegram API error sending part {i}: {e}")
-            # Consider implementing retry logic here for specific errors (e.g., rate limits)
-            await asyncio.sleep(2) # Wait before potentially trying next part or giving up
-        except Exception as e:
-            logging.error(f"Unexpected error sending Telegram message part {i}: {e}", exc_info=True)
+        retry_count = 0
+        while retry_count < max_retries:
+            try:
+                logging.info(f"Sending message part {i}/{len(messages)} ({len(message)} chars)")
+                await bot.send_message(
+                    chat_id=chat_id,
+                    text=message,
+                    parse_mode=ParseMode.HTML,
+                    disable_web_page_preview=True
+                )
+                logging.debug(f"Successfully sent message part {i}")
+                
+                # Add a longer delay between messages to avoid rate limits
+                if len(messages) > 1 and i < len(messages):
+                    await asyncio.sleep(base_delay)
+                break  # Message sent successfully, exit retry loop
+
+            except RetryAfter as e:
+                retry_after = int(str(e).split()[-2])  # Extract retry seconds from error
+                logging.warning(f"Rate limit hit for part {i}, waiting {retry_after} seconds")
+                await asyncio.sleep(retry_after)
+                retry_count += 1
+                continue
+
+            except BadRequest as e:
+                logging.error(f"Telegram Bad Request error sending part {i}: {e}. Message length: {len(message)}")
+                logging.debug(f"Failed message content (first 500 chars): {message[:500]}...")
+                break  # Don't retry on bad requests
+
+            except TelegramError as e:
+                wait_time = base_delay * (2 ** retry_count)  # Exponential backoff
+                logging.error(f"Telegram API error sending part {i}: {e}. Retrying in {wait_time} seconds...")
+                await asyncio.sleep(wait_time)
+                retry_count += 1
+                if retry_count >= max_retries:
+                    logging.error(f"Failed to send message part {i} after {max_retries} retries")
+
+            except Exception as e:
+                logging.error(f"Unexpected error sending Telegram message part {i}: {e}", exc_info=True)
+                break  # Don't retry on unexpected errors
+
+        # Add additional delay after retries
+        if retry_count > 0 and i < len(messages):
+            await asyncio.sleep(base_delay * 2)
