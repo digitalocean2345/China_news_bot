@@ -1,7 +1,7 @@
 # notifier.py
 import asyncio
 import logging
-import html # <--- Add this import statement
+import html
 from telegram import Bot
 from telegram.constants import ParseMode
 from telegram.error import TelegramError, BadRequest, RetryAfter
@@ -14,17 +14,34 @@ async def prepare_telegram_messages(items_by_site):
         logging.info("No new items found across all sites to prepare message.")
         return ["ℹ️ No new content found today."]
 
+    # First, deduplicate items across all sites
+    seen_urls = set()
+    deduplicated_items_by_site = {}
+    
+    for site_name, items in items_by_site.items():
+        unique_items = []
+        for item in items:
+            if item['url'] not in seen_urls:
+                seen_urls.add(item['url'])
+                unique_items.append(item)
+            else:
+                logging.warning(f"Duplicate URL found and filtered: {item['url']}")
+        
+        if unique_items:  # Only add site if it has unique items
+            deduplicated_items_by_site[site_name] = unique_items
+            logging.info(f"Site {site_name}: {len(items)} items reduced to {len(unique_items)} unique items")
+
+    if not deduplicated_items_by_site:
+        logging.info("No unique items found after deduplication.")
+        return ["ℹ️ No new unique content found today."]
+
     messages = []
     current_message = ""
-    site_needs_continuation_header = {} # Track if a site got split {site_name: True}
+    site_needs_continuation_header = {}  # Track if a site got split {site_name: True}
 
-    for site_name, items in items_by_site.items():
-        if not items: # Skip sites with no new items
-            continue
-
+    for site_name, items in deduplicated_items_by_site.items():
         # Determine header: Base or Continuation
-        # Escape site_name just in case it contains HTML chars, although unlikely here
-        safe_site_name = html.escape(site_name) # Now 'html' is defined
+        safe_site_name = html.escape(site_name)
         header_base = f"<b>📰 Updates from {safe_site_name}</b>\n\n"
         header_cont = f"<b>📰 Updates from {safe_site_name} (cont.)</b>\n\n"
 
@@ -39,85 +56,72 @@ async def prepare_telegram_messages(items_by_site):
 
         # Check if adding the header to the current message exceeds the limit
         if current_message and len(current_message) + len(site_header) > MAX_MESSAGE_LENGTH:
-            messages.append(current_message) # Finalize previous message
-            current_message = site_header # Start new message with header
-            # Reset continuation flags for other sites if we start a new message
-            site_needs_continuation_header = {site_name: False} # This site starts fresh in new msg
+            messages.append(current_message)  # Finalize previous message
+            current_message = site_header  # Start new message with header
+            site_needs_continuation_header = {site_name: False}  # Reset continuation flags
         else:
             # Add header (either to empty message or existing one)
             if not current_message:
                 current_message = site_header
             else:
-                # Add double newline for separation, check length again
                 separator = "\n\n"
                 if len(current_message) + len(separator) + len(site_header) <= MAX_MESSAGE_LENGTH:
-                     current_message += separator + site_header
-                else: # Cannot even fit separator + header, start new message
-                     messages.append(current_message)
-                     current_message = site_header
-                     site_needs_continuation_header = {site_name: False}
+                    current_message += separator + site_header
+                else:
+                    messages.append(current_message)
+                    current_message = site_header
+                    site_needs_continuation_header = {site_name: False}
 
-            # Ensure flag is correctly set after adding header
-            site_needs_continuation_header[site_name] = False # Added header normally
+            site_needs_continuation_header[site_name] = False
 
         # Add items for this site
         for item in items:
             # First check if titles are the same
             if item['english_title'] == item['chinese_title']:
-                # If same, show only once with the link
                 item_text = (
-                    f"• <b>{item['english_title']}</b>\n"
+                    f"• <b>{html.escape(item['english_title'])}</b>\n"
                     f"  <a href='{html.escape(item['url'])}'>Read more</a>\n\n"
                 )
             else:
-                # If different, show both titles with the link
                 item_text = (
-                    f"• <b>{item['english_title']}</b>\n"
-                    f"  ({item['chinese_title']})\n"
+                    f"• <b>{html.escape(item['english_title'])}</b>\n"
+                    f"  ({html.escape(item['chinese_title'])})\n"
                     f"  <a href='{html.escape(item['url'])}'>Read more</a>\n\n"
                 )
 
-            # Check if item_text itself is too large (should be rare)
+            # Check if item_text itself is too large
             if len(item_text) > MAX_MESSAGE_LENGTH:
                 logging.warning(f"Single item too long ({len(item_text)} chars), skipping: {item['url']}")
-                continue  # Skip this item
+                continue
 
             # Check if adding this item exceeds the limit
             if len(current_message) + len(item_text) > MAX_MESSAGE_LENGTH:
-                # Finish the current message
                 messages.append(current_message)
-                # Start a new message with a continuation header for *this site*
                 current_message = header_cont + item_text
-                # Mark that *this site* needs continuation header if more items follow
                 site_needs_continuation_header[site_name] = True
-                 # Reset continuation flags for other sites
+                
                 for other_site in site_needs_continuation_header:
-                     if other_site != site_name:
-                         site_needs_continuation_header[other_site] = False
+                    if other_site != site_name:
+                        site_needs_continuation_header[other_site] = False
 
-                # Check edge case: continuation header + item is still too long
                 if len(current_message) > MAX_MESSAGE_LENGTH:
                     logging.warning(f"Item too long even with continuation header ({len(current_message)} chars). Sending header and item separately for {item['url']}")
-                    messages.append(header_cont) # Send just the header
-                    # Attempt to send item alone (might still fail if item_text > limit)
+                    messages.append(header_cont)
                     if len(item_text) <= MAX_MESSAGE_LENGTH:
-                         messages.append(item_text)
+                        messages.append(item_text)
                     else:
-                         logging.error(f"Cannot send item as it exceeds max length: {item['url']}")
-                    current_message = "" # Reset message buffer
-                    # Keep site_needs_continuation_header[site_name] = True
-
+                        logging.error(f"Cannot send item as it exceeds max length: {item['url']}")
+                    current_message = ""
             else:
-                # It fits, add it
                 current_message += item_text
 
     # Add the last remaining message if it's not empty
     if current_message.strip():
         messages.append(current_message)
 
-    if not messages: # If all items were skipped or sites empty
-         logging.info("Prepared messages list is empty after processing items.")
-         return ["ℹ️ No new content found today that could be formatted."]
+    if not messages:
+        logging.info("Prepared messages list is empty after processing items.")
+        return ["ℹ️ No new content found today that could be formatted."]
 
     logging.info(f"Prepared {len(messages)} message parts for Telegram.")
     return messages
