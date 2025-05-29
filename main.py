@@ -136,9 +136,18 @@ async def main_async():
             data["headlines"] = data.get("headlines", {})
             data["headlines"][today_str] = []
 
-        # Append items found in this run to today's list
-        data["headlines"][today_str].extend(flat_new_items)
-        logging.info(f"Added {len(flat_new_items)} items to today's headlines")
+        # Create a set of existing URLs for today to prevent duplicates
+        existing_urls = {item['url'] for item in data["headlines"][today_str]}
+        
+        # Only add items that aren't already in today's headlines
+        new_items_to_add = [item for item in flat_new_items if item['url'] not in existing_urls]
+        
+        if new_items_to_add:
+            # Append only new items found in this run to today's list
+            data["headlines"][today_str].extend(new_items_to_add)
+            logging.info(f"Added {len(new_items_to_add)} new items to today's headlines (filtered {len(flat_new_items) - len(new_items_to_add)} duplicates)")
+        else:
+            logging.info("No new unique items to add to today's headlines")
 
         data["processed_urls"] = list(processed_urls_set)
         data["last_run"] = timestamp_str
@@ -147,9 +156,13 @@ async def main_async():
 
         # Skip Telegram messages in URL collection mode
         if not os.getenv('URL_COLLECTION_MODE'):
-            logging.info(f"Preparing {total_new_items} total updates for Telegram...")
-            messages_to_send = await prepare_telegram_messages(all_new_items_by_site)
-            await send_telegram_messages(bot, config.TELEGRAM_CHAT_ID, messages_to_send)
+            if new_items_to_add:  # Only send messages if we have new unique items
+                logging.info(f"Preparing {len(new_items_to_add)} new updates for Telegram...")
+                messages_to_send = await prepare_telegram_messages({site: [item for item in items if item in new_items_to_add] 
+                                                                for site, items in all_new_items_by_site.items()})
+                await send_telegram_messages(bot, config.TELEGRAM_CHAT_ID, messages_to_send)
+            else:
+                logging.info("No new unique items to send to Telegram")
         else:
             logging.info("Running in URL collection mode - skipping Telegram messages")
             logging.info(f"Total processed URLs: {len(processed_urls_set)}")
