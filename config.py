@@ -22,20 +22,20 @@ TRANSLATOR_API_VERSION = '3.0'
 # --- Website Configuration ---
 WEBSITES = {
     "人民网人事频道": "http://renshi.people.com.cn/",
-    "PD Anti Corruption": "http://fanfu.people.com.cn/",
-    "PD International Breaking News": "http://world.people.com.cn/GB/157278/index.html",
-    "PD International In-depth": "http://world.people.com.cn/GB/14549/index.html",
-    "PD Society": "http://society.people.com.cn/GB/136657/index.html",
-    "PD Economy": "http://finance.people.com.cn/GB/70846/index.html",
-    "Paper China Government": "https://www.thepaper.cn/list_25462",
-    "Paper Personnel Trends": "https://www.thepaper.cn/list_25423",
-    "Paper Tiger Hunt": "https://www.thepaper.cn/list_25490",
+    #"PD Anti Corruption": "http://fanfu.people.com.cn/",
+    #PD International Breaking News": "http://world.people.com.cn/GB/157278/index.html",
+    #"PD International In-depth": "http://world.people.com.cn/GB/14549/index.html",
+    #"PD Society": "http://society.people.com.cn/GB/136657/index.html",
+    #"PD Economy": "http://finance.people.com.cn/GB/70846/index.html",
+    Paper China Government": "https://www.thepaper.cn/list_25462",
+    #"Paper Personnel Trends": "https://www.thepaper.cn/list_25423",
+    #"Paper Tiger Hunt": "https://www.thepaper.cn/list_25490",
     "Paper Project No1": "https://www.thepaper.cn/list_25424",
     "Paper Zhongnanhai": "https://www.thepaper.cn/list_25488",
     "Paper Live on the scene": "https://www.thepaper.cn/list_25428",
     "Paper exclusive reports": "https://www.thepaper.cn/list_25427",
     "Paper public opinion": "https://www.thepaper.cn/list_25489",
-    "Guancha International": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/list_1.shtml",
+    #"Guancha International": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/list_1.shtml",
     "Guancha Chinese Diplomacy": "https://www.guancha.cn/ZhongGuoWaiJiao/list_1.shtml",
     "GT China Politics": "https://www.globaltimes.cn/china/politics/index.html",
     "GT China Society": "https://www.globaltimes.cn/china/society/index.html",
@@ -65,9 +65,9 @@ WEBSITES = {
     "CAC":"https://www.cac.gov.cn/yaowen/wxyw/A093602index_1.htm",
     "Taiwan Affairs Office": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/",
     "Chinese Departments on Taiwan": "http://www.gwytb.gov.cn/bmst/",
-    "MND Regular PC": "http://www.mod.gov.cn/gfbw/xwfyr/lxjzh_246940/index.html",
-    "MND Routine PC": "http://www.mod.gov.cn/gfbw/xwfyr/yzxwfb/index.html",
-    "MND Special PC": "http://www.mod.gov.cn/gfbw/xwfyr/ztjzh/index.html"
+    #"MND Regular PC": "http://www.mod.gov.cn/gfbw/xwfyr/lxjzh_246940/index.html",
+    #"MND Routine PC": "http://www.mod.gov.cn/gfbw/xwfyr/yzxwfb/index.html",
+    #"MND Special PC": "http://www.mod.gov.cn/gfbw/xwfyr/ztjzh/index.html"
 
 }
 # ----------------ENGLISH_WEBSITES-------------------------------
