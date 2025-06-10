@@ -27,7 +27,7 @@ WEBSITES = {
     #"PD International In-depth": "http://world.people.com.cn/GB/14549/index.html",
     #"PD Society": "http://society.people.com.cn/GB/136657/index.html",
     #"PD Economy": "http://finance.people.com.cn/GB/70846/index.html",
-    Paper China Government": "https://www.thepaper.cn/list_25462",
+    "Paper China Government": "https://www.thepaper.cn/list_25462",
     #"Paper Personnel Trends": "https://www.thepaper.cn/list_25423",
     #"Paper Tiger Hunt": "https://www.thepaper.cn/list_25490",
     "Paper Project No1": "https://www.thepaper.cn/list_25424",
